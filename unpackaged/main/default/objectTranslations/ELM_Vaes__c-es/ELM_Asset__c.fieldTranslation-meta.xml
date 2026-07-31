@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Equipo del Cliente</help>
-        <label>Activo</label>
-        <name>ELM_Asset__c</name>
-        <relationshipLabel><!-- VAES --></relationshipLabel>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Specify the SAP Material Group ID --></help>
-        <label>Grupo de materiales</label>
-        <name>Material_Group__c</name>
-    </CustomFieldTranslation>

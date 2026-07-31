@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Purchased Parts Metric tonnes --></label>
-        <name>Purchased_Parts_Metric_Tonnes__c</name>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Customer Equipment linked to Product (SAP) --></help>
-        <label><!-- Asset SAP --></label>
-        <name>ELM_Asset_SAP__c</name>
-    </CustomFieldTranslation>

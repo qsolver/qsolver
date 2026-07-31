@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Cantidad_de_entregas_de_venta_Limit</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(  RecordType.Name == &#39;Grinding Media / GET&#39;, ((MONTH(Ship_Date__c) +  VALUE(TEXT(Cantidad_de_entregas_de_venta__c))) - 1)
-&gt; 12)</errorConditionFormula>
-    <errorDisplayField>Cantidad_de_entregas_de_venta__c</errorDisplayField>
-    <errorMessage>La cantidad de entregas de venta sobrepasa el año.</errorMessage>
-</ValidationRule>

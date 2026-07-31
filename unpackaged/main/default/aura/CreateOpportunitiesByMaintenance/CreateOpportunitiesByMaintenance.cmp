@@ -1,9 +1,0 @@
-<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,lightning:hasPageReference,force:hasRecordId,force:lightningQuickAction,lightning:actionOverride,lightning:isUrlAddressable" access="global" >
-    <aura:attribute name="recordId" type="String" />
-    <aura:attribute name="maintenanceId" type="String" />
-    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
-    <lightning:card>
-        <c:createOpportunitiesByMaintenanceLWC maintenanceId="{!v.maintenanceId}"/>  
-    </lightning:card>
-
-</aura:component>

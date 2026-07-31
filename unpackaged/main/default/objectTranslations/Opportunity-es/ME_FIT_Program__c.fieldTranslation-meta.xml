@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Para marcar si pertenece a ME FIT</help>
-        <label>Programa ME FIT</label>
-        <name>ME_FIT_Program__c</name>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Comparación Valor KPI</help>
-        <label>Valor línea Base</label>
-        <name>EM_Vaseline_Value__c</name>
-    </CustomFieldTranslation>

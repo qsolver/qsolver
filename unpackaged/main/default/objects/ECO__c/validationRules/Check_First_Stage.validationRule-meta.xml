@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Check_First_Stage</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND( NOT(ISPICKVAL( Estado__c , &#39;OPEN&#39;)),  ISNEW(),  NOT($User.Alias = &#39;amet&#39;), NOT($Profile.Name = &#39;USC&#39;), NOT($Profile.Name == &#39;System Administrator&#39;))</errorConditionFormula>
-    <errorDisplayField>Estado__c</errorDisplayField>
-    <errorMessage>El Estado inicial de la ECO siempre debe ser OPEN.</errorMessage>
-</ValidationRule>

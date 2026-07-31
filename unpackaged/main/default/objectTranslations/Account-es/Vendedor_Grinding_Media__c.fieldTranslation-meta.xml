@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Responsable de Venta - Grinding Media</help>
-        <label><!-- Grinding Media Account Manager --></label>
-        <name>Vendedor_Grinding_Media__c</name>
-        <relationshipLabel><!-- Accounts (Grinding Media Account Manager) --></relationshipLabel>
-    </CustomFieldTranslation>

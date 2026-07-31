@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Estimated Production time (weeks) to produce opportunity product  including shipping and fabrication. --></help>
-        <label><!-- Production Lead Time (Weeks) --></label>
-        <name>ELM_Time_Weeks__c</name>
-    </CustomFieldTranslation>

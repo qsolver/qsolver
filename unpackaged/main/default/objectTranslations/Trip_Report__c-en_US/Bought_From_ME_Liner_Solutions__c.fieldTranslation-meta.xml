@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- % Bought From ME - Liner Solutions --></help>
-        <label><!-- % Bought From ME - Liner Solutions --></label>
-        <name>Bought_From_ME_Liner_Solutions__c</name>
-    </CustomFieldTranslation>

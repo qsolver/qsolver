@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Largo del Equipo de Cliente</help>
-        <label>Largo</label>
-        <name>ELM_Largo__c</name>
-    </CustomFieldTranslation>

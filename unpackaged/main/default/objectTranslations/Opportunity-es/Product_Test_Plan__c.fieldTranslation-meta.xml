@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Descripcion del test plan</help>
-        <label>Plan de pruebas del producto</label>
-        <name>Product_Test_Plan__c</name>
-    </CustomFieldTranslation>

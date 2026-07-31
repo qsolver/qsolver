@@ -1,4 +1,0 @@
-<apex:page controller="hic_docmerge.GenerateWebService" sidebar="false">
-    <div id="container1"></div>
-     <apex:canvasApp id="composerApp" namespacePrefix="hic_docmerge" width="100%" containerId="container1"  scrolling="auto" applicationName="Docs Made Easy New" parameters="{!parameterMapInString}" />
-</apex:page>

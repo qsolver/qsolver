@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Visit (Target Customer) --></help>
-        <label><!-- Visit (Target Customer) --></label>
-        <name>Visit_Target_Customer__c</name>
-    </CustomFieldTranslation>

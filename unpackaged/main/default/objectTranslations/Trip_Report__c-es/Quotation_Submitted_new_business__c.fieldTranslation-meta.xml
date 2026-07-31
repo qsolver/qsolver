@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Cotización enviada (Nuevo negocio)</help>
-        <label>Licitación presentada</label>
-        <name>Quotation_Submitted_new_business__c</name>
-    </CustomFieldTranslation>

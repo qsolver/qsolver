@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Consumo Anual Otros CH ($)</label>
-        <name>Annual_Consumption_Others_CH__c</name>
-    </CustomFieldTranslation>

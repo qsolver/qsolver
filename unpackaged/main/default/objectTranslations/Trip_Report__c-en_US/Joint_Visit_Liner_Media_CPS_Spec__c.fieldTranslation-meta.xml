@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Joint Visit (Liner, Media, CPS Sepc.) --></help>
-        <label><!-- Joint Visit (Liner, Media, CPS Spec.) --></label>
-        <name>Joint_Visit_Liner_Media_CPS_Spec__c</name>
-    </CustomFieldTranslation>

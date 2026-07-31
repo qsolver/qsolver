@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Resultado más importante</help>
-        <label>6.- Resultado más importante</label>
-        <name>ELM_Resultado_mas_importante__c</name>
-    </CustomFieldTranslation>

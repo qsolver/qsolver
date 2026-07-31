@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Calculation to inform how many days you have left for the estimated PO date --></help>
-        <label><!-- PO Remaining Days --></label>
-        <name>ELM_Pending_Activation_Days__c</name>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Si el chebox esta marcado se genera un numero automatico para la asignacion del ME-FIT number</help>
-        <label># Programa ME FIT</label>
-        <name>ELM_Opportunity_Autonumber__c</name>
-    </CustomFieldTranslation>

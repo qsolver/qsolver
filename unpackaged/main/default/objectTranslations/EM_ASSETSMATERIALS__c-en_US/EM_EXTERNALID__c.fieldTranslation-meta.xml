@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Clave única formada entre External ID Asset (SAP) y External ID Material (SAP) --></help>
-        <label><!-- External Id --></label>
-        <name>EM_EXTERNALID__c</name>
-    </CustomFieldTranslation>

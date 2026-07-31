@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Previous code (if any) --></help>
-        <label>Previous code (if any)</label>
-        <name>ELM_C_digo_anterior_si_hubiese__c</name>
-    </CustomFieldTranslation>

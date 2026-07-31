@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Si la oportunidad es &quot;spot&quot;, agregar el valor &quot;N/A /// If the opportunity is &quot;spot&quot;, add the value &quot;N/A --></help>
-        <label>HES Number</label>
-        <name>Numero_de_HES__c</name>
-    </CustomFieldTranslation>

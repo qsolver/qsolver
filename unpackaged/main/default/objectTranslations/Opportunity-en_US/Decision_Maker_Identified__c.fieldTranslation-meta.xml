@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Identify at least one Decision Maker in the contacts section of the opportunity. --></help>
-        <label><!-- Decision Maker Identified --></label>
-        <name>Decision_Maker_Identified__c</name>
-    </CustomFieldTranslation>

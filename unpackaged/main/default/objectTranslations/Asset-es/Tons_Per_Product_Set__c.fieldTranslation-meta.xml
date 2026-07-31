@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Toneladas por conjunto de productos</help>
-        <label>Toneladas por conjunto de productos</label>
-        <name>Tons_Per_Product_Set__c</name>
-    </CustomFieldTranslation>

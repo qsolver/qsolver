@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Contact #3 for VAES delivery --></help>
-        <label><!-- Contact 3 --></label>
-        <name>ELM_Contact_3__c</name>
-        <relationshipLabel><!-- VAES (Contact 3) --></relationshipLabel>
-    </CustomFieldTranslation>

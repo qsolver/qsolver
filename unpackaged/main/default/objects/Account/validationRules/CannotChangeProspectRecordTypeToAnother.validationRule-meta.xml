@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CannotChangeProspectRecordTypeToAnother</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(ISCHANGED(RecordTypeId), $Profile.Name != &#39;Sales Reps&#39;, PRIORVALUE(RecordTypeId) = &#39;012O4000002ImY5&#39;)</errorConditionFormula>
-    <errorMessage>You do not have permission to modify the record type.</errorMessage>
-</ValidationRule>

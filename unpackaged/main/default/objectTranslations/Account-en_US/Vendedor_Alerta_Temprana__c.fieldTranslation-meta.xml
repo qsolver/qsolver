@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Sales Representative / KAM - Early Alert --></help>
-        <label><!-- Digital S and Field S Manager --></label>
-        <name>Vendedor_Alerta_Temprana__c</name>
-        <relationshipLabel><!-- Accounts (Digital S and Field S Manager) --></relationshipLabel>
-    </CustomFieldTranslation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Fecha_Vulcanizado__c</fullName>
-    <formula>TODAY() + (  Vulcanizado__c  * 7)</formula>
-    <label>Fecha Vulcanizado (si aplica)</label>
-    <required>false</required>
-    <trackTrending>false</trackTrending>
-    <type>Date</type>
-</CustomField>

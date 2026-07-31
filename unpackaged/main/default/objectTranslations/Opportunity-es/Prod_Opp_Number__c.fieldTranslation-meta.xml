@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Prod Opp Number --></label>
-        <name>Prod_Opp_Number__c</name>
-    </CustomFieldTranslation>

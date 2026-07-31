@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Consumo de todos los productos del Asset anualizado --></help>
-        <label>Total Annual Consumption GM</label>
-        <name>Total_Annual_Consumption_GM__c</name>
-    </CustomFieldTranslation>

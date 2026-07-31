@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Servicio al Cliente (1: Pobre, 5: Mejor)</help>
-        <label>Servicio de atención al cliente</label>
-        <name>Customer_Service_Survey__c</name>
-    </CustomFieldTranslation>

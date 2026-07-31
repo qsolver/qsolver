@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Number of total products that correspond to the asset --></help>
-        <label>Market Share Total Amount GM</label>
-        <name>Cantidad_de_Market_Share_Total_GM__c</name>
-    </CustomFieldTranslation>

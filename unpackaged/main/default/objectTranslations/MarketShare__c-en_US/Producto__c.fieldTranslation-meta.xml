@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Field used to search for information on products that are from EM Elecmetal --></help>
-        <label>ME Elecmetal Product</label>
-        <name>Producto__c</name>
-        <relationshipLabel><!-- Market Shares --></relationshipLabel>
-    </CustomFieldTranslation>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Fecha_Empernamiento_Exterior__c</fullName>
-    <formula>TODAY() + (  Empernamiento_Exterior__c * 7)</formula>
-    <label>Fecha Empernamiento Exterior (si aplica)</label>
-    <required>false</required>
-    <trackTrending>false</trackTrending>
-    <type>Date</type>
-</CustomField>

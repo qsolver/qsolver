@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Requerir_Fecha_de_cierre_proyectada</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(ISPICKVAL(ELM_Status__c, &#39;Linea Base&#39;),    ISCHANGED(ELM_Status__c) ,ISBLANK(Fecha_de_cierre_proyectada__c))</errorConditionFormula>
-    <errorDisplayField>Fecha_de_cierre_proyectada__c</errorDisplayField>
-    <errorMessage>Primero debe llenar el campo &quot;Fecha de Cierre Proyectada&quot; para poder pasar a la nueva etapa</errorMessage>
-</ValidationRule>

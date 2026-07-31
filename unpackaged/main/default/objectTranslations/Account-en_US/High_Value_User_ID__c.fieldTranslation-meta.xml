@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- High Value User ID --></label>
-        <name>High_Value_User_ID__c</name>
-    </CustomFieldTranslation>

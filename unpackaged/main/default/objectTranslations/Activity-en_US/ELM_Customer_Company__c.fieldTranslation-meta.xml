@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Customer Company --></label>
-        <name>ELM_Customer_Company__c</name>
-        <relationshipLabel><!-- Trip Reports --></relationshipLabel>
-    </CustomFieldTranslation>

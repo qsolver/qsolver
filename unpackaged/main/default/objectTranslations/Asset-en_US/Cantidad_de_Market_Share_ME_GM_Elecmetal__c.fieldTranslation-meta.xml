@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Cantidad de productos de Asset que corresponden a Elecmetal --></help>
-        <label>Amount of Market Share ME Elecmetal GM</label>
-        <name>Cantidad_de_Market_Share_ME_GM_Elecmetal__c</name>
-    </CustomFieldTranslation>

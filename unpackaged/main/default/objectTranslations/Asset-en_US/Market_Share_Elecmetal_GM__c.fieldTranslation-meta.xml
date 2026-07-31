@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Porcentaje del consumo anual de Elecmetal en el Asset --></help>
-        <label><!-- Market Share Elecmetal GM % --></label>
-        <name>Market_Share_Elecmetal_GM__c</name>
-    </CustomFieldTranslation>

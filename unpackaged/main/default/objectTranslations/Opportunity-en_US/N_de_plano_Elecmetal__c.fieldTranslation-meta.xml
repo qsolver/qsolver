@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Plan number Elecmetal</label>
-        <name>N_de_plano_Elecmetal__c</name>
-    </CustomFieldTranslation>

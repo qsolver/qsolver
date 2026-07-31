@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Site, if through Reseller --></label>
-        <name>Site_if_through_Reseller__c</name>
-        <relationshipLabel><!-- Opportunities (Site, if through Reseller) --></relationshipLabel>
-    </CustomFieldTranslation>

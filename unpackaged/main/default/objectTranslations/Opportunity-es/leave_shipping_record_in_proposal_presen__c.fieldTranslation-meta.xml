@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Leave shipping record in proposal presentation in &quot;Activity&quot; --></help>
-        <label>Dejar registro de envio en actividad</label>
-        <name>leave_shipping_record_in_proposal_presen__c</name>
-    </CustomFieldTranslation>

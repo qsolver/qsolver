@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Presentation Estimated date for Conceptual Proposal --></help>
-        <label><!-- Con. Proposal Date (Plan) --></label>
-        <name>ELM_Conceptual_Proposa_Date__c</name>
-    </CustomFieldTranslation>

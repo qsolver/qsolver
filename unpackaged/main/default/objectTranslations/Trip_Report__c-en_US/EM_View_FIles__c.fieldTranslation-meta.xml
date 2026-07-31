@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Acceso directo al Gestor de Archivos (Files) --></help>
-        <label><!-- EM_View_FIles --></label>
-        <name>EM_View_FIles__c</name>
-    </CustomFieldTranslation>

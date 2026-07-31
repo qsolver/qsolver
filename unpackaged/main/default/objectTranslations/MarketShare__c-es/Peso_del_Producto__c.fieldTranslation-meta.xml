@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Peso unitario N° Pieza ME Elecmetal --></label>
-        <name>Peso_del_Producto__c</name>
-    </CustomFieldTranslation>

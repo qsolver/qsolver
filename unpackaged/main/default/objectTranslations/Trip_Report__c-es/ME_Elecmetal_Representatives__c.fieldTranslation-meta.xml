@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Representantes de ME Elecmetal</help>
-        <label>Representantes ME Elecmetal</label>
-        <name>ME_Elecmetal_Representatives__c</name>
-    </CustomFieldTranslation>

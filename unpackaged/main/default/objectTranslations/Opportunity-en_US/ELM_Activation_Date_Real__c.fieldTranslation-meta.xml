@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Actual date when the Purchase Order was received --></help>
-        <label><!-- PO Date Reception (Real) --></label>
-        <name>ELM_Activation_Date_Real__c</name>
-    </CustomFieldTranslation>

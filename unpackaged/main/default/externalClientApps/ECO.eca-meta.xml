@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ExternalClientApplication xmlns="http://soap.sforce.com/2006/04/metadata">
-    <contactEmail>adm.salesforce.me@ticel.cl</contactEmail>
-    <distributionState>Local</distributionState>
-    <isProtected>false</isProtected>
-    <label>ECO</label>
-    <orgScopedExternalApp>00D3h0000066NV0:ECO</orgScopedExternalApp>
-</ExternalClientApplication>

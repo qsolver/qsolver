@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
-    <folderShares>
-        <accessLevel>Manage</accessLevel>
-        <sharedTo>lberg@meglobal.com</sharedTo>
-        <sharedToType>User</sharedToType>
-    </folderShares>
-    <name>APAC 2025 Standard Reports</name>
-</ReportFolder>

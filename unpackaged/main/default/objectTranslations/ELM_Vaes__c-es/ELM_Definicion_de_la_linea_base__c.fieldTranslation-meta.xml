@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Definir la linea base con cual será comparada</help>
-        <label>3.- Definición de la linea base</label>
-        <name>ELM_Definicion_de_la_linea_base__c</name>
-    </CustomFieldTranslation>

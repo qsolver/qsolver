@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Numero que se asigna manualmente  y poder mantener registro del numero asignado anterior (NA Usage)</help>
-        <label># Programa ME FIT</label>
-        <name>ME_FIT_Program_Number__c</name>
-    </CustomFieldTranslation>

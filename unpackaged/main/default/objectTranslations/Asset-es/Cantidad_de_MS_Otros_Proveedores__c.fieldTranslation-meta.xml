@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Cantidad de productos de Asset que corresponden a otros proveedores</help>
-        <label><!-- Cantidad de Market Share Otros Prov. --></label>
-        <name>Cantidad_de_MS_Otros_Proveedores__c</name>
-    </CustomFieldTranslation>

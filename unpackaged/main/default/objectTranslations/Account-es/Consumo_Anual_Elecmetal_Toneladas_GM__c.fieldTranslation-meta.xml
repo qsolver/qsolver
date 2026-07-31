@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Consumption of products corresponding to Elecmetal annualized --></help>
-        <label><!-- Consumo Anual Elecmetal (Tons) GM --></label>
-        <name>Consumo_Anual_Elecmetal_Toneladas_GM__c</name>
-    </CustomFieldTranslation>

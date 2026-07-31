@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Descripcion de requerimientos de entrega</help>
-        <label>Requisitos de entrega</label>
-        <name>Delivery_Requirements__c</name>
-    </CustomFieldTranslation>

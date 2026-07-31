@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Participación de otros competidores en Equipo del Cliente</help>
-        <label>Participacion de los competidores</label>
-        <name>ELM_Other_Competitor_Participation__c</name>
-    </CustomFieldTranslation>

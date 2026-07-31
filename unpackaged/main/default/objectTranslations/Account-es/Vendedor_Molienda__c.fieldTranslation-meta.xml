@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Responsable de Venta - Mill Liners</help>
-        <label><!-- Primary Account Manager --></label>
-        <name>Vendedor_Molienda__c</name>
-        <relationshipLabel><!-- Accounts (Primary Account Manager) --></relationshipLabel>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- VAES Historic Project ID --></help>
-        <label>Old Project ID</label>
-        <name>ELM_IDProject_Antiguo__c</name>
-    </CustomFieldTranslation>

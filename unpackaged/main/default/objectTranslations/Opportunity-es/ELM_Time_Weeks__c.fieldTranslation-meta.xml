@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>Tiempo de producción estimado (semanas) para producir el producto de oportunidad, incluido el envío y la fabricación.</help>
-        <label>Plazo de producción (Semanas)</label>
-        <name>ELM_Time_Weeks__c</name>
-    </CustomFieldTranslation>

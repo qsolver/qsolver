@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Asset Created in SF --></label>
-        <name>ELM_Asset_Created_in_SF__c</name>
-        <relationshipLabel><!-- Assets Request --></relationshipLabel>
-    </CustomFieldTranslation>

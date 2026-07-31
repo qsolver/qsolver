@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label><!-- Liner Spend Per Annum --></label>
-        <name>Liner_Spend_Per_Annum__c</name>
-    </CustomFieldTranslation>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help>% Comprado a ME - Grinding Media</help>
-        <label>% Comprado a ME - Media</label>
-        <name>Bought_From_ME_Media__c</name>
-    </CustomFieldTranslation>

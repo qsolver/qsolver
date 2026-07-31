@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <help><!-- Description of commercial support requirements --></help>
-        <label><!-- Commercial Support Requirements --></label>
-        <name>Commercial_Support_Requirements__c</name>
-    </CustomFieldTranslation>

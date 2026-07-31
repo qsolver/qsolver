@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Check_GM_Currency</fullName>
-    <active>true</active>
-    <errorConditionFormula>AND(RecordType.DeveloperName = &#39;Grinding_Media&#39;,   NOT(ISPICKVAL(CurrencyIsoCode, &#39;USD&#39;)))</errorConditionFormula>
-    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
-    <errorMessage>La moneda de las oportunidades GM siempre debe ser USD</errorMessage>
-</ValidationRule>
