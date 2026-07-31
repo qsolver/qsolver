@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indicates whether the VAES has the approval of the Product Manager</help>
+        <label>Approved by PM?</label>
+        <name>Aprobado_por_PM__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>No</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation>Yes</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

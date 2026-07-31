@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_KPI__c</fullName>
+    <label>KPI</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Recuperación</fullName>
+                <default>false</default>
+                <label>Recuperación</label>
+            </value>
+            <value>
+                <fullName>Tph</fullName>
+                <default>false</default>
+                <label>Tph</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad</fullName>
+                <default>false</default>
+                <label>Disponibilidad</label>
+            </value>
+            <value>
+                <fullName>Mantenibilidad / Confiabilidad</fullName>
+                <default>false</default>
+                <label>Mantenibilidad / Confiabilidad</label>
+            </value>
+            <value>
+                <fullName>Seguridad</fullName>
+                <default>false</default>
+                <label>Seguridad</label>
+            </value>
+            <value>
+                <fullName>Automatización</fullName>
+                <default>false</default>
+                <label>Automatización</label>
+            </value>
+            <value>
+                <fullName>Sustentabilidad</fullName>
+                <default>false</default>
+                <label>Sustentabilidad</label>
+            </value>
+            <value>
+                <fullName>Accountability</fullName>
+                <default>false</default>
+                <label>Accountability</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

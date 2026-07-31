@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Estado del VAES</help>
+        <label>Estado</label>
+        <name>ELM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Base Line</masterLabel>
+            <translation>Linea Base</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finished</masterLabel>
+            <translation>Finalizado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation>Apertura</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent For Approval</masterLabel>
+            <translation>Enviado para aprobacion</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Testing Protocol</masterLabel>
+            <translation>Protocolo de Prueba</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

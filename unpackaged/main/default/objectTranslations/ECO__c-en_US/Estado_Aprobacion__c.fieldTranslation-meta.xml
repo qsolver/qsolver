@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Approval Stage</label>
+        <name>Estado_Aprobacion__c</name>
+        <picklistValues>
+            <masterLabel>CANCELLED</masterLabel>
+            <translation><!-- CANCELLED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>REJECTED</masterLabel>
+            <translation><!-- REJECTED --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

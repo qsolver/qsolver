@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Zona de visita --></label>
+        <name>Zona_de_visita__c</name>
+        <picklistValues>
+            <masterLabel>Acopio pebbles y scrap</masterLabel>
+            <translation><!-- Acopio pebbles y scrap --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bines de acopio</masterLabel>
+            <translation><!-- Bines de acopio --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bodega</masterLabel>
+            <translation><!-- Bodega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harneros</masterLabel>
+            <translation><!-- Harneros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interior Molino</masterLabel>
+            <translation><!-- Interior Molino --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oficinas en planta</masterLabel>
+            <translation><!-- Oficinas en planta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zona de scrap</masterLabel>
+            <translation><!-- Zona de scrap --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

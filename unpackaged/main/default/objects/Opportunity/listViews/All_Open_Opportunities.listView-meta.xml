@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Open_Opportunities</fullName>
+    <columns>Opportunity_Number_fx__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Ship_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>ELM_Line_of_Business__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <columns>ELM_Equipo_de_Ventas__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Line_of_Business__c</field>
+        <operation>equals</operation>
+        <value>Economía Circular</value>
+    </filters>
+    <label>All Open Opportunities</label>
+</ListView>

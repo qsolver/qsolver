@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Expand At Existing Site</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Close the stage at any point during the process when the customer withdraws or purchases from an alternative supplier.&lt;/p&gt;&lt;p&gt;Remember, an Opportunity is for a particular reline: if we miss that reline the Opportunity is &lt;strong style=&quot;font-size: 13px;&quot;&gt;&lt;u&gt;lost&lt;/u&gt;&lt;/strong&gt;. If you believe the customer may still be interested in sourcing from ME Elecmetal then a new Opportunity for a future reline should be created.&lt;/p&gt;</info>
+        <picklistValueName>Closed Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Close the stage when the product is shipped and invoice is raised.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Identify next best alternative pricing.&lt;/p&gt;&lt;p&gt;Identify additional value that ME Elecmetal offers to determine potential pricing.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Identify potential pricing method: would the customer prefer a risk sharing model eg $ per week or $ per tonne processed ore.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;Prepare proposal on on trial pricing (and long term pricing) and pricing method.&lt;/p&gt;&lt;p&gt;Get sign off from MD, ME Elecmetal APAC&lt;/p&gt;&lt;p&gt;Always accompany a commercial proposal with a meeting or phone call.&lt;/p&gt;&lt;p&gt;Close the stage when the commercial proposal is presented to the customer&lt;/p&gt;</info>
+        <picklistValueName>Commercial Proposal (Trial)</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Refine technical proposal based on customer feedback (full ECO).&lt;/p&gt;&lt;p&gt;If it is a part mill trial we may just have to copy the existing design.&lt;/p&gt;&lt;p&gt;Close the stage when the technical solution is agreed with the customer.&lt;/p&gt;</info>
+        <picklistValueName>Final Technical Proposal (Trial)</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Using the information gleaned from the site visit, raise an &lt;span style=&quot;font-size: 13px;&quot;&gt;Engineering Change Order&lt;/span&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt; (&lt;/span&gt;ECO) to create a proposed technical solution (use the truncated ECO process at this stage).&lt;/p&gt;&lt;p&gt;Strike while the iron is hot; respond within a week ... and if the proposal cannot be prepared in that time contact the customer with an update.&lt;/p&gt;&lt;p&gt;Close the stage when the first technical solution is presented to the customer.&lt;/p&gt;</info>
+        <picklistValueName>First Pass Technical Proposal (Trial)</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Raise a House Order Form (HOF) based on the PO.&lt;/p&gt;&lt;p&gt;Ensure the foundry inform you of the outcome from the first article trial.&lt;/p&gt;&lt;p&gt;Keep track of progress through manufacturing process (a production meeting with China is held every Friday at 11am AEST.&lt;/p&gt;&lt;p&gt;Keep the customer informed of progress.&lt;/p&gt;&lt;p&gt;Ensure the invoice is in line with the PO to ensure on time payment.&lt;/p&gt;&lt;p&gt;Close the stage when the product is shipped and invoice is raised.&lt;/p&gt;&lt;p&gt;(Remember to open a new Opportunity for the replacement liners)&lt;/p&gt;</info>
+        <picklistValueName>Manufacture and Ship</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Ask for the Purchase Order (PO).&lt;/p&gt;&lt;p&gt;Revisit technical and / or commercial proposal is required.&lt;/p&gt;&lt;p&gt;Close the stage when the PO is received.&lt;/p&gt;</info>
+        <picklistValueName>Obtain PO</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>AccountId</fieldNames>
+        <fieldNames>Amount</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <info>&lt;p&gt;Use knowledge of the site to identify value adding Opportunities.&lt;/p&gt;&lt;p&gt;Write it down so it is easily understood.&lt;/p&gt;&lt;p&gt;Discuss with the customer before progressing too far.&lt;/p&gt;&lt;p&gt;Close stage when the customer confirms the idea has merit and they will consider it.&lt;/p&gt;</info>
+        <picklistValueName>Validate Opportunity with Decision Makers</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Expand_At_Existing_Site</recordTypeName>
+</PathAssistant>

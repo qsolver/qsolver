@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sector_Asset__c</fullName>
+    <inlineHelpText>Location within the asset</inlineHelpText>
+    <label>Sector Asset</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>C1 - Mantos</fullName>
+                <default>false</default>
+                <label>C1 - Mantos</label>
+            </value>
+            <value>
+                <fullName>C2 - Concavas / Bowls</fullName>
+                <default>false</default>
+                <label>C2 - Concavas / Bowls</label>
+            </value>
+            <value>
+                <fullName>C3 - Protecciones</fullName>
+                <default>false</default>
+                <label>C3 - Protecciones</label>
+            </value>
+            <value>
+                <fullName>C4 - Mandibula fija</fullName>
+                <default>false</default>
+                <label>C4 - Mandibula fija</label>
+            </value>
+            <value>
+                <fullName>C5 - Mandibula movil</fullName>
+                <default>false</default>
+                <label>C5 - Mandibula movil</label>
+            </value>
+            <value>
+                <fullName>M1 - Tapa Alimentación</fullName>
+                <default>false</default>
+                <label>M1 - Tapa Alimentación</label>
+            </value>
+            <value>
+                <fullName>M2 - Cilindro</fullName>
+                <default>false</default>
+                <label>M2 - Cilindro</label>
+            </value>
+            <value>
+                <fullName>M3 - Tapa Descarga</fullName>
+                <default>false</default>
+                <label>M3 - Tapa Descarga</label>
+            </value>
+            <value>
+                <fullName>M4 - Cajones y Conos</fullName>
+                <default>false</default>
+                <label>M4 - Cajones y Conos</label>
+            </value>
+            <value>
+                <fullName>M5 - Punteras</fullName>
+                <default>false</default>
+                <label>M5 - Punteras</label>
+            </value>
+            <value>
+                <fullName>M6 - Intermedias</fullName>
+                <default>false</default>
+                <label>M6 - Intermedias</label>
+            </value>
+            <value>
+                <fullName>M7 -Pernos</fullName>
+                <default>false</default>
+                <label>M7 -Pernos</label>
+            </value>
+            <value>
+                <fullName>M7 - Pernos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>M7 - Pernos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

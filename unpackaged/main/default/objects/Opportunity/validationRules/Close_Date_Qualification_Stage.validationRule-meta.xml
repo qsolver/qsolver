@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Qualification_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+OR( TEXT(StageName) = &quot;Qualification&quot;,
+			 TEXT(StageName) = &quot;Qualify Opportunity&quot;,
+				TEXT(StageName) = &quot;Identify Decision Makers&quot;,
+				TEXT(StageName) = &quot;Update Decision Makers&quot;,
+				TEXT(StageName) = &quot;Create Account Plan&quot;,
+				TEXT(StageName) = &quot;Update Account Plan&quot;,
+				TEXT(StageName) = &quot;Develop Technical Proposal&quot;,
+				TEXT(StageName) = &quot;Develop Commercial Proposal&quot;,
+				TEXT(StageName) = &quot;Develop Tech and Comm proposal&quot;,
+				TEXT(StageName) = &quot;Update Commercial Proposal&quot;,
+				TEXT(StageName) = &quot;Present Proposal&quot;,
+				TEXT(StageName) = &quot;Negotiation/Review&quot;,
+				TEXT(StageName) = &quot;Closed Won&quot;),
+ISBLANK(  CloseDate )
+)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>Please fill in the following field Close Date</errorMessage>
+</ValidationRule>

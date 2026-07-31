@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- SU --></label>
+        <name>ELM_SU__c</name>
+        <picklistValues>
+            <masterLabel>C/U</masterLabel>
+            <translation><!-- C/U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UN</masterLabel>
+            <translation><!-- UN --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

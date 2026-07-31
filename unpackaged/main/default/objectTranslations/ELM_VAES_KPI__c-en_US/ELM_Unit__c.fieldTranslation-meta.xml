@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Unit of Measurement</help>
+        <label>Unit</label>
+        <name>ELM_Unit__c</name>
+        <picklistValues>
+            <masterLabel>$USD/hour</masterLabel>
+            <translation><!-- $USD/hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$USD/ton</masterLabel>
+            <translation><!-- $USD/ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$USD/tons processed</masterLabel>
+            <translation><!-- $USD/tons processed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>% de finos en gruesos en la descarga</masterLabel>
+            <translation><!-- % de finos en gruesos en la descarga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aumento de tonelaje por ciclo</masterLabel>
+            <translation><!-- Aumento de tonelaje por ciclo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costo de consumibles + reparaciones + capex</masterLabel>
+            <translation><!-- Costo de consumibles + reparaciones + capex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exposed hours to risk by year</masterLabel>
+            <translation><!-- Exposed hours to risk by year --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failure Liners/Installed Liners</masterLabel>
+            <translation><!-- Failure Liners/Installed Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Horas</masterLabel>
+            <translation><!-- Horas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours</masterLabel>
+            <translation><!-- Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours per Ton</masterLabel>
+            <translation><!-- Hours per Ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hours/Campaign</masterLabel>
+            <translation><!-- Hours/Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTBF / (MTBF+MTTR)</masterLabel>
+            <translation><!-- MTBF / (MTBF+MTTR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Masa chatarra / Masa vendida</masterLabel>
+            <translation><!-- Masa chatarra / Masa vendida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mton/Campaign</masterLabel>
+            <translation><!-- Mton/Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Number of trucks/month</masterLabel>
+            <translation><!-- Number of trucks/month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operating hours</masterLabel>
+            <translation><!-- Operating hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P80</masterLabel>
+            <translation><!-- P80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TPH</masterLabel>
+            <translation><!-- TPH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiempo de operación / número de fallas</masterLabel>
+            <translation><!-- Tiempo de operación / número de fallas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiempo total dedicado a reparaciones / N° de reparaciones</masterLabel>
+            <translation><!-- Tiempo total dedicado a reparaciones / N° de reparaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton/Adapter Set</masterLabel>
+            <translation><!-- Ton/Adapter Set --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton/Game between teeth</masterLabel>
+            <translation><!-- Ton/Game between teeth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton/Set of tips</masterLabel>
+            <translation><!-- Ton/Set of tips --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ton/reinforcement</masterLabel>
+            <translation><!-- Ton/reinforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonelada/Juego de Adaptadores</masterLabel>
+            <translation>Ton/Adapter Set</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tonelada/Juego de Puntas</masterLabel>
+            <translation>Ton/Set of Tips</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Units (must say minutes or hours)</masterLabel>
+            <translation><!-- Units (must say minutes or hours) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g/hours</masterLabel>
+            <translation><!-- g/hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g/kWh</masterLabel>
+            <translation><!-- g/kWh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>g/ton</masterLabel>
+            <translation><!-- g/ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kWh/ton</masterLabel>
+            <translation><!-- kWh/ton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg recovered/kg sold</masterLabel>
+            <translation><!-- kg recovered/kg sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kg/Campaign</masterLabel>
+            <translation><!-- kg/Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm/Mton</masterLabel>
+            <translation><!-- mm/Mton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mm/hours</masterLabel>
+            <translation><!-- mm/hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tCO2eq / toneladas de carbono equivalente</masterLabel>
+            <translation>tCO2eq / tons of carbon dioxide equivalent</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tonnes</masterLabel>
+            <translation><!-- tonnes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tons/hour</masterLabel>
+            <translation><!-- tons/hour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>units</masterLabel>
+            <translation><!-- units --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cotizacion_Firmada_o_N_Recepcion_de_OC</fullName>
+    <active>true</active>
+    <description>Cambio de estado de &quot;Cotizado&quot; a &quot;Activado&quot; a que el campo de &quot;Firma de Cotización&quot; tenga valor &quot;Yes&quot; o que el campo &quot;Número de Recepción de OC&quot; esté completado.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Execution&quot;),
+    NOT(
+        OR(
+            ISPICKVAL(Cotizacion_firmada_por_Cliente__c, &quot;Yes&quot;),
+            RecordType.Name = &#39;Component Services&#39;,
+            ELM_Equipo_de_Ventas__c = &#39;SouthAmerica&#39;,
+            NOT(ISBLANK(ELM_OC_Reception_Number__c))
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Por favor revisar los campos Cotización firmada por Cliente, o Número de recepción de OC /// 
+Please review the fields Quote signed by Client, or OC Reception Number</errorMessage>
+</ValidationRule>

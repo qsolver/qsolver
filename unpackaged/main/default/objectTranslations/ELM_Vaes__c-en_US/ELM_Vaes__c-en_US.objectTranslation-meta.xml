@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>VAES</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>VAES</value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>VAES Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Preview VAES Report --></label>
+            <section>Preview VAES Report</section>
+        </sections>
+        <sections>
+            <label><!-- Product Information --></label>
+            <section>Product Information</section>
+        </sections>
+        <sections>
+            <label><!-- Report Structure --></label>
+            <section>Report Structure</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>LogACallVAES</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_Task</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_TaskVaes</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>All the fields in the Report Structure section are required for moving to &quot;Testing Protocol&quot; or &quot;Sent For Approval&quot;.</errorMessage>
+        <name>Campos_requeridos_Report_Structure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo Fecha de Cierre es requerido cuando el Status es &quot;Finalizado&quot;  /// The Closing Date field is required when the Status is &apos;Finished&apos;.&quot; --></errorMessage>
+        <name>Fecha_de_Cierre_obligatoria_Finalizar</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- El campo &quot;Fecha de cierre&quot; no se puede llenar en este estado /// The &quot;Closing Date&quot; cannot be filled in this stage --></errorMessage>
+        <name>Fecha_de_cierre_restringida</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para crear el VAES primero debe llenar el campo Sub Linea de Negocio --></errorMessage>
+        <name>Make_Sub_Line_of_Business_Required_forSA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only the Manager NA profile can fill this field. --></errorMessage>
+        <name>Manager_NA_ApprovedBySalesManagerEdit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe llenar campo &quot;Aprobado por PM?&quot; y debe tener el valor &quot;Si&quot;  //// You must fill in the field &quot;Approved by PM?&quot; and it must have the value &quot;Yes&quot; --></errorMessage>
+        <name>Req_Aprob_PM_si_es_Workshop</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>First you need to fill &quot;Closing Date&quot; to move to the next stage</errorMessage>
+        <name>Requerir_Fecha_Cierre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>First you need to fill &quot;Instalation date&quot; and &quot;Campaign closing date&quot; to move to the next stage</errorMessage>
+        <name>Requerir_Fecha_Instalacion_Fecha_Cierrre</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>First you need to fill &quot;Baseline date&quot; to move to the next stage</errorMessage>
+        <name>Requerir_Fecha_de_L_Base</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>First you need to fill &quot;Expected closing date&quot; to move to the next stage</errorMessage>
+        <name>Requerir_Fecha_de_cierre_proyectada</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>First you need to fill &quot;Signed by the client?&quot; to move to the next stage</errorMessage>
+        <name>Requerir_Firmado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot advance to &#39;Sent For Approval&#39; without at least one related KPI. Please create at least one record in ELM VAES KPI before requesting approval.</errorMessage>
+        <name>Requerir_KPI_para_Aprobacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please first fill &quot;Approved by Sales Manager?&quot; and &quot;Approved by PM?&quot; fields to move to the next stage and both need to have the value &quot;Yes&quot;</errorMessage>
+        <name>Required_approval_by_SV_and_PM</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please first fill &quot;Approved by Sales Manager?&quot; and &quot;Approved by PM?&quot; fields to move to the next stage and both need to have the value &quot;Yes&quot;</errorMessage>
+        <name>Required_approval_by_SV_and_PM_no_NA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos Approved by PM?, Approved by SM?, Signed by the client? solo se pueden completar en la Etapa Sent For Aproval.
+
+The fields Approved by PM?, Approved by SM?, Signed by the client? can only be filled out in the Sent For Approval stage. --></errorMessage>
+        <name>Sent_For_Aproval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Los campos Approved by PM?, Approved by SM?, Signed by the client? solo se pueden completar en la Etapa Sent For Aproval.
+
+The fields Approved by PM?, Approved by SM?, Signed by the client? can only be filled out in the Sent For Approval stage. --></errorMessage>
+        <name>Sent_For_Aproval_new</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Cannot advance to &#39;Sent For Approval&#39;. Requirements: 1. Base Date is required 2. Installation Date is required 3. Must be met: Base Date &lt; Installation Date</errorMessage>
+        <name>Validar_Fechas_para_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Date sequence error: The Base L Date must be PRIOR to the Installation Date.</errorMessage>
+        <name>Validar_Secuencia_Fechas_LBase_Instalaci</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The date sequence is invalid. Please verify that it is true: VAES Start Date &lt; Base Line Date &lt; Projected Closing Date.</errorMessage>
+        <name>Validar_Secuencia_Fechas_VAES</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ExportVaes --></label>
+        <name>ExportVaes</name>
+    </webLinks>
+    <webLinks>
+        <label>Export VAES</label>
+        <name>Exportar</name>
+    </webLinks>
+</CustomObjectTranslation>

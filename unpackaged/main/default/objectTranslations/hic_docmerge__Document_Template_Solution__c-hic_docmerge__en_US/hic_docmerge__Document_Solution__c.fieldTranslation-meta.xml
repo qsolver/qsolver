@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Document Solution --></label>
+        <name>hic_docmerge__Document_Solution__c</name>
+        <relationshipLabel><!-- Document Template Solutions --></relationshipLabel>
+    </CustomFieldTranslation>

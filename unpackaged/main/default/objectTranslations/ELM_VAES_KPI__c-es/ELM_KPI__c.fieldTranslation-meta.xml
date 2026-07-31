@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indicador Clave de Rendimiento (KPI)</help>
+        <label>KPI</label>
+        <name>ELM_KPI__c</name>
+        <picklistValues>
+            <masterLabel>Availability_Crushing</masterLabel>
+            <translation>Disponibilidad_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability_GET</masterLabel>
+            <translation>Disponibilidad_GET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability_GM</masterLabel>
+            <translation>Disponibilidad_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Availability_Mill Liners</masterLabel>
+            <translation>Disponibilidad_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confiabilidad_HiVB</masterLabel>
+            <translation><!-- Confiabilidad_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disponibilidad_HiVB</masterLabel>
+            <translation><!-- Disponibilidad_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintainability_Crushing</masterLabel>
+            <translation>Mantenibilidad_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintainability_Mill Liners</masterLabel>
+            <translation>Mantenibilidad_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mantenaibility_GM</masterLabel>
+            <translation>Mantenibilidad_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mantenibilidad_HiVB</masterLabel>
+            <translation><!-- Mantenibilidad_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance_GET</masterLabel>
+            <translation>Rendimiento_GET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance_Grinding Media</masterLabel>
+            <translation>Performance_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance_HiVB</masterLabel>
+            <translation><!-- Performance_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procesamiento_HiVB</masterLabel>
+            <translation><!-- Procesamiento_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing_Crushing</masterLabel>
+            <translation>Procesamiento_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing_GM</masterLabel>
+            <translation>Procesamiento_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing_Grinding Media</masterLabel>
+            <translation>Procesamiento_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processing_Mill Liners</masterLabel>
+            <translation>Procesamiento_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperation_Grinding Media</masterLabel>
+            <translation>Recuperación_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperation_Mill Liners</masterLabel>
+            <translation>Recuperación_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliability_Crushing</masterLabel>
+            <translation>Confiabilidad_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliability_GM</masterLabel>
+            <translation>Confiabilidad_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reliability_Mill Liners</masterLabel>
+            <translation>Confiabilidad_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety_Crushing</masterLabel>
+            <translation>Seguridad_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety_GET</masterLabel>
+            <translation>Seguridad_GET</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety_Grinding Media</masterLabel>
+            <translation>Seguridad_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety_Mill Liners</masterLabel>
+            <translation>Seguridad_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security_GM</masterLabel>
+            <translation>Seguridad_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad_HiVB</masterLabel>
+            <translation><!-- Seguridad_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainability_Crushing</masterLabel>
+            <translation>Sustentabilidad_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustainability_Mill Liners</masterLabel>
+            <translation>Sustentabilidad_Mill Liners</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustentabilidad_HiVB</masterLabel>
+            <translation><!-- Sustentabilidad_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCO_Crushing</masterLabel>
+            <translation><!-- TCO_Crushing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCO_GET</masterLabel>
+            <translation><!-- TCO_GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCO_GM</masterLabel>
+            <translation>TCO_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCO_HiVB</masterLabel>
+            <translation><!-- TCO_HiVB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TCO_Mill Liners</masterLabel>
+            <translation><!-- TCO_Mill Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear Performance_GM</masterLabel>
+            <translation>Rendimiento de desgaste_GM</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear performance_Crushing</masterLabel>
+            <translation>Rendimiento de Desgaste_Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear performance_Mill Liners</masterLabel>
+            <translation>Rendimiento de Desgaste_Mill Liners</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

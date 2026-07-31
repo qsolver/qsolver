@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Payment Type</label>
+        <name>Tipo_de_Pago__c</name>
+        <picklistValues>
+            <masterLabel>Externo</masterLabel>
+            <translation>External</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interno</masterLabel>
+            <translation>Internal</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

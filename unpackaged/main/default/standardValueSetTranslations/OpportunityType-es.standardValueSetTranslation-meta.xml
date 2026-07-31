@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>CPS Products</masterLabel>
+        <translation>Productos CPS</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Conduct A Trial</masterLabel>
+        <translation>Realizar una prueba</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Digital Solutions</masterLabel>
+        <translation>Soluciones digitales</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Expand At Existing Site</masterLabel>
+        <translation>Expandir en el sitio existente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>First Liner for OEM</masterLabel>
+        <translation>Primer revestimiento para OEM</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Grinding Media Products</masterLabel>
+        <translation>Productos de medios de molienda</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Mill Liner Products</masterLabel>
+        <translation>Productos de revestimiento para molinos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Repeat Sale</masterLabel>
+        <translation>Repetir venta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Secure A Trial</masterLabel>
+        <translation>Asegurar una prueba</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

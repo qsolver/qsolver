@@ -1,0 +1,49 @@
+.subscription-form {
+    border-radius: 8px;
+    border: 1px solid #d8dde6;
+    animation: slideDown 0.2s ease-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.subscription-card {
+    border-radius: 8px;
+    border: 1px solid #d8dde6;
+    transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.subscription-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-color: #0176d3;
+}
+
+.active-badge {
+    --sds-c-badge-color-background: #2e844a;
+    --sds-c-badge-text-color: #fff;
+}
+
+.inactive-badge {
+    --sds-c-badge-color-background: #706e6b;
+    --sds-c-badge-text-color: #fff;
+}
+
+.empty-icon {
+    --lwc-colorTextIconDefault: #b0adab;
+}
+
+.report-search-dropdown {
+    max-height: 240px;
+    overflow-y: auto;
+    z-index: 10000;
+    position: absolute;
+    width: 100%;
+}

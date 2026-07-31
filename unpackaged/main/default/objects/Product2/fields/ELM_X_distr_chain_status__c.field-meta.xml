@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_X_distr_chain_status__c</fullName>
+    <inlineHelpText>Product status</inlineHelpText>
+    <label>X-distr.chain status</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Activo</fullName>
+                <default>false</default>
+                <label>Activo</label>
+            </value>
+            <value>
+                <fullName>Rest-OV</fullName>
+                <default>false</default>
+                <label>Rest-OV</label>
+            </value>
+            <value>
+                <fullName>Obsoleto</fullName>
+                <default>false</default>
+                <label>Obsoleto</label>
+            </value>
+            <value>
+                <fullName>Sin modelo</fullName>
+                <default>false</default>
+                <label>Sin modelo</label>
+            </value>
+            <value>
+                <fullName>Sin plano</fullName>
+                <default>false</default>
+                <label>Sin plano</label>
+            </value>
+            <value>
+                <fullName>Active</fullName>
+                <default>false</default>
+                <label>Active</label>
+            </value>
+            <value>
+                <fullName>Material Obsolete</fullName>
+                <default>false</default>
+                <label>Material Obsolete</label>
+            </value>
+            <value>
+                <fullName>Only for Quote</fullName>
+                <default>false</default>
+                <label>Only for Quote</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

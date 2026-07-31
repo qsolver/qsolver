@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Indica oficina de Ventas - Exclusivo para SA (SAP)</help>
+        <label>Oficina de ventas</label>
+        <name>Sales_office__c</name>
+        <picklistValues>
+            <masterLabel>ARG</masterLabel>
+            <translation><!-- ARG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Africa</masterLabel>
+            <translation><!-- Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aggregates</masterLabel>
+            <translation><!-- Aggregates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BOL</masterLabel>
+            <translation><!-- BOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRA</masterLabel>
+            <translation><!-- BRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAN</masterLabel>
+            <translation><!-- CAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEN</masterLabel>
+            <translation><!-- CEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COL</masterLabel>
+            <translation><!-- COL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECU</masterLabel>
+            <translation><!-- ECU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eastern Australia/NZ</masterLabel>
+            <translation><!-- Eastern Australia/NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eurasia</masterLabel>
+            <translation><!-- Eurasia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITL</masterLabel>
+            <translation><!-- ITL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompany</masterLabel>
+            <translation><!-- Intercompany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Australia</masterLabel>
+            <translation><!-- ME Australia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME China</masterLabel>
+            <translation><!-- ME China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEX</masterLabel>
+            <translation><!-- MEX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle East/Europe</masterLabel>
+            <translation><!-- Middle East/Europe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOR</masterLabel>
+            <translation><!-- NOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>North America Other</masterLabel>
+            <translation><!-- North America Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTR</masterLabel>
+            <translation><!-- OTR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PER</masterLabel>
+            <translation><!-- PER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUR</masterLabel>
+            <translation><!-- SUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Africa</masterLabel>
+            <translation><!-- South Africa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>South Asia/PNG</masterLabel>
+            <translation><!-- South Asia/PNG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URU</masterLabel>
+            <translation><!-- URU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA Iron Range</masterLabel>
+            <translation><!-- USA Iron Range --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA West</masterLabel>
+            <translation><!-- USA West --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unallocated</masterLabel>
+            <translation><!-- Unallocated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VEN</masterLabel>
+            <translation><!-- VEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Western Australia</masterLabel>
+            <translation><!-- Western Australia --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

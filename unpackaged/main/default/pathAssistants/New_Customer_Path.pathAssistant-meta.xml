@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>New Customer Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;By winning the opportunity, you have a &lt;b&gt;Signed PO&lt;/b&gt;, Entered the &lt;b&gt;Order into SAP&lt;/b&gt;, &lt;b&gt;Created a Maintenance Plan&lt;/b&gt; to support the Sale, and Created a &lt;b&gt;New Opportunity&lt;/b&gt; for the next Reorder date. &lt;/p&gt;</info>
+        <picklistValueName>Closed Won</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Current_Supplier__c</fieldNames>
+        <fieldNames>ME_FIT_Program__c</fieldNames>
+        <fieldNames>Technical_Requirements__c</fieldNames>
+        <fieldNames>Commercial_Support_Requirements__c</fieldNames>
+        <fieldNames>Product_Test_Plan__c</fieldNames>
+        <info>&lt;p&gt;Provide the details of this opportunity. This includes the &lt;b&gt;Customer&amp;#39;s Current Supplier&lt;/b&gt;, If this is a &lt;b&gt;ME FIT Solution&lt;/b&gt;, &lt;b&gt;Technical Requirements&lt;/b&gt;, &lt;b&gt;Commercial Support Requirements&lt;/b&gt;, and the &lt;b&gt;Product Test Plan&lt;/b&gt;&lt;/p&gt;</info>
+        <picklistValueName>Create Account Plan</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Pricing_Strategy__c</fieldNames>
+        <fieldNames>Delivery_Requirements__c</fieldNames>
+        <fieldNames>Performance_Guarantees__c</fieldNames>
+        <fieldNames>Customer_Expected_Results__c</fieldNames>
+        <info>&lt;p&gt;Specify the &lt;b&gt;Pricing Strategy&lt;/b&gt;, &lt;b&gt;Delivery Requirements&lt;/b&gt;, &lt;b&gt;Performance Guarantees&lt;/b&gt;, and &lt;b&gt;Customer&amp;#39;s Expected Results&lt;/b&gt; (address pain points)&lt;/p&gt;</info>
+        <picklistValueName>Develop Commercial Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>ME_FIT_Program_Number__c</fieldNames>
+        <info>&lt;p&gt;Specify the &lt;b&gt;ME FIT Program Number&lt;/b&gt; and &lt;b&gt;Create a Technical Case&lt;/b&gt;. &lt;/p&gt;</info>
+        <picklistValueName>Develop Technical Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Decision_Maker_Identified__c</fieldNames>
+        <fieldNames>Influencer_Identified__c</fieldNames>
+        <fieldNames>Technical_Buyer_Identified__c</fieldNames>
+        <fieldNames>Potential_Blocker_Identified__c</fieldNames>
+        <info>&lt;p&gt;Add all of the involved contacts to the Opportunity.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Decision Maker(s)&lt;/li&gt;&lt;li&gt;Influencer(s)&lt;/li&gt;&lt;li&gt;Technical Buyer(s)&lt;/li&gt;&lt;li&gt;Potential Blocker(s)&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Identify Decision Makers</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Negotiate the opportunity and update the opportunity with the current status and changes. &lt;/p&gt;</info>
+        <picklistValueName>Negotiation/Review</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Schedule a proposal &lt;/span&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Meeting Activity&lt;/b&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt; through Salesforce/Outlook Plugin. After the meeting update the opportunity as needed.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Present Proposal</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Description</fieldNames>
+        <fieldNames>Customer_Equipment__c</fieldNames>
+        <fieldNames>Amount</fieldNames>
+        <info>&lt;p&gt;To Complete this stage, specify the &lt;b&gt;Opportunity Description&lt;/b&gt;, &lt;b&gt;Customer Equipment&lt;/b&gt;, &lt;b&gt;Opportunity Tons&lt;/b&gt;, and the &lt;b&gt;Amount &lt;/b&gt;of the opportunity. &lt;/p&gt;</info>
+        <picklistValueName>Qualify Opportunity</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>New_Customer</recordTypeName>
+</PathAssistant>

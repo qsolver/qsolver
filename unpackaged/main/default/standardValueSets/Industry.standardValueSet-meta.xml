@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>RX36</fullName>
+        <default>false</default>
+        <label>AGGREGATE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU21</fullName>
+        <default>false</default>
+        <label>AEROSPACE &amp; DEFENSE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU28</fullName>
+        <default>false</default>
+        <label>ENERGY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU36</fullName>
+        <default>false</default>
+        <label>GOVERNMENT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU48</fullName>
+        <default>false</default>
+        <label>MANUFACTURING</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU56</fullName>
+        <default>false</default>
+        <label>OTHER</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU19</fullName>
+        <default>false</default>
+        <label>CONSTRUCTION</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RU53</fullName>
+        <default>false</default>
+        <label>MINING</label>
+    </standardValue>
+</StandardValueSet>

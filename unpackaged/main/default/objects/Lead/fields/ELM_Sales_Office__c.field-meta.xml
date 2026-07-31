@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Sales_Office__c</fullName>
+    <label>Sales Office</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CEN</fullName>
+                <default>false</default>
+                <label>CEN</label>
+            </value>
+            <value>
+                <fullName>NOR</fullName>
+                <default>false</default>
+                <label>NOR</label>
+            </value>
+            <value>
+                <fullName>SUR</fullName>
+                <default>false</default>
+                <label>SUR</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

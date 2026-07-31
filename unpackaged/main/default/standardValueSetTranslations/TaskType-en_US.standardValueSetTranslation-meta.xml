@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Billing</masterLabel>
+        <translation><!-- Billing --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Call</masterLabel>
+        <translation><!-- Call --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Claim</masterLabel>
+        <translation><!-- Claim --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Consolidation</masterLabel>
+        <translation><!-- Consolidation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Containment</masterLabel>
+        <translation><!-- Containment --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Done Late</masterLabel>
+        <translation><!-- Done Late --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Income</masterLabel>
+        <translation><!-- Income --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting</masterLabel>
+        <translation><!-- Meeting --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Not Done</masterLabel>
+        <translation><!-- Not Done --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Planning</masterLabel>
+        <translation><!-- Planning --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seguimiento de Producto Recurrente</masterLabel>
+        <translation>Product Test Tracking</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Seguimiento de Producto Test</masterLabel>
+        <translation>Recurring Product Tracking</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Tender</masterLabel>
+        <translation><!-- Tender --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

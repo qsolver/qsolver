@@ -1,0 +1,163 @@
+<apex:page showHeader="true" sidebar="false" standardStylesheets="false" controller="hic_docmerge.GenerateWebServiceForAdvancedEditor">
+	<script type="text/javascript" src="/canvas/sdk/js/41.0/canvas-all.js"></script>
+    <script src="/canvas/sdk/js/41.0/controller.js"/>
+    <apex:includeLightning />
+    <diV id="FlipcardContainer"> </diV>
+
+    <script>
+        var lwcCmp;
+        /*$Lightning.use("hic_docmerge:SetupApplication", function() {
+            $Lightning.createComponent(
+                "hic_docmerge:quick_setup_main",{},
+                "FlipcardContainer",
+                function(cmp) {
+                    lwcCmp = cmp;
+                });
+        
+        });*/
+
+        var activeStep = "{!HTMLENCODE($CurrentPage.parameters.atv)}";
+        var solutionId = "{!HTMLENCODE($CurrentPage.parameters.id)}";
+        //var solutionId2 = "{!HTMLENCODE($CurrentPage.parameters.recordId)}";
+        console.log('solutionId',"{!HTMLENCODE($CurrentPage.parameters.id)}");
+        if ((typeof sforce != 'undefined') && sforce && sforce.one ){
+            origin = 'lightning';
+        }else{
+            origin = 'vfpage';
+        }
+        let attributes = {
+                    "origin": origin,
+                    "activeStep" : activeStep,
+                    //"documentSolutionId" : solutionId
+                    "recordId" : solutionId
+                }
+        $Lightning.use("hic_docmerge:SetupApplication", function() {
+            $Lightning.createComponent(
+                "hic_docmerge:quickSetupMain_Lightning",attributes,
+                "FlipcardContainer",
+                function(cmp) {
+                    lwcCmp = cmp;
+                    
+                    $A.eventService.addHandler({ "event": "hic_docmerge:DocumentQueryRedirectEvent", "handler" : getMessage});
+                    $A.eventService.addHandler({ "event": "force:navigateToURL", "handler" : function(event){
+                        if(origin === 'vfpage'){
+                        }
+                        else if(origin === 'lightning'){
+                            try{
+                                sforce.one.navigateToURL(event.getParam('url'), true);
+                            }catch(ex){
+                                console.log(ex);
+                            }
+                            
+                        }
+                    }});
+                });
+        
+        });
+
+        function getMessage(){
+            Sfdc.canvas.controller.subscribe({name : 'hic_docmerge.openRecord',
+                                onData : function (data) {
+                                    //returnToSfdc(data.id);
+                                    lwcCmp.reloadAddTemplate();
+                                }});
+            
+            
+            Sfdc.canvas.controller.publish({name : 'hic_docmerge.setWidth', payload : {status : document.getElementById("advancedEditor").clientWidth - 100 /*window.innerWidth-75*/ , height: window.innerHeight}});
+            
+        }
+
+        document.addEventListener("createNewDocQuery", function(event){
+            var eventDetail = event.detail;
+            if(origin === 'vfpage'){
+                window.open("/"+eventDetail.objectKeyPrefix+"/e", "_blank");
+            }
+            else if(origin === 'lightning'){
+                window.open("/lightning/o/"+eventDetail.objectApiName+"/new", "_blank");
+            }
+
+        });
+
+        document.addEventListener("createNewDocTemplate", function(event){
+            var eventDetail = event.detail;
+            if(origin === 'vfpage'){
+                window.open("/"+eventDetail.objectKeyPrefix+"/e", "_blank");
+            }
+            else if(origin === 'lightning'){
+                window.open("/lightning/o/"+eventDetail.objectApiName+"/new", "_blank");
+            }
+
+        });
+
+        document.addEventListener("goToPageLayoutsObjects", function(event){
+            var eventDetail = event.detail;
+            if(origin === 'vfpage'){
+                window.open("/ui/setup/layout/PageLayouts?type="+eventDetail.sObjectId, "_blank");
+            }
+            else if(origin === 'lightning'){
+                window.open("/lightning/setup/ObjectManager/"+eventDetail.sObjectId+"/PageLayouts/view", "_blank");
+            }
+        });
+
+        document.addEventListener("goTosObjectsButtons", function(event){
+            var eventDetail = event.detail;
+            if(origin === 'vfpage'){
+                if(eventDetail.isCustom == "true" || eventDetail.isCustom == true){
+                    window.open("/"+eventDetail.sObjectId, "_blank");
+                }
+                else{
+                    window.open("/p/setup/link/ActionButtonLinkList?pageName="+eventDetail.sObjectId+"&type="+eventDetail.sObjectId, "_blank");
+                }
+            }
+            else if(origin === 'lightning'){
+                window.open("/lightning/setup/ObjectManager/"+eventDetail.sObjectId+"/ButtonsLinksActions/view", "_blank");
+            }
+
+        });
+
+        
+        document.addEventListener("createremotesite", function(event){
+            createRemoteSite(event.detail);
+        });
+    
+        function createRemoteSite(hostUrl) {
+            // Disable button
+            //document.getElementById('createremotesitebtn').disabled = true;
+            // Calls the Metdata API from JavaScript to create the Remote Site Setting to permit Apex callouts
+            var binding = new XMLHttpRequest();
+            var request =
+                '<?xml version="1.0" encoding="utf-8"?>' +
+                '<env:Envelope xmlns:env="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">'+
+                    '<env:Header>' +
+                        '<urn:SessionHeader xmlns:urn="http://soap.sforce.com/2006/04/metadata">' +
+                            '<urn:sessionId>{!$Api.Session_ID}</urn:sessionId>' +
+                        '</urn:SessionHeader>' +
+                		 '<urn:CallOptions xmlns:urn="http://soap.sforce.com/2006/04/metadata">' +
+                            '<urn:client>HeadInCloud/docsmadeeasy/</urn:client>' +
+                        '</urn:CallOptions>' +
+                    '</env:Header>' +
+                    '<env:Body>' +
+                        '<createMetadata xmlns="http://soap.sforce.com/2006/04/metadata">' +
+                            '<metadata xsi:type="RemoteSiteSetting">' +
+                                '<fullName>CreateButtonRemoteSite</fullName>' +
+                                '<description>Remote Site Setting to create Web View Link via Metadata API</description>' +
+                                '<disableProtocolSecurity>false</disableProtocolSecurity>' +
+                                '<isActive>true</isActive>' +
+                                '<url>'+hostUrl+'</url>' +
+                            '</metadata>' +
+                        '</createMetadata>' +
+                    '</env:Body>' +
+                '</env:Envelope>';
+            binding.open('POST', hostUrl+'/services/Soap/m/31.0');
+            binding.setRequestHeader('SOAPAction','""');
+            binding.setRequestHeader('Content-Type', 'text/xml');
+            binding.onreadystatechange =
+                function() {
+                    if(this.readyState == XMLHttpRequest.DONE) {
+                        lwcCmp.invokeCreateCustomButton();
+                    }
+                }
+            binding.send(request);
+        }
+    </script>
+</apex:page>

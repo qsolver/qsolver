@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manage_Stages_Changes</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Estado__c), NOT($User.Alias = &#39;amet&#39;),  NOT($Profile.Name == &#39;System Administrator&#39;), NOT($Profile.Name = &#39;USC&#39;),  OR(ISPICKVAL( Estado__c , &quot;WORK&quot;), ISPICKVAL( Estado__c , &quot;CHECK&quot;), ISPICKVAL( Estado__c , &quot;REVIEW&quot;)))</errorConditionFormula>
+    <errorMessage>El cambio a ese estado solo se permite hacer desde Vault.</errorMessage>
+</ValidationRule>

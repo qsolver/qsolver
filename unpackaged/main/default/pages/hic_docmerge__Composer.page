@@ -1,0 +1,74 @@
+<apex:page controller="hic_docmerge.GenerateWebService" showHeader="false">
+    
+    <!--script src="https://code.jquery.com/jquery-1.12.4.js"></script -->
+    
+    <script type="text/javascript" src="/canvas/sdk/js/41.0/canvas-all.js"></script>
+    <script src="/canvas/sdk/js/41.0/controller.js"/>
+    
+    <div id="container1"></div>
+    
+    <lottie-player autoplay="true" loop="true" mode="normal" style="width: 320px">
+</lottie-player> 
+    <apex:canvasApp id="composerApp" namespacePrefix="hic_docmerge" width="100%" containerId="container1" onCanvasAppLoad="loadingHICComposer();" scrolling="auto" applicationName="Docs Made Easy New" parameters="{!parameterMapInString}" />
+    <script>
+        var origin = ''; //('{!$User.UITheme}' === 'Theme4d'  ? 'lightning' : 'vfpage');  
+        if ((typeof sforce != 'undefined') && sforce && sforce.one ){
+            origin = 'lightning';
+        }else{
+            origin = 'vfpage';
+        }
+        function loadingHICComposer(){
+			
+            if(document.getElementsByTagName('iframe') != null && document.getElementsByTagName('iframe').length >0){
+                console.log(document.getElementsByTagName('iframe')[0].id);
+                if(document.getElementsByTagName('iframe')[0].id != null && document.getElementsByTagName('iframe')[0].id.indexOf('composerApp') != -1){
+                    
+                }
+            }
+            
+        }
+       
+    Sfdc.canvas(function() {  
+     
+   	 Sfdc.canvas.controller.subscribe({name : 'hic_docmerge.openUrl', 
+                                  onData : function (e) {
+                                      
+                                      console.log('I am in this');
+                                      console.log(e	);
+                                       if( origin === 'vfpage'){
+                                                  
+                                           // window.location.href='/'+e.url
+                                                  returnToSfdc(e.url);
+                                              }else{
+                                                  //returnToSfdc(data.id);
+                                                  sforce.one.navigateToURL(e.url);
+                                              }
+                                      //window.location.href ='.'+  e.url;
+                                      //	returnToSfdc(e.url);
+                                        }});
+        Sfdc.canvas.controller.subscribe({name : 'refreshMe', 
+                                  onData : function (e) {
+                                        }});
+       Sfdc.canvas.controller.subscribe({name : 'hic_docmerge.testAction1',
+                                onData : function (e) {
+                                    
+                                	
+                                    Sfdc.canvas.controller.publish({name : 'hic_docmerge.testAction',
+                                    payload : {status : window.innerHeight}});
+                                }});
+        });
+    </script>
+    <style>
+        .waitingHolder img{
+                content:url("{!$Resource.Logo}") !important;
+                width:150px;
+        }
+        
+        
+    </style>
+    <apex:form id="theform"> 
+        <apex:actionFunction action="{!returnToSfdc}" name="returnToSfdc" reRender="theform">
+            <apex:param name="urlString" assignTo="{!urlString}" value="" />
+        </apex:actionFunction>
+    </apex:form>
+</apex:page>

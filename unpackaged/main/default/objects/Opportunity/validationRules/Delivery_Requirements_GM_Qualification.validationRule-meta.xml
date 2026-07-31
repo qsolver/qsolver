@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Delivery_Requirements_GM_Qualification</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Grinding Media / GET&quot;,
+ TEXT(StageName) = &quot;Qualification&quot;,
+ISBLANK( Delivery_Requirements__c )
+)</errorConditionFormula>
+    <errorDisplayField>Delivery_Requirements__c</errorDisplayField>
+    <errorMessage>Please fill in the following field Delivery Requirements</errorMessage>
+</ValidationRule>

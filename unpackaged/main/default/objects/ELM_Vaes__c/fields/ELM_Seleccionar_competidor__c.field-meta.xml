@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Seleccionar_competidor__c</fullName>
+    <inlineHelpText>Relevant competitor</inlineHelpText>
+    <label>Competidor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ELM_Line_Of_Business__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aceros Chilca</fullName>
+                <default>false</default>
+                <label>Aceros Chilca</label>
+            </value>
+            <value>
+                <fullName>Aceros Chile</fullName>
+                <default>false</default>
+                <label>Aceros Chile</label>
+            </value>
+            <value>
+                <fullName>Bradken</fullName>
+                <default>false</default>
+                <label>Bradken</label>
+            </value>
+            <value>
+                <fullName>Busang</fullName>
+                <default>false</default>
+                <label>Busang</label>
+            </value>
+            <value>
+                <fullName>CAT</fullName>
+                <default>false</default>
+                <label>CAT</label>
+            </value>
+            <value>
+                <fullName>Cepcor</fullName>
+                <default>false</default>
+                <label>Cepcor</label>
+            </value>
+            <value>
+                <fullName>CITIC</fullName>
+                <default>false</default>
+                <label>CITIC</label>
+            </value>
+            <value>
+                <fullName>Columbia Steel</fullName>
+                <default>false</default>
+                <label>Columbia Steel</label>
+            </value>
+            <value>
+                <fullName>Continental</fullName>
+                <default>false</default>
+                <label>Continental</label>
+            </value>
+            <value>
+                <fullName>CR Mining</fullName>
+                <default>false</default>
+                <label>CR Mining</label>
+            </value>
+            <value>
+                <fullName>FC Liners</fullName>
+                <default>false</default>
+                <label>FC Liners</label>
+            </value>
+            <value>
+                <fullName>FLS</fullName>
+                <default>false</default>
+                <label>FLS</label>
+            </value>
+            <value>
+                <fullName>FLSmith</fullName>
+                <default>false</default>
+                <label>FLSmith</label>
+            </value>
+            <value>
+                <fullName>Frog, Switch</fullName>
+                <default>false</default>
+                <label>Frog, Switch</label>
+            </value>
+            <value>
+                <fullName>Fucasa</fullName>
+                <default>false</default>
+                <label>Fucasa</label>
+            </value>
+            <value>
+                <fullName>FUCSA</fullName>
+                <default>false</default>
+                <label>FUCSA</label>
+            </value>
+            <value>
+                <fullName>Growth Asia</fullName>
+                <default>false</default>
+                <label>Growth Asia</label>
+            </value>
+            <value>
+                <fullName>Growth steel</fullName>
+                <default>false</default>
+                <label>Growth steel</label>
+            </value>
+            <value>
+                <fullName>H&amp;L</fullName>
+                <default>false</default>
+                <label>H&amp;L</label>
+            </value>
+            <value>
+                <fullName>Jansen</fullName>
+                <default>false</default>
+                <label>Jansen</label>
+            </value>
+            <value>
+                <fullName>Komatsu</fullName>
+                <default>false</default>
+                <label>Komatsu</label>
+            </value>
+            <value>
+                <fullName>MEPSA</fullName>
+                <default>false</default>
+                <label>MEPSA</label>
+            </value>
+            <value>
+                <fullName>Metalnorte</fullName>
+                <default>false</default>
+                <label>Metalnorte</label>
+            </value>
+            <value>
+                <fullName>METSO</fullName>
+                <default>false</default>
+                <label>METSO</label>
+            </value>
+            <value>
+                <fullName>Metso Outec</fullName>
+                <default>false</default>
+                <label>Metso Outec</label>
+            </value>
+            <value>
+                <fullName>MTG</fullName>
+                <default>false</default>
+                <label>MTG</label>
+            </value>
+            <value>
+                <fullName>OEM</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>Pectiction and Castech</fullName>
+                <default>false</default>
+                <label>Pectiction and Castech</label>
+            </value>
+            <value>
+                <fullName>Polycorp</fullName>
+                <default>false</default>
+                <label>Polycorp</label>
+            </value>
+            <value>
+                <fullName>PT Growth</fullName>
+                <default>false</default>
+                <label>PT Growth</label>
+            </value>
+            <value>
+                <fullName>San Cayetano</fullName>
+                <default>false</default>
+                <label>San Cayetano</label>
+            </value>
+            <value>
+                <fullName>Sandvik</fullName>
+                <default>false</default>
+                <label>Sandvik</label>
+            </value>
+            <value>
+                <fullName>SIOM</fullName>
+                <default>false</default>
+                <label>SIOM</label>
+            </value>
+            <value>
+                <fullName>Sorena</fullName>
+                <default>false</default>
+                <label>Sorena</label>
+            </value>
+            <value>
+                <fullName>TEGA</fullName>
+                <default>false</default>
+                <label>TEGA</label>
+            </value>
+            <value>
+                <fullName>VDL</fullName>
+                <default>false</default>
+                <label>VDL</label>
+            </value>
+            <value>
+                <fullName>Vega</fullName>
+                <default>false</default>
+                <label>Vega</label>
+            </value>
+            <value>
+                <fullName>VULCO</fullName>
+                <default>false</default>
+                <label>VULCO</label>
+            </value>
+            <value>
+                <fullName>Weir/ESCO</fullName>
+                <default>false</default>
+                <label>Weir/ESCO</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>ME Elecmetal</fullName>
+                <default>false</default>
+                <label>ME Elecmetal</label>
+            </value>
+            <value>
+                <fullName>Berkeley</fullName>
+                <default>false</default>
+                <label>Berkeley</label>
+            </value>
+            <value>
+                <fullName>Hensley</fullName>
+                <default>false</default>
+                <label>Hensley</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Aceros Chilca</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Cepcor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Columbia Steel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>FLS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>FLSmith</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Frog, Switch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Jansen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>MEPSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>METSO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Metso Outec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Pectiction and Castech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Sandvik</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Sorena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>VDL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <valueName>Weir/ESCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Grinding Media</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Workshop</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>ME Elecmetal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Aceros Chile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Bradken</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Busang</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>CITIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Continental</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>FC Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Fucasa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>FUCSA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Growth Asia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Metalnorte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Polycorp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>PT Growth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>San Cayetano</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>SIOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>TEGA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>Vega</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mill Liners</controllingFieldValue>
+            <valueName>VULCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>CAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>CR Mining</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>H&amp;L</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Komatsu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>MTG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>OEM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Berkeley</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Hensley</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

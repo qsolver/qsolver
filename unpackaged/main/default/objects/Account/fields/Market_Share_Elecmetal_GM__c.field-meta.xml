@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Market_Share_Elecmetal_GM__c</fullName>
+    <formula>IF(OR(ISPICKVAL(ELM_Equipo_de_Ventas__c , &quot;SURAMERICA&quot;), ISPICKVAL(ELM_Equipo_de_Ventas__c , &quot;NORTEAMERICA&quot;)) ,
+(Consumo_Anual_Elecmetal_Toneladas_GM__c / (Consumo_Anual_Elecmetal_Toneladas_GM__c + Consumo_Anual_Otros_Prov_Tons_GM__c))
+ , 
+
+ Annual_Consumption_Elecmetal_GM_EMEA_APA__c / (Annual_Consumption_Elecmetal_GM_EMEA_APA__c +  Annual_Consumption_Other_GM_EMEA_APAC__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Percentage of Elecmetal&#39;s annual consumption in the Asset</inlineHelpText>
+    <label>Market Share Elecmetal % GM</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

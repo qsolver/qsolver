@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Group_Name__c</fullName>
+    <description>The name of the Salesforce Group that will contain one or more users. The users in this group will be shown as the proposed recipients for the Trip Report</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>The name of the Salesforce Group that will contain one or more users. The users in this group will be shown as the proposed recipients for the Trip Report</inlineHelpText>
+    <label>Group Name</label>
+    <length>255</length>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

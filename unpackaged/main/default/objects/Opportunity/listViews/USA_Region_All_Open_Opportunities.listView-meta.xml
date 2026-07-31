@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>USA_Region_All_Open_Opportunities</fullName>
+    <columns>Opportunity_Number_fx__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ELM_User_Sales_Region__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Ship_Date__c</columns>
+    <columns>ELM_Total_Amount__c</columns>
+    <columns>ELM_Purchased_Parts_Weight__c</columns>
+    <columns>ELM_Manufactured_Weight__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Likely_to_Win__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Sales_Region__c</field>
+        <operation>contains</operation>
+        <value>USA</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSED</field>
+        <operation>notEqual</operation>
+        <value>1</value>
+    </filters>
+    <label>NA_Open Opportunities_USA</label>
+</ListView>

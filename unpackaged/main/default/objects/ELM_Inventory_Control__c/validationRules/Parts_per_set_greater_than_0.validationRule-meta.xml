@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parts_per_set_greater_than_0</fullName>
+    <active>true</active>
+    <errorConditionFormula>ELM_Parts_per_set__c &lt; 1</errorConditionFormula>
+    <errorDisplayField>ELM_Parts_per_set__c</errorDisplayField>
+    <errorMessage>Parts per set must be greater or equal than 1</errorMessage>
+</ValidationRule>

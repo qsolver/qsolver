@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Sales Representative / KAM - Slag Pots --></help>
+        <label>Ollas Sales Rep</label>
+        <name>Vendedor_Ollas__c</name>
+        <relationshipLabel><!-- Accounts (Ollas Sales Rep) --></relationshipLabel>
+    </CustomFieldTranslation>

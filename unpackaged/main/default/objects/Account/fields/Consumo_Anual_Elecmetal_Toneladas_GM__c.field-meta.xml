@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumo_Anual_Elecmetal_Toneladas_GM__c</fullName>
+    <inlineHelpText>Consumption of products corresponding to Elecmetal annualized</inlineHelpText>
+    <label>Consumo Anual Elecmetal (Tons) GM</label>
+    <summarizedField>MarketShare__c.Consumo_Anual_GM__c</summarizedField>
+    <summaryFilterItems>
+        <field>MarketShare__c.Proveedor_Med_Molienda__c</field>
+        <operation>equals</operation>
+        <value>ME Elecmetal</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>MarketShare__c.RecordTypeId</field>
+        <operation>equals</operation>
+        <value>Grinding Media</value>
+    </summaryFilterItems>
+    <summaryForeignKey>MarketShare__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

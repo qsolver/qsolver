@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Product_Usage__c</fullName>
+    <description>How many sets of products does this piece of equipment use in a year?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Annual Product Usage</inlineHelpText>
+    <label>Annual Product Usage</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

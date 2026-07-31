@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_KPI__c</fullName>
+    <inlineHelpText>Key Performance indicador (KPI)</inlineHelpText>
+    <label>KPI</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ELM_Line_Of_Business__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Availability_Crushing</fullName>
+                <default>false</default>
+                <label>Availability_Crushing</label>
+            </value>
+            <value>
+                <fullName>Availability_GET</fullName>
+                <default>false</default>
+                <label>Availability_GET</label>
+            </value>
+            <value>
+                <fullName>Availability</fullName>
+                <default>false</default>
+                <label>Availability_GM</label>
+            </value>
+            <value>
+                <fullName>Availability_Mill Liners</fullName>
+                <default>false</default>
+                <label>Availability_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Confiabilidad_HiVB</fullName>
+                <default>false</default>
+                <label>Confiabilidad_HiVB</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad_HiVB</fullName>
+                <default>false</default>
+                <label>Disponibilidad_HiVB</label>
+            </value>
+            <value>
+                <fullName>Maintainability_Crushing</fullName>
+                <default>false</default>
+                <label>Maintainability_Crushing</label>
+            </value>
+            <value>
+                <fullName>Maintainability_Mill Liners</fullName>
+                <default>false</default>
+                <label>Maintainability_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Mantenaibility</fullName>
+                <default>false</default>
+                <label>Mantenaibility_GM</label>
+            </value>
+            <value>
+                <fullName>Mantenibilidad_HiVB</fullName>
+                <default>false</default>
+                <label>Mantenibilidad_HiVB</label>
+            </value>
+            <value>
+                <fullName>Performance_GET</fullName>
+                <default>false</default>
+                <label>Performance_GET</label>
+            </value>
+            <value>
+                <fullName>Performance_Grinding Media</fullName>
+                <default>false</default>
+                <label>Performance_Grinding Media</label>
+            </value>
+            <value>
+                <fullName>Performance_HiVB</fullName>
+                <default>false</default>
+                <label>Performance_HiVB</label>
+            </value>
+            <value>
+                <fullName>Procesamiento_HiVB</fullName>
+                <default>false</default>
+                <label>Procesamiento_HiVB</label>
+            </value>
+            <value>
+                <fullName>Processing_Crushing</fullName>
+                <default>false</default>
+                <label>Processing_Crushing</label>
+            </value>
+            <value>
+                <fullName>Processing</fullName>
+                <default>false</default>
+                <label>Processing_GM</label>
+            </value>
+            <value>
+                <fullName>Processing_Grinding Media</fullName>
+                <default>false</default>
+                <label>Processing_Grinding Media</label>
+            </value>
+            <value>
+                <fullName>Processing_Mill Liners</fullName>
+                <default>false</default>
+                <label>Processing_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Recuperation_Grinding Media</fullName>
+                <default>false</default>
+                <label>Recuperation_Grinding Media</label>
+            </value>
+            <value>
+                <fullName>Recuperation_Mill Liners</fullName>
+                <default>false</default>
+                <label>Recuperation_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Reliability_Crushing</fullName>
+                <default>false</default>
+                <label>Reliability_Crushing</label>
+            </value>
+            <value>
+                <fullName>Reliability</fullName>
+                <default>false</default>
+                <label>Reliability_GM</label>
+            </value>
+            <value>
+                <fullName>Reliability_Mill Liners</fullName>
+                <default>false</default>
+                <label>Reliability_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Safety_Crushing</fullName>
+                <default>false</default>
+                <label>Safety_Crushing</label>
+            </value>
+            <value>
+                <fullName>Safety_GET</fullName>
+                <default>false</default>
+                <label>Safety_GET</label>
+            </value>
+            <value>
+                <fullName>Safety_Grinding Media</fullName>
+                <default>false</default>
+                <label>Safety_Grinding Media</label>
+            </value>
+            <value>
+                <fullName>Safety_Mill Liners</fullName>
+                <default>false</default>
+                <label>Safety_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security_GM</label>
+            </value>
+            <value>
+                <fullName>Seguridad_HiVB</fullName>
+                <default>false</default>
+                <label>Seguridad_HiVB</label>
+            </value>
+            <value>
+                <fullName>Sustainability_Crushing</fullName>
+                <default>false</default>
+                <label>Sustainability_Crushing</label>
+            </value>
+            <value>
+                <fullName>Sustainability_Mill Liners</fullName>
+                <default>false</default>
+                <label>Sustainability_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Sustentabilidad_HiVB</fullName>
+                <default>false</default>
+                <label>Sustentabilidad_HiVB</label>
+            </value>
+            <value>
+                <fullName>TCO_Crushing</fullName>
+                <default>false</default>
+                <label>TCO_Crushing</label>
+            </value>
+            <value>
+                <fullName>TCO_GET</fullName>
+                <default>false</default>
+                <label>TCO_GET</label>
+            </value>
+            <value>
+                <fullName>TCO</fullName>
+                <default>false</default>
+                <label>TCO_GM</label>
+            </value>
+            <value>
+                <fullName>TCO_HiVB</fullName>
+                <default>false</default>
+                <label>TCO_HiVB</label>
+            </value>
+            <value>
+                <fullName>TCO_Mill Liners</fullName>
+                <default>false</default>
+                <label>TCO_Mill Liners</label>
+            </value>
+            <value>
+                <fullName>Wear performance_Crushing</fullName>
+                <default>false</default>
+                <label>Wear performance_Crushing</label>
+            </value>
+            <value>
+                <fullName>Wear Performance</fullName>
+                <default>false</default>
+                <label>Wear Performance_GM</label>
+            </value>
+            <value>
+                <fullName>Wear performance_Mill Liners</fullName>
+                <default>false</default>
+                <label>Wear performance_Mill Liners</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Availability_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Maintainability_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Processing_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Recuperation_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Reliability_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Safety_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Sustainability_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>TCO_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mil Liners</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Wear performance_Mill Liners</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Availability_GET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Performance_GET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Safety_GET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>TCO_GET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Availability_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Maintainability_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Processing_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Reliability_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Safety_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Sustainability_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>TCO_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Crushing</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Wear performance_Crushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Availability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Mantenaibility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Performance_Grinding Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Processing_Grinding Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Recuperation_Grinding Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Reliability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Safety_Grinding Media</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Security</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding</controllingFieldValue>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Wear Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>Processing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>TCO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Confiabilidad_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Disponibilidad_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Mantenibilidad_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Performance_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Procesamiento_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Seguridad_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>Sustentabilidad_HiVB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High Value</controllingFieldValue>
+            <valueName>TCO_HiVB</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

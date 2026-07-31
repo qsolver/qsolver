@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- KPI --></label>
+        <name>ELM_KPI__c</name>
+        <picklistValues>
+            <masterLabel>Accountability</masterLabel>
+            <translation><!-- Accountability --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatización</masterLabel>
+            <translation>Automation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disponibilidad</masterLabel>
+            <translation>Availability</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mantenibilidad / Confiabilidad</masterLabel>
+            <translation>Maintainability / Reliability</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperación</masterLabel>
+            <translation>Recovery</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad</masterLabel>
+            <translation>Security</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustentabilidad</masterLabel>
+            <translation>Sustainability</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tph</masterLabel>
+            <translation><!-- Tph --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

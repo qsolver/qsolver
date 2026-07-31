@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Metric__c</fullName>
+    <inlineHelpText>Metric</inlineHelpText>
+    <label>Metric</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ELM_KPI__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>% de falla de revestimientos</fullName>
+                <default>false</default>
+                <label>% de falla de revestimientos</label>
+            </value>
+            <value>
+                <fullName>%23 liners/components failures</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>% liners/components failures</label>
+            </value>
+            <value>
+                <fullName>Actual cost vs final cost</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Actual cost vs final cost</label>
+            </value>
+            <value>
+                <fullName>Ahorro de emisión de huella de Carbono</fullName>
+                <default>false</default>
+                <label>Ahorro de emisión de huella de Carbono</label>
+            </value>
+            <value>
+                <fullName>Amount of Â Trucks on the roads</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Amount of trucks in road</label>
+            </value>
+            <value>
+                <fullName>Available operational time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Available operational time</label>
+            </value>
+            <value>
+                <fullName>Ball mill media consumption (energy)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ball mill media consumption (energy)</label>
+            </value>
+            <value>
+                <fullName>Ball mill media consumption (operating time)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ball mill media consumption (operating time)</label>
+            </value>
+            <value>
+                <fullName>Ball mill media consumption (throughput)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ball mill media consumption (throughput)</label>
+            </value>
+            <value>
+                <fullName>Ball mill Specific Energy Consumption</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ball mill Specific Energy Consumption</label>
+            </value>
+            <value>
+                <fullName>Cantidad de camiones en la carretera al mes</fullName>
+                <default>false</default>
+                <label>Cantidad de camiones en la carretera al mes</label>
+            </value>
+            <value>
+                <fullName>Cantidad de toneladas movidas por horas efectivas trabajadas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cantidad de toneladas movidas por horas efectivas trabajadas</label>
+            </value>
+            <value>
+                <fullName>Costo por toneladas movidas efectivas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Costo por toneladas movidas efectivas</label>
+            </value>
+            <value>
+                <fullName>Decrease in dollar per ton moved</fullName>
+                <default>false</default>
+                <label>Decrease in dollar per ton moved</label>
+            </value>
+            <value>
+                <fullName>Decrease in dollars per operating hour</fullName>
+                <default>false</default>
+                <label>Decrease in dollars per operating hour</label>
+            </value>
+            <value>
+                <fullName>Disminución de dólar por hora operativa</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disminución de dólar por hora operativa</label>
+            </value>
+            <value>
+                <fullName>Disminución de dólar por tonelada movida</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Disminución de dólar por tonelada movida</label>
+            </value>
+            <value>
+                <fullName>Dollar cost per ton moved</fullName>
+                <default>false</default>
+                <label>Dollar cost per ton moved</label>
+            </value>
+            <value>
+                <fullName>Eficiencia de Trabajo</fullName>
+                <default>false</default>
+                <label>Eficiencia de Trabajo</label>
+            </value>
+            <value>
+                <fullName>Exposición al riesgo (Horas hombre en equipo por año)</fullName>
+                <default>false</default>
+                <label>Exposición al riesgo (Horas hombre en equipo por año)</label>
+            </value>
+            <value>
+                <fullName>Exposure to risk (Man hours in equipment per year)</fullName>
+                <default>false</default>
+                <label>Exposure to risk (Man hours in equipment per year)</label>
+            </value>
+            <value>
+                <fullName>Exposure to risk (Man hours in mill per year)</fullName>
+                <default>false</default>
+                <label>Exposure to risk (Man hours in mill per year)</label>
+            </value>
+            <value>
+                <fullName>Exposure to risk (Man hours spent in mill per year)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Exposure to risk (Man hours spent in mill per year)</label>
+            </value>
+            <value>
+                <fullName>Failure in liners/Installed liners</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Failure in liners/Installed liners</label>
+            </value>
+            <value>
+                <fullName>Fallas en liners sobre liners instaladas por campaña</fullName>
+                <default>false</default>
+                <label>Fallas en liners sobre liners instaladas por campaña</label>
+            </value>
+            <value>
+                <fullName>Falla sobre reparaciones realizadas</fullName>
+                <default>false</default>
+                <label>Falla sobre reparaciones realizadas</label>
+            </value>
+            <value>
+                <fullName>Hours down for reline and inspection per annum</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Hours down for reline and inspection per annum</label>
+            </value>
+            <value>
+                <fullName>Increase crusher fed processing rate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Increase crusher fed processing rate</label>
+            </value>
+            <value>
+                <fullName>increase in hours available per campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>increase in hours available per campaign</label>
+            </value>
+            <value>
+                <fullName>increase in tons processed per campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>increase in tons processed per campaign</label>
+            </value>
+            <value>
+                <fullName>Increase Mill fed processing rate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Increase Mill fed processing rate</label>
+            </value>
+            <value>
+                <fullName>Increase Mill fed processing rate_[TPH]</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Increase Mill fed processing rate [TPH]</label>
+            </value>
+            <value>
+                <fullName>Incremento de tiempo por campaña</fullName>
+                <default>false</default>
+                <label>Incremento de tiempo por campaña</label>
+            </value>
+            <value>
+                <fullName>Incremento en horas disponibles por campaña</fullName>
+                <default>false</default>
+                <label>Incremento en horas disponibles por campaña</label>
+            </value>
+            <value>
+                <fullName>Incremento en la capacidad de trabajo</fullName>
+                <default>false</default>
+                <label>Incremento en la capacidad de trabajo</label>
+            </value>
+            <value>
+                <fullName>Incremento en toneladas procesadas por campaña</fullName>
+                <default>false</default>
+                <label>Incremento en toneladas procesadas por campaña</label>
+            </value>
+            <value>
+                <fullName>Incremento tasa de procesamiento de alimentación del molino</fullName>
+                <default>false</default>
+                <label>Incremento tasa de procesamiento de alimentación del molino</label>
+            </value>
+            <value>
+                <fullName>Incremento tasa de procesamiento de alimentación del molino SAG</fullName>
+                <default>false</default>
+                <label>Incremento tasa de procesamiento de alimentación del molino SAG</label>
+            </value>
+            <value>
+                <fullName>Incremento tasa de procesamiento de alimentación de los chancadores</fullName>
+                <default>false</default>
+                <label>Incremento tasa de procesamiento de alimentación de los chancadores</label>
+            </value>
+            <value>
+                <fullName>Installation time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Installation time</label>
+            </value>
+            <value>
+                <fullName>Kg of scrap recovered</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Kg of scrap recovered</label>
+            </value>
+            <value>
+                <fullName>Kilogramos de chatarra recuperada sobre kilogramo vendido</fullName>
+                <default>false</default>
+                <label>Kilogramos de chatarra recuperada sobre kilogramo vendido</label>
+            </value>
+            <value>
+                <fullName>kilogramos de chatarra recuperadas sobre kilogramos de revestimiento vendidos</fullName>
+                <default>false</default>
+                <label>kilogramos de chatarra recuperadas sobre kilogramos de revestimiento vendidos</label>
+            </value>
+            <value>
+                <fullName>kilograms of scrap recovered per kilograms of liner sold</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>kilograms of scrap recovered per kilograms of liner sold</label>
+            </value>
+            <value>
+                <fullName>Material lost (gr lost in time)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Material lost (gr lost in time)</label>
+            </value>
+            <value>
+                <fullName>Material lost (gr lost per energy unit)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Material lost (gr lost per energy unit)</label>
+            </value>
+            <value>
+                <fullName>Material lost (kg lost per liner)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Material lost (kg lost per liner)</label>
+            </value>
+            <value>
+                <fullName>Number of operating hours adapters</fullName>
+                <default>false</default>
+                <label>Number of operating hours adapters</label>
+            </value>
+            <value>
+                <fullName>Number of operating hours between teeth</fullName>
+                <default>false</default>
+                <label>Number of operating hours between teeth</label>
+            </value>
+            <value>
+                <fullName>Number of operating hours lower reinforcements</fullName>
+                <default>false</default>
+                <label>Number of operating hours lower reinforcements</label>
+            </value>
+            <value>
+                <fullName>Personal safety for the installation of the GET</fullName>
+                <default>false</default>
+                <label>Personal safety for the installation of the GET</label>
+            </value>
+            <value>
+                <fullName>Processing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Processing</label>
+            </value>
+            <value>
+                <fullName>Product size</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Product size</label>
+            </value>
+            <value>
+                <fullName>Quantity of Ton moved per effective hour</fullName>
+                <default>false</default>
+                <label>Quantity of Ton moved per effective hour</label>
+            </value>
+            <value>
+                <fullName>Quantity Peak operating hours</fullName>
+                <default>false</default>
+                <label>Quantity Peak operating hours</label>
+            </value>
+            <value>
+                <fullName>Reducción consumo de acero</fullName>
+                <default>false</default>
+                <label>Reducción consumo de acero</label>
+            </value>
+            <value>
+                <fullName>Reducción consumo de bolas</fullName>
+                <default>false</default>
+                <label>Reducción consumo de bolas</label>
+            </value>
+            <value>
+                <fullName>Reducción consumo de energía específica en molino</fullName>
+                <default>false</default>
+                <label>Reducción consumo de energía específica en molino</label>
+            </value>
+            <value>
+                <fullName>Reducción de la cantidad de revestimientos en el molino</fullName>
+                <default>false</default>
+                <label>Reducción de la cantidad de revestimientos en el molino</label>
+            </value>
+            <value>
+                <fullName>Reducción de los tiempos de reparación</fullName>
+                <default>false</default>
+                <label>Reducción de los tiempos de reparación</label>
+            </value>
+            <value>
+                <fullName>Reducción del tamaño de producto a flotación P80</fullName>
+                <default>false</default>
+                <label>Reducción del tamaño de producto a flotación P80</label>
+            </value>
+            <value>
+                <fullName>Reducción en horas de exposición al riesgo (Horas hombre en molino por año)</fullName>
+                <default>false</default>
+                <label>Reducción en horas de exposición al riesgo (Horas hombre en molino por año)</label>
+            </value>
+            <value>
+                <fullName>Reducción en tamaño de producto</fullName>
+                <default>false</default>
+                <label>Reducción en tamaño de producto</label>
+            </value>
+            <value>
+                <fullName>Reducción en tasas de desgaste</fullName>
+                <default>false</default>
+                <label>Reducción en tasas de desgaste</label>
+            </value>
+            <value>
+                <fullName>Reducción en tiempos de instalación</fullName>
+                <default>false</default>
+                <label>Reducción en tiempos de instalación</label>
+            </value>
+            <value>
+                <fullName>Reducción peso de los revestimientos</fullName>
+                <default>false</default>
+                <label>Reducción peso de los revestimientos</label>
+            </value>
+            <value>
+                <fullName>Reduction in Ball consumption (g/hours)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in Ball consumption (g/hours)</label>
+            </value>
+            <value>
+                <fullName>Reduction in Ball consumption (g/kWh)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in Ball consumption (g/kWh)</label>
+            </value>
+            <value>
+                <fullName>Reduction in Ball consumption (g/ton)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in Ball consumption (g/ton)</label>
+            </value>
+            <value>
+                <fullName>Reduction in installation times</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in installation times</label>
+            </value>
+            <value>
+                <fullName>Reduction in product size</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in product size</label>
+            </value>
+            <value>
+                <fullName>Reduction in product size1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in product size_</label>
+            </value>
+            <value>
+                <fullName>Reduction in product size (P80)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in product size (P80)</label>
+            </value>
+            <value>
+                <fullName>Reduction in steel consumption</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in steel consumption</label>
+            </value>
+            <value>
+                <fullName>Reduction in the amount of liners inside the mill</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in the amount of liners inside the mill</label>
+            </value>
+            <value>
+                <fullName>Reduction in tones of the total weight of liners</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in tones of the total weight of liners</label>
+            </value>
+            <value>
+                <fullName>Reduction in wear rates</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in wear rates</label>
+            </value>
+            <value>
+                <fullName>Reduction in wear rates [mm/hours]</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction in wear rates [mm/hours]</label>
+            </value>
+            <value>
+                <fullName>Reduction of specific energy consumption in the mill</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reduction of specific energy consumption in the mill</label>
+            </value>
+            <value>
+                <fullName>SAG mill feed throughput rate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SAG mill feed throughput rate</label>
+            </value>
+            <value>
+                <fullName>SAG mill media consumption (energy)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SAG mill media consumption (energy)</label>
+            </value>
+            <value>
+                <fullName>SAG mill media consumption (operating time)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SAG mill media consumption (operating time)</label>
+            </value>
+            <value>
+                <fullName>SAG mill media consumption (throughput)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SAG mill media consumption (throughput)</label>
+            </value>
+            <value>
+                <fullName>SAG mill Specific Energy Consumption</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SAG mill Specific Energy Consumption</label>
+            </value>
+            <value>
+                <fullName>Scrap recovery</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Scrap recovery</label>
+            </value>
+            <value>
+                <fullName>Seguridad para las personas en la instalación y desinstalación de GET&#39;s</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Seguridad para las personas en la instalación y desinstalación de GET&#39;s</label>
+            </value>
+            <value>
+                <fullName>Steel consumption</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Steel consumption reduction [kg/campaign]</label>
+            </value>
+            <value>
+                <fullName>Steel consumption reduction [mm/Mton]</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Steel consumption reduction [mm/Mton]</label>
+            </value>
+            <value>
+                <fullName>Tiempo requerido por los mecánicos para instalar y desinstalar (Tiempo de recambio)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tiempo requerido por los mecánicos para instalar y desinstalar (Tiempo de recambio)</label>
+            </value>
+            <value>
+                <fullName>Time per GET change</fullName>
+                <default>false</default>
+                <label>Time per GET change</label>
+            </value>
+            <value>
+                <fullName>Toneladas movidas por juego de adapta-dores</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Toneladas movidas por juego de adaptadores</label>
+            </value>
+            <value>
+                <fullName>Toneladas movidas por juego de puntas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Toneladas movidas por juego de puntas</label>
+            </value>
+            <value>
+                <fullName>Ton move by game tips</fullName>
+                <default>false</default>
+                <label>Ton move by game tips</label>
+            </value>
+            <value>
+                <fullName>Ton moved by adapter game</fullName>
+                <default>false</default>
+                <label>Ton moved by adapter game</label>
+            </value>
+            <value>
+                <fullName>Ton moved by game between teeth</fullName>
+                <default>false</default>
+                <label>Ton moved by game between teeth</label>
+            </value>
+            <value>
+                <fullName>Ton moved by reinforcement</fullName>
+                <default>false</default>
+                <label>Ton moved by reinforcement</label>
+            </value>
+            <value>
+                <fullName>Tons processed by campaign</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tons processed by campaign</label>
+            </value>
+            <value>
+                <fullName>Total Cost of Ownership</fullName>
+                <default>false</default>
+                <label>Total Cost of Ownership</label>
+            </value>
+            <value>
+                <fullName>Wear reate</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Wear reate</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>TCO_Crushing</controllingFieldValue>
+            <controllingFieldValue>TCO_HiVB</controllingFieldValue>
+            <controllingFieldValue>TCO_Mill Liners</controllingFieldValue>
+            <valueName>Total Cost of Ownership</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Confiabilidad_HiVB</controllingFieldValue>
+            <valueName>Falla sobre reparaciones realizadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sustainability_Crushing</controllingFieldValue>
+            <valueName>Ahorro de emisión de huella de Carbono</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sustainability_Crushing</controllingFieldValue>
+            <controllingFieldValue>Sustainability_Mill Liners</controllingFieldValue>
+            <valueName>kilogramos de chatarra recuperadas sobre kilogramos de revestimiento vendidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Disponibilidad_HiVB</controllingFieldValue>
+            <valueName>Incremento de tiempo por campaña</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety_GET</controllingFieldValue>
+            <valueName>Personal safety for the installation of the GET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mantenibilidad_HiVB</controllingFieldValue>
+            <valueName>Reducción de los tiempos de reparación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCO_GET</controllingFieldValue>
+            <valueName>Decrease in dollar per ton moved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCO_GET</controllingFieldValue>
+            <valueName>Decrease in dollars per operating hour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TCO_GET</controllingFieldValue>
+            <valueName>Dollar cost per ton moved</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_HiVB</controllingFieldValue>
+            <valueName>Eficiencia de Trabajo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Availability_GET</controllingFieldValue>
+            <valueName>Time per GET change</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Procesamiento_HiVB</controllingFieldValue>
+            <valueName>Incremento en la capacidad de trabajo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Number of operating hours adapters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Number of operating hours between teeth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Number of operating hours lower reinforcements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Quantity of Ton moved per effective hour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Quantity Peak operating hours</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Ton move by game tips</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Ton moved by adapter game</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Ton moved by game between teeth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_GET</controllingFieldValue>
+            <valueName>Ton moved by reinforcement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguridad_HiVB</controllingFieldValue>
+            <controllingFieldValue>Safety_Crushing</controllingFieldValue>
+            <valueName>Exposición al riesgo (Horas hombre en equipo por año)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety_Grinding Media</controllingFieldValue>
+            <valueName>Cantidad de camiones en la carretera al mes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Recuperation_Grinding Media</controllingFieldValue>
+            <controllingFieldValue>Recuperation_Mill Liners</controllingFieldValue>
+            <valueName>Reducción del tamaño de producto a flotación P80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sustentabilidad_HiVB</controllingFieldValue>
+            <valueName>Kilogramos de chatarra recuperada sobre kilogramo vendido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processing_Grinding Media</controllingFieldValue>
+            <controllingFieldValue>Processing_Mill Liners</controllingFieldValue>
+            <valueName>Incremento tasa de procesamiento de alimentación del molino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Availability_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Availability_Crushing</controllingFieldValue>
+            <controllingFieldValue>Availability</controllingFieldValue>
+            <valueName>Incremento en horas disponibles por campaña</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Availability_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Availability_Crushing</controllingFieldValue>
+            <controllingFieldValue>Availability</controllingFieldValue>
+            <valueName>Incremento en toneladas procesadas por campaña</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintainability_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Mantenaibility</controllingFieldValue>
+            <controllingFieldValue>Maintainability_Crushing</controllingFieldValue>
+            <controllingFieldValue>Wear Performance</controllingFieldValue>
+            <valueName>Reducción en tiempos de instalación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintainability_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Mantenaibility</controllingFieldValue>
+            <valueName>Reducción de la cantidad de revestimientos en el molino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Maintainability_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Mantenaibility</controllingFieldValue>
+            <valueName>Reducción peso de los revestimientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processing_Mill Liners</controllingFieldValue>
+            <valueName>Incremento tasa de procesamiento de alimentación del molino SAG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <valueName>Exposure to risk (Man hours in equipment per year)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Security</controllingFieldValue>
+            <controllingFieldValue>Safety_Mill Liners</controllingFieldValue>
+            <valueName>Reducción en horas de exposición al riesgo (Horas hombre en molino por año)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reliability_Mill Liners</controllingFieldValue>
+            <valueName>Fallas en liners sobre liners instaladas por campaña</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear performance_Mill Liners</controllingFieldValue>
+            <controllingFieldValue>Wear Performance</controllingFieldValue>
+            <valueName>Reducción en tasas de desgaste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processing_Crushing</controllingFieldValue>
+            <valueName>Incremento tasa de procesamiento de alimentación de los chancadores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Processing_Crushing</controllingFieldValue>
+            <valueName>Reducción en tamaño de producto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reliability_Crushing</controllingFieldValue>
+            <controllingFieldValue>Reliability</controllingFieldValue>
+            <valueName>% de falla de revestimientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Performance_Grinding Media</controllingFieldValue>
+            <valueName>Reducción consumo de bolas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear performance_Crushing</controllingFieldValue>
+            <valueName>Reducción consumo de acero</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

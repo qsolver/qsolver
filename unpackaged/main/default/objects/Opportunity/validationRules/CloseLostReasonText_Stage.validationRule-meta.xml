@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CloseLostReasonText_Stage</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+
+ TEXT(StageName) = &quot;Closed Lost&quot;,
+ISBLANK( Reason_Lost_Text__c)
+)</errorConditionFormula>
+    <errorDisplayField>Reason_Lost_Text__c</errorDisplayField>
+    <errorMessage>Please fill in the following field Reason Lost Text</errorMessage>
+</ValidationRule>

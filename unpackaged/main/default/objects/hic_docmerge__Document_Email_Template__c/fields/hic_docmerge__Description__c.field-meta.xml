@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>hic_docmerge__Description__c</fullName>
+    <deprecated>false</deprecated>
+    <description>This field is used for email template description</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field is used for email template description</inlineHelpText>
+    <label>Description</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

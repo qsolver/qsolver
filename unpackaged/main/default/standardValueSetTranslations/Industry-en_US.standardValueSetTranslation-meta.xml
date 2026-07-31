@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>AEROSPACE &amp; DEFENSE</masterLabel>
+        <translation><!-- AEROSPACE &amp; DEFENSE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>AGGREGATE</masterLabel>
+        <translation><!-- AGGREGATE --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CONSTRUCTION</masterLabel>
+        <translation><!-- CONSTRUCTION --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>ENERGY</masterLabel>
+        <translation><!-- ENERGY --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>GOVERNMENT</masterLabel>
+        <translation><!-- GOVERNMENT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MANUFACTURING</masterLabel>
+        <translation><!-- MANUFACTURING --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>MINING</masterLabel>
+        <translation>MINING</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>OTHER</masterLabel>
+        <translation><!-- OTHER --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

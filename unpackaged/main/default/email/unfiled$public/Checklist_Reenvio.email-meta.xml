@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Checklist Reenvio</name>
+    <style>none</style>
+    <subject>Modificación de Orden en curso</subject>
+    <textOnly>La oportunidad se ha modificado
+
+{!Opportunity.Name}  
+Cuenta: {!Opportunity.Account}  
+Creado por: {!Opportunity.OwnerFullName}  
+Con fecha esperada de cierre: {!Opportunity.CloseDate}  
+Ultima fecha de modificacion: {!Opportunity.LastModifiedDate}
+Para revisar la oportunidad hacer click en el siguiente link: 
+Opportunidades</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Modelo</label>
+        <name>Modelo__c</name>
+        <picklistValues>
+            <masterLabel>2800 XPA</masterLabel>
+            <translation><!-- 2800 XPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2800 XPB</masterLabel>
+            <translation><!-- 2800 XPB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100</masterLabel>
+            <translation><!-- 4100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100 A</masterLabel>
+            <translation><!-- 4100 A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100 XPB</masterLabel>
+            <translation><!-- 4100 XPB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4100 XPC</masterLabel>
+            <translation><!-- 4100 XPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4800XPC</masterLabel>
+            <translation><!-- 4800XPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ex5500</masterLabel>
+            <translation><!-- Ex5500 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

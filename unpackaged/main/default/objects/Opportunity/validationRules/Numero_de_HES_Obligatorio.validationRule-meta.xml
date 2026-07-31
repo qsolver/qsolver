@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_HES_Obligatorio</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISBLANK(Numero_de_HES__c), ISPICKVAL(StageName, &quot;Closed Won&quot;),  RecordType.Name == &#39;Component Services&#39;,  ELM_Equipo_de_Ventas__c == &#39;SouthAmerica&#39;)</errorConditionFormula>
+    <errorDisplayField>Numero_de_HES__c</errorDisplayField>
+    <errorMessage>Revisar el campo Número de HES /// Review the HES Number field</errorMessage>
+</ValidationRule>

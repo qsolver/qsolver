@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Plant --></label>
+        <name>Plant__c</name>
+        <picklistValues>
+            <masterLabel>Alliant</masterLabel>
+            <translation><!-- Alliant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DULUTH</masterLabel>
+            <translation><!-- DULUTH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Naipu</masterLabel>
+            <translation><!-- Naipu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEMPE FLOOR</masterLabel>
+            <translation><!-- TEMPE FLOOR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEMPE LOOP</masterLabel>
+            <translation><!-- TEMPE LOOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valley Forge</masterLabel>
+            <translation><!-- Valley Forge --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

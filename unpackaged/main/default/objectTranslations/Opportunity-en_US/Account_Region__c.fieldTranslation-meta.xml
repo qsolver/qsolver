@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculated field that brings the region from Accounts, 
+(it will cease to exist when NA is integrated) --></help>
+        <label><!-- Account Region --></label>
+        <name>Account_Region__c</name>
+    </CustomFieldTranslation>

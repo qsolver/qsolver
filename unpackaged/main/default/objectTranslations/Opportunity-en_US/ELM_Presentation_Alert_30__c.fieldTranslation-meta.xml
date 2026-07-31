@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- This is the status that helps you define the proposal for the client --></help>
+        <label><!-- Proposal Status --></label>
+        <name>ELM_Presentation_Alert_30__c</name>
+    </CustomFieldTranslation>

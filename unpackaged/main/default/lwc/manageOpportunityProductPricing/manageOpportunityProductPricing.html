@@ -1,0 +1,131 @@
+<template>
+
+    <template if:false={useModal}>
+        <div style="background-color:white;">
+        <lightning-layout>
+            <!-- <div  class="slds-m-left_small slds-m-top_xxx-small slds-m-bottom_small" style="background-color:white;"> -->
+            <lightning-layout-item padding="around-small">
+                <lightning-button label="Manage Pricing" variant="brand"  title="Manage Pricing" onclick={handleManagePricing}></lightning-button>
+            </lightning-layout-item>
+            <!-- </div> -->
+        </lightning-layout>
+        </div>
+    </template>
+
+    <template if:true={useModal}>  
+        <div class="slds-modal slds-fade-in-open slds-backdrop">  
+          <div class="slds-modal__container">  
+
+            <!-- Header Section -->  
+            <div class="slds-modal__header">  
+              <lightning-button-icon icon-name="utility:close" alternative-text="Close" size="large" variant="bare-inverse" onclick={closeModal} class="slds-modal__close"></lightning-button-icon>  
+              <h2>Manage Opportunity Product Pricing</h2>  
+            </div>  
+            <!-- Header Section -->
+
+
+            <!-- Body Section -->  
+            <div class="slds-modal__content slds-p-around_medium">  
+
+                <template if:true={showSpinner}>
+                    <div class="slds-is-relative">  
+                        <lightning-spinner alternative-text="Loading" size="small" ></lightning-spinner>
+                    </div>
+                </template>
+                
+
+
+            <template if:true={opportunityProductExist}>
+
+                <template if:true={Opportunity}>
+                    <template if:true={Opportunity.Pricebook2}>
+                        <strong>{Opportunity.Pricebook2.Name}</strong> - price book in use.
+                        <br></br>
+                    </template>
+                </template>
+
+                <div class="slds-grid slds-grid--vertical-align-center slds-grid--vertical-align-top slds-m-top_small slds-gutters_xx-small slds-text-align_left">
+                    <div class="slds-col slds-size_6-of-12"><span style="font-weight: bold;">Product Name</span></div>
+                    <!-- <div class="slds-col slds-size_1-of-12 slds-grow-none" style="min-width: 75;"><span style="font-weight: bold;">Quantity</span></div> -->
+                    <div class="slds-col slds-size_3-of-12 slds-grow-none slds-float--right" style="min-width: 75px;"><span class="slds-float--right" style="font-weight: bold;">Unit Price</span></div>
+                    <div class="slds-col slds-size_3-of-12 slds-grow-none slds-float--right" style="min-width: 75px;"><span class="slds-float--right" style="font-weight: bold;">List Price</span></div>
+                </div>
+
+                <template iterator:it={OpportunityLineItems}>
+
+                    <div key={it.value.Id} class="slds-grid slds-grid--vertical-align-center slds-grid--vertical-align-top slds-m-top_small slds-gutters_xx-small slds-text-align_left">
+                        
+                        <div class="slds-col slds-size_6-of-12 slds-align-top">
+                            <!-- <template if:true={it.value.Product2}> -->
+                                <!-- <lightning-input disabled variant="label-hidden" type="text" value={it.value.Product2.Name}></lightning-input> -->
+                                <lightning-formatted-text value={it.value.oli.Product2.Name} ></lightning-formatted-text>
+                            <!-- </template> -->
+                        </div>
+
+                        <!-- <div class="slds-col slds-size_1-of-12 slds-shrink-none slds-grow-none slds-align-top" style="min-width: 75px;">
+                                <lightning-input disabled data-item={it.value.Id} variant="label-hidden" type="text" onchange={handleChangeQuantity} value={it.value.Quantity}></lightning-input>
+                        </div> -->
+                        
+                        <div class="slds-col slds-size_3-of-12 slds-shrink-none slds-grow-none slds-align-top" style="min-width: 75px;">
+                            <!-- <lightning-input disabled data-item={it.value.Id} formatter="currency" step="0.01" variant="label-hidden" type="number" value={it.value.UnitPrice}></lightning-input> -->
+                        
+                            <template if:true={it.value.PricesMatch}>
+                                <lightning-formatted-number disabled class="slds-float--right" format-style="currency" currency-code="USD" value={it.value.oli.UnitPrice} style="color:black;"></lightning-formatted-number>
+                            </template>
+                            <template if:false={it.value.PricesMatch}>
+                                <lightning-formatted-number disabled class="slds-float--right" format-style="currency" currency-code="USD" value={it.value.oli.UnitPrice} style="color:darkred;"></lightning-formatted-number>
+                            </template>
+                        
+                        </div>
+                        <div class="slds-col slds-size_3-of-12 slds-shrink-none slds-grow-none slds-align-top" style="min-width: 75px;">
+                            <!-- <lightning-input disabled data-item={it.value.Id} formatter="currency" step="0.01" variant="label-hidden" type="number" value={it.value.ListPrice}></lightning-input> -->
+                            <lightning-formatted-number disabled class="slds-float--right" format-style="currency" currency-code="USD" value={it.value.oli.ListPrice}></lightning-formatted-number>
+                        </div>
+                        
+                    </div>
+
+                </template>
+
+                <br></br>
+
+            </template>
+
+            <template if:false={opportunityProductExist}>
+                No Opportunity Products exist.
+            </template>
+
+            
+
+            <template if:true={error}>
+                <div class="slds-m-top_small">
+                    <span style="color:darkred">{error}</span>
+                </div>
+            </template>
+
+            <template if:true={message}>
+                <div class="slds-m-top_small " style="width:100%;">
+                    <span class="slds-align_absolute-center" style="width:100%; color:darkgreen"><strong>{message}</strong></span>
+                </div>
+            </template>
+
+            </div>  
+            <!-- Body Section --> 
+
+
+            <!-- Footer Section -->  
+            <div class="slds-modal__footer">  
+
+                <template if:true={OpportunityLineItems.length}>
+                    <lightning-button class="slds-p-right_small" label="Update Pricing" variant="brand" onclick={updatePricing}></lightning-button>
+                </template>
+                
+                <lightning-button label="Close" variant="brand" onclick={closeModal}></lightning-button>  
+
+            </div>  
+            <!-- Footer Section --> 
+
+          </div>  
+        </div>  
+      </template>  
+
+</template>

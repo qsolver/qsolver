@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Resumen de Visita / Evento</help>
+        <label>Resumen de la visita/evento</label>
+        <name>Summary_of_Visit_Event__c</name>
+    </CustomFieldTranslation>

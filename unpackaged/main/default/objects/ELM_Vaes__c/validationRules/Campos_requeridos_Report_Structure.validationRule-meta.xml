@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campos_requeridos_Report_Structure</fullName>
+    <active>true</active>
+    <description>Los campos de la sección de Report estructura son requeridos para el paso a Aprobación</description>
+    <errorConditionFormula>AND( ISCHANGED(ELM_Status__c),
+  ISPICKVAL(ELM_Status__c, &quot;Sent For Approval&quot;),
+  OR(
+    LEN(TRIM(ELM_Resumen__c)) = 0,
+    LEN(TRIM(ELM_Definicion_de_la_linea_base__c)) = 0,
+    LEN(TRIM(ELM_Mejoras_Feedback__c)) = 0,
+    LEN(TRIM(ELM_Resultados_y_conclusiones__c)) = 0,
+    LEN(TRIM(ELM_Definicion_de_la_oportunidad__c)) = 0,
+    LEN(TRIM(ELM_Solucion_propuesta__c)) = 0,
+    LEN(TRIM(ELM_Resultado_mas_importante__c)) = 0
+  )
+)</errorConditionFormula>
+    <errorMessage>Todos los campos de la sección Estructura de reporte deben estar completos antes de pasar a Testing Protocol o Sent For Approval</errorMessage>
+</ValidationRule>

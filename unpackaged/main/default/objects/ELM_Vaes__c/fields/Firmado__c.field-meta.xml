@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firmado__c</fullName>
+    <inlineHelpText>Indicates whether or not the VAES was signed with the client</inlineHelpText>
+    <label>Firmado por el cliente?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Signed</fullName>
+                <default>false</default>
+                <label>Con Firma</label>
+            </value>
+            <value>
+                <fullName>Not Signed</fullName>
+                <default>false</default>
+                <label>Sin Firma</label>
+            </value>
+            <value>
+                <fullName>Not finished</fullName>
+                <default>false</default>
+                <label>No Finalizado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

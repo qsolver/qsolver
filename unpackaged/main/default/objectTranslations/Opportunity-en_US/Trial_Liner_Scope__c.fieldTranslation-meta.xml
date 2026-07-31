@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Opportunity Scope --></label>
+        <name>Trial_Liner_Scope__c</name>
+        <picklistValues>
+            <masterLabel>Full Mill or Crusher</masterLabel>
+            <translation><!-- Full Mill or Crusher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Mill or Crusher</masterLabel>
+            <translation><!-- Partial Mill or Crusher --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

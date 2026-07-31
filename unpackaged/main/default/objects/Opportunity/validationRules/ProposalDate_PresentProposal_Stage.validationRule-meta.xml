@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProposalDate_PresentProposal_Stage</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+ OR(RecordType.Name = &quot;Grinding Media&quot;,RecordType.Name = &quot;Trial Sale&quot;),
+ TEXT(StageName) = &quot;Present Proposal&quot;,
+ ISBLANK (  ELM_Proposal_Date_Real__c  )
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Proposal_Date_Real__c</errorDisplayField>
+    <errorMessage>Please fill in the following field Proposal Date (Real)</errorMessage>
+</ValidationRule>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indicates whether the VAES has the approval of the Sales Assistant Manager --></help>
+        <label><!-- Aprobado por Subgerente de Ventas? --></label>
+        <name>Aprobado_por_Subgerente_de_Ventas__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation><!-- Si --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

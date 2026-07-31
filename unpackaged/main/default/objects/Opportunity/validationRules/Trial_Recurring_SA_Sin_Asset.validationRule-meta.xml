@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Trial_Recurring_SA_Sin_Asset</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+
+    OR(
+        TEXT(Account.ELM_Equipo_de_Ventas__c) = &quot;SouthAmerica&quot;,
+        TEXT(Account.ELM_Equipo_de_Ventas__c) = &quot;SURAMERICA&quot;
+    ),
+
+    OR(
+
+        AND(
+            $RecordType.DeveloperName = &quot;Trial_Sale&quot;,
+            ISNEW(),
+            NOT(ISPICKVAL(StageName , &quot;Qualify Opportunity&quot;))
+        ),
+
+        AND(
+            $RecordType.DeveloperName = &quot;Recurring_Sale&quot;,
+            ISNEW(),
+            NOT(ISPICKVAL(StageName , &quot;Qualification&quot;))
+        )
+
+    )
+)</errorConditionFormula>
+    <errorMessage>La oportunidad debe crearse en la primera etapa del proceso comercial.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Status --></label>
+        <name>ELM_Status__c</name>
+        <picklistValues>
+            <masterLabel>Already Exists</masterLabel>
+            <translation><!-- Already Exists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Asset Created</masterLabel>
+            <translation><!-- Asset Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

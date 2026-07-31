@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Reajuste: --></label>
+        <name>EM_Reajuste__c</name>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semestral</masterLabel>
+            <translation><!-- Semestral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot</masterLabel>
+            <translation>Lugar</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trimestral</masterLabel>
+            <translation><!-- Trimestral --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

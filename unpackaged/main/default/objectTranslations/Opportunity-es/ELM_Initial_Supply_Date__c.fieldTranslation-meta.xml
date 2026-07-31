@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Fecha inicial del ongoing supply</help>
+        <label>Fecha de suministro inicial</label>
+        <name>ELM_Initial_Supply_Date__c</name>
+    </CustomFieldTranslation>

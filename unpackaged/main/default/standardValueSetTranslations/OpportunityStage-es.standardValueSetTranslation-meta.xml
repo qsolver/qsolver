@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>1 Opportunity Information</masterLabel>
+        <translation>1 Creación de la Oportunidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>2 Qualification</masterLabel>
+        <translation>2 Clasificación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>3 Decision Makers</masterLabel>
+        <translation>3 Tomadores de decisión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>4 Quotation</masterLabel>
+        <translation>4 Cotización</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>5 Develop Tec &amp; Com</masterLabel>
+        <translation>5 Desarrollo Tec &amp; Com</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>6 Present Proposal</masterLabel>
+        <translation>6 Presentación de Propuesta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>7 Negotiation / Review</masterLabel>
+        <translation>7 Negociación / revisión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Activation</masterLabel>
+        <translation>Cotizado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Assign Technical Support Resource(s)</masterLabel>
+        <translation>Asignar recursos de soporte técnico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Capture</masterLabel>
+        <translation>Captura</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed - Inactive</masterLabel>
+        <translation>Cerrada - Inactiva</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Lost</masterLabel>
+        <translation>Cerrada - Perdida</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed Won</masterLabel>
+        <translation>Cerrada - Ganada</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed-Plan</masterLabel>
+        <translation>Plan Cerrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commercial Proposal</masterLabel>
+        <translation>Propuesta comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Commercial Proposal (Trial)</masterLabel>
+        <translation>Propuesta Comercial (Prueba)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Create Account Plan</masterLabel>
+        <translation>Crear plan de cuenta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Develop Commercial Proposal</masterLabel>
+        <translation>Desarrollar propuesta comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Develop Tech and Comm proposal</masterLabel>
+        <translation>Desarrollar propuesta de tecnología y comunicación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Develop Technical Proposal</masterLabel>
+        <translation>Desarrollar propuesta técnica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Evaluation</masterLabel>
+        <translation>Evaluado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Execution</masterLabel>
+        <translation>Activado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Final Technical Proposal (Trial)</masterLabel>
+        <translation>Propuesta Técnica Final (Prueba)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Finalise Commercial Agreement</masterLabel>
+        <translation>Finalizar acuerdo comercial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>First Pass Technical Proposal (Trial)</masterLabel>
+        <translation>Propuesta técnica de primera aprobación (prueba)</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Identify &amp; Engage Decision Makers</masterLabel>
+        <translation><!-- Identify &amp; Engage Decision Makers --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Identify Decision Makers</masterLabel>
+        <translation><!-- Identify Decision Makers --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Install</masterLabel>
+        <translation><!-- Install --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Interim Report(s)</masterLabel>
+        <translation><!-- Interim Report(s) --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Invoiced</masterLabel>
+        <translation>Facturado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Manufacture and Ship</masterLabel>
+        <translation><!-- Manufacture and Ship --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Meeting Scheduled</masterLabel>
+        <translation><!-- Meeting Scheduled --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Negotiation/Review</masterLabel>
+        <translation><!-- Negotiation/Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Obtain PO</masterLabel>
+        <translation><!-- Obtain PO --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Opportunity Detection</masterLabel>
+        <translation>Detección de oportunidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Present Proposal</masterLabel>
+        <translation><!-- Present Proposal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Proposal/Price Quote</masterLabel>
+        <translation><!-- Proposal/Price Quote --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualification</masterLabel>
+        <translation><!-- Qualification --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Qualify Opportunity</masterLabel>
+        <translation><!-- Qualify Opportunity --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Release</masterLabel>
+        <translation>Despachado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Review Technical Proposal</masterLabel>
+        <translation><!-- Review Technical Proposal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>SOP</masterLabel>
+        <translation><!-- SOP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Site Visit</masterLabel>
+        <translation><!-- Site Visit --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Proposal</masterLabel>
+        <translation>Propuesta técnica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>To Invoice</masterLabel>
+        <translation>Por facturar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Update Account Plan</masterLabel>
+        <translation><!-- Update Account Plan --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Update Commercial Proposal</masterLabel>
+        <translation><!-- Update Commercial Proposal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Update Decision Makers</masterLabel>
+        <translation><!-- Update Decision Makers --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Validate Opportunity with Decision Makers</masterLabel>
+        <translation><!-- Validate Opportunity with Decision Makers --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

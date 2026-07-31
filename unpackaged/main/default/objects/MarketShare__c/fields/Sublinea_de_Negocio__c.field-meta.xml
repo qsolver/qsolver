@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sublinea_de_Negocio__c</fullName>
+    <label>Sublínea de Negocio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Piezas de Desgaste / Fundido</fullName>
+                <default>false</default>
+                <label>Piezas de Desgaste / Fundido</label>
+            </value>
+            <value>
+                <fullName>Repuestos</fullName>
+                <default>false</default>
+                <label>Repuestos</label>
+            </value>
+            <value>
+                <fullName>Servicios reparación</fullName>
+                <default>false</default>
+                <label>Servicios reparación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

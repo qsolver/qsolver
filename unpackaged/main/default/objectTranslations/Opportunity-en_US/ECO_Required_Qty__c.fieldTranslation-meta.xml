@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Required amount --></help>
+        <label><!-- ECO Required Qty --></label>
+        <name>ECO_Required_Qty__c</name>
+    </CustomFieldTranslation>

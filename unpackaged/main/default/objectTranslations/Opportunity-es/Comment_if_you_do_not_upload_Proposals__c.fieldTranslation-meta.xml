@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Comment if you do not upload Proposals --></help>
+        <label>Dejar comentario; en caso de no subir</label>
+        <name>Comment_if_you_do_not_upload_Proposals__c</name>
+    </CustomFieldTranslation>

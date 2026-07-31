@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Base_Unit_of_Measure__c</fullName>
+    <label>Base Unit of Measure</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C/U</fullName>
+                <default>false</default>
+                <label>C/U</label>
+            </value>
+            <value>
+                <fullName>UP</fullName>
+                <default>false</default>
+                <label>UP</label>
+            </value>
+            <value>
+                <fullName>UN</fullName>
+                <default>false</default>
+                <label>UN</label>
+            </value>
+            <value>
+                <fullName>EA</fullName>
+                <default>false</default>
+                <label>EA</label>
+            </value>
+            <value>
+                <fullName>AU</fullName>
+                <default>false</default>
+                <label>AU</label>
+            </value>
+            <value>
+                <fullName>T</fullName>
+                <default>false</default>
+                <label>T</label>
+            </value>
+            <value>
+                <fullName>ST</fullName>
+                <default>false</default>
+                <label>ST</label>
+            </value>
+            <value>
+                <fullName>C/U (Cada Uno)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>C/U (Cada Uno)</label>
+            </value>
+            <value>
+                <fullName>KG (Kilogramo)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>KG (Kilogramo)</label>
+            </value>
+            <value>
+                <fullName>UN (Unidad)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>UN (Unidad)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

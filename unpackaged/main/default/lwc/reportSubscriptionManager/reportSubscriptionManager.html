@@ -1,0 +1,271 @@
+<template>
+    <lightning-card title="Report Subscriptions" icon-name="standard:report">
+        <!-- ─── Action Header ─────────────────────────────────────────── -->
+        <div slot="actions">
+            <lightning-button
+                label="New Subscription"
+                variant="brand"
+                icon-name="utility:add"
+                onclick={handleNewSubscription}
+            ></lightning-button>
+        </div>
+
+        <div class="slds-p-around_medium">
+            <!-- ─── Loading Spinner ──────────────────────────────────── -->
+            <template if:true={isLoading}>
+                <div class="slds-align_absolute-center slds-p-around_large">
+                    <lightning-spinner alternative-text="Loading" size="medium"></lightning-spinner>
+                </div>
+            </template>
+
+            <!-- ─── Subscription Form (New / Edit) ───────────────────── -->
+            <template if:true={showForm}>
+                <div class="slds-box slds-theme_shade slds-m-bottom_medium subscription-form">
+                    <h2 class="slds-text-heading_small slds-m-bottom_medium">
+                        <lightning-icon icon-name={formIcon} size="small" class="slds-m-right_x-small"></lightning-icon>
+                        {formTitle}
+                    </h2>
+
+                    <!-- Report Selection -->
+                    <div class="slds-grid slds-wrap slds-gutters">
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-m-bottom_small">
+                            <div class="slds-form-element">
+                                <label class="slds-form-element__label">
+                                    <abbr class="slds-required" title="required">*</abbr>Select Report
+                                </label>
+                                <div class="slds-form-element__control">
+                                    <div class={reportDropdownClass} aria-expanded={showReportDropdown} aria-haspopup="listbox" role="combobox">
+                                        <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_left-right" role="none">
+                                            <lightning-icon icon-name="utility:search" size="xx-small" class="slds-icon slds-input__icon slds-input__icon_left slds-icon-text-default"></lightning-icon>
+                                            <input
+                                                type="text"
+                                                class="slds-input slds-combobox__input"
+                                                placeholder="Search reports..."
+                                                value={reportSearchTerm}
+                                                oninput={handleReportSearch}
+                                                onfocus={handleReportSearchFocus}
+                                                onblur={handleReportSearchBlur}
+                                                autocomplete="off"
+                                                aria-label="Search reports"
+                                            />
+                                            <template if:true={formData.reportId}>
+                                                <lightning-icon icon-name="utility:check" size="xx-small" class="slds-icon slds-input__icon slds-input__icon_right slds-icon-text-default" style="color:#2e844a;"></lightning-icon>
+                                            </template>
+                                        </div>
+                                        <template if:true={showReportDropdown}>
+                                            <div class="slds-dropdown slds-dropdown_fluid report-search-dropdown" role="listbox">
+                                                <ul class="slds-listbox slds-listbox_vertical" role="presentation">
+                                                    <template if:true={hasFilteredReports}>
+                                                        <template for:each={filteredReportOptions} for:item="opt">
+                                                            <li key={opt.value} role="presentation" class="slds-listbox__item">
+                                                                <span
+                                                                    class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small"
+                                                                    role="option"
+                                                                    data-value={opt.value}
+                                                                    data-label={opt.label}
+                                                                    onmousedown={handleReportSelect}
+                                                                >
+                                                                    <span class="slds-media__figure slds-listbox__option-icon">
+                                                                        <lightning-icon icon-name="standard:report" size="x-small"></lightning-icon>
+                                                                    </span>
+                                                                    <span class="slds-media__body">
+                                                                        <span class="slds-truncate">{opt.label}</span>
+                                                                    </span>
+                                                                </span>
+                                                            </li>
+                                                        </template>
+                                                    </template>
+                                                    <template if:false={hasFilteredReports}>
+                                                        <li role="presentation" class="slds-listbox__item">
+                                                            <span class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
+                                                                <span class="slds-media__body">
+                                                                    <span class="slds-truncate slds-text-color_weak">No reports found</span>
+                                                                </span>
+                                                            </span>
+                                                        </li>
+                                                    </template>
+                                                </ul>
+                                            </div>
+                                        </template>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2 slds-m-bottom_small">
+                            <lightning-combobox
+                                name="frequency"
+                                label="Frequency"
+                                value={formData.frequency}
+                                options={frequencyOptions}
+                                onchange={handleFormChange}
+                                required
+                            ></lightning-combobox>
+                        </div>
+                    </div>
+
+                    <div class="slds-grid slds-wrap slds-gutters">
+                        <!-- Day of Week (visible for Weekly) -->
+                        <template if:true={isWeekly}>
+                            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-m-bottom_small">
+                                <lightning-combobox
+                                    name="dayOfWeek"
+                                    label="Day of Week"
+                                    value={formData.dayOfWeek}
+                                    options={dayOfWeekOptions}
+                                    onchange={handleFormChange}
+                                    required
+                                ></lightning-combobox>
+                            </div>
+                        </template>
+
+                        <!-- Day of Month (visible for Monthly) -->
+                        <template if:true={isMonthly}>
+                            <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-m-bottom_small">
+                                <lightning-input
+                                    type="number"
+                                    name="dayOfMonth"
+                                    label="Day of Month"
+                                    value={formData.dayOfMonth}
+                                    min="1"
+                                    max="28"
+                                    onchange={handleFormChange}
+                                    required
+                                ></lightning-input>
+                            </div>
+                        </template>
+
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-m-bottom_small">
+                            <lightning-combobox
+                                name="preferredTime"
+                                label="Preferred Time"
+                                value={formData.preferredTime}
+                                options={timeOptions}
+                                onchange={handleFormChange}
+                                required
+                            ></lightning-combobox>
+                        </div>
+                        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-3 slds-m-bottom_small">
+                            <lightning-combobox
+                                name="attachmentFormat"
+                                label="Attachment Format"
+                                value={formData.attachmentFormat}
+                                options={formatOptions}
+                                onchange={handleFormChange}
+                                required
+                            ></lightning-combobox>
+                        </div>
+                    </div>
+
+                    <!-- ─── Subscribers Section (Inline) ──────────────── -->
+                    <div class="slds-m-top_medium slds-p-top_medium slds-border_top">
+                        <c-subscriber-list
+                            subscription-id={formData.id}
+                            subscribers={formSubscribers}
+                            onaddsubscriber={handleOpenAddModal}
+                            onremovesubscriber={handleRemoveFormSubscriber}
+                        ></c-subscriber-list>
+                    </div>
+
+                    <!-- Form Buttons -->
+                    <div class="slds-m-top_medium slds-text-align_right">
+                        <lightning-button label="Cancel" onclick={handleCancelForm} class="slds-m-right_x-small"></lightning-button>
+                        <lightning-button label="Save Subscription" variant="brand" onclick={handleSaveSubscription}></lightning-button>
+                    </div>
+                </div>
+            </template>
+
+            <!-- ─── Subscriptions List ───────────────────────────────── -->
+            <template if:false={showForm}>
+                <template if:true={hasSubscriptions}>
+                    <template for:each={subscriptions} for:item="sub">
+                        <div key={sub.Id} class="slds-box slds-m-bottom_small subscription-card">
+                            <div class="slds-grid slds-grid_vertical-align-center">
+                                <!-- Subscription Info -->
+                                <div class="slds-col slds-grow">
+                                    <div class="slds-grid slds-grid_vertical-align-center slds-m-bottom_xx-small">
+                                        <lightning-icon icon-name="standard:report" size="small" class="slds-m-right_x-small"></lightning-icon>
+                                        <h3 class="slds-text-heading_small slds-m-right_small">{sub.Report_Name__c}</h3>
+                                        <lightning-badge
+                                            label={sub.Frequency__c}
+                                            class="slds-m-right_xx-small"
+                                        ></lightning-badge>
+                                        <template if:true={sub.Is_Active__c}>
+                                            <lightning-badge label="Active" class="active-badge"></lightning-badge>
+                                        </template>
+                                        <template if:false={sub.Is_Active__c}>
+                                            <lightning-badge label="Inactive" class="inactive-badge"></lightning-badge>
+                                        </template>
+                                    </div>
+                                    <p class="slds-text-body_small slds-text-color_weak">
+                                        {sub.scheduleDisplay} &bull; Format: {sub.Attachment_Format__c}
+                                        &bull; {sub.subscriberCount} subscriber(s)
+                                    </p>
+                                </div>
+
+                                <!-- Actions -->
+                                <div class="slds-col slds-no-flex">
+                                    <lightning-button-group>
+                                        <lightning-button
+                                            label={sub.toggleLabel}
+                                            icon-name={sub.toggleIcon}
+                                            data-id={sub.Id}
+                                            data-active={sub.Is_Active__c}
+                                            onclick={handleToggleActive}
+                                        ></lightning-button>
+                                        <lightning-button
+                                            label="Edit"
+                                            icon-name="utility:edit"
+                                            data-id={sub.Id}
+                                            onclick={handleEditSubscription}
+                                        ></lightning-button>
+                                        <lightning-button
+                                            label="Delete"
+                                            icon-name="utility:delete"
+                                            variant="destructive-text"
+                                            data-id={sub.Id}
+                                            onclick={handleDeleteSubscription}
+                                        ></lightning-button>
+                                    </lightning-button-group>
+                                </div>
+                            </div>
+
+                            <!-- Subscriber List (Expanded when managed) -->
+                            <template if:true={sub.isExpanded}>
+                                <div class="slds-m-top_small slds-p-top_small slds-border_top">
+                                    <c-subscriber-list
+                                        subscription-id={sub.Id}
+                                        subscribers={sub.Report_Subscribers__r}
+                                        onaddsubscriber={handleOpenAddModalFromCard}
+                                        onremovesubscriber={handleRemoveSubscriber}
+                                    ></c-subscriber-list>
+                                </div>
+                            </template>
+                        </div>
+                    </template>
+                </template>
+
+                <!-- Empty State -->
+                <template if:false={hasSubscriptions}>
+                    <div class="slds-illustration slds-illustration_small slds-p-around_large slds-text-align_center">
+                        <lightning-icon icon-name="utility:report" size="large" class="slds-m-bottom_medium empty-icon"></lightning-icon>
+                        <h3 class="slds-text-heading_medium slds-m-bottom_x-small">No Subscriptions Yet</h3>
+                        <p class="slds-text-body_regular slds-text-color_weak">
+                            Create your first report subscription to start receiving automated report deliveries.
+                        </p>
+                    </div>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+
+    <!-- ─── Add Subscriber Modal ─────────────────────────────────────── -->
+    <template if:true={showAddModal}>
+        <c-add-subscriber-modal
+            subscription-id={activeSubscriptionId}
+            mode={addModalMode}
+            onclose={handleCloseAddModal}
+            onsubscriberadded={handleSubscriberAdded}
+            onsubscriberdata={handleSubscriberData}
+        ></c-add-subscriber-modal>
+    </template>
+</template>

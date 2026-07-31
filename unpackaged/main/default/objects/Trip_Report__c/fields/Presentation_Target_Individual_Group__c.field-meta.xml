@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Presentation_Target_Individual_Group__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Presentation (Target Individual / Group)</inlineHelpText>
+    <label>Presentation (Target Individual / Group)</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

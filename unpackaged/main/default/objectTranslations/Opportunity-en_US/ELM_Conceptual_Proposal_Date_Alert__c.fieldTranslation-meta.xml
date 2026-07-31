@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Status field for Conceptual Proposal, plan v/s real date --></help>
+        <label><!-- Con. Proposal Status --></label>
+        <name>ELM_Conceptual_Proposal_Date_Alert__c</name>
+    </CustomFieldTranslation>

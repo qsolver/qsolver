@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Annual  Consumption - Mill Liners --></label>
+            <section>Annual  Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - CH --></label>
+            <section>Annual Consumption - CH</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - GM --></label>
+            <section>Annual Consumption - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Competitor</layout>
+        <sections>
+            <label><!-- Annual  Consumption - Mill Liners --></label>
+            <section>Annual  Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - CH --></label>
+            <section>Annual Consumption - CH</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - GM --></label>
+            <section>Annual Consumption - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom: Account Layout</layout>
+        <sections>
+            <label><!-- Annual  Consumption - Mill Liners --></label>
+            <section>Annual  Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - CH --></label>
+            <section>Annual Consumption - CH</section>
+        </sections>
+        <sections>
+            <label><!-- Annual Consumption - GM --></label>
+            <section>Annual Consumption - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Owners --></label>
+            <section>Owners</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Log a Call --></label>
+        <name>LogaCallAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_Event</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_TaskAcc</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- WhatsApp --></label>
+        <name>WhatsApp</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Competitor --></label>
+        <name>Competitor</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Prospect --></label>
+        <name>Prospect</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only Integrator can modify Account Name --></errorMessage>
+        <name>AccountNameCannotChange</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You do not have permission to modify the record type. --></errorMessage>
+        <name>CannotChangeProspectRecordTypeToAnother</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Billing Address --></errorMessage>
+        <name>Competitor_BillingAddress</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Industry --></errorMessage>
+        <name>Competitor_Industry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in Phone --></errorMessage>
+        <name>Competitor_Phone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para crear la cuenta debes llenar primero el campo equipo de ventas --></errorMessage>
+        <name>Make_Sales_Team_Required_For_Prospect</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Account_Brief --></label>
+        <name>Account_Brief</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+</CustomObjectTranslation>

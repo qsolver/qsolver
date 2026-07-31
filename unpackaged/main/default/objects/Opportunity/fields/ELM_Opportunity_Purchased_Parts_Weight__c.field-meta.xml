@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Opportunity_Purchased_Parts_Weight__c</fullName>
+    <label>Opportunity Purchased Parts Weight</label>
+    <summarizedField>OpportunityLineItem.Total_Item_Weight__c</summarizedField>
+    <summaryFilterItems>
+        <field>OpportunityLineItem.ELM_Product_material_Type__c</field>
+        <operation>contains</operation>
+        <value>ZMCM,ZTPC,ZEPC,YPPC,ZTOP,ZEOP,ZEPI,ZTPU, ZTRR, ZTMZ,ZZCM</value>
+    </summaryFilterItems>
+    <summaryForeignKey>OpportunityLineItem.OpportunityId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

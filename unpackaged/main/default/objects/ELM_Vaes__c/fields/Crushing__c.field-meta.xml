@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Crushing__c</fullName>
+    <label>Crushing</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aceros Chilca</fullName>
+                <default>false</default>
+                <label>Aceros Chilca</label>
+            </value>
+            <value>
+                <fullName>Cepcor</fullName>
+                <default>false</default>
+                <label>Cepcor</label>
+            </value>
+            <value>
+                <fullName>Columbia Steel</fullName>
+                <default>false</default>
+                <label>Columbia Steel</label>
+            </value>
+            <value>
+                <fullName>FLS</fullName>
+                <default>false</default>
+                <label>FLS</label>
+            </value>
+            <value>
+                <fullName>FLSmith</fullName>
+                <default>false</default>
+                <label>FLSmith</label>
+            </value>
+            <value>
+                <fullName>Frog, Switch</fullName>
+                <default>false</default>
+                <label>Frog, Switch</label>
+            </value>
+            <value>
+                <fullName>Jansen</fullName>
+                <default>false</default>
+                <label>Jansen</label>
+            </value>
+            <value>
+                <fullName>MEPSA</fullName>
+                <default>false</default>
+                <label>MEPSA</label>
+            </value>
+            <value>
+                <fullName>Metso</fullName>
+                <default>false</default>
+                <label>Metso</label>
+            </value>
+            <value>
+                <fullName>Metso Outec</fullName>
+                <default>false</default>
+                <label>Metso Outec</label>
+            </value>
+            <value>
+                <fullName>Pectiction and Castech</fullName>
+                <default>false</default>
+                <label>Pectiction and Castech</label>
+            </value>
+            <value>
+                <fullName>Sandvik</fullName>
+                <default>false</default>
+                <label>Sandvik</label>
+            </value>
+            <value>
+                <fullName>Sorena</fullName>
+                <default>false</default>
+                <label>Sorena</label>
+            </value>
+            <value>
+                <fullName>VDL</fullName>
+                <default>false</default>
+                <label>VDL</label>
+            </value>
+            <value>
+                <fullName>Weir/ESCO</fullName>
+                <default>false</default>
+                <label>Weir/ESCO</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
