@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Linea_de_Negocio_OPP2__c</fullName>
+    <label>Sub Linea de Negocio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>ELM_Line_of_Business__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administración de Contratos</fullName>
+                <default>false</default>
+                <label>Administración de Contratos</label>
+            </value>
+            <value>
+                <fullName>Asesoria</fullName>
+                <default>false</default>
+                <label>Asesoria</label>
+            </value>
+            <value>
+                <fullName>Barras</fullName>
+                <default>false</default>
+                <label>Barras</label>
+            </value>
+            <value>
+                <fullName>BOLAS</fullName>
+                <default>false</default>
+                <label>BOLAS</label>
+            </value>
+            <value>
+                <fullName>Cargadores frontales</fullName>
+                <default>false</default>
+                <label>Cargadores frontales</label>
+            </value>
+            <value>
+                <fullName>Cast Inserts Polyfit</fullName>
+                <default>false</default>
+                <label>Cast Inserts Polyfit</label>
+            </value>
+            <value>
+                <fullName>Chancadores</fullName>
+                <default>false</default>
+                <label>Chancadores</label>
+            </value>
+            <value>
+                <fullName>Chatarra</fullName>
+                <default>false</default>
+                <label>Chatarra</label>
+            </value>
+            <value>
+                <fullName>Chutes</fullName>
+                <default>false</default>
+                <label>Chutes</label>
+            </value>
+            <value>
+                <fullName>Clasificación de scrap de bolas</fullName>
+                <default>false</default>
+                <label>Clasificación de scrap de bolas</label>
+            </value>
+            <value>
+                <fullName>Dispositivos</fullName>
+                <default>false</default>
+                <label>Dispositivos</label>
+            </value>
+            <value>
+                <fullName>Equipos Auxiliares</fullName>
+                <default>false</default>
+                <label>Equipos Auxiliares</label>
+            </value>
+            <value>
+                <fullName>FerryCapitain</fullName>
+                <default>false</default>
+                <label>FerryCapitain</label>
+            </value>
+            <value>
+                <fullName>Fragmentadoras</fullName>
+                <default>false</default>
+                <label>Fragmentadoras</label>
+            </value>
+            <value>
+                <fullName>Grinding Media</fullName>
+                <default>false</default>
+                <label>Grinding Media</label>
+            </value>
+            <value>
+                <fullName>Harneros</fullName>
+                <default>false</default>
+                <label>Harneros</label>
+            </value>
+            <value>
+                <fullName>Herramientas de desgaste</fullName>
+                <default>false</default>
+                <label>Herramientas de desgaste</label>
+            </value>
+            <value>
+                <fullName>HPGR</fullName>
+                <default>false</default>
+                <label>HPGR</label>
+            </value>
+            <value>
+                <fullName>ImpactFinder</fullName>
+                <default>false</default>
+                <label>ImpactFinder</label>
+            </value>
+            <value>
+                <fullName>Laser 3D</fullName>
+                <default>false</default>
+                <label>Laser 3D</label>
+            </value>
+            <value>
+                <fullName>Mandibulas</fullName>
+                <default>false</default>
+                <label>Mandibulas</label>
+            </value>
+            <value>
+                <fullName>Martillos</fullName>
+                <default>false</default>
+                <label>Martillos</label>
+            </value>
+            <value>
+                <fullName>Med Min Perú</fullName>
+                <default>false</default>
+                <label>Med Min Perú</label>
+            </value>
+            <value>
+                <fullName>Molienda</fullName>
+                <default>false</default>
+                <label>Molienda</label>
+            </value>
+            <value>
+                <fullName>Molino vertical</fullName>
+                <default>false</default>
+                <label>Molino vertical</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de desgaste</fullName>
+                <default>false</default>
+                <label>Monitoreo de desgaste</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de Procesos</fullName>
+                <default>false</default>
+                <label>Monitoreo de Procesos</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de Sistemas Mecánicos</fullName>
+                <default>false</default>
+                <label>Monitoreo de Sistemas Mecánicos</label>
+            </value>
+            <value>
+                <fullName>Movimiento de Tierra</fullName>
+                <default>false</default>
+                <label>Movimiento de Tierra</label>
+            </value>
+            <value>
+                <fullName>Ollas</fullName>
+                <default>false</default>
+                <label>Ollas</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Palas</fullName>
+                <default>false</default>
+                <label>Palas</label>
+            </value>
+            <value>
+                <fullName>Palas de Cable</fullName>
+                <default>false</default>
+                <label>Palas de Cable</label>
+            </value>
+            <value>
+                <fullName>Palas Hidráulicas</fullName>
+                <default>false</default>
+                <label>Palas Hidráulicas</label>
+            </value>
+            <value>
+                <fullName>Pernos</fullName>
+                <default>false</default>
+                <label>Pernos</label>
+            </value>
+            <value>
+                <fullName>Piezas de Desgaste / Fundido</fullName>
+                <default>false</default>
+                <label>Piezas de Desgaste / Fundido</label>
+            </value>
+            <value>
+                <fullName>Pirometalurgia</fullName>
+                <default>false</default>
+                <label>Pirometalurgia</label>
+            </value>
+            <value>
+                <fullName>Planchas Fundidas</fullName>
+                <default>false</default>
+                <label>Planchas Fundidas</label>
+            </value>
+            <value>
+                <fullName>Polyfit</fullName>
+                <default>false</default>
+                <label>Polyfit</label>
+            </value>
+            <value>
+                <fullName>Polylight</fullName>
+                <default>false</default>
+                <label>Polylight</label>
+            </value>
+            <value>
+                <fullName>Pre concentración de minerales</fullName>
+                <default>false</default>
+                <label>Pre concentración de minerales</label>
+            </value>
+            <value>
+                <fullName>Predictivo</fullName>
+                <default>false</default>
+                <label>Predictivo</label>
+            </value>
+            <value>
+                <fullName>Primario</fullName>
+                <default>false</default>
+                <label>Primario</label>
+            </value>
+            <value>
+                <fullName>Reciclaje de revestimientos Híbridos</fullName>
+                <default>false</default>
+                <label>Reciclaje de revestimientos Híbridos</label>
+            </value>
+            <value>
+                <fullName>Recuperación de Chatarra</fullName>
+                <default>false</default>
+                <label>Recuperación de Chatarra</label>
+            </value>
+            <value>
+                <fullName>Recuperación de materiales valiosos</fullName>
+                <default>false</default>
+                <label>Recuperación de materiales valiosos</label>
+            </value>
+            <value>
+                <fullName>Remanufactura de Componentes</fullName>
+                <default>false</default>
+                <label>Remanufactura de Componentes</label>
+            </value>
+            <value>
+                <fullName>Repuestos</fullName>
+                <default>false</default>
+                <label>Repuestos</label>
+            </value>
+            <value>
+                <fullName>S3</fullName>
+                <default>false</default>
+                <label>S3</label>
+            </value>
+            <value>
+                <fullName>SAG</fullName>
+                <default>false</default>
+                <label>SAG</label>
+            </value>
+            <value>
+                <fullName>Secundario-Terciario-Pebble</fullName>
+                <default>false</default>
+                <label>Secundario-Terciario-Pebble</label>
+            </value>
+            <value>
+                <fullName>Servicios</fullName>
+                <default>false</default>
+                <label>Servicios</label>
+            </value>
+            <value>
+                <fullName>Servicios/Productos Tecnológicos</fullName>
+                <default>false</default>
+                <label>Servicios/Productos Tecnológicos</label>
+            </value>
+            <value>
+                <fullName>Servicios reparación</fullName>
+                <default>false</default>
+                <label>Servicios reparación</label>
+            </value>
+            <value>
+                <fullName>Soporte y Asistencia en terreno</fullName>
+                <default>false</default>
+                <label>Soporte y Asistencia en terreno</label>
+            </value>
+            <value>
+                <fullName>TowerMill</fullName>
+                <default>false</default>
+                <label>TowerMill</label>
+            </value>
+            <value>
+                <fullName>Tratamiento de relaves o escorias</fullName>
+                <default>false</default>
+                <label>Tratamiento de relaves o escorias</label>
+            </value>
+            <value>
+                <fullName>Tren de rodado</fullName>
+                <default>false</default>
+                <label>Tren de rodado</label>
+            </value>
+            <value>
+                <fullName>UpTime+</fullName>
+                <default>false</default>
+                <label>UpTime+</label>
+            </value>
+            <value>
+                <fullName>Wear Runner</fullName>
+                <default>false</default>
+                <label>Wear Runner</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <valueName>Chutes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <valueName>Fragmentadoras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <valueName>HPGR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <valueName>Med Min Perú</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Pirometalurgia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Harneros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Administración de Contratos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Dispositivos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de Sistemas Mecánicos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de Procesos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Soporte y Asistencia en terreno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de desgaste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Remanufactura de Componentes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Clasificación de scrap de bolas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Reciclaje de revestimientos Híbridos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Pre concentración de minerales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Recuperación de Chatarra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Tratamiento de relaves o escorias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <valueName>Recuperación de materiales valiosos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bolas (Grinding Media)</controllingFieldValue>
+            <valueName>Servicios</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chancado</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Servicios reparación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chancado</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Repuestos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chancado</controllingFieldValue>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Piezas de Desgaste / Fundido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Herramientas de desgaste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Servicios/Productos Tecnológicos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GET</controllingFieldValue>
+            <valueName>Tren de rodado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Pernos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>FerryCapitain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Polyfit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Polylight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Molienda</controllingFieldValue>
+            <valueName>Molino vertical</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
