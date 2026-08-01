@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New Customer</fullName>
+    <description>New Customer Sales Process</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Closed - Inactive</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed-Plan</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Create Account Plan</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Develop Commercial Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Develop Technical Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Identify Decision Makers</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Negotiation%2FReview</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Present Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualify Opportunity</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grinding Media</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>1 Opportunity Information</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>2 Qualification</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>3 Decision Makers</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>4 Quotation</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>5 Develop Tec %26 Com</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>6 Present Proposal</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>7 Negotiation %2F Review</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed - Inactive</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed-Plan</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

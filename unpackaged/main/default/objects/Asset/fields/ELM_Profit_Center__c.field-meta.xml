@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Profit_Center__c</fullName>
+    <inlineHelpText>Customer Equipment Profit Center</inlineHelpText>
+    <label>Profit Center</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Steel Castings</fullName>
+                <default>false</default>
+                <label>Steel Castings</label>
+            </value>
+            <value>
+                <fullName>Piezas ME Global</fullName>
+                <default>false</default>
+                <label>Piezas ME Global</label>
+            </value>
+            <value>
+                <fullName>Piezas ME China</fullName>
+                <default>false</default>
+                <label>Piezas ME China</label>
+            </value>
+            <value>
+                <fullName>MEG SG&amp;A</fullName>
+                <default>false</default>
+                <label>MEG SG&amp;A</label>
+            </value>
+            <value>
+                <fullName>Chatarra</fullName>
+                <default>false</default>
+                <label>Chatarra</label>
+            </value>
+            <value>
+                <fullName>Maestranza Rancagua</fullName>
+                <default>false</default>
+                <label>Maestranza Rancagua</label>
+            </value>
+            <value>
+                <fullName>Maest. Antofagasta</fullName>
+                <default>false</default>
+                <label>Maest. Antofagasta</label>
+            </value>
+            <value>
+                <fullName>Maestranza Calama</fullName>
+                <default>false</default>
+                <label>Maestranza Calama</label>
+            </value>
+            <value>
+                <fullName>Alerta Temprana</fullName>
+                <default>false</default>
+                <label>Alerta Temprana</label>
+            </value>
+            <value>
+                <fullName>Bolas de Molienda</fullName>
+                <default>false</default>
+                <label>Bolas de Molienda</label>
+            </value>
+            <value>
+                <fullName>Piezas GET</fullName>
+                <default>false</default>
+                <label>Piezas GET</label>
+            </value>
+            <value>
+                <fullName>Contract Manufacturi</fullName>
+                <default>false</default>
+                <label>Contract Manufacturi</label>
+            </value>
+            <value>
+                <fullName>Terceros Local</fullName>
+                <default>false</default>
+                <label>Terceros Local</label>
+            </value>
+            <value>
+                <fullName>Soluciones Integrale</fullName>
+                <default>false</default>
+                <label>Soluciones Integrale</label>
+            </value>
+            <value>
+                <fullName>Intercompañias</fullName>
+                <default>false</default>
+                <label>Intercompañias</label>
+            </value>
+            <value>
+                <fullName>Representaciones</fullName>
+                <default>false</default>
+                <label>Representaciones</label>
+            </value>
+            <value>
+                <fullName>Plásticos</fullName>
+                <default>false</default>
+                <label>Plásticos</label>
+            </value>
+            <value>
+                <fullName>Vidrios PH</fullName>
+                <default>false</default>
+                <label>Vidrios PH</label>
+            </value>
+            <value>
+                <fullName>Vidrios LL</fullName>
+                <default>false</default>
+                <label>Vidrios LL</label>
+            </value>
+            <value>
+                <fullName>ENERGIA Y POTENCIA</fullName>
+                <default>false</default>
+                <label>ENERGIA Y POTENCIA</label>
+            </value>
+            <value>
+                <fullName>Produccion Interna</fullName>
+                <default>false</default>
+                <label>Produccion Interna</label>
+            </value>
+            <value>
+                <fullName>Produccion Externos</fullName>
+                <default>false</default>
+                <label>Produccion Externos</label>
+            </value>
+            <value>
+                <fullName>Barter</fullName>
+                <default>false</default>
+                <label>Barter</label>
+            </value>
+            <value>
+                <fullName>Prensa Informativo</fullName>
+                <default>false</default>
+                <label>Prensa Informativo</label>
+            </value>
+            <value>
+                <fullName>Prensa Regiones</fullName>
+                <default>false</default>
+                <label>Prensa Regiones</label>
+            </value>
+            <value>
+                <fullName>Prensa Programas</fullName>
+                <default>false</default>
+                <label>Prensa Programas</label>
+            </value>
+            <value>
+                <fullName>Prensa Deportivo</fullName>
+                <default>false</default>
+                <label>Prensa Deportivo</label>
+            </value>
+            <value>
+                <fullName>Internet</fullName>
+                <default>false</default>
+                <label>Internet</label>
+            </value>
+            <value>
+                <fullName>Producción Terceros</fullName>
+                <default>false</default>
+                <label>Producción Terceros</label>
+            </value>
+            <value>
+                <fullName>Program. Envasados</fullName>
+                <default>false</default>
+                <label>Program. Envasados</label>
+            </value>
+            <value>
+                <fullName>VTAS INTERNACIONALES</fullName>
+                <default>false</default>
+                <label>VTAS INTERNACIONALES</label>
+            </value>
+            <value>
+                <fullName>NUEVOS NEGOCIOS</fullName>
+                <default>false</default>
+                <label>NUEVOS NEGOCIOS</label>
+            </value>
+            <value>
+                <fullName>Vinos Exportación</fullName>
+                <default>false</default>
+                <label>Vinos Exportación</label>
+            </value>
+            <value>
+                <fullName>Vinos Nacional</fullName>
+                <default>false</default>
+                <label>Vinos Nacional</label>
+            </value>
+            <value>
+                <fullName>Restaurant</fullName>
+                <default>false</default>
+                <label>Restaurant</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Wine Shop</fullName>
+                <default>false</default>
+                <label>Wine Shop</label>
+            </value>
+            <value>
+                <fullName>Otros Negocios</fullName>
+                <default>false</default>
+                <label>Otros Negocios</label>
+            </value>
+            <value>
+                <fullName>Inversiones</fullName>
+                <default>false</default>
+                <label>Inversiones</label>
+            </value>
+            <value>
+                <fullName>Dist. Embotellación</fullName>
+                <default>false</default>
+                <label>Dist. Embotellación</label>
+            </value>
+            <value>
+                <fullName>Dist. Administración</fullName>
+                <default>false</default>
+                <label>Dist. Administración</label>
+            </value>
+            <value>
+                <fullName>Dist. Producción</fullName>
+                <default>false</default>
+                <label>Dist. Producción</label>
+            </value>
+            <value>
+                <fullName>Dist. Bodegaje</fullName>
+                <default>false</default>
+                <label>Dist. Bodegaje</label>
+            </value>
+            <value>
+                <fullName>Dist. Comercial</fullName>
+                <default>false</default>
+                <label>Dist. Comercial</label>
+            </value>
+            <value>
+                <fullName>Dist. Prensa</fullName>
+                <default>false</default>
+                <label>Dist. Prensa</label>
+            </value>
+            <value>
+                <fullName>CM CCH</fullName>
+                <default>false</default>
+                <label>CM CCH</label>
+            </value>
+            <value>
+                <fullName>CM CMF</fullName>
+                <default>false</default>
+                <label>CM CMF</label>
+            </value>
+            <value>
+                <fullName>CM CEM</fullName>
+                <default>false</default>
+                <label>CM CEM</label>
+            </value>
+            <value>
+                <fullName>CM Mega</fullName>
+                <default>false</default>
+                <label>CM Mega</label>
+            </value>
+            <value>
+                <fullName>CM FTL</fullName>
+                <default>false</default>
+                <label>CM FTL</label>
+            </value>
+            <value>
+                <fullName>CM Viñas</fullName>
+                <default>false</default>
+                <label>CM Viñas</label>
+            </value>
+            <value>
+                <fullName>CM Otras</fullName>
+                <default>false</default>
+                <label>CM Otras</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

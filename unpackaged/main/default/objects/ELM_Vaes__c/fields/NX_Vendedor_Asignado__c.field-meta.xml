@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NX_Vendedor_Asignado__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ELM_Sales_Team__c = &quot;NORTEAMERICA&quot;,
+    ELM_Account__r.Vendedor_Molienda__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Molienda__r.LastName,
+
+    IF( 
+        ISPICKVAL(ELM_Line_Of_Business__c, &quot;Negocios de Alto Potencial&quot;), 
+        ELM_Account__r.High_Value_Manager__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.High_Value_Manager__r.LastName,
+
+        IF(
+            ISPICKVAL(ELM_Line_Of_Business__c, &quot;Crushing&quot;),
+            ELM_Account__r.Vendedor_Chancado__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Chancado__r.LastName,
+
+            IF(
+                ISPICKVAL(ELM_Line_Of_Business__c, &quot;Early Alert&quot;),
+                ELM_Account__r.Vendedor_Alerta_Temprana__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Alerta_Temprana__r.LastName,
+
+                IF(
+                    ISPICKVAL(ELM_Line_Of_Business__c, &quot;Mill Liners&quot;),
+                    IF(
+                        CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Molienda Sudamerica&quot;),
+                        ELM_Account__r.Vendedor_Molienda__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Molienda__r.LastName,
+                        ELM_Account__r.Vendedor_Molienda__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Molienda__r.LastName
+                    ),
+
+                    IF(
+                        ISPICKVAL(ELM_Line_Of_Business__c, &quot;Grinding Media&quot;),
+                        ELM_Account__r.Vendedor_Grinding_Media__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Grinding_Media__r.LastName,
+
+                        IF(
+                            ISPICKVAL(ELM_Line_Of_Business__c, &quot;GET&quot;),
+                            ELM_Account__r.Vendedor_GET__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_GET__r.LastName,
+
+                            IF(
+                                ISPICKVAL(ELM_Line_Of_Business__c, &quot;Workshop&quot;),
+                                ELM_Account__r.Vendedor_Maestranza__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_Maestranza__r.LastName,
+
+                                IF(
+                                    ISPICKVAL(ELM_Line_Of_Business__c, &quot;Economía Circular&quot;),
+                                    ELM_Account__r.Vendedor_E_Circular__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.Vendedor_E_Circular__r.LastName,
+
+                                    IF(
+                                        ISPICKVAL(ELM_Line_Of_Business__c, &quot;Other&quot;),
+                                        ELM_Account__r.ELM_OtherSalesRep__r.FirstName &amp; &quot; &quot; &amp; ELM_Account__r.ELM_OtherSalesRep__r.LastName,
+                                        &quot;&quot;
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            )
+        )
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Vendedor Asignado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

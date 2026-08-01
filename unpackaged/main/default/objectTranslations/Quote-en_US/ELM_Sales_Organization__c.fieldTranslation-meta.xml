@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Sales Organization --></label>
+        <name>ELM_Sales_Organization__c</name>
+        <picklistValues>
+            <masterLabel>OVE</masterLabel>
+            <translation><!-- OVE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVP</masterLabel>
+            <translation><!-- OVP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OVT</masterLabel>
+            <translation><!-- OVT --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>sirve para que el usuario pueda aprobar los campos del VAES el campo approved by pm? y approved by sm?).</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Super Aprobador de VAES</label>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>ELM_Vaes__c.Aprobado_por_Subgerente_de_Ventas__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

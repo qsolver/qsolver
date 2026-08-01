@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Tipo de Oportunidad</label>
+        <name>ELM_GM_Opp_Type__c</name>
+        <picklistValues>
+            <masterLabel>Auction</masterLabel>
+            <translation>Licitación</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ongoing Supply</masterLabel>
+            <translation>Suministro en curso</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Test</masterLabel>
+            <translation>Prueba de producto</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_COUNTRY</columns>
+    <columns>Region__c</columns>
+    <columns>ELM_Equipo_de_Ventas__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>My Accounts</label>
+</ListView>

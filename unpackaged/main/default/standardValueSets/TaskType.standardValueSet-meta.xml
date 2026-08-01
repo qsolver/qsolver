@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Done Late</fullName>
+        <default>false</default>
+        <label>Done Late</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Done</fullName>
+        <default>false</default>
+        <label>Not Done</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tender</fullName>
+        <default>false</default>
+        <label>Tender</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planning</fullName>
+        <default>false</default>
+        <label>Planning</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Containment</fullName>
+        <default>false</default>
+        <label>Containment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Claim</fullName>
+        <default>false</default>
+        <label>Claim</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Consolidation</fullName>
+        <default>false</default>
+        <label>Consolidation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Income</fullName>
+        <default>false</default>
+        <label>Income</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Billing</fullName>
+        <default>false</default>
+        <label>Billing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seguimiento de Producto Test</fullName>
+        <default>false</default>
+        <label>Seguimiento de Producto Test</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seguimiento de Producto Recurrente</fullName>
+        <default>false</default>
+        <label>Seguimiento de Producto Recurrente</label>
+    </standardValue>
+</StandardValueSet>

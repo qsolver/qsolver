@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentAsset xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isVisibleByExternalUsers>false</isVisibleByExternalUsers>
+    <language>es</language>
+    <masterLabel>X2026_07_30_HUB_elecmetalpng</masterLabel>
+    <versions>
+        <version>
+            <number>1</number>
+            <pathOnClient>2026 07 30 HUB elecmetal.png</pathOnClient>
+        </version>
+    </versions>
+</ContentAsset>

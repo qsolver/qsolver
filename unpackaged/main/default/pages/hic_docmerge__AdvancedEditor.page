@@ -1,0 +1,85 @@
+<apex:page standardController="hic_docmerge__Document_Email_Template__c" showHeader="false" extensions="hic_docmerge.GenerateWebServiceForAdvancedEditor">
+    <script type="text/javascript" src="/canvas/sdk/js/49.0/canvas-all.js"></script>
+    <script src="/canvas/sdk/js/40.0/controller.js"/>
+        
+        
+        <apex:includeLightning />
+            <diV id="emailTemplateBuilder"> </diV>
+            
+            <script>
+                var lwcCmp;
+    var emailTemplateGenerator = "{!HTMLENCODE($CurrentPage.parameters.emailTemplateGenerator)}";
+    var emailTemplateId = "{!HTMLENCODE($CurrentPage.parameters.emailTemplateId)}";
+    var masterId = "{!HTMLENCODE($CurrentPage.parameters.masterId)}";
+    
+    var keyPrefix = "{!keyPrefix}";
+    var origin = ''; //('{!$User.UITheme}' === 'Theme4d'  ? 'lightning' : 'vfpage');  
+    if ((typeof sforce != 'undefined') && sforce && sforce.one ){
+        origin = 'lightning';
+    }else{
+        origin = 'vfpage';
+    }
+    
+    $Lightning.use("hic_docmerge:emailTemplateCreatorApp", function() {
+        $Lightning.createComponent(
+            "hic_docmerge:emailTemplateCreator_lightning",{
+                "documentId":emailTemplateId,
+                "emailTemplateGenerator": emailTemplateGenerator,
+                "origin": origin,
+                "keyPrefix" : keyPrefix,
+                "parameterMapInString" : '{!JSENCODE(parameterMapInString)}',
+                "masterId" : masterId
+            },
+            "emailTemplateBuilder",
+            function(cmp) {
+                lwcCmp = cmp;
+                
+                $A.eventService.addHandler({ "event": "hic_docmerge:DocumentQueryRedirectEvent", "handler" : getMessage});
+                $A.eventService.addHandler({ "event": "force:navigateToSObject", "handler" : navigateToSObjectFunction});
+                $A.eventService.addHandler({ "event": "force:navigateToObjectHome", "handler" : navigateToSObjectHomeFunction});
+            });
+    });
+    
+    function navigateToSObjectFunction(event){
+        if( origin === 'vfpage'){
+            window.close();
+        }else{
+            sforce.one.navigateToSObject(event.getParam('recordId') , 'detail');
+        }
+    }
+    
+    function navigateToSObjectHomeFunction(event){
+        if( origin === 'vfpage'){
+            window.open('/{!keyPrefix}/o', "_self");
+        }else{
+            sforce.one.navigateToObjectHome(event.getParam('scope'));
+        }
+    }
+    
+    function getMessage(){
+        Sfdc.canvas.controller.subscribe({name : 'hic_docmerge.openRecord',
+                                          onData : function (data) {
+                                              
+                                              if( origin === 'vfpage'){
+                                                  window.close();
+                                                  window.location.href='/'+data.id;
+                                                  //returnToSfdc(data.id);
+                                              }else{
+                                                  //returnToSfdc(data.id);
+                                                  sforce.one.navigateToSObject(data.id , 'detail');
+                                              }
+                                          }});
+        
+        
+        Sfdc.canvas.controller.publish({name : 'hic_docmerge.setWidth', payload : {status : window.innerWidth-75 , height: window.innerHeight}});
+        
+    }
+    
+    </script>
+    
+    <apex:form id="theform"> 
+        <apex:actionFunction action="{!returnToSfdc}" name="returnToSfdc" reRender="theform">
+            <apex:param name="recordId" assignTo="{!recordId}" value="" />
+        </apex:actionFunction>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Noticias e información de la competencia</help>
+        <label>Noticias e información de la competencia</label>
+        <name>Competitor_News_Information__c</name>
+    </CustomFieldTranslation>

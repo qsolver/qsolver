@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Inactivated Contact --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Inactivated Contact --></value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Inactivated Contact Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Inactivated Contacts Name --></nameFieldLabel>
+    <webLinks>
+        <label>Activar Contacto</label>
+        <name>InactivContacts__Activate_Contact</name>
+    </webLinks>
+</CustomObjectTranslation>

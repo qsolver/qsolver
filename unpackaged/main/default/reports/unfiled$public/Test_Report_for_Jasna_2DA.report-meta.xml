@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>User.Opportunity$CreatedById$Owner</field>
+    </columns>
+    <columns>
+        <field>User$Name</field>
+    </columns>
+    <columns>
+        <field>User.Opportunity$CreatedById$Name</field>
+    </columns>
+    <columns>
+        <field>User.Opportunity$CreatedById.Activities$Subject</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>User*User$ELM_Equipo_de_Ventas__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>SURAMERICA</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User$Division</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Molienda ZN</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Opportunity$CreatedById$ELM_Line_of_Business__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Molienda,Chancado</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Opportunity$CreatedById$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Alerta temprana,digital lab,sujeciones,repuestos,servicios molienda</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Opportunity$CreatedById.Activities$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Completed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>User.Opportunity$CreatedById$StageName</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>Closed Lost,Closed - Inactive</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Test Report for Jasna</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Test_SFDC__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>User$ChatterAdoptionStageModifiedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

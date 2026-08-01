@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ME_FIT_Program_Number__c</fullName>
+    <description>Specify the ME Fit Program Number</description>
+    <externalId>false</externalId>
+    <inlineHelpText>It is assigned manually and to be able to keep a record of the previous assigned number (NA Usage)</inlineHelpText>
+    <label>ME FIT Program #</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

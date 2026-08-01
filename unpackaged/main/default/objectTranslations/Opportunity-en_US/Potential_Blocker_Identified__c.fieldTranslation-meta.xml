@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identify at least one Potential Blocker in the contacts section of the opportunity --></help>
+        <label><!-- Potential Blocker Identified --></label>
+        <name>Potential_Blocker_Identified__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Post-Venta: Análisis/Asesoría Operacionales</masterLabel>
+        <translation><!-- Post-Venta: Análisis/Asesoría Operacionales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Capacitaciones</masterLabel>
+        <translation><!-- Post-Venta: Capacitaciones --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Estados de pago y HES</masterLabel>
+        <translation><!-- Post-Venta: Estados de pago y HES --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Informes de reclamo</masterLabel>
+        <translation><!-- Post-Venta: Informes de reclamo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Laboratory reports</masterLabel>
+        <translation><!-- Post-Venta: Laboratory reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: One page reports</masterLabel>
+        <translation><!-- Post-Venta: One page reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Quality reports</masterLabel>
+        <translation><!-- Post-Venta: Quality reports --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Reajustes </masterLabel>
+        <translation><!-- Post-Venta: Reajustes  --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Seguimiento de Producto</masterLabel>
+        <translation><!-- Post-Venta: Seguimiento de Producto --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Repuestos: Cotización</masterLabel>
+        <translation><!-- Repuestos: Cotización --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Revestimientos: Cotización</masterLabel>
+        <translation><!-- Revestimientos: Cotización --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Cotizaciones</masterLabel>
+        <translation><!-- Servicios: Cotizaciones --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Informe de Evaluación</masterLabel>
+        <translation><!-- Servicios: Informe de Evaluación --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Informe final</masterLabel>
+        <translation><!-- Servicios: Informe final --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: SOT</masterLabel>
+        <translation><!-- Servicios: SOT --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAES Report</masterLabel>
+        <translation>Reporte VAES</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Certificados de garantía </masterLabel>
+        <translation><!-- Venta: Certificados de garantía  --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Documentos comerciales</masterLabel>
+        <translation><!-- Venta: Documentos comerciales --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Documentos técnicos</masterLabel>
+        <translation><!-- Venta: Documentos técnicos --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Información técnica de Manuales / Instructivos</masterLabel>
+        <translation><!-- Venta: Información técnica de Manuales / Instructivos --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Orden de compra de Cliente</masterLabel>
+        <translation><!-- Venta: Orden de compra de Cliente --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Propuesta económica y/o técnica</masterLabel>
+        <translation><!-- Venta: Propuesta económica y/o técnica --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

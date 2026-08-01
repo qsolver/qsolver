@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Forecast of the total value of the opportunity --></help>
+        <label><!-- Forecast Amount --></label>
+        <name>ELM_Forecast_Amount__c</name>
+    </CustomFieldTranslation>

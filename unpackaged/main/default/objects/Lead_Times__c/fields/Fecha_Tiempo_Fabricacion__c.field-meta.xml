@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Tiempo_Fabricacion__c</fullName>
+    <formula>TODAY() + (  Tiempo_Fabricacion__c * 7)</formula>
+    <label>Fecha Tiempo Fabricacion</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

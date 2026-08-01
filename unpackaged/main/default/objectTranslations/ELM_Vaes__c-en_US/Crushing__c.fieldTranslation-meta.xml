@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Crushing --></label>
+        <name>Crushing__c</name>
+        <picklistValues>
+            <masterLabel>Aceros Chilca</masterLabel>
+            <translation><!-- Aceros Chilca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cepcor</masterLabel>
+            <translation><!-- Cepcor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbia Steel</masterLabel>
+            <translation><!-- Columbia Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS</masterLabel>
+            <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLSmith</masterLabel>
+            <translation><!-- FLSmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frog, Switch</masterLabel>
+            <translation><!-- Frog, Switch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jansen</masterLabel>
+            <translation><!-- Jansen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEPSA</masterLabel>
+            <translation><!-- MEPSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso</masterLabel>
+            <translation><!-- Metso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso Outec</masterLabel>
+            <translation><!-- Metso Outec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation><!-- Otros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pectiction and Castech</masterLabel>
+            <translation><!-- Pectiction and Castech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik</masterLabel>
+            <translation><!-- Sandvik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorena</masterLabel>
+            <translation><!-- Sorena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VDL</masterLabel>
+            <translation><!-- VDL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weir/ESCO</masterLabel>
+            <translation><!-- Weir/ESCO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

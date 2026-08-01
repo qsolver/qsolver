@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Fecha en la que la presentacion de propuesta fue realizada</help>
+        <label>Fecha de la propuesta (Real)</label>
+        <name>ELM_Proposal_Date_Real__c</name>
+    </CustomFieldTranslation>

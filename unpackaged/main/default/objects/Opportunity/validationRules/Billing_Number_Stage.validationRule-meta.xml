@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Billing_Number_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Component Services&quot;,
+ TEXT(StageName) = &quot;Closed Won&quot;,
+ ISBLANK(ELM_Billing_Number__c)
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Billing_Number__c</errorDisplayField>
+    <errorMessage>Please fill in the following field Billing Number</errorMessage>
+</ValidationRule>

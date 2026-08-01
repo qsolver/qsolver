@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Multi selection Line of business --></help>
+        <label><!-- Line of Business --></label>
+        <name>Line_of_Business__c</name>
+        <picklistValues>
+            <masterLabel>Business Development</masterLabel>
+            <translation><!-- Business Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chutes</masterLabel>
+            <translation>Chutes</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crushing Products</masterLabel>
+            <translation>Crushing Products</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Earth Moving</masterLabel>
+            <translation><!-- Earth Moving --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Economía Circular</masterLabel>
+            <translation>Circular Economy</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grinding Media</masterLabel>
+            <translation>Grinding Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mill Lining Products</masterLabel>
+            <translation>Mill Lining Products</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ollas</masterLabel>
+            <translation>Slag Pots</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partes y Respuestos</masterLabel>
+            <translation>Spare Parts</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

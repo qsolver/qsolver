@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NewBsuiness_GM_Qualification</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Grinding Media / GET&quot;,
+ TEXT(StageName) = &quot;Qualification&quot;,
+ ISBLANK(TEXT( ELM_New_Business_Picklist__c ))
+
+)</errorConditionFormula>
+    <errorDisplayField>ELM_New_Business_Picklist__c</errorDisplayField>
+    <errorMessage>Please fill in the following field New Business</errorMessage>
+</ValidationRule>

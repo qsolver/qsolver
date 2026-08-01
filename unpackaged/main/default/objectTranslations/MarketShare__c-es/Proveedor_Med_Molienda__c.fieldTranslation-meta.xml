@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Proveedor de Medio de Molienda --></label>
+        <name>Proveedor_Med_Molienda__c</name>
+        <picklistValues>
+            <masterLabel>Donhard</masterLabel>
+            <translation><!-- Donhard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feifan</masterLabel>
+            <translation><!-- Feifan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerdau</masterLabel>
+            <translation><!-- Gerdau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GoldPro</masterLabel>
+            <translation><!-- GoldPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth</masterLabel>
+            <translation><!-- Growth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iraeta</masterLabel>
+            <translation><!-- Iraeta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Elecmetal</masterLabel>
+            <translation><!-- ME Elecmetal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magotteaux Forjada</masterLabel>
+            <translation><!-- Magotteaux Forjada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magotteaux Fundida</masterLabel>
+            <translation><!-- Magotteaux Fundida --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MolyCop</masterLabel>
+            <translation><!-- MolyCop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vega</masterLabel>
+            <translation><!-- Vega --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

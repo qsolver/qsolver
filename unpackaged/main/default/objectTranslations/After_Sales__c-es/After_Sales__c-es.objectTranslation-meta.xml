@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- After Sale --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- After Sale --></value>
+    </caseValues>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>GM Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>General Page Layout</layout>
+        <sections>
+            <label><!-- After Sales Services --></label>
+            <section>After Sales Services</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Enhancement Opportunities --></label>
+            <section>Enhancement Opportunities</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- After Sales Name --></nameFieldLabel>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_EventAS</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_TaskAS</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Component Services Sale Process --></description>
+        <label><!-- Component Services --></label>
+        <name>Component_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- GM After Sale Process --></description>
+        <label><!-- Grinding Media / GET --></label>
+        <name>Grinding_Media</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Recurring Sales Process --></description>
+        <label><!-- Recurring Sale --></label>
+        <name>Recurring_Sale</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Trial Sales Process --></description>
+        <label><!-- Trial Sale --></label>
+        <name>Trial_Sale</name>
+    </recordTypes>
+</CustomObjectTranslation>

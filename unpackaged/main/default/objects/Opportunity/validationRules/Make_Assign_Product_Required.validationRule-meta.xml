@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Assign_Product_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(StageName),
+    ISPICKVAL(StageName, &quot;3 Decision Makers&quot;),
+    Assign_Product__c == False)</errorConditionFormula>
+    <errorMessage>Error, debe llenar el campo Asignó Productos? en la Etapa 2.- Clasifcación
+
+Error, must you fill out the Assigned Products field? in Stage 2.- Qualification</errorMessage>
+</ValidationRule>

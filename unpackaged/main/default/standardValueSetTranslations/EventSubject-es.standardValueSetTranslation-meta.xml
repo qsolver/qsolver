@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Presential Visit</masterLabel>
+        <translation>Visita presencial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Technical Visit</masterLabel>
+        <translation>Visita tecnica</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Virtual Visit</masterLabel>
+        <translation>Visita virtual</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

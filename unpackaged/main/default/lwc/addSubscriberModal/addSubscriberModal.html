@@ -1,0 +1,130 @@
+<template>
+    <section
+        role="dialog"
+        tabindex="-1"
+        aria-modal="true"
+        aria-label="Add Subscriber"
+        class="slds-modal slds-fade-in-open"
+    >
+        <div class="slds-modal__container">
+            <!-- Header -->
+            <div class="slds-modal__header">
+                <lightning-button-icon
+                    icon-name="utility:close"
+                    alternative-text="Close"
+                    variant="bare-inverse"
+                    class="slds-modal__close"
+                    onclick={handleClose}
+                ></lightning-button-icon>
+                <h2 class="slds-modal__title slds-hyphenate">Add Subscriber</h2>
+            </div>
+
+            <!-- Body -->
+            <div class="slds-modal__content slds-p-around_medium">
+                <!-- Tab Bar -->
+                <lightning-tabset variant="scoped" active-tab-value={activeTab}>
+                    <!-- Internal User Tab -->
+                    <lightning-tab label="Salesforce User" value="internal" icon-name="standard:user" onactive={handleTabChange}>
+                        <div class="slds-p-around_small">
+                            <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_small">
+                                Search for a Salesforce user to add as a subscriber.
+                            </p>
+
+                            <lightning-input
+                                type="search"
+                                label="Search Users"
+                                placeholder="Type at least 2 characters to search..."
+                                value={searchTerm}
+                                onchange={handleSearchChange}
+                                class="slds-m-bottom_small"
+                            ></lightning-input>
+
+                            <template if:true={isSearching}>
+                                <div class="slds-align_absolute-center slds-p-around_small">
+                                    <lightning-spinner alternative-text="Searching" size="small"></lightning-spinner>
+                                </div>
+                            </template>
+
+                            <template if:true={hasSearchResults}>
+                                <div class="search-results">
+                                    <template for:each={searchResults} for:item="user">
+                                        <div
+                                            key={user.id}
+                                            class={user.itemClass}
+                                            data-id={user.id}
+                                            onclick={handleUserSelect}
+                                        >
+                                            <div class="slds-grid slds-grid_vertical-align-center">
+                                                <lightning-avatar
+                                                    src={user.photoUrl}
+                                                    fallback-icon-name="standard:user"
+                                                    alternative-text={user.name}
+                                                    size="small"
+                                                    class="slds-m-right_small"
+                                                ></lightning-avatar>
+                                                <div class="slds-col">
+                                                    <p class="slds-text-body_regular user-name">{user.name}</p>
+                                                    <p class="slds-text-body_small slds-text-color_weak">{user.email}</p>
+                                                    <p class="slds-text-body_small slds-text-color_weak">{user.profile}</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </template>
+
+                            <template if:true={noResults}>
+                                <p class="slds-text-align_center slds-text-color_weak slds-p-around_small">
+                                    No users found matching "{searchTerm}"
+                                </p>
+                            </template>
+                        </div>
+                    </lightning-tab>
+
+                    <!-- External Email Tab -->
+                    <lightning-tab label="External Email" value="external" icon-name="standard:email" onactive={handleTabChange}>
+                        <div class="slds-p-around_small">
+                            <p class="slds-text-body_small slds-text-color_weak slds-m-bottom_small">
+                                Add an external email address to receive report deliveries.
+                            </p>
+
+                            <lightning-input
+                                type="text"
+                                label="Display Name"
+                                placeholder="Enter the subscriber's name"
+                                value={externalName}
+                                onchange={handleExternalNameChange}
+                                required
+                                class="slds-m-bottom_small"
+                            ></lightning-input>
+
+                            <lightning-input
+                                type="email"
+                                label="Email Address"
+                                placeholder="subscriber@example.com"
+                                value={externalEmail}
+                                onchange={handleExternalEmailChange}
+                                required
+                                message-when-value-missing="Please enter an email address"
+                                message-when-type-mismatch="Please enter a valid email address"
+                            ></lightning-input>
+                        </div>
+                    </lightning-tab>
+                </lightning-tabset>
+            </div>
+
+            <!-- Footer -->
+            <div class="slds-modal__footer">
+                <lightning-button label="Cancel" onclick={handleClose}></lightning-button>
+                <lightning-button
+                    label="Add Subscriber"
+                    variant="brand"
+                    onclick={handleAdd}
+                    disabled={isAddDisabled}
+                    class="slds-m-left_x-small"
+                ></lightning-button>
+            </div>
+        </div>
+    </section>
+    <div class="slds-backdrop slds-backdrop_open" onclick={handleClose}></div>
+</template>

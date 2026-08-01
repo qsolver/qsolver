@@ -1,0 +1,15 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; color:#000000; bEditID:r3st1; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNormal"><span lang="ES-CL">Estimado Cliente,<o:p></o:p></span></p><p class="MsoNormal"><span lang="ES-CL"><br></span></p>
+
+<p class="MsoNormal"><span lang="ES-CL">Junto con saludarlo le informamos que hemos
+concluido el informe del proyecto realizado con ustedes.<o:p></o:p></span></p><p class="MsoNormal"><span lang="ES-CL"><br></span></p>
+
+<p class="MsoNormal"><span lang="ES-CL">En adjunto podrá encontrar el proyecto VAES
+{!ELM_Vaes__c.Name} para su revisión y conformidad. De estar todo de forma correcta, agradeceríamos
+su aprobación para finalizar el proyecto en su totalidad</span><span style="font-size: 12pt;">.</span></p><p class="MsoNormal"><span style="font-size: 12pt;"><br></span></p>
+
+<p class="MsoNormal"><span lang="ES-CL">Saludos cordiales,<o:p></o:p></span></p><p class="MsoNormal"><span lang="ES-CL"><br></span></p><p class="MsoNormal"><br></p><p class="MsoNormal"><img src="https://me-elecmetal--nasandbox--c.documentforce.com/servlet/servlet.ImageServer?id=0158D000000G1sm&amp;oid=00D8D0000008jZ3" border="0" align="left" alt=""><br></p><p class="MsoNormal"><span lang="ES-CL"><br></span></p>]]></td>
+</tr>
+</table>

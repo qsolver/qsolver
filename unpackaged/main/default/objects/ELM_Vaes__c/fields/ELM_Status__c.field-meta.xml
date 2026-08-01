@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Status__c</fullName>
+    <inlineHelpText>Status of VAES</inlineHelpText>
+    <label>Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Apertura / Open</fullName>
+                <default>true</default>
+                <label>Open</label>
+            </value>
+            <value>
+                <fullName>Linea Base</fullName>
+                <default>false</default>
+                <label>Base Line</label>
+            </value>
+            <value>
+                <fullName>Protocolo de Prueba / Testing Protocol</fullName>
+                <default>false</default>
+                <label>Testing Protocol</label>
+            </value>
+            <value>
+                <fullName>Sent for approval</fullName>
+                <default>false</default>
+                <label>Sent For Approval</label>
+            </value>
+            <value>
+                <fullName>Eliminado</fullName>
+                <default>false</default>
+                <label>Finished</label>
+            </value>
+            <value>
+                <fullName>Approved</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Approved</label>
+            </value>
+            <value>
+                <fullName>Approved by PM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Approved by PM</label>
+            </value>
+            <value>
+                <fullName>Approved by manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Approved by manager</label>
+            </value>
+            <value>
+                <fullName>Aproved by PM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Aproved by PM</label>
+            </value>
+            <value>
+                <fullName>Discarded</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Discarded</label>
+            </value>
+            <value>
+                <fullName>In progress</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In progress</label>
+            </value>
+            <value>
+                <fullName>Ready to send to customer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ready to send to customer</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

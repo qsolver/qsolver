@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Unidad de medida base</label>
+        <name>ELM_Base_Unit_of_Measure__c</name>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation><!-- AU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C/U</masterLabel>
+            <translation><!-- C/U --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EA</masterLabel>
+            <translation><!-- EA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KG</masterLabel>
+            <translation><!-- KG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ST</masterLabel>
+            <translation><!-- ST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>T</masterLabel>
+            <translation><!-- T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UN</masterLabel>
+            <translation><!-- UN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UP</masterLabel>
+            <translation><!-- UP --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

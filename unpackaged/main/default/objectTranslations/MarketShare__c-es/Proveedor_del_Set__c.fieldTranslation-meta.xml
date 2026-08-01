@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Proveedor del Set --></label>
+        <name>Proveedor_del_Set__c</name>
+        <picklistValues>
+            <masterLabel>ACSA</masterLabel>
+            <translation><!-- ACSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astec/Telsmith</masterLabel>
+            <translation><!-- Astec/Telsmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITIC</masterLabel>
+            <translation><!-- CITIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMS Cepcor</masterLabel>
+            <translation><!-- CMS Cepcor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CWP</masterLabel>
+            <translation><!-- CWP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chilcas</masterLabel>
+            <translation><!-- Chilcas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cuyanos</masterLabel>
+            <translation><!-- Cuyanos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edcast</masterLabel>
+            <translation><!-- Edcast --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elecmetal</masterLabel>
+            <translation><!-- Elecmetal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Esco</masterLabel>
+            <translation><!-- Esco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS</masterLabel>
+            <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso</masterLabel>
+            <translation><!-- Metso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik</masterLabel>
+            <translation><!-- Sandvik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik/METSO</masterLabel>
+            <translation><!-- Sandvik/METSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scaw</masterLabel>
+            <translation><!-- Scaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TBA</masterLabel>
+            <translation><!-- TBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thyssen Krupp</masterLabel>
+            <translation><!-- Thyssen Krupp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yoon Steel</masterLabel>
+            <translation><!-- Yoon Steel --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

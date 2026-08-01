@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ubicación dentro del asset</help>
+        <label><!-- Sector Asset --></label>
+        <name>Sector_Asset__c</name>
+        <picklistValues>
+            <masterLabel>C1 - Mantos</masterLabel>
+            <translation><!-- C1 - Mantos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C2 - Concavas / Bowls</masterLabel>
+            <translation><!-- C2 - Concavas / Bowls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C3 - Protecciones</masterLabel>
+            <translation><!-- C3 - Protecciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C4 - Mandibula fija</masterLabel>
+            <translation><!-- C4 - Mandibula fija --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C5 - Mandibula movil</masterLabel>
+            <translation><!-- C5 - Mandibula movil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1 - Tapa Alimentación</masterLabel>
+            <translation><!-- M1 - Tapa Alimentación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M2 - Cilindro</masterLabel>
+            <translation><!-- M2 - Cilindro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M3 - Tapa Descarga</masterLabel>
+            <translation><!-- M3 - Tapa Descarga --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4 - Cajones y Conos</masterLabel>
+            <translation><!-- M4 - Cajones y Conos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M5 - Punteras</masterLabel>
+            <translation><!-- M5 - Punteras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M6 - Intermedias</masterLabel>
+            <translation><!-- M6 - Intermedias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M7 -Pernos</masterLabel>
+            <translation><!-- M7 -Pernos --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

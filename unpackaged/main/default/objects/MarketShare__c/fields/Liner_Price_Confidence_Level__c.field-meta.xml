@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Liner_Price_Confidence_Level__c</fullName>
+    <label>Liner Price Confidence Level</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Don&#39;t Really Know (Default Market Price Used)</fullName>
+                <default>false</default>
+                <label>Don&#39;t Really Know (Default Market Price Used)</label>
+            </value>
+            <value>
+                <fullName>Reasonably Confident (Customer Specific Price Entered)</fullName>
+                <default>false</default>
+                <label>Reasonably Confident (Customer Specific Price Entered)</label>
+            </value>
+            <value>
+                <fullName>Very Confident (Pricing Known)</fullName>
+                <default>false</default>
+                <label>Very Confident (Pricing Known)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

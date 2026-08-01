@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Results and conclusions --></help>
+        <label>7.- Results and conclusions</label>
+        <name>ELM_Resultados_y_conclusiones__c</name>
+    </CustomFieldTranslation>

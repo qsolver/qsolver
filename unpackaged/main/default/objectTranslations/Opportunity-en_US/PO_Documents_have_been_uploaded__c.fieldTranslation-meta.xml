@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- It is marked when the Customer Purchase Order is uploaded to Salesforce --></help>
+        <label><!-- PO Documents have been uploaded --></label>
+        <name>PO_Documents_have_been_uploaded__c</name>
+    </CustomFieldTranslation>

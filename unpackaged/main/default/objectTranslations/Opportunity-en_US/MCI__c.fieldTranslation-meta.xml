@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Tipo de reparación que corresponde --></help>
+        <label><!-- MCI --></label>
+        <name>MCI__c</name>
+        <picklistValues>
+            <masterLabel>Integral Repair</masterLabel>
+            <translation><!-- Integral Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial Repair</masterLabel>
+            <translation><!-- Partial Repair --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- CAR Required Qty. --></help>
+        <label><!-- CAR Required Qty. --></label>
+        <name>CAR_Required_Qty__c</name>
+    </CustomFieldTranslation>

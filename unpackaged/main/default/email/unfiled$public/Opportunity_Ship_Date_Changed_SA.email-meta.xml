@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Ship date on an SA opportunity changes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Opportunity Ship Date Changed SA</name>
+    <style>none</style>
+    <subject>Atención: La fecha de envió de la oportunidad {!Opportunity.Name} ha cambiado</subject>
+    <textOnly>La fecha de envió ha cambiado para:
+
+Oportunidad: {!Opportunity.Name}
+
+Cuenta: {!Account.Name}
+
+Fecha de envió anterior: {!Opportunity.Ship_Date_Previous__c}
+
+Nueva fecha de envió: {!Opportunity.Ship_Date__c}
+
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Consumption_Others_CH__c</fullName>
+    <formula>IF(NOT(ISPICKVAL(Proveedor_del_Set__c , &#39;Elecmetal&#39;)),
+
+Consumo_Anual_Chancado__c * Precio_promedio_del_Kg__c
+
+,
+0
+
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Consumption Others CH ($)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

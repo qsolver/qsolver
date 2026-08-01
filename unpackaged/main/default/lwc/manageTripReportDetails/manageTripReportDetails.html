@@ -1,0 +1,96 @@
+<template>
+
+    <template if:false={useModal}>
+        <div style="background-color:white;">
+            <lightning-layout>
+                <lightning-layout-item padding="around-small">
+                    <lightning-button label="Add Customer Reps" variant="brand"  title="Add Customer Reps" onclick={handleLoad}></lightning-button>
+                </lightning-layout-item>
+            </lightning-layout>
+        </div>
+    </template>
+
+
+    <template if:true={useModal}>  
+        <section role="dialog" tabindex="-1" class="slds-modal slds-fade-in-open  slds-backdrop slds-modal_small" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1">
+            <!-- <div class="slds-modal slds-fade-in-open slds-backdrop slds-modal_large">   -->
+            <div class="slds-modal__container">  
+
+                <!-- Header Section -->  
+                <div class="slds-modal__header">  
+                <lightning-button-icon icon-name="utility:close" alternative-text="Close" size="large" variant="bare-inverse" onclick={closeModal} class="slds-modal__close"></lightning-button-icon>  
+                <h2>Add Customer Representives</h2>  
+                </div>  
+                <!-- Header Section -->
+
+
+                <!-- Body Section -->  
+                <div class="slds-modal__content slds-p-around_medium">  
+                    
+                    <template if:true={showSpinner}>
+                            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+                    </template>
+
+                <!-- <template if:true={emailsExist}> -->
+                    <div class="slds-box">
+                        <p>Below is a list of Contacts found on the related Account. Please select any number of Contacts and they will be included into the Customer Representives field. This process will also prevent duplicates.</p>
+                        <span style="font-weight: bold;">Contacts</span>
+                        <div style="height: 175px;">
+                            <lightning-datatable 
+                                data-id="contacttable"
+                                data-field="contacttable" 
+                                key-field="Name"
+                                data={contacts}
+                                columns={oColumns}>
+                            </lightning-datatable>
+                            <template if:false={contactsExist}>
+                                <div>
+                                    No Contacts exist.
+                                </div>
+                            </template>
+                        </div>
+
+                    </div>
+
+                <!-- </template> -->
+                
+
+
+                <template if:true={error}>
+                    <div class="slds-m-top_small">
+                        <span style="color:darkred">{error}</span>
+                    </div>
+                </template>
+
+
+                </div>  
+                <!-- Body Section --> 
+
+
+                <!-- Footer Section -->  
+                <div class="slds-modal__footer">  
+
+                    <lightning-button class="slds-p-right_small" label="Update Customer Representatives" variant="brand" onclick={handleSave}></lightning-button>
+                    <lightning-button name="closeButton" label="Close" variant="brand" onclick={closeModal}></lightning-button>  
+
+                </div>  
+                <!-- Footer Section --> 
+
+            </div>  
+            <!-- </div>   -->
+        </section>
+      </template>  
+
+
+
+
+
+
+
+
+
+
+
+
+
+</template>

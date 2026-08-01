@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Services_Letterhead</letterhead>
+    <name>VaesPDF</name>
+    <style>freeForm</style>
+    <subject>ME - Elecmetal VAES Report {!ELM_Vaes__c.Name}</subject>
+    <textOnly>Estimado Cliente,
+
+
+
+Junto con saludarlo le informamos que hemos concluido el informe del proyecto realizado con ustedes.
+
+
+
+En adjunto podrá encontrar el proyecto VAES {!ELM_Vaes__c.Name} para su revisión y conformidad. De estar todo de forma correcta, agradeceríamos su aprobación para finalizar el proyecto en su totalidad.
+
+
+
+Saludos cordiales,
+
+
+
+&lt;img src=&quot;https://me-elecmetal--nasandbox--c.documentforce.com/servlet/servlet.ImageServer?id=0158D000000G1sN&amp;oid=00D8D0000008jZ3&amp;lastMod=1657822294000&quot; alt=&quot;Logo&quot;/&gt;</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Project_Name__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.Project_Name_English__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Resumen__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.Summary_English__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>VAES TRADUCCIONES RESTANTES</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$ELM_Vaes__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ELM_Vaes__c.Fecha_de_L_Base__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

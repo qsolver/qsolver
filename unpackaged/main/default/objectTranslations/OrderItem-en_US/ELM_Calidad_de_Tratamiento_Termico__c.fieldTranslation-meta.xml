@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Calidad de Tratamiento Termico --></label>
+        <name>ELM_Calidad_de_Tratamiento_Termico__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reenvio_Not_For_Approved_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISCHANGED(Solicitar_reenvio__c) ,Solicitar_reenvio__c = TRUE,ISPICKVAL(ELM_VB_Ivan__c , &quot;Aprobado&quot;))</errorConditionFormula>
+    <errorDisplayField>Solicitar_reenvio__c</errorDisplayField>
+    <errorMessage>No puede reenviar el checklist si la orden ya esta aprobada.</errorMessage>
+</ValidationRule>

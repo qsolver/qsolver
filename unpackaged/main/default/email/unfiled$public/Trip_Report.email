@@ -1,0 +1,169 @@
+<html>
+<body>
+<head>
+<style>
+.header {
+   background: #096db5;
+   color: white;
+   font-weight: bold;
+   font-size: 32px;
+   text-align: center;
+   padding: 15px;
+}
+.subheader {
+   background: #00aae2;
+   color: white;
+   font-weight: bold;
+   font-size: 20px;
+   padding: 10px;
+}
+.label {
+   color: black;
+   font-size: 16px;
+   padding: 8px;
+}
+.content {
+   color: black;
+   font-size: 16px;
+   padding: 5px;
+}
+input.larger {
+        width: 20px;
+        height: 20px;
+      }
+</style>
+</head>
+<table style="width:100%">
+<tr><td class="header"><img src="https://www.me-elecmetal.com/wp-content/uploads/2022/03/Logo.png"/><td><tr>
+<tr><td class="header">Marketing Site Visit Report</td></tr>
+</table>
+<br>
+<table style="background:lightgrey; width:100%">
+<tr><td class="label" style="width:50%">Date of Contact:</td><td class="content">{!Trip_Report__c.Date_of_Contact__c}</td></tr>
+<tr><td class="label">Type of Visit:</td><td class="content">{!Trip_Report__c.Visit_Type__c}</td></tr>
+<tr><td class="label">Customer "Corporate Company":</td><td class="content">{!Trip_Report__c.Customer_Company_Corporate__c}</td></tr>
+<tr><td class="label">Location (Site) of Contact:</td><td class="content">{!Trip_Report__c.Location_Site_of_Contact__c}</td></tr>
+<tr><td class="label">Customer Company:</td><td class="content">{!Trip_Report__c.Customer_Company__c}</td></tr>
+<tr><td class="label">Site Zone (Does not apply to North America):</td><td class="content">{!Trip_Report__c.Zona_de_visita__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Customer Representatives and Titles</td></tr>
+<tr><td class="content">{!Trip_Report__c.Customer_Representatives__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">ME Customer Representatives and Titles</td></tr>
+<tr><td class="content">{!Trip_Report__c.ME_Elecmetal_Representatives__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Type of Visit</td></tr>
+</table>
+<br>
+<table style="background:lightgrey; width:100%">
+<tr><td class="label" style="width:50%">Visit (Target Customer):</td><td>###TOV_TARGET###</td></tr>
+<tr><td class="label">Presentation (Target Individual / Group):</td><td>###TOV_PRESENTATION###</td></tr>
+<tr><td class="label">Joint visit (Linear, Media, CPS Spec.):</td><td>###TOV_JOINT###</td></tr>
+<tr><td class="label">Quotation Submitted (new business):</td><td>###TOV_QUOTATION###</td></tr>
+<tr><td class="label">Purchase Order Received:</td><td>###TOV_PURCHASEORDER###</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Summary of Visit / Event</td></tr>
+<tr><td class="content">{!Trip_Report__c.Summary_of_Visit_Event__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Customer Satisfaction (Rate 1-5) 1=Poor 5=Best</td></tr>
+</table>
+<table style="width:100%">
+<tr>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>Product Quality</strong></td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>On-time Delivery</strong></td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>Customer Service</strong></td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>Technical Support</strong></td>
+ </tr>
+<tr>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Product_Quality_Survey__c}</td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.On_time_Delivery_Survey__c}</td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Customer_Service_Survey__c}</td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Technical_Support_Survey__c}</td>
+ </tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Product Loyalty</td></tr>
+</table>
+<table style="width:100%">
+<tr>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>% Bought from ME - Media</strong></td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>% Bought from ME - CPS</strong></td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="label"><strong>% Bought from ME - Liner</strong></td>
+ </tr>
+<tr>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">
+{!Trip_Report__c.Bought_From_ME_Media__c}</td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">
+{!Trip_Report__c.Bought_From_ME_CPS__c}</td>
+ <td style="width:25%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Bought_From_ME_Liner_Solutions__c}</td>
+ </tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Customer's Hierarchy of Vendor Drivers (Rate 1-5) 1=Most Important</td></tr>
+<table style="width:100%">
+<tr>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="label"><strong>Delivery</strong></td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="label"><strong>Price</strong></td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="label"><strong>Service</strong></td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="label"><strong>Solution</strong></td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="label"><strong>Quality</strong></td>
+ </tr>
+<tr>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Delivery_Vendor_Driver__c}</td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Price_Vendor_Driver__c}</td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Service_Vendor_Driver__c}</td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Solution_Vendor_Driver__c}</td>
+ <td style="width:20%;text-align: center; border: 1px solid grey;" class="content">{!Trip_Report__c.Quality_Vendor_Driver__c}</td>
+ </tr>
+</table>
+<br>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">New Opportunities (Product)</td></tr>
+<tr><td class="content">{!Trip_Report__c.New_Opportunities_Product__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Forecast Update</td></tr>
+<tr><td class="content">{!Trip_Report__c.Forecast_Update__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Competitor's News and Information</td></tr>
+<tr><td class="content">{!Trip_Report__c.Competitor_News_Information__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Agreements and next steps (Does not apply to North America)</td></tr>
+<tr><td class="content">{!Trip_Report__c.Acuerdos_y_proximos_pasos__c}</td></tr>
+</table>
+<br>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Innovation and Technologies (Does not apply to North America)</td></tr>
+<tr><td class="content">{!Trip_Report__c.Innovacion_y_tecnologias__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Additional Notes</td></tr>
+<tr><td class="content">{!Trip_Report__c.Additional_Notes__c}</td></tr>
+</table>
+<br>
+<table style="width:100%">
+<tr><td class="subheader">Photos</td></tr>
+</table>
+</body>
+</html>

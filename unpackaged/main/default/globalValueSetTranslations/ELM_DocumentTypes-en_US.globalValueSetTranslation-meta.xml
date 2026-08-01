@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Post-Venta: Análisis/Asesoría Operacionales</masterLabel>
+        <translation>Post-Sale: Operational Analysis/Advisory</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Capacitaciones</masterLabel>
+        <translation>Post-Sale: Training</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Estados de pago y HES</masterLabel>
+        <translation>Post-Sale: Payment account</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Informes de reclamo</masterLabel>
+        <translation>Post-Sale: Claim reports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Laboratory reports</masterLabel>
+        <translation>Post-Sale: Laboratory reports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: One page reports</masterLabel>
+        <translation>Post-Sale: One page reports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Quality reports</masterLabel>
+        <translation>Post-Sale: Quality reports</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Reajustes </masterLabel>
+        <translation>Post-Sale: Price Adjustements</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Post-Venta: Seguimiento de Producto</masterLabel>
+        <translation>Post-Sale: Product Tracking</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Repuestos: Cotización</masterLabel>
+        <translation>Spare parts: Quotation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Revestimientos: Cotización</masterLabel>
+        <translation>Coatings: Quotation</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Cotizaciones</masterLabel>
+        <translation>Services: Quotes</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Informe de Evaluación</masterLabel>
+        <translation>Services: Evaluation Report</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: Informe final</masterLabel>
+        <translation>Services: Final report</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Servicios: SOT</masterLabel>
+        <translation>Services: SOT</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>VAES Report</masterLabel>
+        <translation><!-- VAES Report --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Certificados de garantía </masterLabel>
+        <translation>Sale: Guarantee certificates</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Documentos comerciales</masterLabel>
+        <translation>Sale: Commercial documents</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Documentos técnicos</masterLabel>
+        <translation>Sale: Technical Documents</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Información técnica de Manuales / Instructivos</masterLabel>
+        <translation>Sale: Technical information Manuals / Instructions</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Orden de compra de Cliente</masterLabel>
+        <translation>Sale: Customer Purchase Order</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Venta: Propuesta económica y/o técnica</masterLabel>
+        <translation>Sale: Economic and/or technical proposal</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

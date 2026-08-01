@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Account__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Line_Of_Business__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Sales_Team__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.NX_Vendedor_Asignado__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Status__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Fecha_inicio__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Fecha_cierre__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Project_Name__c</field>
+    </columns>
+    <columns>
+        <field>ELM_Vaes__c.ELM_Asset__c</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Tabla que muestra el total de registros de VAES que existen de Mill Liners y además muestra ciertos campos seleccionados.</description>
+    <filter>
+        <criteriaItems>
+            <column>ELM_Vaes__c.ELM_Line_Of_Business__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Mill Liners</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Tabla VAES solo de Mill Liners</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$ELM_Vaes__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ELM_Vaes__c.ELM_Fecha_cierre__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_acc__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Account.Industry), &#39;RX36&#39;, &#39;AGGREGATE&#39;, &#39;RU21&#39;, &#39;AEROSPACE &amp; DEFENSE&#39;, &#39;RU28&#39;, &#39;ENERGY&#39;, &#39;RU36&#39;, &#39;GOVERNMENT&#39;, &#39;RU48&#39;, &#39;MANUFACTURING&#39;, &#39;RU56&#39;, &#39;OTHER&#39;, &#39;RU19&#39;, &#39;CONSTRUCTION&#39;, &#39;RU53&#39;, &#39;MINING&#39;, TEXT(Account.Industry))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Industry Type</inlineHelpText>
+    <label>Industry_acc</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Production_Facility__c</fullName>
+    <label>Production Facility</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PF1</fullName>
+                <default>false</default>
+                <label>PF1</label>
+            </value>
+            <value>
+                <fullName>PF2</fullName>
+                <default>false</default>
+                <label>PF2</label>
+            </value>
+            <value>
+                <fullName>PF3</fullName>
+                <default>false</default>
+                <label>PF3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

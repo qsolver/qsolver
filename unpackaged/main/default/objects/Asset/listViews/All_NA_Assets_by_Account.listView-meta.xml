@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_NA_Assets_by_Account</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.INSTALL_DATE</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>Model__c</columns>
+    <columns>Line_of_Business__c</columns>
+    <columns>ELM_Sales_Team__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Sales_Team__c</field>
+        <operation>equals</operation>
+        <value>NorthAmerica</value>
+    </filters>
+    <label>NA Assets by Account</label>
+</ListView>
