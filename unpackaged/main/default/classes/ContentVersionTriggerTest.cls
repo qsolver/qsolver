@@ -71,7 +71,7 @@ public with sharing class ContentVersionTriggerTest {
         .withType('Liners')
         .build();
         anOpportunity.ELM_Line_of_Business__c = 'Other';
-        anOpportunity.Sub_Linea_de_Negocio_OPP__c = 'Harneros';
+        //anOpportunity.Sub_Linea_de_Negocio_OPP__c = 'Harneros';
         OpportunityHelper.canRunFromTestClass = false;
         insert anOpportunity;
 
