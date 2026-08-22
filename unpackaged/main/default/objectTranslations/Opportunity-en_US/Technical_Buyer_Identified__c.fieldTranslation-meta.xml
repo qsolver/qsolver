@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Identify the technical buyer in the contacts section of the opportunity --></help>
+        <label><!-- Technical Buyer Identified --></label>
+        <name>Technical_Buyer_Identified__c</name>
+    </CustomFieldTranslation>

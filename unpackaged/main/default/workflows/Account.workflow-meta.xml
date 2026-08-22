@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Pricebook_does_not_exist</fullName>
+        <description>Pricebook does not exist</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>USC_SA</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Pricebook_does_not_exist</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Copy_Billing_City</fullName>
+        <field>ShippingCity</field>
+        <formula>BillingCity</formula>
+        <name>Copy Billing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Billing_Country</fullName>
+        <field>ShippingCountry</field>
+        <formula>BillingCountry</formula>
+        <name>Copy Billing Country</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Billing_State</fullName>
+        <field>ShippingState</field>
+        <formula>BillingState</formula>
+        <name>Copy Billing State</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Billing_Street</fullName>
+        <field>ShippingStreet</field>
+        <formula>BillingStreet</formula>
+        <name>Copy Billing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Copy_Billing_Zip_Postal_Code</fullName>
+        <field>ShippingPostalCode</field>
+        <formula>BillingPostalCode</formula>
+        <name>Copy Billing Zip/Postal Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Copy Billing Address to Shipping Address</fullName>
+        <actions>
+            <name>Copy_Billing_City</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Billing_Country</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Billing_State</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Billing_Street</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Copy_Billing_Zip_Postal_Code</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+Copy_Billing_Address_to_Shipping_Address__c = TRUE
+,
+OR(
+BillingCity &lt;&gt; ShippingCity
+,BillingCountry &lt;&gt; ShippingCountry
+, BillingState &lt;&gt; ShippingState
+, BillingStreet &lt;&gt; ShippingStreet
+, BillingPostalCode &lt;&gt; ShippingPostalCode
+)
+)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

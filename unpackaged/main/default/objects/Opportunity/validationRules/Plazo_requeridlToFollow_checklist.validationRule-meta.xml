@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plazo_requeridlToFollow_checklist</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+OR(RecordType.Name = &quot;Recurring Sale&quot;,RecordType.Name = &quot;Trial Sale&quot;),
+ ELM_Equipo_de_Ventas__c = &quot;SURAMERICA&quot;,
+TEXT( ELM_Order_Type__c ) = &quot;To Follow&quot;,
+ISBLANK(ELM_Plazo_requerido__c)
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Plazo_requerido__c</errorDisplayField>
+    <errorMessage>Please complete de following field Plazo requerido</errorMessage>
+</ValidationRule>

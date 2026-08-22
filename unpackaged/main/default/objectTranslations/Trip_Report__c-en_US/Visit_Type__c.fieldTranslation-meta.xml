@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Site Visit
+FIT
+CPS
+Tower Mill
+PolyFit --></help>
+        <label><!-- Visit Type --></label>
+        <name>Visit_Type__c</name>
+        <picklistValues>
+            <masterLabel>CPS</masterLabel>
+            <translation><!-- CPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FIT</masterLabel>
+            <translation><!-- FIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PolyFIT</masterLabel>
+            <translation><!-- PolyFIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Visit</masterLabel>
+            <translation><!-- Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tower Mill</masterLabel>
+            <translation><!-- Tower Mill --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

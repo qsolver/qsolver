@@ -1,0 +1,37 @@
+<apex:page standardController="Contact" extensions="ActivateContactControllerExtension">
+    <!-- Begin Default Content REMOVE THIS -->
+    <h1>Congratulations</h1>
+    This is your new Page
+    <!-- End Default Content REMOVE THIS -->
+    <br/> {!inactivatedContact}
+    <p/>
+
+
+
+
+    <!--
+
+    <script type="text/javascript">
+
+        { !REQUIRESCRIPT("/soap/ajax/24.0/connection.js") }
+        { !REQUIRESCRIPT("/soap/ajax/24.0/apex.js") }
+        try {
+            var query = "SELECT Id from InactivContacts__Inactivated_Contacts__c  LIMIT 1";
+            var records = sforce.connection.query(query);
+            var records1 = records.getArray('records');
+            alert(records);
+        } catch (e) {
+            alert('An Error has Occured. Error:' + e);
+        }
+
+
+    </script>
+-->
+
+
+    <flow:interview name="InactivContacts__Contact_Activated_back" finishLocation="{!URLFOR('/003')}">
+        <apex:param name="recordId" value="{!inactivatedContact}" />
+    </flow:interview>
+
+
+</apex:page>

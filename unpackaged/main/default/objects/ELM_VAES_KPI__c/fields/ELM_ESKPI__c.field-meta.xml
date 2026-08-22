@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_ESKPI__c</fullName>
+    <label>ESKPI</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Disponibilidad</fullName>
+                <default>false</default>
+                <label>Disponibilidad</label>
+            </value>
+            <value>
+                <fullName>Rendimiento de Desgaste</fullName>
+                <default>false</default>
+                <label>Rendimiento de Desgaste</label>
+            </value>
+            <value>
+                <fullName>Trough put</fullName>
+                <default>false</default>
+                <label>Trough put</label>
+            </value>
+            <value>
+                <fullName>Seguridad</fullName>
+                <default>false</default>
+                <label>Seguridad</label>
+            </value>
+            <value>
+                <fullName>Procesamiento</fullName>
+                <default>false</default>
+                <label>Procesamiento</label>
+            </value>
+            <value>
+                <fullName>Confiabilidad</fullName>
+                <default>false</default>
+                <label>Confiabilidad</label>
+            </value>
+            <value>
+                <fullName>Mantenibilidad</fullName>
+                <default>false</default>
+                <label>Mantenibilidad</label>
+            </value>
+            <value>
+                <fullName>Recuperacion</fullName>
+                <default>false</default>
+                <label>Recuperacion</label>
+            </value>
+            <value>
+                <fullName>Productividad</fullName>
+                <default>false</default>
+                <label>Productividad</label>
+            </value>
+            <value>
+                <fullName>Desempeño</fullName>
+                <default>false</default>
+                <label>Desempeño</label>
+            </value>
+            <value>
+                <fullName>Costo efectivo</fullName>
+                <default>false</default>
+                <label>Costo efectivo</label>
+            </value>
+            <value>
+                <fullName>Durabilidad</fullName>
+                <default>false</default>
+                <label>Durabilidad</label>
+            </value>
+            <value>
+                <fullName>Sustentabilidad</fullName>
+                <default>false</default>
+                <label>Sustentabilidad</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

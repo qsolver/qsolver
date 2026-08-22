@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Campo de la razon de perdida de la Oportunidad</help>
+        <label>Razón perdida</label>
+        <name>Reason_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Competitor Testing</masterLabel>
+            <translation>Pruebas de la competencia</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Inventory Standards</masterLabel>
+            <translation>Estándares de inventario del cliente</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Design</masterLabel>
+            <translation>Diseño</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exchange Rate</masterLabel>
+            <translation>Tipo de cambio</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead Time</masterLabel>
+            <translation>Plazo de entrega</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Otro</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation>Precio</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Upload Technical Proposal in section &quot;Document Upload&quot; --></help>
+        <label><!-- Upload Technical Proposal --></label>
+        <name>Subir_propuesta_T_cnica__c</name>
+    </CustomFieldTranslation>

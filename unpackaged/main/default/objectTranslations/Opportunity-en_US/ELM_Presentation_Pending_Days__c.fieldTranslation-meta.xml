@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Calculation according to the proposal presentation date Plan indicates how many days are left for the proposal presentation --></help>
+        <label><!-- Proposal Remaining Days --></label>
+        <name>ELM_Presentation_Pending_Days__c</name>
+    </CustomFieldTranslation>

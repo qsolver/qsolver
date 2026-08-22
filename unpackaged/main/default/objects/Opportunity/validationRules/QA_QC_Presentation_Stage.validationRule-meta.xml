@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QA_QC_Presentation_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ TEXT(StageName) = &quot;Release&quot;,
+ ISBLANK(TEXT(ELM_QA_QC_Presentation__c))
+)</errorConditionFormula>
+    <errorDisplayField>ELM_QA_QC_Presentation__c</errorDisplayField>
+    <errorMessage>Please fill in the following field QA/QC Presentation</errorMessage>
+</ValidationRule>

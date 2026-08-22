@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commodity__c</fullName>
+    <description>Main Commodity processed by Account.</description>
+    <label>Commodity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CP01</fullName>
+                <default>false</default>
+                <label>IRON ORE</label>
+            </value>
+            <value>
+                <fullName>CP02</fullName>
+                <default>false</default>
+                <label>COPPER</label>
+            </value>
+            <value>
+                <fullName>CP03</fullName>
+                <default>false</default>
+                <label>PRECIOUS METALS</label>
+            </value>
+            <value>
+                <fullName>CP04</fullName>
+                <default>false</default>
+                <label>OEM</label>
+            </value>
+            <value>
+                <fullName>CP05</fullName>
+                <default>false</default>
+                <label>MINERAL PROCESSING</label>
+            </value>
+            <value>
+                <fullName>CP06</fullName>
+                <default>false</default>
+                <label>OTHER</label>
+            </value>
+            <value>
+                <fullName>CP07</fullName>
+                <default>false</default>
+                <label>ALUMINUM</label>
+            </value>
+            <value>
+                <fullName>CP08</fullName>
+                <default>false</default>
+                <label>COAL</label>
+            </value>
+            <value>
+                <fullName>CP09</fullName>
+                <default>false</default>
+                <label>DIAMONDS</label>
+            </value>
+            <value>
+                <fullName>CP10</fullName>
+                <default>false</default>
+                <label>GOLD</label>
+            </value>
+            <value>
+                <fullName>CP11</fullName>
+                <default>false</default>
+                <label>HEMATITE IRON ORE</label>
+            </value>
+            <value>
+                <fullName>CP12</fullName>
+                <default>false</default>
+                <label>LITHIUM</label>
+            </value>
+            <value>
+                <fullName>CP13</fullName>
+                <default>false</default>
+                <label>MAGNETITE IRON ORE</label>
+            </value>
+            <value>
+                <fullName>CP14</fullName>
+                <default>false</default>
+                <label>MANGANESE</label>
+            </value>
+            <value>
+                <fullName>CP15</fullName>
+                <default>false</default>
+                <label>NICKEL</label>
+            </value>
+            <value>
+                <fullName>CP16</fullName>
+                <default>false</default>
+                <label>PLATINUM GROUP METAL</label>
+            </value>
+            <value>
+                <fullName>CP17</fullName>
+                <default>false</default>
+                <label>SILVER</label>
+            </value>
+            <value>
+                <fullName>CP18</fullName>
+                <default>false</default>
+                <label>URANIUM</label>
+            </value>
+            <value>
+                <fullName>CP19</fullName>
+                <default>false</default>
+                <label>ZINC</label>
+            </value>
+            <value>
+                <fullName>Copper</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Copper</label>
+            </value>
+            <value>
+                <fullName>IND Min Processing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>IND Min Processing</label>
+            </value>
+            <value>
+                <fullName>Iron Ore</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Iron Ore</label>
+            </value>
+            <value>
+                <fullName>Mineral Processing</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Mineral Processing</label>
+            </value>
+            <value>
+                <fullName>Precious Metals</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Precious Metals</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Unknown</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

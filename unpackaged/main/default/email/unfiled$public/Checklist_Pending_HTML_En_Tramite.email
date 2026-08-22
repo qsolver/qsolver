@@ -1,0 +1,22 @@
+Tiene el siguiente {!Opportunity.ELM_Order_Type__c}  pendiente de aprobación:
+<br/>
+<br/>
+Nombre de la oportunidad: {!Opportunity.Name}
+<br/>
+N° de la oportunidad: {!Opportunity.Opportunity_Number__c}
+<br/>
+Cuenta: {!Opportunity.Account}
+<br/>
+Creado por: {!Opportunity.OwnerFullName}
+<br/>
+Con fecha esperada de cierre: {!Opportunity.CloseDate}
+<br/>
+Explicación: {!Opportunity.Explicacion_For_Checklist__c}
+<br/>
+Para ir aprobar/rechazar hacer click en el siguiente link:
+<br/>
+{!Opportunity.Checklist_Reports__c}
+<br/>
+Para ir directamente a la Oportunidad haz click en el siguiente enlace:
+<br/>
+{!Opportunity.Link}

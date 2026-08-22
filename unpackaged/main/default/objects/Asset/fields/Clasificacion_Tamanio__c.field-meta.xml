@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificacion_Tamanio__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT(ISPICKVAL( Line_of_Business__c, &quot;Molienda&quot;)) , &quot;Not a Mill&quot;, 
+IF(INCLUDES(ELM_Subcategory__c, &quot;TOWER MILLS&quot;), &quot;TowerMill&quot;,
+IF(INCLUDES(ELM_Subcategory__c, &quot;Barras&quot;), &quot;Mid Size&quot;,
+IF(INCLUDES(ELM_Subcategory__c, &quot;Bolas&quot;), 
+    IF(Diameter__c &gt;= 18, &quot;Big Size&quot;, &quot;Mid Size&quot;),
+IF(INCLUDES(ELM_Subcategory__c, &quot;SAG&quot;), 
+    IF(Diameter__c &gt;= 27, &quot;Big Size&quot;, &quot;Mid Size&quot;),
+IF(INCLUDES(ELM_Subcategory__c, &quot;AG&quot;), 
+    IF(Diameter__c &gt;= 27, &quot;Big Size&quot;, &quot;Mid Size&quot;),
+&quot;Mid Size&quot; /* Default value */
+))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Clasificacion Tamaño</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

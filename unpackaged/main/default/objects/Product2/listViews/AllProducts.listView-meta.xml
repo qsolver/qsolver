@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllProducts</fullName>
+    <columns>PRODUCT2.NAME</columns>
+    <columns>PRODUCT2.SKU</columns>
+    <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+    <columns>PRODUCT2.DESCRIPTION</columns>
+    <columns>Material_Group__c</columns>
+    <columns>Material__c</columns>
+    <columns>PRODUCT2.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>ELM_Base_Unit_of_Measure__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Todos los productos</label>
+</ListView>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Peso de pieza de Opp.</label>
+        <name>ELM_Opportunity_Purchased_Parts_Weight__c</name>
+    </CustomFieldTranslation>

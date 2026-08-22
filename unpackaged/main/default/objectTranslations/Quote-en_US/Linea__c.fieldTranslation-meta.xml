@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Line</label>
+        <name>Linea__c</name>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation>Others</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repuesto</masterLabel>
+            <translation>Spare parts</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos</masterLabel>
+            <translation>Wall coverings</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio</masterLabel>
+            <translation>Services</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

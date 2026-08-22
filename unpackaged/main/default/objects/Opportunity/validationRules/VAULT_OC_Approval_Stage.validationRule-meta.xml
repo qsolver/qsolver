@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VAULT_OC_Approval_Stage</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ TEXT(StageName) = &quot;Activation&quot;,
+ ISBLANK(ELM_VAULT_OC_Approval_Number__c)
+)</errorConditionFormula>
+    <errorDisplayField>ELM_VAULT_OC_Approval_Number__c</errorDisplayField>
+    <errorMessage>Please fill in the following field VAULT OC Approval number</errorMessage>
+</ValidationRule>

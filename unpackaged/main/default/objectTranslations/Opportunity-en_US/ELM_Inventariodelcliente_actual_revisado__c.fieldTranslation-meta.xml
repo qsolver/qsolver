@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Reviewed Current Customer Inventory --></help>
+        <label>Current customer inventory reviewed</label>
+        <name>ELM_Inventariodelcliente_actual_revisado__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Si</masterLabel>
+            <translation>Yes</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

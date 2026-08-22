@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Compact_Layout</fullName>
+    <fields>Name</fields>
+    <fields>ProductCode</fields>
+    <fields>Asset__c</fields>
+    <fields>ELM_Asset_SAP__c</fields>
+    <fields>ELM_TEXT_Level2__c</fields>
+    <fields>ELM_TEXT_Level3__c</fields>
+    <fields>ELM_TEXT_Level4__c</fields>
+    <fields>Material_Group__c</fields>
+    <fields>ELM_Material_Group_3__c</fields>
+    <fields>StockKeepingUnit</fields>
+    <label>Product Compact Layout</label>
+</CompactLayout>

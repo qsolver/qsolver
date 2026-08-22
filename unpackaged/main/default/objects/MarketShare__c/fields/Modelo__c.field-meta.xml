@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Modelo__c</fullName>
+    <label>Modelo Earth Moving</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>2800 XPA</fullName>
+                <default>false</default>
+                <label>2800 XPA</label>
+            </value>
+            <value>
+                <fullName>2800 XPB</fullName>
+                <default>false</default>
+                <label>2800 XPB</label>
+            </value>
+            <value>
+                <fullName>4100</fullName>
+                <default>false</default>
+                <label>4100</label>
+            </value>
+            <value>
+                <fullName>4100 A</fullName>
+                <default>false</default>
+                <label>4100 A</label>
+            </value>
+            <value>
+                <fullName>4100 XPB</fullName>
+                <default>false</default>
+                <label>4100 XPB</label>
+            </value>
+            <value>
+                <fullName>4100 XPC</fullName>
+                <default>false</default>
+                <label>4100 XPC</label>
+            </value>
+            <value>
+                <fullName>4800XPC</fullName>
+                <default>false</default>
+                <label>4800XPC</label>
+            </value>
+            <value>
+                <fullName>Ex5500</fullName>
+                <default>false</default>
+                <label>Ex5500</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

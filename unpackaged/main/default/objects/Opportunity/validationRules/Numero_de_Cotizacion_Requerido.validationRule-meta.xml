@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Numero_de_Cotizacion_Requerido</fullName>
+    <active>true</active>
+    <description>Se debe requerir que el campo &quot;Número de Cotización&quot; “Quote Number” esté completado para permitir el cambio de estado de &quot;Evaluado&quot; a &quot;Cotizado&quot;.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Activation&quot;),
+    ISBLANK(ELM_Quote_Number__c),
+    RecordType.Name = &#39;Component Services&#39;,
+    ELM_Equipo_de_Ventas__c = &#39;SouthAmerica&#39;
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Quote_Number__c</errorDisplayField>
+    <errorMessage>Completar el Número de Cotización / Complete the Quotation Number</errorMessage>
+</ValidationRule>

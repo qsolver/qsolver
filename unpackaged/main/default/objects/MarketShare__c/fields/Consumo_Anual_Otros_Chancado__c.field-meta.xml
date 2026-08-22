@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Consumo_Anual_Otros_Chancado__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( NOT( ISPICKVAL( Proveedor_del_Set__c , &#39;Elecmetal&#39;) ), 
+
+IF( ISBLANK(TEXT(N_Molinos__c))
+, ((Peso_del_Set__c * (12/DuracionSetMeses__c)) / 1),
+
+((Peso_del_Set__c * (12/DuracionSetMeses__c) * VALUE(TEXT(N_Molinos__c))) / 1)
+
+)
+
+, 
+
+0
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Consumo Anual Otros Ch. (Kg)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

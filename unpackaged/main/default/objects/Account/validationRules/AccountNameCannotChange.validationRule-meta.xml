@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AccountNameCannotChange</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ RecordType.Name = &quot;Customer&quot;,
+ISCHANGED(Name),
+NOT($Permission.Integrator),
+NOT($Permission.Edit_Account_Name),
+NOT($Profile.Id =&quot;00e3h000001bAJt&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Only Integrator can modify Account Name</errorMessage>
+</ValidationRule>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Fecha_Inspeccion_Externa__c</fullName>
+    <formula>TODAY() + (  Inspeccion_Externa__c * 7)</formula>
+    <label>Fecha Inspeccion Externa (si aplica)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

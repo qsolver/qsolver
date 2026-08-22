@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor_BillingAddress</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Competitor&quot;,
+ISBLANK(BillingAddress),
+ $Permission.Integrator = false
+)</errorConditionFormula>
+    <errorMessage>Please fill in Billing Address</errorMessage>
+</ValidationRule>

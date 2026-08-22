@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Fecha de recepcion del CAR (Real)</help>
+        <label>CAR Fecha respuesta</label>
+        <name>ELM_CAR_Respond_Date__c</name>
+    </CustomFieldTranslation>

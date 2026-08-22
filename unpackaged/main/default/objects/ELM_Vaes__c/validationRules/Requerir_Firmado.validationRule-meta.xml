@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requerir_Firmado</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(ELM_Status__c,&#39;Eliminado&#39;),ISCHANGED(ELM_Status__c),  ISPICKVAL(Firmado__c, &#39;&#39;) )</errorConditionFormula>
+    <errorDisplayField>Firmado__c</errorDisplayField>
+    <errorMessage>Primero debe llenar el campo &quot;Firmado?&quot; para poder pasar a la nueva etapa</errorMessage>
+</ValidationRule>

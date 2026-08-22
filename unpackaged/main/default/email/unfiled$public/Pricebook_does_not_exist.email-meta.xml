@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Services_Letterhead</letterhead>
+    <name>Pricebook does not exist</name>
+    <style>freeForm</style>
+    <subject>Pricebook does not exist</subject>
+    <textOnly>The Pricebook {!Account.ELM_Price_Book_SAP__c} selected for the Account {!Account.Name} does not exist.
+
+Please, make sure to create the Pricebook on SAP first, then you can execute the action for it to be updated.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

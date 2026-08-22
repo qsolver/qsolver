@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requerir_Fecha_Cierre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(ELM_Status__c, &#39;Approved&#39;),ISCHANGED(ELM_Status__c), ISBLANK(ELM_Fecha_cierre__c))</errorConditionFormula>
+    <errorDisplayField>ELM_Fecha_cierre__c</errorDisplayField>
+    <errorMessage>Primero debe llenar el campo &quot;Fecha de Cierre&quot; para poder pasar a la nueva etapa /// You must first fill in the &#39;Closing Date&#39; field before proceeding to the next stage.</errorMessage>
+</ValidationRule>

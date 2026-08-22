@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Secondary Resource / Secondary Commodity --></label>
+        <name>Secondary_Resource__c</name>
+        <picklistValues>
+            <masterLabel>ALUMINUM</masterLabel>
+            <translation><!-- ALUMINUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COAL</masterLabel>
+            <translation><!-- COAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COPPER</masterLabel>
+            <translation><!-- COPPER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIAMONDS</masterLabel>
+            <translation><!-- DIAMONDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GOLD</masterLabel>
+            <translation><!-- GOLD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEMATITE IRON ORE</masterLabel>
+            <translation><!-- HEMATITE IRON ORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRON ORE</masterLabel>
+            <translation><!-- IRON ORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LITHIUM</masterLabel>
+            <translation><!-- LITHIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAGNETITE IRON ORE</masterLabel>
+            <translation><!-- MAGNETITE IRON ORE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MANGANESE</masterLabel>
+            <translation><!-- MANGANESE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MINERAL PROCESSING</masterLabel>
+            <translation><!-- MINERAL PROCESSING --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NICKEL</masterLabel>
+            <translation><!-- NICKEL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PLATINUM GROUP METAL</masterLabel>
+            <translation><!-- PLATINUM GROUP METAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRECIOUS METALS</masterLabel>
+            <translation><!-- PRECIOUS METALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SILVER</masterLabel>
+            <translation><!-- SILVER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>URANIUM</masterLabel>
+            <translation><!-- URANIUM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZINC</masterLabel>
+            <translation><!-- ZINC --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

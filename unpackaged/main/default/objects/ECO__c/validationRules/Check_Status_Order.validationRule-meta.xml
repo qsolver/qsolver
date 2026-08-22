@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Status_Order</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(Estado__c),
+    NOT($User.Alias = &#39;amet&#39;),
+    NOT($Profile.Name = &#39;USC&#39;),
+    NOT($Profile.Name == &#39;System Administrator&#39;),
+    CASE(Estado__c,
+        /* BLOCK BACKWARDS TO OPEN: If moving TO Open, it must have been null/new */
+        &quot;OPEN&quot;, IF(ISBLANK(PRIORVALUE(Estado__c)), 0, 1),
+
+        /* WORK: Must come from OPEN */
+        &quot;WORK&quot;, IF(ISPICKVAL(PRIORVALUE(Estado__c), &quot;OPEN&quot;), 0, 1),
+
+        /* CHECK: Must come from WORK */
+        &quot;CHECK&quot;, IF(ISPICKVAL(PRIORVALUE(Estado__c), &quot;WORK&quot;), 0, 1),
+
+        /* REVIEW: Must come from CHECK */
+        &quot;REVIEW&quot;, IF(ISPICKVAL(PRIORVALUE(Estado__c), &quot;CHECK&quot;), 0, 1),
+
+        /* APPROVED: Must come from REVIEW or REJECTED */
+        &quot;APPROVED&quot;, IF(OR(ISPICKVAL(PRIORVALUE(Estado__c), &quot;REVIEW&quot;),
+                          ISPICKVAL(PRIORVALUE(Estado__c), &quot;REJECTED&quot;)), 0, 1),
+        
+        /* REJECTED: Must come from REVIEW or APPROVED */
+        &quot;REJECTED&quot;, IF(OR(ISPICKVAL(PRIORVALUE(Estado__c), &quot;REVIEW&quot;),
+                          ISPICKVAL(PRIORVALUE(Estado__c), &quot;APPROVED&quot;)), 0, 1),
+
+        /* CLOSED: Must come from APPROVED or REJECTED */
+        &quot;CLOSED&quot;, IF(OR(ISPICKVAL(PRIORVALUE(Estado__c), &quot;APPROVED&quot;), 
+                        ISPICKVAL(PRIORVALUE(Estado__c), &quot;REJECTED&quot;)), 0, 1),
+        
+        0
+    ) = 1
+)</errorConditionFormula>
+    <errorDisplayField>Estado__c</errorDisplayField>
+    <errorMessage>Debe seguir el orden lógico de los estados OPEN - WORK - CHECK - REVIEW - REJECTED/APPROVED - CLOSED</errorMessage>
+</ValidationRule>

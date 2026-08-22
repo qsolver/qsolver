@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Material Group 3 --></label>
+        <name>ELM_Material_Group_3__c</name>
+        <picklistValues>
+            <masterLabel>Black Color</masterLabel>
+            <translation><!-- Black Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Black Lifting Eye</masterLabel>
+            <translation><!-- Black Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Color</masterLabel>
+            <translation><!-- Blue Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Lifting Eye</masterLabel>
+            <translation><!-- Blue Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brown Color</masterLabel>
+            <translation><!-- Brown Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brown Lifting Eye</masterLabel>
+            <translation><!-- Brown Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Color Lila</masterLabel>
+            <translation>Lilac Color</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engomado y Perf. Pintada</masterLabel>
+            <translation>Gummed and Painted Perf.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gray Color</masterLabel>
+            <translation><!-- Gray Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gray Lifting Eye</masterLabel>
+            <translation><!-- Gray Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Color</masterLabel>
+            <translation><!-- Green Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Lifting Eye</masterLabel>
+            <translation><!-- Green Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Lifting Eye y Perf. Pin</masterLabel>
+            <translation>Green Lifting Eye &amp; Painted.Perf.</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Blue Color</masterLabel>
+            <translation><!-- Light Blue Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Blue Lifting Eye</masterLabel>
+            <translation><!-- Light Blue Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Light Red Lifting Eye</masterLabel>
+            <translation><!-- Light Red Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lilac Color</masterLabel>
+            <translation><!-- Lilac Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Material por juego</masterLabel>
+            <translation>Material per set</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange Color</masterLabel>
+            <translation><!-- Orange Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Orange Lifting Eye</masterLabel>
+            <translation><!-- Orange Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perforación Pintada</masterLabel>
+            <translation>Painted Perforation</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza Mantencion-Engomada</masterLabel>
+            <translation>Rubberized Maintenance Part</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza Pintada</masterLabel>
+            <translation><!-- Pieza Pintada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza Vulcanizada</masterLabel>
+            <translation><!-- Pieza Vulcanizada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza engomada</masterLabel>
+            <translation>Rubberized part</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza engomada c/ franja azul</masterLabel>
+            <translation>Rubberized piece w/blue stripe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pieza para Mantención</masterLabel>
+            <translation>Maintenance Part</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pink Color</masterLabel>
+            <translation><!-- Pink Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pink Lifting Eye</masterLabel>
+            <translation><!-- Pink Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pintura Azul</masterLabel>
+            <translation><!-- Pintura Azul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pintura Blanca</masterLabel>
+            <translation><!-- Pintura Blanca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purple Color</masterLabel>
+            <translation><!-- Purple Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purple Lifting Eye</masterLabel>
+            <translation><!-- Purple Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Color</masterLabel>
+            <translation><!-- Red Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Lifting Eye</masterLabel>
+            <translation><!-- Red Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red Lifting Eye y Perf. Pintad</masterLabel>
+            <translation><!-- Red Lifting Eye y Perf. Pintad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcan. Pint franja Azul</masterLabel>
+            <translation><!-- Vulcan. Pint franja Azul --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcan. Pint franja amarilla</masterLabel>
+            <translation><!-- Vulcan. Pint franja amarilla --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vulcanizado y Perf. Pintada</masterLabel>
+            <translation><!-- Vulcanizado y Perf. Pintada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Color</masterLabel>
+            <translation><!-- White Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Lifting Eye</masterLabel>
+            <translation><!-- White Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Lifting Eye y Perf. Pint</masterLabel>
+            <translation><!-- White Lifting Eye y Perf. Pint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow Color</masterLabel>
+            <translation><!-- Yellow Color --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow Lifting Eye</masterLabel>
+            <translation><!-- Yellow Lifting Eye --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow Lifting Eye y Perf.Pint</masterLabel>
+            <translation><!-- Yellow Lifting Eye y Perf.Pint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>con Cáncamo</masterLabel>
+            <translation>with eyebolt</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

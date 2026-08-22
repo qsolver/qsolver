@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Mejoras_Feedback__c</fullName>
+    <inlineHelpText>Improvements or Feedback proposed after the test.</inlineHelpText>
+    <label>5.- Mejoras/Feedback</label>
+    <length>60000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

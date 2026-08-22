@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Copy_of_Accounts_by_Region_International</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Region__c</columns>
+    <columns>ELM_Equipo_de_Ventas__c</columns>
+    <columns>Sales_office__c</columns>
+    <columns>PARENT_NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Vendedor_Molienda__c</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>ACCOUNT.URL</columns>
+    <columns>ACCOUNT.ADDRESS1_STATE</columns>
+    <columns>ACCOUNT.INDUSTRY</columns>
+    <columns>IELM_Competitor_ndustry__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Equipo_de_Ventas__c</field>
+        <operation>equals</operation>
+        <value>EMEA</value>
+    </filters>
+    <label>EMEA Accounts</label>
+</ListView>

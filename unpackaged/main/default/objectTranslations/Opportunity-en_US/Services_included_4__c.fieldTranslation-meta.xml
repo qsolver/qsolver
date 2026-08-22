@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Services included 4 --></label>
+        <name>Services_included_4__c</name>
+        <picklistValues>
+            <masterLabel>Ball Tracking</masterLabel>
+            <translation><!-- Ball Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bin Tracking</masterLabel>
+            <translation><!-- Bin Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemelo Digital</masterLabel>
+            <translation><!-- Gemelo Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact Finder</masterLabel>
+            <translation><!-- Impact Finder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scats Tracking</masterLabel>
+            <translation><!-- Scats Tracking --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

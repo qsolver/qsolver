@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>En caso de que halla un numero historico debe de ser ingresado en este campo</help>
+        <label># Programa Historico ME FIT</label>
+        <name>ELM_ME_FIT_Program_Historical__c</name>
+    </CustomFieldTranslation>

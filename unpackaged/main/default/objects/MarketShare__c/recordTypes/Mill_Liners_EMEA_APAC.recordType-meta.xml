@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mill_Liners_EMEA_APAC</fullName>
+    <active>true</active>
+    <label>Mill Liners EMEA/APAC</label>
+    <picklistValues>
+        <picklist>Aleaci_n_de_Medio_de_Molienda__c</picklist>
+        <values>
+            <fullName>120 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14EPX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 FP %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>222 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>306 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acero-Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 **%28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2* %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM3 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM4 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMHC %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSP1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP1 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPX %28WI%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Aleacion__c</picklist>
+        <values>
+            <fullName>120  %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140  %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14EPX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 FP %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>222  %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>306 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acero-Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 **%28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2* %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM3 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM4 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMHC %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSP1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP1  %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPX %28WI%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Aleacion_del_Set__c</picklist>
+        <values>
+            <fullName>120 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>140 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>14EPX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>170 FP %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>222 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>302 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>306 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acero-Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2 **%28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM2* %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM3 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CM4 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CMHC %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSP1 %28CrMo%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SP1 %28WI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPX %28WI%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Duracion_Set_Meses__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>18</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>24</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>36</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>9</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Liner_Material__c</picklist>
+        <values>
+            <fullName>Composite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manganese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mine closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polymet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>White Iron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>not running</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Liner_Price_Confidence_Level__c</picklist>
+        <values>
+            <fullName>Don%27t Really Know %28Default Market Price Used%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reasonably Confident %28Customer Specific Price Entered%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Very Confident %28Pricing Known%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marca__c</picklist>
+        <values>
+            <fullName>Bucyrus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caterpillar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hitachi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Komatsu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liebherr</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P%26H</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Material_1__c</picklist>
+        <values>
+            <fullName>Acero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibrido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metal Casting</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Material__c</picklist>
+        <values>
+            <fullName>Composite</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rubber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Material_de_Medio_de_Molienda__c</picklist>
+        <values>
+            <fullName>Acero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibrido</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Material_del_Set__c</picklist>
+        <values>
+            <fullName>Acero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compuesto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hibrido</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Modelo__c</picklist>
+        <values>
+            <fullName>2800 XPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2800 XPB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100 A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100 XPB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4100 XPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4800XPC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex5500</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>N_Molinos__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>22</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>28</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proveedor_EM__c</picklist>
+        <values>
+            <fullName>Berkeley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bradken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ByG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CQMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caterpillar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hensley</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MTG</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proveedor_Med_Molienda__c</picklist>
+        <values>
+            <fullName>Feifan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gerdau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GoldPro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iraeta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magotteaux Forjada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Magotteaux Fundida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MolyCop</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proveedor__c</picklist>
+        <values>
+            <fullName>GL - Bradken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - CME</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Citic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - FLS Smitdth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - FUCASA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Jingda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - MPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Metso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Multotec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Polycorp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Tega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - Vega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL - WEIR%2FVulco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL -Ahn%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL -Amsu%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GL -Naipu%E2%80%8B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - ACSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Aceros Chile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Busang</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - COMESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Cauchoval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Continental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Empresas Jofre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - FUCSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - FUNCAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - LININGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - ME Elecmetal FUNVESA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Mepsa Aceros Chilca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Metalnorte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - SIOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - San Cayetano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Sociedad técnica metales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SA - Vulco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proveedor_del_Set__c</picklist>
+        <values>
+            <fullName>ACSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Astec%2FTelsmith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CITIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chilcas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuyanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandvik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandvik%2FMETSO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thyssen Krupp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sector_Asset__c</picklist>
+        <values>
+            <fullName>C1 - Mantos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C2 - Concavas %2F Bowls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C3 - Protecciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C4 - Mandibula fija</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C5 - Mandibula movil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M1 - Tapa Alimentación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M2 - Cilindro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M3 - Tapa Descarga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M4 - Cajones y Conos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M5 - Punteras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M6 - Intermedias</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Situacion__c</picklist>
+        <values>
+            <fullName>Contrato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sublinea_de_Negocio__c</picklist>
+        <values>
+            <fullName>Piezas de Desgaste %2F Fundido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repuestos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios reparación</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_Equipo__c</picklist>
+        <values>
+            <fullName>Cable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hidraulica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Revestimiento__c</picklist>
+        <values>
+            <fullName>Revestimientos de Operación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revestimientos de Protección</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Unidad_Peso_Unitario__c</picklist>
+        <values>
+            <fullName>KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>T</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

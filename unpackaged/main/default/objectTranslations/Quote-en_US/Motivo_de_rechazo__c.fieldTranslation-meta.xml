@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Rejection Reason</label>
+        <name>Motivo_de_rechazo__c</name>
+        <picklistValues>
+            <masterLabel>Mala relación con el cliente</masterLabel>
+            <translation>Poor customer relationship</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rechazado por precio</masterLabel>
+            <translation>Rejected due to price</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

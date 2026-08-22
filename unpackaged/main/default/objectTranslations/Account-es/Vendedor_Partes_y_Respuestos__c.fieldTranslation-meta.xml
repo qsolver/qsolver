@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Responsable de Venta - Spare Parts</help>
+        <label><!-- Vendedor Partes y Respuestos --></label>
+        <name>Vendedor_Partes_y_Respuestos__c</name>
+        <relationshipLabel><!-- Accounts (Spare Parts Sales Rep) --></relationshipLabel>
+    </CustomFieldTranslation>

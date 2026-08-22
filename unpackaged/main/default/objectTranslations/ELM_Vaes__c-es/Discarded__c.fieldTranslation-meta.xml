@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Elecmetal alloy --></label>
+        <name>Discarded__c</name>
+        <picklistValues>
+            <masterLabel>CM-HC</masterLabel>
+            <translation><!-- CM-HC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM1</masterLabel>
+            <translation><!-- CM1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM2(*)</masterLabel>
+            <translation><!-- CM2(*) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM2(**)</masterLabel>
+            <translation><!-- CM2(**) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM3</masterLabel>
+            <translation><!-- CM3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM4</masterLabel>
+            <translation><!-- CM4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M1</masterLabel>
+            <translation><!-- M1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M2</masterLabel>
+            <translation><!-- M2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M3</masterLabel>
+            <translation><!-- M3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M3 + TiC</masterLabel>
+            <translation><!-- M3 + TiC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4</masterLabel>
+            <translation><!-- M4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M5</masterLabel>
+            <translation><!-- M5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M7</masterLabel>
+            <translation><!-- M7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M7 +  TiC</masterLabel>
+            <translation><!-- M7 +  TiC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN1</masterLabel>
+            <translation><!-- MN1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSP1</masterLabel>
+            <translation><!-- MSP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otra (Other)</masterLabel>
+            <translation><!-- Otra (Other) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PolyFIT</masterLabel>
+            <translation><!-- PolyFIT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polylight</masterLabel>
+            <translation><!-- Polylight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP1</masterLabel>
+            <translation><!-- SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP4</masterLabel>
+            <translation><!-- SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP5</masterLabel>
+            <translation><!-- SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP540</masterLabel>
+            <translation><!-- SP540 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP7</masterLabel>
+            <translation><!-- SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP8</masterLabel>
+            <translation><!-- SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPX</masterLabel>
+            <translation><!-- SPX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS 306</masterLabel>
+            <translation><!-- WS 306 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-120</masterLabel>
+            <translation><!-- WS-120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-140</masterLabel>
+            <translation><!-- WS-140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-14EPM</masterLabel>
+            <translation><!-- WS-14EPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-14EPX</masterLabel>
+            <translation><!-- WS-14EPX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-170</masterLabel>
+            <translation><!-- WS-170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-170FP</masterLabel>
+            <translation><!-- WS-170FP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-222</masterLabel>
+            <translation><!-- WS-222 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-302</masterLabel>
+            <translation><!-- WS-302 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-306</masterLabel>
+            <translation><!-- WS-306 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-7DM</masterLabel>
+            <translation><!-- WS-7DM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WS-7HM</masterLabel>
+            <translation><!-- WS-7HM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>cm2-hc</masterLabel>
+            <translation><!-- cm2-hc --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

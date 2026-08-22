@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Sales_Team_Required_For_Prospect</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( RecordType.DeveloperName  = &#39;Prospect&#39;,  ISPICKVAL( ELM_Equipo_de_Ventas__c , &#39;&#39;) )</errorConditionFormula>
+    <errorDisplayField>ELM_Equipo_de_Ventas__c</errorDisplayField>
+    <errorMessage>Para crear la cuenta debes llenar primero el campo equipo de ventas</errorMessage>
+</ValidationRule>

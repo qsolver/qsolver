@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Comprador</masterLabel>
+            <translation>Buyer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influenciador</masterLabel>
+            <translation>Influencer</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tomador de decisiones</masterLabel>
+            <translation>Decision Maker</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usuario</masterLabel>
+            <translation>User</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

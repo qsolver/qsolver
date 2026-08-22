@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prevent_Quote_Creation_Before_Negotiatio</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW() &amp;&amp; NOT(ISPICKVAL(Opportunity.StageName, &quot;Negotiation/Review&quot;))</errorConditionFormula>
+    <errorMessage>Solo se pueden crear Cotizaciones si la Oportunidad está en la etapa &quot;Negotiation/Review</errorMessage>
+</ValidationRule>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Incoterm --></label>
+        <name>Incoterm__c</name>
+        <picklistValues>
+            <masterLabel>CFR</masterLabel>
+            <translation><!-- CFR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIF</masterLabel>
+            <translation><!-- CIF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAP</masterLabel>
+            <translation><!-- DAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DDP</masterLabel>
+            <translation><!-- DDP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXW CD</masterLabel>
+            <translation><!-- EXW CD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXW Planta</masterLabel>
+            <translation><!-- EXW Planta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOB</masterLabel>
+            <translation><!-- FOB --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

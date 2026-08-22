@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Annual Consumption Elecmetal. (Tons) EMEA/APAC --></help>
+        <label><!-- A. Consump Elecmetal.(Tons) EMEA/APAC --></label>
+        <name>Annual_Consumption_Elecmetal_EMEA_APAC__c</name>
+    </CustomFieldTranslation>

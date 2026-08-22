@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Status_SAP__c</fullName>
+    <inlineHelpText>SAP Purchase Order Status</inlineHelpText>
+    <label>Status SAP</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Abierto</fullName>
+                <default>false</default>
+                <label>Abierto</label>
+            </value>
+            <value>
+                <fullName>Parcialmente Cerrado</fullName>
+                <default>false</default>
+                <label>Parcialmente Cerrado</label>
+            </value>
+            <value>
+                <fullName>Cerrado</fullName>
+                <default>false</default>
+                <label>Cerrado</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

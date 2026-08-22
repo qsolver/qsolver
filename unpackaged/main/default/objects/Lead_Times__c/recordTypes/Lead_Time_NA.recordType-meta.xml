@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Time_NA</fullName>
+    <active>true</active>
+    <label>Lead Time NA</label>
+    <picklistValues>
+        <picklist>Clasificacion__c</picklist>
+        <values>
+            <fullName>Armado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evaluacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo peso unit %3C 8tons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeticion Lifter y Corazas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeticion peso unit %3C 8 tons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VF Nuevo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VF Repeticion</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Fuente_de_suministro__c</picklist>
+        <values>
+            <fullName>CCSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Funvesa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ME-China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pernos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polyfit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Polylight</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Talleres</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Plant__c</picklist>
+        <values>
+            <fullName>Alliant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DULUTH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Naipu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEMPE FLOOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TEMPE LOOP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Valley Forge</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Team__c</picklist>
+        <values>
+            <fullName>NorthAmerica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SouthAmerica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

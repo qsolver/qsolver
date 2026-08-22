@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Decision Renegotiation or move forward --></label>
+        <name>Decision_Renegotiation_or_move_forward__c</name>
+        <picklistValues>
+            <masterLabel>Renegotiation</masterLabel>
+            <translation><!-- Renegotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>move forward</masterLabel>
+            <translation><!-- move forward --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

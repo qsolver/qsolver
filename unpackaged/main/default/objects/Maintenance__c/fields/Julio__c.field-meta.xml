@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Julio__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(MONTH(Fecha_Inicio__c) == 7,
+
+IF(ISPICKVAL(Tipo_de_Mantencion__c, &quot;Mantencion Mayor&quot;),
+
+HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id, IMAGE($Label.Mantencion_Mayor_imagen, &#39;MM&#39;, 15, 100), &#39;_parent&#39; )
+,
+
+HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id, IMAGE($Label.Mantencion_de_Servicios_Imagen, &#39;MS&#39;, 15, 100), &#39;_parent&#39; )
+
+
+)
+
+,
+
+&quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Julio</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

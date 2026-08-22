@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Count_VAES_KPIs_c__c</fullName>
+    <description>Contar los KPI existentes asociados al VAES</description>
+    <label>Contar VAES KPI</label>
+    <summaryForeignKey>ELM_VAES_KPI__c.ELM_VAES__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

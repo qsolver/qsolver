@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Order Product Layout</layout>
+        <sections>
+            <label><!-- External Provider --></label>
+            <section>External Provider</section>
+        </sections>
+        <sections>
+            <label><!-- Product Stage --></label>
+            <section>Product Stage</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

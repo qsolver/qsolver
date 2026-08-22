@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Test closing date</help>
+        <label>Campaign closing date</label>
+        <name>Fecha_de_cierre_de_campania__c</name>
+    </CustomFieldTranslation>

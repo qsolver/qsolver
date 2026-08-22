@@ -1,0 +1,389 @@
+<apex:page id="pg" controller="ProductoPedidoClienteController" action="{!cargaPedidos}" applyBodyTag="true" docType="HTML-5.0" language="es-ES"
+    sidebar="false" showChat="false" showHeader="false" lightningStylesheets="true">
+
+    <html>
+
+    <head>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+            crossorigin="anonymous" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+
+
+
+    </head>
+
+    <style>
+
+        .filter-form{
+            position: relative;
+            width: 100%;
+            top: 0px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            
+        }
+        
+        @media only screen and (max-width: 500px){
+        li {
+            width: 6em;
+        }
+        *{
+            font-size: 14px;
+        }
+        .filter-form{
+            font-size: 14px;
+        }
+        
+    }
+
+    @media only screen and (max-width: 420px){
+        li {
+            width: 6em;
+        }
+        *{
+            font-size: 12px;
+        }
+        .filter-form{
+            font-size: 12px;
+        }
+    }
+
+    @media only screen and (max-width: 340px){
+        li {
+            width: 6em;
+        }
+        *{
+            font-size: 10px;
+        }
+        .filter-form{
+            font-size: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 260px){
+        li {
+            width: 6em;
+        }
+        *{
+            font-size: 8px;
+        }
+        .filter-form{
+            font-size: 8px;
+        }
+    }
+
+        
+        
+
+    
+    </style>
+
+    <body onpageshow="firstLoad()">
+
+        <!-- PICKLIST FILTER -->
+        <apex:form id="frm" styleClass="filter-form">
+            F. Suministro
+            <apex:selectList id="selectedval" size="1" styleClass="selectList" onchange="getCustomerOrders()">
+
+
+                <apex:selectOption itemLabel="Todas" itemValue="Todas"></apex:selectOption>
+
+                <apex:selectOption itemLabel="OTROS 3ROS" itemValue="OTROS 3ROS"></apex:selectOption>
+
+                <apex:selectOption itemLabel="USA" itemValue="USA"></apex:selectOption>
+
+                <apex:selectOption itemLabel="ESEL" itemValue="ESEL"></apex:selectOption>
+
+                <apex:selectOption itemLabel="METRAN" itemValue="METRAN"></apex:selectOption>
+
+                <apex:selectOption itemLabel="MAEST. RCGUA." itemValue="MAEST. RCGUA."></apex:selectOption>
+
+                <apex:selectOption itemLabel="MAEST. ANTOF." itemValue="MAEST. ANTOF."></apex:selectOption>
+
+                <apex:selectOption itemLabel="ALER.TEMP" itemValue="ALER.TEMP"></apex:selectOption>
+
+                <apex:selectOption itemLabel="ME-CHINA" itemValue="ME-CHINA"></apex:selectOption>
+
+                <apex:selectOption itemLabel="POLYFIT" itemValue="POLYFIT"></apex:selectOption>
+
+                <apex:selectOption itemLabel="POLYLIGHT" itemValue="POLYLIGHT"></apex:selectOption>
+
+                <apex:selectOption itemLabel="CM" itemValue="CM"></apex:selectOption>
+
+                <apex:selectOption itemLabel="BOLAS" itemValue="BOLAS"></apex:selectOption>
+
+                <apex:selectOption itemLabel="ESCO" itemValue="ESCO"></apex:selectOption>
+
+                <apex:selectOption itemLabel="REPRESENTACIONES" itemValue="REPRESENTACIONES"></apex:selectOption>
+
+                <apex:selectOption itemLabel="CEM" itemValue="CEM"></apex:selectOption>
+
+                <apex:selectOption itemLabel="PERNOS" itemValue="PERNOS"></apex:selectOption>
+
+                <apex:selectOption itemLabel="FUNVESA" itemValue="FUNVESA"></apex:selectOption>
+
+                <apex:selectOption itemLabel="FTL" itemValue="FTL"></apex:selectOption>
+
+                <apex:selectOption itemLabel="Otra/ Other" itemValue="Otra/ Other"></apex:selectOption>
+
+            </apex:selectList>
+
+        </apex:form>
+
+        <!-- ORDERS CUSTOMER TABLE -->
+        <div id="div-customer-orders" class="container">
+            <table class="table table-hover" id="table-customer-orders">
+
+            </table>
+        </div>
+
+        <!-- PRODUCTS ORDER TABLE -->
+        <div id="div-products-order" class="container">
+            <div class="row">
+                <table class="table table-hover" id="table-products-order">
+
+                </table>
+            </div>
+            <div>
+                <button class="btn btn-primary" onclick="firstLoad()">Return</button>
+            </div>
+        </div>
+
+        <!-- DETAIL PRODUCT ORDER MODAL -->
+        <div class="modal fade" id="detail-product-order-modal" tabindex="-1" aria-labelledby="detail-product-order-modalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="detail-product-order-modal">DETAIL PRODUCT</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body" id="div-detail-product">
+                        <div class="mb-2">
+                            <label for="ELM_Programado__c" class="form-label">Programado</label>
+                            <input type="text" class="form-control" id="ELM_Programado__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Por_programar__c" class="form-label">Por programar</label>
+                            <input type="text" class="form-control" id="ELM_Por_programar__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Por_Fundir__c" class="form-label">Por fundir</label>
+                            <input type="text" class="form-control" id="ELM_Por_Fundir__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Fundida__c" class="form-label">Fundida</label>
+                            <input type="text" class="form-control" id="ELM_Fundida__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Desmoldeo__c" class="form-label">Desmoldeo</label>
+                            <input type="text" class="form-control" id="ELM_Desmoldeo__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Tratamiento_Termico__c" class="form-label">Tratamiento Térmico</label>
+                            <input type="text" class="form-control" id="ELM_Tratamiento_Termico__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Calidad_de_Tratamiento_Termico__c" class="form-label">Calidad de Tratamiento Térmico</label>
+                            <input type="text" class="form-control" id="ELM_Calidad_de_Tratamiento_Termico__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Terminaciones__c" class="form-label">Terminaciones</label>
+                            <input type="text" class="form-control" id="ELM_Terminaciones__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Inspeccion_Externa__c" class="form-label">Inspección Externa</label>
+                            <input type="text" class="form-control" id="ELM_Inspeccion_Externa__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Pendiente_Vulcanizado__c" class="form-label">Pendiente Vulcanizado</label>
+                            <input type="text" class="form-control" id="ELM_Pendiente_Vulcanizado__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Rechazo_Inspeccion_Externa__c" class="form-label">Rechazo INspección Externa</label>
+                            <input type="text" class="form-control" id="ELM_Rechazo_Inspeccion_Externa__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_En_Vulcanizado__c" class="form-label">En Vulcanizado</label>
+                            <input type="text" class="form-control" id="ELM_En_Vulcanizado__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Liberacion_de_Vulcanizado__c" class="form-label">Liberacion de Vulcanizado</label>
+                            <input type="text" class="form-control" id="ELM_Liberacion_de_Vulcanizado__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Bodega__c" class="form-label">Bodega</label>
+                            <input type="text" class="form-control" id="ELM_Bodega__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Agendado__c" class="form-label">Agendado</label>
+                            <input type="text" class="form-control" id="ELM_Agendado__c" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="ELM_Despachado__c" class="form-label">Despachado</label>
+                            <input type="text" class="form-control" id="ELM_Despachado__c" />
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+
+            let customerId = '{!idCta}';
+            let productsOrder = '';
+            var picklistValue = ''
+
+            function firstLoad() {
+                document.getElementById('div-products-order').style.display = 'none';
+                getCustomerOrders();
+            }
+
+            function getCustomerOrders() {
+                console.log('Account Id => ' + customerId);
+                var AccId = customerId;
+                picklistValue = document.getElementById("pg:frm:selectedval").value;
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ProductoPedidoClienteController.getCustomerOrders}', AccId, picklistValue,
+                    function (result, event) {
+                        if (event.status) {
+                            if (result != undefined) {
+                                var customerOrders = result;
+                                console.log(customerOrders);
+                                drawOrdersTable(customerOrders);
+                            } else {
+                                console.log('Custom without orders!');
+                            }
+                        } else if (event.type === 'exception') {
+                            document.getElementById("responseErrors").innerHTML = event.message;
+                        } else {
+                            document.getElementById("responseErrors").innerHTML = event.message;
+                        }
+                    },
+                    { escape: true }
+                );
+            }
+
+            function drawOrdersTable(customersOrders) {
+                var tableOrders = document.getElementById('table-customer-orders');
+                var rowsOrders = '';
+                customersOrders.forEach(order => {
+                    //to format date
+                    var formattedDate = formatDate(order.PoDate);
+                    var rowOrder = '<tr id="' + order.Id + '" onclick="getProductsOrder(this)">' +
+                        '<td scope="row">' + order.PoNumber + '</td>' +
+                        '<td>' + order.ELM_Pedido_SAP__c + '</td>' +
+                        '<td>' + formattedDate + '</td>' +
+                        '<td>' + order.Status + '</td>' +
+                        '</tr>';
+                    console.log(rowOrder);
+                    rowsOrders = rowsOrders + rowOrder;
+
+                });
+                var headOrders = '<thead><tr><th scope="col">PO Number</th><th scope="col">Pedido SAP</th><th scope="col">PO Date</th><th scope="col">Status</th></tr></thead>';
+                var fullBodyOrders = headOrders + '<tbody>' + rowsOrders + '</tbody>';
+                tableOrders.innerHTML = fullBodyOrders;
+                tableOrders.style.display = 'block';
+            }
+
+            function formatDate(timestamp) {
+                if (timestamp) {
+                    var date = new Date(timestamp);
+                    var year = String(date.getFullYear()).substr(2); // Get the last 2 digits of the year
+                    var month = String(date.getMonth() + 1).padStart(2, '0'); // Months are 0-based in JavaScript, so add 1
+                    var day = String(date.getUTCDate()).padStart(2, '0'); // Use getUTCDate for UTC day
+
+                    return day + '/' + month + '/' + year;
+                }
+                return "";
+            }
+
+            function getProductsOrder(order) {
+
+                console.log('rowId = ' + order.id);
+                var OrdId = order.id;
+                Visualforce.remoting.Manager.invokeAction(
+                    '{!$RemoteAction.ProductoPedidoClienteController.getOrderItems}', OrdId, picklistValue,
+                    function (result, event) {
+                        if (event.status) {
+                            if (result != undefined) {
+                                productsOrder = result;
+                                console.log(productsOrder);
+                                drawProductsOrderTable(productsOrder);
+                            } else {
+                                console.log('Order without items!');
+                            }
+                        } else if (event.type === 'exception') {
+                            document.getElementById("responseErrors").innerHTML = event.message;
+                        } else {
+                            document.getElementById("responseErrors").innerHTML = event.message;
+                        }
+                    },
+                    { escape: true }
+                );
+
+            }
+
+            function drawProductsOrderTable(productsOrder) {
+                var tableProductsOrder = document.getElementById('table-products-order');
+                var rowsProductsOrder = '';
+                productsOrder.forEach(product => {
+                    //to format date
+                    var formattedDate = formatDate(product.ELM_Fecha_Entrega_SKU__c);
+                    var rowProduct = '<tr id="' + product.Id + '" onclick="loadDataModal(this)" data-bs-toggle="modal" data-bs-target="#detail-product-order-modal">' +
+                        '<td scope="row">' + product.Product2.ProductCode + '</td>' +
+                        '<td>' + product.Product2.Name + '</td>' +
+                        '<td>' + product.Quantity + '</td>' +
+                        '<td>' + formattedDate + '</td>' +
+                        '</tr>';
+                    rowsProductsOrder = rowsProductsOrder + rowProduct;
+
+                });
+                var headProductsOrder = '<thead><tr><th scope="col"># Product Code</th><th scope="col">Product</th><th scope="col">Quantity</th><th scope="col">Fecha SKU</th></tr></thead>';
+                var fullBodyProductsOrder = headProductsOrder + '<tbody>' + rowsProductsOrder + '</tbody>';
+                tableProductsOrder.innerHTML = fullBodyProductsOrder;
+                document.getElementById('table-customer-orders').style.display = 'none';
+                tableProductsOrder.style.display = 'block';
+                document.getElementById('div-products-order').style.display = 'block';
+
+            }
+
+            function loadDataModal(product) {
+
+                console.log('Id Product ' + product.id);
+                var rowsProductsOrder = '';
+                productsOrder.forEach(p => {
+                    if (product.id === p.Id) {
+                        document.getElementById('ELM_Programado__c').value = p.ELM_Programado__c;
+                        document.getElementById('ELM_Por_programar__c').value = p.ELM_Por_programar__c;
+                        document.getElementById('ELM_Por_Fundir__c').value = p.ELM_Por_Fundir__c;
+                        document.getElementById('ELM_Fundida__c').value = p.ELM_Fundida__c;
+                        document.getElementById('ELM_Desmoldeo__c').value = p.ELM_Desmoldeo__c;
+                        document.getElementById('ELM_Tratamiento_Termico__c').value = p.ELM_Tratamiento_Termico__c;
+                        document.getElementById('ELM_Calidad_de_Tratamiento_Termico__c').value = p.ELM_Calidad_de_Tratamiento_Termico__c;
+                        document.getElementById('ELM_Terminaciones__c').value = p.ELM_Terminaciones__c;
+                        document.getElementById('ELM_Inspeccion_Externa__c').value = p.ELM_Inspeccion_Externa__c;
+                        document.getElementById('ELM_Pendiente_Vulcanizado__c').value = p.ELM_Pendiente_Vulcanizado__c;
+                        document.getElementById('ELM_Rechazo_Inspeccion_Externa__c').value = p.ELM_Rechazo_Inspeccion_Externa__c;
+                        document.getElementById('ELM_En_Vulcanizado__c').value = p.ELM_En_Vulcanizado__c;
+                        document.getElementById('ELM_Liberacion_de_Vulcanizado__c').value = p.ELM_Liberacion_de_Vulcanizado__c;
+                        document.getElementById('ELM_Bodega__c').value = p.ELM_Bodega__c;
+                        document.getElementById('ELM_Agendado__c').value = p.ELM_Agendado__c;
+                        document.getElementById('ELM_Despachado__c').value = p.ELM_Despachado__c;
+                    }
+                });
+
+            }
+
+        </script>
+
+    </body>
+
+    </html>
+
+</apex:page>

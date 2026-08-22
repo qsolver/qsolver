@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Make_Subir_propuesta_Comercial_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(StageName),  ISPICKVAL(StageName, &quot;6 Present Proposal&quot;),Upload_commercial_proposal__c == False)</errorConditionFormula>
+    <errorMessage>Error, debe llenar el campo &quot;Subir propuesta Comercial &quot;  en la Etapa 5.-Desarrollo Tec &amp; Com
+
+Error, you must fill out the &quot;Upload Commercial Proposal&quot; field in Stage 5.-Tec &amp; Com Development</errorMessage>
+</ValidationRule>

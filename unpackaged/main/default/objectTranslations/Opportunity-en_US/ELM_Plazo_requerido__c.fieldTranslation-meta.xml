@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Required term --></help>
+        <label>Required deadline</label>
+        <name>ELM_Plazo_requerido__c</name>
+    </CustomFieldTranslation>

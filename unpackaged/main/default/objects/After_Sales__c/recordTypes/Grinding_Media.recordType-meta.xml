@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grinding_Media</fullName>
+    <active>true</active>
+    <description>GM After Sale Process</description>
+    <label>Grinding Media / GET</label>
+    <picklistValues>
+        <picklist>ELM_After_Sale_Applies__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Distribution_Centers__c</picklist>
+        <values>
+            <fullName>Agunsa %2F Antofagasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coseducam</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Negra %2F Antofagasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marval %2F Antofagasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marval %2F Iquique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marval %2F ZC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marval %2F ZN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None%2FNinguno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paipote</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_GM_Opp_Type__c</picklist>
+        <values>
+            <fullName>Auction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ongoing Supply</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Product Test</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_GM_Stage__c</picklist>
+        <values>
+            <fullName>Assign Technical Services Resources</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finalize Contract and or PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify Improvement and Growth Opportunities</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Delivery Plan</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Line_of_Business__c</picklist>
+        <values>
+            <fullName>Alerta Temprana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolas %28Grinding Media%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chancado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maestranza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molienda</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Measurement_Unit__c</picklist>
+        <values>
+            <fullName>Tons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unit</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Performance_Report__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Quality_Reportability__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Status__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Technical_Visit__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Trainings__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

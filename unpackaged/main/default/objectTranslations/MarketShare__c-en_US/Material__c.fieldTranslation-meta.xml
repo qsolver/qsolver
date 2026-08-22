@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Material</label>
+        <name>Material__c</name>
+        <picklistValues>
+            <masterLabel>Composite</masterLabel>
+            <translation><!-- Composite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rubber</masterLabel>
+            <translation><!-- Rubber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steel</masterLabel>
+            <translation><!-- Steel --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

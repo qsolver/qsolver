@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Relevant competitor --></help>
+        <label>Competitors</label>
+        <name>ELM_Seleccionar_competidor__c</name>
+        <picklistValues>
+            <masterLabel>Aceros Chilca</masterLabel>
+            <translation><!-- Aceros Chilca --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aceros Chile</masterLabel>
+            <translation><!-- Aceros Chile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berkeley</masterLabel>
+            <translation><!-- Berkeley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradken</masterLabel>
+            <translation><!-- Bradken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Busang</masterLabel>
+            <translation><!-- Busang --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT</masterLabel>
+            <translation><!-- CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CITIC</masterLabel>
+            <translation><!-- CITIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Mining</masterLabel>
+            <translation><!-- CR Mining --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cepcor</masterLabel>
+            <translation><!-- Cepcor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Columbia Steel</masterLabel>
+            <translation><!-- Columbia Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Continental</masterLabel>
+            <translation><!-- Continental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FC Liners</masterLabel>
+            <translation><!-- FC Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS</masterLabel>
+            <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLSmith</masterLabel>
+            <translation><!-- FLSmith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FUCSA</masterLabel>
+            <translation><!-- FUCSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frog, Switch</masterLabel>
+            <translation><!-- Frog, Switch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fucasa</masterLabel>
+            <translation><!-- Fucasa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Asia</masterLabel>
+            <translation><!-- Growth Asia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth steel</masterLabel>
+            <translation><!-- Growth steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H&amp;L</masterLabel>
+            <translation><!-- H&amp;L --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hensley</masterLabel>
+            <translation><!-- Hensley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jansen</masterLabel>
+            <translation><!-- Jansen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Komatsu</masterLabel>
+            <translation><!-- Komatsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Elecmetal</masterLabel>
+            <translation><!-- ME Elecmetal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEPSA</masterLabel>
+            <translation><!-- MEPSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>METSO</masterLabel>
+            <translation><!-- METSO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MTG</masterLabel>
+            <translation><!-- MTG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metalnorte</masterLabel>
+            <translation><!-- Metalnorte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso Outec</masterLabel>
+            <translation><!-- Metso Outec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros</masterLabel>
+            <translation>Other</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PT Growth</masterLabel>
+            <translation><!-- PT Growth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pectiction and Castech</masterLabel>
+            <translation><!-- Pectiction and Castech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polycorp</masterLabel>
+            <translation><!-- Polycorp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SIOM</masterLabel>
+            <translation><!-- SIOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Cayetano</masterLabel>
+            <translation><!-- San Cayetano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik</masterLabel>
+            <translation><!-- Sandvik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sorena</masterLabel>
+            <translation><!-- Sorena --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TEGA</masterLabel>
+            <translation><!-- TEGA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VDL</masterLabel>
+            <translation><!-- VDL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VULCO</masterLabel>
+            <translation><!-- VULCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vega</masterLabel>
+            <translation><!-- Vega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weir/ESCO</masterLabel>
+            <translation><!-- Weir/ESCO --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

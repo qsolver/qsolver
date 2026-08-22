@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Copia_7_Dias__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(
+  Owner_de_la_Cotizacion__r.Email,
+
+  &quot;felipe.cisternas@talleres.cl&quot;, &quot;sduran@talleres.cl&quot;,
+  &quot;gonzalo.yanez@talleres.cl&quot;, &quot;sduran@talleres.cl&quot;,
+  &quot;garaya@elecmetal.cl&quot;, &quot;sduran@talleres.cl&quot;,
+  &quot;catalina.aburto@talleres.cl&quot;, &quot;gdinamarca@talleres.cl&quot;,
+  &quot;hugo.rojas@talleres.cl&quot;, &quot;gdinamarca@talleres.cl&quot;,
+  &quot;jorge.riquelme@talleres.cl&quot;, &quot;gdinamarca@talleres.cl&quot;,
+  &quot;felipe.pallero@talleres.cl&quot;, &quot;gdinamarca@talleres.cl&quot;,
+  &quot;darango@me-elecmetal.com&quot;, &quot;gdinamarca@talleres.cl&quot;,
+  &quot;jpfarfan@me-elecmetal.pe&quot;, &quot;vmiranda@talleres.cl&quot;,
+  &quot;akoclem@me-elecmetal.com&quot;, &quot;vmiranda@talleres.cl&quot;,
+
+  &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Email Copia 7 Dias</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

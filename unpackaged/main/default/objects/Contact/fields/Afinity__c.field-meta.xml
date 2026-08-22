@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Afinity__c</fullName>
+    <label>Afinity</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pro Elecmetal</fullName>
+                <default>false</default>
+                <label>Pro Elecmetal</label>
+            </value>
+            <value>
+                <fullName>Neutro</fullName>
+                <default>false</default>
+                <label>Neutro</label>
+            </value>
+            <value>
+                <fullName>Pro Competencia</fullName>
+                <default>false</default>
+                <label>Pro Competencia</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

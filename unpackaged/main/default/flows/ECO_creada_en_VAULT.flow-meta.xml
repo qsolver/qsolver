@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <description>Mail tipo de envio de notificación</description>
+        <name>ECO_sin_n_mero_VAULT</name>
+        <label>ECO sin número VAULT</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>recipientAddresses</name>
+            <value>
+                <collectionElements>
+                    <stringValue>george.gonas@ticel.cl</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>arachet@me-elecmetal.com</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>plarrain@me-elecmetal.com</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>leonardo.buschiazzo@ticel.cl</stringValue>
+                </collectionElements>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>composeEmailContent</name>
+            <value>
+                <stringValue>True</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>Alerta: El ECO ha sido creado pero no tiene el valor de vault test</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>&lt;p&gt;{!BodyMail}&lt;/p&gt;</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>sendRichBody</name>
+            <value>
+                <booleanValue>true</booleanValue>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+            </value>
+        </inputParameters>
+        <nameSegment>emailSimple</nameSegment>
+        <offset>0</offset>
+        <versionString>3.0.1</versionString>
+    </actionCalls>
+    <apiVersion>67.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Revisar_Campo_Number</name>
+        <label>Revisar Campo Number</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Vacio</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Number__c</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>ECO_sin_n_mero_VAULT</targetReference>
+            </connector>
+            <label>Vacio</label>
+        </rules>
+    </decisions>
+    <description>18/06/2026 16:41 se agrega mail leonardo.buschiazzo@ticel.cl, se deja 5 minutos</description>
+    <environments>Default</environments>
+    <formulas>
+        <name>f_RecordURL</name>
+        <dataType>String</dataType>
+        <expression>LEFT($Api.Partner_Server_URL_550, FIND( &#39;/services&#39;, $Api.Partner_Server_URL_550)) &amp; {!$Record.Id}</expression>
+    </formulas>
+    <interviewLabel>ECO creada en VAULT {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>ECO creada en VAULT</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <object>ECO__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <scheduledPaths>
+            <name>X1_Hora_Post_Creacion</name>
+            <connector>
+                <targetReference>Revisar_Campo_Number</targetReference>
+            </connector>
+            <label>1 Hora Post Creación</label>
+            <offsetNumber>5</offsetNumber>
+            <offsetUnit>Minutes</offsetUnit>
+            <timeSource>RecordTriggerEvent</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>BodyMail</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;El ECO &lt;a href=&quot;{!f_RecordURL}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;{!$Record.Name}&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;se ha creado , falta completar el Número Vault&lt;/p&gt;</text>
+    </textTemplates>
+</Flow>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CannotSkipStageGM</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND
+(
+ RecordType.Name = &quot;Grinding Media / GET&quot;,
+TEXT(StageName) &lt;&gt; &quot;Closed Lost&quot;,
+ISCHANGED(StageName) &amp;&amp; (
+CASE( StageName, 
+&quot;Qualification&quot;,1,
+&quot;Update Decision Makers&quot;,2,
+&quot;Update Account Plan&quot;,3,
+&quot;Develop Tech and Comm proposal&quot;,4,
+&quot;Present Proposal&quot;,5,
+&quot;Negotiation/Review&quot;,6,
+&quot;Closed Won&quot;,7,
+0) 
+- 
+CASE(PRIORVALUE(StageName), 
+&quot;Qualification&quot;,1,
+&quot;Update Decision Makers&quot;,2,
+&quot;Update Account Plan&quot;,3,
+&quot;Develop Tech and Comm proposal&quot;,4,
+&quot;Present Proposal&quot;,5,
+&quot;Negotiation/Review&quot;,6,
+&quot;Closed Won&quot;,7,
+0)  &lt;&gt; 1)
+)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Cannot Skip Stage</errorMessage>
+</ValidationRule>

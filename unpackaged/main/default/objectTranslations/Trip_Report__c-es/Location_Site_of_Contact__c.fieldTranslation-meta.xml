@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Ubicación del Contacto (Site)</help>
+        <label>Sitio de contacto</label>
+        <name>Location_Site_of_Contact__c</name>
+    </CustomFieldTranslation>

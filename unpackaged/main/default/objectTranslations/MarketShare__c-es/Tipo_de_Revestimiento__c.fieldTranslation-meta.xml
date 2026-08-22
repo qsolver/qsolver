@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Tipo de Revestimiento --></label>
+        <name>Tipo_de_Revestimiento__c</name>
+        <picklistValues>
+            <masterLabel>CI y Med. Mineria</masterLabel>
+            <translation><!-- CI y Med. Mineria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos de Operación</masterLabel>
+            <translation><!-- Revestimientos de Operación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos de Protección</masterLabel>
+            <translation><!-- Revestimientos de Protección --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services and Spare Parts</masterLabel>
+            <translation>Servicios y Repuestos</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

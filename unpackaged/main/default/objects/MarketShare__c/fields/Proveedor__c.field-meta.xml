@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proveedor__c</fullName>
+    <label>Proveedor del Sector</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ME Elecmetal</fullName>
+                <default>false</default>
+                <label>GL - ME Elecmetal</label>
+            </value>
+            <value>
+                <fullName>GL - FLS Smitdth</fullName>
+                <default>false</default>
+                <label>GL - FLS Smitdth</label>
+            </value>
+            <value>
+                <fullName>GL - Growth</fullName>
+                <default>false</default>
+                <label>GL - Growth</label>
+            </value>
+            <value>
+                <fullName>GL - Metso</fullName>
+                <default>false</default>
+                <label>GL - Metso</label>
+            </value>
+            <value>
+                <fullName>GL - Citic</fullName>
+                <default>false</default>
+                <label>GL - Citic</label>
+            </value>
+            <value>
+                <fullName>GL - Bradken</fullName>
+                <default>false</default>
+                <label>GL - Bradken</label>
+            </value>
+            <value>
+                <fullName>GL - MPS</fullName>
+                <default>false</default>
+                <label>GL - MPS</label>
+            </value>
+            <value>
+                <fullName>GL - CME</fullName>
+                <default>false</default>
+                <label>GL - CME</label>
+            </value>
+            <value>
+                <fullName>GL - Jingda</fullName>
+                <default>false</default>
+                <label>GL - Jingda</label>
+            </value>
+            <value>
+                <fullName>GL - Vega</fullName>
+                <default>false</default>
+                <label>GL - Vega</label>
+            </value>
+            <value>
+                <fullName>GL - Tega</fullName>
+                <default>false</default>
+                <label>GL - Tega</label>
+            </value>
+            <value>
+                <fullName>GL - FUCASA</fullName>
+                <default>false</default>
+                <label>GL - FUCASA</label>
+            </value>
+            <value>
+                <fullName>GL - WEIR/Vulco</fullName>
+                <default>false</default>
+                <label>GL - WEIR/Vulco</label>
+            </value>
+            <value>
+                <fullName>GL - Polycorp</fullName>
+                <default>false</default>
+                <label>GL - Polycorp</label>
+            </value>
+            <value>
+                <fullName>SA - Aceros Chile</fullName>
+                <default>false</default>
+                <label>SA - Aceros Chile</label>
+            </value>
+            <value>
+                <fullName>SA - Empresas Jofre</fullName>
+                <default>false</default>
+                <label>SA - Empresas Jofre</label>
+            </value>
+            <value>
+                <fullName>SA - Metalnorte</fullName>
+                <default>false</default>
+                <label>SA - Metalnorte</label>
+            </value>
+            <value>
+                <fullName>SA - San Cayetano</fullName>
+                <default>false</default>
+                <label>SA - San Cayetano</label>
+            </value>
+            <value>
+                <fullName>SA - Sociedad técnica metales</fullName>
+                <default>false</default>
+                <label>SA - Sociedad técnica metales</label>
+            </value>
+            <value>
+                <fullName>SA - Busang</fullName>
+                <default>false</default>
+                <label>SA - Busang</label>
+            </value>
+            <value>
+                <fullName>SA - Continental</fullName>
+                <default>false</default>
+                <label>SA - Continental</label>
+            </value>
+            <value>
+                <fullName>SA - SIOM</fullName>
+                <default>false</default>
+                <label>SA - SIOM</label>
+            </value>
+            <value>
+                <fullName>SA - Vulco</fullName>
+                <default>false</default>
+                <label>SA - Vulco</label>
+            </value>
+            <value>
+                <fullName>SA - ACSA</fullName>
+                <default>false</default>
+                <label>SA - ACSA</label>
+            </value>
+            <value>
+                <fullName>SA - Cauchoval</fullName>
+                <default>false</default>
+                <label>SA - Cauchoval</label>
+            </value>
+            <value>
+                <fullName>SA - ME Elecmetal FUNVESA</fullName>
+                <default>false</default>
+                <label>SA - ME Elecmetal FUNVESA</label>
+            </value>
+            <value>
+                <fullName>SA - Mepsa Aceros Chilca</fullName>
+                <default>false</default>
+                <label>SA - Mepsa Aceros Chilca</label>
+            </value>
+            <value>
+                <fullName>SA - COMESA</fullName>
+                <default>false</default>
+                <label>SA - COMESA</label>
+            </value>
+            <value>
+                <fullName>SA - FUNCAL</fullName>
+                <default>false</default>
+                <label>SA - FUNCAL</label>
+            </value>
+            <value>
+                <fullName>SA - FUCSA</fullName>
+                <default>false</default>
+                <label>SA - FUCSA</label>
+            </value>
+            <value>
+                <fullName>SA - LININGS</fullName>
+                <default>false</default>
+                <label>SA - LININGS</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>GL - Multotec</fullName>
+                <default>false</default>
+                <label>GL - Multotec</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>GL -Ahn​</fullName>
+                <default>false</default>
+                <label>GL -Ahn​</label>
+            </value>
+            <value>
+                <fullName>GL -Amsu​</fullName>
+                <default>false</default>
+                <label>GL -Amsu​</label>
+            </value>
+            <value>
+                <fullName>GL -Naipu​</fullName>
+                <default>false</default>
+                <label>GL -Naipu​</label>
+            </value>
+            <value>
+                <fullName>GL - Weir</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>GL - Weir</label>
+            </value>
+            <value>
+                <fullName>Proveedor 1</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proveedor 1</label>
+            </value>
+            <value>
+                <fullName>Proveedor 2</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proveedor 2</label>
+            </value>
+            <value>
+                <fullName>Proveedor 3</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proveedor 3</label>
+            </value>
+            <value>
+                <fullName>Proveedor 4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proveedor 4</label>
+            </value>
+            <value>
+                <fullName>Proveedor 5</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Proveedor 5</label>
+            </value>
+            <value>
+                <fullName>SA - Polycorp</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SA - Polycorp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

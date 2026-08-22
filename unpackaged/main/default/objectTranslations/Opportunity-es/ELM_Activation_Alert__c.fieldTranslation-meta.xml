@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Alerta que indica el estado general de la Oportunidad  Inviable, Muy justo, Normal</help>
+        <label>Alerta Oportunidad</label>
+        <name>ELM_Activation_Alert__c</name>
+    </CustomFieldTranslation>

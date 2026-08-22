@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Classification__c</fullName>
+    <label>Classification</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not Generic</fullName>
+                <default>true</default>
+                <label>Not Generic</label>
+            </value>
+            <value>
+                <fullName>Generic</fullName>
+                <default>false</default>
+                <label>Generic</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

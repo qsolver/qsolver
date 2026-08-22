@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Linea de Negocio del VAES</help>
+        <label>Linea de Negocios</label>
+        <name>ELM_Line_Of_Business__c</name>
+    </CustomFieldTranslation>

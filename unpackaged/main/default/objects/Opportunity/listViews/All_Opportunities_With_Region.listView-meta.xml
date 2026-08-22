@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Opportunities_With_Region</fullName>
+    <columns>Opportunity_Number_fx__c</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Tons__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Ship_Date__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY.NEXT_STEP</columns>
+    <columns>Next_Step_Due_Date_c__c</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>ELM_Sales_Region__c</columns>
+    <columns>ELM_Equipo_de_Ventas__c</columns>
+    <columns>OPPORTUNITY.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.CREATED_DATE</field>
+        <operation>greaterThan</operation>
+        <value>9/4/2023 12:00 AM</value>
+    </filters>
+    <label>NA_All Opportunities -All</label>
+</ListView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requerir_Fecha_Instalacion_Fecha_Cierrre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISPICKVAL(ELM_Status__c, &#39;Sent for approval&#39;),    ISCHANGED(ELM_Status__c) ,OR(ISBLANK(Fecha_de_instalacion__c), ISBLANK(Fecha_de_cierre_de_campania__c)))</errorConditionFormula>
+    <errorMessage>Primero debe llenar los campos &quot;Fecha de Instalación&quot; y &quot;Fecha de Cierre de Campaña&quot; para poder pasar a la nueva etapa</errorMessage>
+</ValidationRule>

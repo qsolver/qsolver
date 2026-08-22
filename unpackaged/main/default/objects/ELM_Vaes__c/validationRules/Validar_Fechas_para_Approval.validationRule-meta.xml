@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Fechas_para_Approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(ELM_Status__c, &quot;Sent For Approval&quot;),
+    ISPICKVAL(PRIORVALUE(ELM_Status__c), &quot;Testing Protocol&quot;),
+    OR(
+        ISBLANK(Fecha_de_L_Base__c),
+        ISBLANK(Fecha_de_instalacion__c),
+        Fecha_de_L_Base__c &gt;= Fecha_de_instalacion__c
+    )
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Status__c</errorDisplayField>
+    <errorMessage>No se puede avanzar a &#39;Sent For Approval&#39;. Requisitos:
+1. Fecha de L Base es obligatoria
+2. Fecha de Instalación es obligatoria  
+3. Debe cumplirse: Fecha de L Base &lt; Fecha de Instalación</errorMessage>
+</ValidationRule>

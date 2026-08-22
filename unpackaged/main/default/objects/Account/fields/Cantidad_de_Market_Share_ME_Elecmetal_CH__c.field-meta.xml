@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cantidad_de_Market_Share_ME_Elecmetal_CH__c</fullName>
+    <label>Cantidad de Market Share ME Elecmetal CH</label>
+    <summaryFilterItems>
+        <field>MarketShare__c.Proveedor_del_Set__c</field>
+        <operation>equals</operation>
+        <value>Elecmetal</value>
+    </summaryFilterItems>
+    <summaryForeignKey>MarketShare__c.Account__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

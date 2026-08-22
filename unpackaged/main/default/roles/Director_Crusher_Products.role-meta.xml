@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Director Crusher Products &amp; Solutions</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Director Crusher Products</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>VP_North_American_Sales</parentRole>
+</Role>

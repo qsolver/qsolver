@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_of_Measurement__c</fullName>
+    <description>Specify the unit of measure for the dimensions of the equipment.</description>
+    <inlineHelpText>Unit of Measurement - Customer Equipment (Asset)</inlineHelpText>
+    <label>Unit of Measurement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Feet</fullName>
+                <default>false</default>
+                <label>Feet</label>
+            </value>
+            <value>
+                <fullName>Meters</fullName>
+                <default>false</default>
+                <label>Meters</label>
+            </value>
+            <value>
+                <fullName>Millimeters</fullName>
+                <default>false</default>
+                <label>Millimeters</label>
+            </value>
+            <value>
+                <fullName>Inches</fullName>
+                <default>false</default>
+                <label>Inches</label>
+            </value>
+            <value>
+                <fullName>Pie3 (Pie cúbico)</fullName>
+                <default>false</default>
+                <label>Pie3 (Pie cúbico)</label>
+            </value>
+            <value>
+                <fullName>M3 (Metro cúbico)</fullName>
+                <default>false</default>
+                <label>M3 (Metro cúbico)</label>
+            </value>
+            <value>
+                <fullName>YD3 (Yarda cúbica)</fullName>
+                <default>false</default>
+                <label>YD3 (Yarda cúbica)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>ECO Requests</name>
+    <queueMembers>
+        <roles>
+            <role>Account_Manager_USA</role>
+            <role>Technical_Services_Staff</role>
+        </roles>
+        <users>
+            <user>itadmin@meglobal.com</user>
+            <user>terrytest@meglobal.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

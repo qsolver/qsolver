@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- If the checkbox is marked, an automatic number is generated for the assignment of the ME-FIT number --></help>
+        <label><!-- ME FIT Program # --></label>
+        <name>ELM_Opportunity_Autonumber__c</name>
+    </CustomFieldTranslation>

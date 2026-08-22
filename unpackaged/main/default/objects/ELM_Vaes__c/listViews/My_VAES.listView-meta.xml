@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_VAES</fullName>
+    <columns>NAME</columns>
+    <columns>ELM_Project_Name__c</columns>
+    <columns>ELM_Account__c</columns>
+    <columns>ELM_Line_Of_Business__c</columns>
+    <columns>ELM_Status__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>My VAES</label>
+</ListView>

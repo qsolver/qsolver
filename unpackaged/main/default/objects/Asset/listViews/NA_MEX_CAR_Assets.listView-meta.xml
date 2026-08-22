@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NA_MEX_CAR_Assets</fullName>
+    <booleanFilter>1 AND (2 and 3)</booleanFilter>
+    <columns>ASSET.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>Line_of_Business__c</columns>
+    <columns>ELM_Subcategory__c</columns>
+    <columns>ELM_Account_Country_Code__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Sales_Team__c</field>
+        <operation>equals</operation>
+        <value>NorthAmerica</value>
+    </filters>
+    <filters>
+        <field>ELM_Account_Country_Code__c</field>
+        <operation>notEqual</operation>
+        <value>USA</value>
+    </filters>
+    <filters>
+        <field>ELM_Account_Country_Code__c</field>
+        <operation>notEqual</operation>
+        <value>Canada</value>
+    </filters>
+    <label>NA_MEX_CAR Assets</label>
+</ListView>

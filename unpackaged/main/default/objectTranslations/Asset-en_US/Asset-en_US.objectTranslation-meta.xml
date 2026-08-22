@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Asset Layout</layout>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - Molienda --></label>
+            <section>Consumo Anual - Molienda</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Crusher Asset Layout</layout>
+        <sections>
+            <label><!-- Annual Consumption - Mill Liners --></label>
+            <section>Annual Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Competitor Info --></label>
+            <section>Competitor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - CH --></label>
+            <section>Consumo Anual - CH</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ME Elecmetal Equipment --></label>
+            <section>ME Elecmetal Equipment</section>
+        </sections>
+        <sections>
+            <label><!-- Usage Metrics --></label>
+            <section>Usage Metrics</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Mill Asset Layout</layout>
+        <sections>
+            <label><!-- Annual Consumption - Mill Liners --></label>
+            <section>Annual Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Competitor Info --></label>
+            <section>Competitor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ME Elecmetal Equipment --></label>
+            <section>ME Elecmetal Equipment</section>
+        </sections>
+        <sections>
+            <label><!-- Usage Metrics --></label>
+            <section>Usage Metrics</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Other Asset Layout</layout>
+        <sections>
+            <label><!-- Annual Consumption - Mill Liners --></label>
+            <section>Annual Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Custom Product Layout</layout>
+        <sections>
+            <label><!-- Annual Consumption - Mill Liners --></label>
+            <section>Annual Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Order Information --></label>
+            <section>Order Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Customer</layout>
+        <sections>
+            <label><!-- Annual Consumption - Mill Liners --></label>
+            <section>Annual Consumption - Mill Liners</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - CH --></label>
+            <section>Consumo Anual - CH</section>
+        </sections>
+        <sections>
+            <label><!-- Consumo Anual - GM --></label>
+            <section>Consumo Anual - GM</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ME Elecmetal Equipment --></label>
+            <section>ME Elecmetal Equipment</section>
+        </sections>
+        <sections>
+            <label><!-- Usage Metrics --></label>
+            <section>Usage Metrics</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_TaskAsset</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Crusher Assets --></description>
+        <label><!-- Crusher --></label>
+        <name>Crusher</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Customer Asset --></label>
+        <name>Customer</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Grinding Mill Assets --></description>
+        <label><!-- Mill --></label>
+        <name>Mill</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Other Assets --></description>
+        <label><!-- Other --></label>
+        <name>Other</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Products sold to customers --></description>
+        <label><!-- Products --></label>
+        <name>Products</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Porcentaje de participacion cannot exceed 100% --></errorMessage>
+        <name>ELM_Percent_Cannot_Exceed_100</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_Assets --></label>
+        <name>Create_Assets</name>
+    </webLinks>
+</CustomObjectTranslation>

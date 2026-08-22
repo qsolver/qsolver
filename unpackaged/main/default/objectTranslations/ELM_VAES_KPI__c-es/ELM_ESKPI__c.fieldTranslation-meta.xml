@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>ESKPI</label>
+        <name>ELM_ESKPI__c</name>
+        <picklistValues>
+            <masterLabel>Confiabilidad</masterLabel>
+            <translation><!-- Confiabilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Costo efectivo</masterLabel>
+            <translation><!-- Costo efectivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desempeño</masterLabel>
+            <translation><!-- Desempeño --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disponibilidad</masterLabel>
+            <translation><!-- Disponibilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Durabilidad</masterLabel>
+            <translation><!-- Durabilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mantenibilidad</masterLabel>
+            <translation><!-- Mantenibilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procesamiento</masterLabel>
+            <translation><!-- Procesamiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Productividad</masterLabel>
+            <translation><!-- Productividad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recuperacion</masterLabel>
+            <translation><!-- Recuperacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rendimiento de Desgaste</masterLabel>
+            <translation><!-- Rendimiento de Desgaste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seguridad</masterLabel>
+            <translation><!-- Seguridad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sustentabilidad</masterLabel>
+            <translation><!-- Sustentabilidad --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trough put</masterLabel>
+            <translation><!-- Trough put --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

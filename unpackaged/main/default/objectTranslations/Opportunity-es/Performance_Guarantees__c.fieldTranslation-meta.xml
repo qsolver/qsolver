@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Descripcion de garantias de rendimiento</help>
+        <label>Garantías de rendimiento</label>
+        <name>Performance_Guarantees__c</name>
+    </CustomFieldTranslation>

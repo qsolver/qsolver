@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Brand</label>
+        <name>Marca__c</name>
+        <picklistValues>
+            <masterLabel>Bucyrus</masterLabel>
+            <translation><!-- Bucyrus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT</masterLabel>
+            <translation><!-- CAT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caterpillar</masterLabel>
+            <translation><!-- Caterpillar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hitachi</masterLabel>
+            <translation><!-- Hitachi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Komatsu</masterLabel>
+            <translation><!-- Komatsu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liebherr</masterLabel>
+            <translation><!-- Liebherr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;H</masterLabel>
+            <translation><!-- P&amp;H --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- After Sale --></label>
+        <name>ELM_After_Sale__c</name>
+        <relationshipLabel><!-- Availability --></relationshipLabel>
+    </CustomFieldTranslation>

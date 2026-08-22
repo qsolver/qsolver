@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Old status of the opportunity to create Production Order or Reserve production capacity
+In process (without PO)
+To follow (without PO) 
+With PO --></help>
+        <label><!-- Order Type --></label>
+        <name>ELM_Order_Type__c</name>
+        <picklistValues>
+            <masterLabel>Con Contrato</masterLabel>
+            <translation>With Contract</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Con OC</masterLabel>
+            <translation>With OC</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>En Tramite</masterLabel>
+            <translation>In Process</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To Follow</masterLabel>
+            <translation><!-- To Follow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

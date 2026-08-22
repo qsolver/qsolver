@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Driver_Enforcement</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF (
+(VALUE(TEXT(Price_Vendor_Driver__c)) + VALUE(TEXT(Service_Vendor_Driver__c)) + VALUE(TEXT(Solution_Vendor_Driver__c)) + VALUE(TEXT(Delivery_Vendor_Driver__c)) + VALUE(TEXT(Quality_Vendor_Driver__c))) = 15, false, true)</errorConditionFormula>
+    <errorMessage>All Customer&#39;s Hierarchy of Vendor Drivers are required and no values can be duplicated. Vendor Driver are intended to be a ranking so 1-5 should each be used once. No duplications.</errorMessage>
+</ValidationRule>

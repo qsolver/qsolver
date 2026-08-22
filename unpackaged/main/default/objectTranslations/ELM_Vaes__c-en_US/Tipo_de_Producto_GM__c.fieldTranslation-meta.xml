@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Product Type GM</label>
+        <name>Tipo_de_Producto_GM__c</name>
+        <picklistValues>
+            <masterLabel>Performa</masterLabel>
+            <translation><!-- Performa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S60</masterLabel>
+            <translation><!-- S60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SS HC</masterLabel>
+            <translation><!-- SS HC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SS HH</masterLabel>
+            <translation><!-- SS HH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SS S</masterLabel>
+            <translation><!-- SS S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SS T</masterLabel>
+            <translation><!-- SS T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UG</masterLabel>
+            <translation><!-- UG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UG2</masterLabel>
+            <translation><!-- UG2 --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

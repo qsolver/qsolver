@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Enviar_correo_reenvio_en_Tramite</name>
+        <label>Enviar correo reenvio en Tramite</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Opportunity.Solicitud_de_reenvio_checklist_En_Tramite</actionName>
+        <actionType>emailAlert</actionType>
+        <faultConnector>
+            <targetReference>Error_enviando_correo_En_Tramite</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Solicitud_de_reenvio_checklist_En_Tramite</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Enviar_solicitud_de_reenvio_checklist</name>
+        <label>Enviar solicitud de reenvio checklist To Follow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Opportunity.Solicitud_de_reenvio_checklist</actionName>
+        <actionType>emailAlert</actionType>
+        <faultConnector>
+            <targetReference>Error_enviando_correo</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Solicitud_de_reenvio_checklist</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
+        <name>Enviar_Solicitud_de_reenvio_Checklist_En_Tramite_Yutronic</name>
+        <label>Enviar Solicitud de reenvio Checklist En Tramite Yutronic</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>Opportunity.Solicitud_de_reenvio_checklist_En_Tramite_Yutronic</actionName>
+        <actionType>emailAlert</actionType>
+        <faultConnector>
+            <targetReference>Error_enviando_correo_En_Tramite_Yutronic</targetReference>
+        </faultConnector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>Opportunity.Solicitud_de_reenvio_checklist_En_Tramite_Yutronic</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Reset_Checklist_enivado</name>
+        <label>Reset Checklist enivado</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>$Record.Checklist_Enviado__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_Opportunity</targetReference>
+        </connector>
+    </assignments>
+    <customErrors>
+        <name>Error_enviando_correo</name>
+        <label>Error enviando correo To Follow</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>Ocurrio un error : {!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Error_enviando_correo_En_Tramite</name>
+        <label>Error enviando correo En Tramite</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>Ocurrio un error : {!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <customErrors>
+        <name>Error_enviando_correo_En_Tramite_Yutronic</name>
+        <label>Error enviando correo En Tramite Yutronic</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <customErrorMessages>
+            <errorMessage>Ocurrio un error : {!$Flow.FaultMessage}</errorMessage>
+            <isFieldError>false</isFieldError>
+        </customErrorMessages>
+    </customErrors>
+    <decisions>
+        <name>Check_If_Mill_Linners</name>
+        <label>Check If Mill Linners</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Enviar_correo_reenvio_en_Tramite</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Mill_Linners</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ELM_Line_of_Business__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Molienda</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Enviar_Solicitud_de_reenvio_Checklist_En_Tramite_Yutronic</targetReference>
+            </connector>
+            <label>Mill Linners</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Decision_1</name>
+        <label>Check Order Type</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>ToFollow</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ELM_Order_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>To Follow</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Enviar_solicitud_de_reenvio_checklist</targetReference>
+            </connector>
+            <label>To Follow</label>
+        </rules>
+        <rules>
+            <name>En_Tramite</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.ELM_Order_Type__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>En Tramite</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Check_If_Mill_Linners</targetReference>
+            </connector>
+            <label>En Tramite</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <interviewLabel>Enviar correo reenvio checklist {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Enviar correo reenvio checklist</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>Update_Opportunity</name>
+        <label>Update Opportunity</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Decision_1</targetReference>
+        </connector>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Reset_Checklist_enivado</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Solicitar_reenvio__c</field>
+            <operator>IsChanged</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Solicitar_reenvio__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <object>Opportunity</object>
+        <recordTriggerType>Update</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

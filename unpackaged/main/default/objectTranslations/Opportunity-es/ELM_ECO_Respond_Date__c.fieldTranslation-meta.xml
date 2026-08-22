@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Fecha de recepción del ECO (Real)</help>
+        <label>ECO Fecha respuesta (Real)</label>
+        <name>ELM_ECO_Respond_Date__c</name>
+    </CustomFieldTranslation>

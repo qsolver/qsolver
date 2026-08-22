@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Indica si el VAES fue firmado o no con el cliente --></help>
+        <label><!-- Firmado por el cliente? --></label>
+        <name>Firmado__c</name>
+        <picklistValues>
+            <masterLabel>Con Firma</masterLabel>
+            <translation><!-- Con Firma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Finalizado</masterLabel>
+            <translation><!-- No Finalizado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin Firma</masterLabel>
+            <translation><!-- Sin Firma --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ELM_Total_Tons_AY__c</fullName>
+    <externalId>false</externalId>
+    <formula>ELM_Tons_January_AY__c +
+ ELM_Tons_February_AY__c +
+ ELM_Tons_March_AY__c +
+ ELLM_Tons_April_AY__c +
+ ELM_Tons_May_AY__c +
+ ELM_Tons_June_AY__c +
+ ELM_Tons_July_AY__c +
+ ELM_Tons_Agust_AY__c +
+ ELM_Tons_September_AY__c +
+ ELM_Tons_October_AY__c +
+ ELM_Tons_November_AY__c +
+ ELM_Tons_December_AY__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Tons Forecast</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

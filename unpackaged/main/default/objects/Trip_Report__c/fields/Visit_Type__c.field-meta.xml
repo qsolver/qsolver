@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Visit_Type__c</fullName>
+    <inlineHelpText>Site Visit
+FIT
+CPS
+Tower Mill
+PolyFit</inlineHelpText>
+    <label>Visit Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Site Visit</fullName>
+                <default>false</default>
+                <label>Site Visit</label>
+            </value>
+            <value>
+                <fullName>FIT</fullName>
+                <default>false</default>
+                <label>FIT</label>
+            </value>
+            <value>
+                <fullName>CPS</fullName>
+                <default>false</default>
+                <label>CPS</label>
+            </value>
+            <value>
+                <fullName>Tower Mill</fullName>
+                <default>false</default>
+                <label>Tower Mill</label>
+            </value>
+            <value>
+                <fullName>PolyFIT</fullName>
+                <default>false</default>
+                <label>PolyFIT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

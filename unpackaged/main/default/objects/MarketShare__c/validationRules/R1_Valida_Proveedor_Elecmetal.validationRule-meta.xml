@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>R1_Valida_Proveedor_Elecmetal</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISNEW()), 
+    ISPICKVAL(Proveedor__c,&#39;ME Elecmetal&#39;),
+    ISBLANK(Producto__c),
+    RecordType.Name != &#39;Grinding Media EMEA/APAC&#39;,
+    RecordType.Name != &#39;Mill Liners EMEA/APAC&#39;,	
+    RecordType.Name != &#39;Crushers EMEA/APAC&#39;	
+							  
+    )</errorConditionFormula>
+    <errorDisplayField>Producto__c</errorDisplayField>
+    <errorMessage>Cuando el proveedor es &quot;Elecmetal&quot; Debe ingresar Producto ME Elecmetal</errorMessage>
+</ValidationRule>

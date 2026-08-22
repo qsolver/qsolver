@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_User__c</fullName>
+    <formula>OR(Vendedor_Molienda__r.Id = $User.Id,
+	 Vendedor_Chancado__r.Id = $User.Id,
+		Vendedor_Alerta_Temprana__r.Id = $User.Id,
+		Vendedor_Grinding_Media__r.Id = $User.Id,
+		Vendedor_GET__r.Id = $User.Id,
+		Vendedor_Maestranza__r.Id = $User.Id,
+		ELM_OtherSalesRep__r.Id = $User.Id)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current User</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

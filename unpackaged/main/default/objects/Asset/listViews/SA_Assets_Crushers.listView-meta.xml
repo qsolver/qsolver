@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SA_Assets_Crushers</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ASSET.EXTERNAL_IDENTIFIER</columns>
+    <columns>ELM_Sales_Team__c</columns>
+    <columns>ELM_Account_Country_Code__c</columns>
+    <columns>Line_of_Business__c</columns>
+    <columns>ELM_Subcategory__c</columns>
+    <columns>Diameter__c</columns>
+    <columns>Length__c</columns>
+    <columns>Unit_of_Measurement__c</columns>
+    <columns>ELM_Industry_Sector__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>Active__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Sales_Team__c</field>
+        <operation>equals</operation>
+        <value>SouthAmerica</value>
+    </filters>
+    <filters>
+        <field>Line_of_Business__c</field>
+        <operation>equals</operation>
+        <value>Chancado</value>
+    </filters>
+    <label>SA_Assets_Crushers</label>
+</ListView>

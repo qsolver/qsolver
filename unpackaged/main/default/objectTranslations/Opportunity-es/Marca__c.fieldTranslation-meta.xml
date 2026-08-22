@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Marca --></label>
+        <name>Marca__c</name>
+        <picklistValues>
+            <masterLabel>ALLIS_CHALMERS</masterLabel>
+            <translation><!-- ALLIS_CHALMERS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CEDARAPID</masterLabel>
+            <translation><!-- CEDARAPID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FULLER</masterLabel>
+            <translation><!-- FULLER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP</masterLabel>
+            <translation><!-- MP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OMNICONE</masterLabel>
+            <translation><!-- OMNICONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTROS CH</masterLabel>
+            <translation><!-- OTROS CH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAPTOR_XL</masterLabel>
+            <translation><!-- RAPTOR_XL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SANDVIK</masterLabel>
+            <translation><!-- SANDVIK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SYMONS</masterLabel>
+            <translation><!-- SYMONS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>THYSSENKRUPP</masterLabel>
+            <translation><!-- THYSSENKRUPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WF</masterLabel>
+            <translation><!-- WF --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

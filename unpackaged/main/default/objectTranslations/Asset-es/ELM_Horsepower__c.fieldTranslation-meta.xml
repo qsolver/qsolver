@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Unidad de potencia</help>
+        <label><!-- Horsepower --></label>
+        <name>ELM_Horsepower__c</name>
+    </CustomFieldTranslation>

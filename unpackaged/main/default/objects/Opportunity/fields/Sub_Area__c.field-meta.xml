@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Area__c</fullName>
+    <label>Sub Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Monitoreo de sistemas mecánicos</fullName>
+                <default>false</default>
+                <label>Monitoreo de sistemas mecánicos</label>
+            </value>
+            <value>
+                <fullName>UpTime+</fullName>
+                <default>false</default>
+                <label>UpTime+</label>
+            </value>
+            <value>
+                <fullName>Dispositivos</fullName>
+                <default>false</default>
+                <label>Dispositivos</label>
+            </value>
+            <value>
+                <fullName>ImpactFinder</fullName>
+                <default>false</default>
+                <label>ImpactFinder</label>
+            </value>
+            <value>
+                <fullName>Soporte y asistencia en terreno</fullName>
+                <default>false</default>
+                <label>Soporte y asistencia en terreno</label>
+            </value>
+            <value>
+                <fullName>Láser 3D</fullName>
+                <default>false</default>
+                <label>Láser 3D</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de Desgaste</fullName>
+                <default>false</default>
+                <label>Monitoreo de Desgaste</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de Procesos</fullName>
+                <default>false</default>
+                <label>Monitoreo de Procesos</label>
+            </value>
+            <value>
+                <fullName>Administración de contratos</fullName>
+                <default>false</default>
+                <label>Administración de contratos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

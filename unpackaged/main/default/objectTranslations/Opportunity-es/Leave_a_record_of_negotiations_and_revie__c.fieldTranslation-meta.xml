@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Leave a record of negotiations and reviews, Task Email --></help>
+        <label>Dejar registro de negociación</label>
+        <name>Leave_a_record_of_negotiations_and_revie__c</name>
+    </CustomFieldTranslation>

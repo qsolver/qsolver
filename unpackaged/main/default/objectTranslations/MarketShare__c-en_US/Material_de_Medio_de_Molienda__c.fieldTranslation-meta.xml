@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Grinding media material</label>
+        <name>Material_de_Medio_de_Molienda__c</name>
+        <picklistValues>
+            <masterLabel>Acero</masterLabel>
+            <translation><!-- Acero --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caucho</masterLabel>
+            <translation><!-- Caucho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compuesto</masterLabel>
+            <translation><!-- Compuesto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hibrido</masterLabel>
+            <translation><!-- Hibrido --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

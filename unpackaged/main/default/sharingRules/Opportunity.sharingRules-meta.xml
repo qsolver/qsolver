@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Chancado_Vendedor_SA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chancado Vendedor SA</label>
+        <sharedTo>
+            <role>Chancado_Vendedor_SA</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>USC_SA</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Monitor_SA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Monitor SA</label>
+        <sharedTo>
+            <role>Monitor_SA</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>USC_SA</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>USC_NA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>USC NA</label>
+        <sharedTo>
+            <role>USC_NA</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>USC_NA</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>USC_SA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>USC SA</label>
+        <sharedTo>
+            <role>USC_SA</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>USC_SA</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

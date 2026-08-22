@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clasificacion__c</fullName>
+    <label>Clasificacion</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Fuente_de_suministro__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Repeticion Lifter y Corazas</fullName>
+                <default>false</default>
+                <label>Repeticion Lifter y Corazas</label>
+            </value>
+            <value>
+                <fullName>Repeticion Parrillas</fullName>
+                <default>false</default>
+                <label>Repeticion Parrillas</label>
+            </value>
+            <value>
+                <fullName>Repeticion peso unit &lt; 8 tons</fullName>
+                <default>false</default>
+                <label>Repeticion peso unit &lt; 8 tons</label>
+            </value>
+            <value>
+                <fullName>Nuevo peso unit &lt; 8tons</fullName>
+                <default>false</default>
+                <label>Nuevo peso unit &lt; 8tons</label>
+            </value>
+            <value>
+                <fullName>Repeticion peso unit &gt;= 8 tons</fullName>
+                <default>false</default>
+                <label>Repeticion peso unit &gt;= 8 tons</label>
+            </value>
+            <value>
+                <fullName>Repeticion</fullName>
+                <default>false</default>
+                <label>Repeticion</label>
+            </value>
+            <value>
+                <fullName>VF Repeticion</fullName>
+                <default>false</default>
+                <label>VF Repeticion</label>
+            </value>
+            <value>
+                <fullName>VF Nuevo</fullName>
+                <default>false</default>
+                <label>VF Nuevo</label>
+            </value>
+            <value>
+                <fullName>Nacional</fullName>
+                <default>false</default>
+                <label>Nacional</label>
+            </value>
+            <value>
+                <fullName>Evaluacion</fullName>
+                <default>false</default>
+                <label>Evaluacion</label>
+            </value>
+            <value>
+                <fullName>Armado</fullName>
+                <default>false</default>
+                <label>Armado</label>
+            </value>
+            <value>
+                <fullName>Reparacion Parcial</fullName>
+                <default>false</default>
+                <label>Reparacion Parcial</label>
+            </value>
+            <value>
+                <fullName>Nuevo / Modificacion</fullName>
+                <default>false</default>
+                <label>Nuevo / Modificacion</label>
+            </value>
+            <value>
+                <fullName>Nuevo peso unit &gt;= 8tons</fullName>
+                <default>false</default>
+                <label>Nuevo peso unit &gt;= 8tons</label>
+            </value>
+            <value>
+                <fullName>Nuevo</fullName>
+                <default>false</default>
+                <label>Nuevo</label>
+            </value>
+            <value>
+                <fullName>Feitian</fullName>
+                <default>false</default>
+                <label>Feitian</label>
+            </value>
+            <value>
+                <fullName>Reparacion Integral</fullName>
+                <default>false</default>
+                <label>Reparacion Integral</label>
+            </value>
+            <value>
+                <fullName>Nacional y Feitian</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Nacional y Feitian</label>
+            </value>
+            <value>
+                <fullName>Reparacion Parcial y Reparacion Integral</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reparacion Parcial y Reparacion Integral</label>
+            </value>
+            <value>
+                <fullName>Repeticion Parrillas y Nuevo / Modificacion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Repeticion Parrillas y Nuevo / Modificacion</label>
+            </value>
+            <value>
+                <fullName>Repeticion peso unit &gt;= 8 tons y Nuevo peso unit &gt;= 8tons</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Repeticion peso unit &gt;= 8 tons y Nuevo peso unit &gt;= 8tons</label>
+            </value>
+            <value>
+                <fullName>Repeticion y Nuevo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Repeticion y Nuevo</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Talleres</controllingFieldValue>
+            <valueName>Repeticion Lifter y Corazas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talleres</controllingFieldValue>
+            <valueName>Repeticion Parrillas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Talleres</controllingFieldValue>
+            <valueName>Nuevo / Modificacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPS</controllingFieldValue>
+            <valueName>Repeticion peso unit &lt; 8 tons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPS</controllingFieldValue>
+            <valueName>Nuevo peso unit &lt; 8tons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPS</controllingFieldValue>
+            <valueName>Repeticion peso unit &gt;= 8 tons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CPS</controllingFieldValue>
+            <valueName>Nuevo peso unit &gt;= 8tons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polyfit</controllingFieldValue>
+            <controllingFieldValue>Polylight</controllingFieldValue>
+            <controllingFieldValue>Funvesa</controllingFieldValue>
+            <controllingFieldValue>ME-China</controllingFieldValue>
+            <valueName>Repeticion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Polyfit</controllingFieldValue>
+            <controllingFieldValue>Polylight</controllingFieldValue>
+            <controllingFieldValue>Funvesa</controllingFieldValue>
+            <controllingFieldValue>ME-China</controllingFieldValue>
+            <valueName>Nuevo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pernos</controllingFieldValue>
+            <valueName>VF Repeticion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pernos</controllingFieldValue>
+            <valueName>VF Nuevo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pernos</controllingFieldValue>
+            <valueName>Nacional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pernos</controllingFieldValue>
+            <valueName>Feitian</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCSS</controllingFieldValue>
+            <valueName>Evaluacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCSS</controllingFieldValue>
+            <valueName>Armado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCSS</controllingFieldValue>
+            <valueName>Reparacion Parcial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CCSS</controllingFieldValue>
+            <valueName>Reparacion Integral</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

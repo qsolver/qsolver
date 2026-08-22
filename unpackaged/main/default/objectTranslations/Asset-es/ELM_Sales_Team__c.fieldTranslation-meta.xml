@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Campo para Company Code (SAP)</help>
+        <label>Equipo de Ventas</label>
+        <name>ELM_Sales_Team__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ore --></label>
+        <name>ELM_Ore__c</name>
+        <picklistValues>
+            <masterLabel>Coal</masterLabel>
+            <translation><!-- Coal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cobalt</masterLabel>
+            <translation><!-- Cobalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copper</masterLabel>
+            <translation><!-- Copper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iron</masterLabel>
+            <translation><!-- Iron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead</masterLabel>
+            <translation><!-- Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moly</masterLabel>
+            <translation><!-- Moly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molybdnenum</masterLabel>
+            <translation><!-- Molybdnenum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nickel</masterLabel>
+            <translation><!-- Nickel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Palladium</masterLabel>
+            <translation><!-- Palladium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phosphorus</masterLabel>
+            <translation><!-- Phosphorus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taconite</masterLabel>
+            <translation><!-- Taconite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uranium</masterLabel>
+            <translation><!-- Uranium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zinc</masterLabel>
+            <translation><!-- Zinc --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

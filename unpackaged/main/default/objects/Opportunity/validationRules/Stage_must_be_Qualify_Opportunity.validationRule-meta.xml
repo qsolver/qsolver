@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_must_be_Qualify_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $RecordType.Name = &quot;Trial Sale&quot;,
+    AND(
+        ISNEW(), NOT(ISPICKVAL( StageName , &quot;Qualify Opportunity&quot;))
+    )
+)</errorConditionFormula>
+    <errorMessage>Stage must be Qualify Opportunity</errorMessage>
+</ValidationRule>

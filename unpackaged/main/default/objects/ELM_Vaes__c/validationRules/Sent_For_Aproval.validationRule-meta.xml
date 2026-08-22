@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sent_For_Aproval</fullName>
+    <active>false</active>
+    <description>Los campos Approved by PM?, Approved by Sales Manager? , Signed by the client? solo se pueden completar en la Etapa Sent For Aproval</description>
+    <errorConditionFormula>AND(
+    OR(
+        ISNEW(),  /* Se está creando un nuevo registro */
+        NOT(ISPICKVAL(ELM_Status__c, &quot;Sent For Approval&quot;))
+    ),
+    OR(
+        ISCHANGED(Aprobado_por_Subgerente_de_Ventas__c),
+        ISCHANGED(Firmado__c),
+        ISCHANGED(Aprobado_por_PM__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Los campos Approved by PM?, Approved by SM?, Signed by the client? solo se pueden completar en la Etapa Sent For Aproval.
+
+The fields Approved by PM?, Approved by SM?, Signed by the client? can only be filled out in the Sent For Approval stage.</errorMessage>
+</ValidationRule>

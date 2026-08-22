@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Clasification</label>
+        <name>Clasificacion__c</name>
+        <picklistValues>
+            <masterLabel>Armado</masterLabel>
+            <translation><!-- Armado --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluacion</masterLabel>
+            <translation><!-- Evaluacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feitian</masterLabel>
+            <translation><!-- Feitian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nacional</masterLabel>
+            <translation><!-- Nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo</masterLabel>
+            <translation><!-- Nuevo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo / Modificacion</masterLabel>
+            <translation><!-- Nuevo / Modificacion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo peso unit &lt; 8tons</masterLabel>
+            <translation><!-- Nuevo peso unit &lt; 8tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nuevo peso unit &gt;= 8tons</masterLabel>
+            <translation><!-- Nuevo peso unit &gt;= 8tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reparacion Integral</masterLabel>
+            <translation><!-- Reparacion Integral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reparacion Parcial</masterLabel>
+            <translation><!-- Reparacion Parcial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeticion</masterLabel>
+            <translation><!-- Repeticion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeticion Lifter y Corazas</masterLabel>
+            <translation><!-- Repeticion Lifter y Corazas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeticion Parrillas</masterLabel>
+            <translation><!-- Repeticion Parrillas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeticion peso unit &lt; 8 tons</masterLabel>
+            <translation><!-- Repeticion peso unit &lt; 8 tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repeticion peso unit &gt;= 8 tons</masterLabel>
+            <translation><!-- Repeticion peso unit &gt;= 8 tons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF Nuevo</masterLabel>
+            <translation><!-- VF Nuevo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VF Repeticion</masterLabel>
+            <translation><!-- VF Repeticion --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

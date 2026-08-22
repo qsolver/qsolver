@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Plazo_requeridl_checklist</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+ ELM_Equipo_de_Ventas__c = &quot;SURAMERICA&quot;,
+TEXT(Has_OC__c) = &quot;No&quot;,
+ISBLANK(ELM_Plazo_requerido__c)
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Plazo_requerido__c</errorDisplayField>
+    <errorMessage>Please complete de following field Plazo requerido</errorMessage>
+</ValidationRule>

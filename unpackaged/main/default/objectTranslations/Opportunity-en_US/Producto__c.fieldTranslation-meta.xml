@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Product</label>
+        <name>Producto__c</name>
+        <picklistValues>
+            <masterLabel>Administración de contratos</masterLabel>
+            <translation>Contract Management</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auditoría</masterLabel>
+            <translation>Auditing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CGAP</masterLabel>
+            <translation><!-- CGAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detección temprana de fuga de pulpa en molinos</masterLabel>
+            <translation>Early detection of pulp leaks in mills</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Twin</masterLabel>
+            <translation><!-- Digital Twin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gear Monitor</masterLabel>
+            <translation><!-- Gear Monitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact Finder</masterLabel>
+            <translation>Impact Finder</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ingeniería dimensional</masterLabel>
+            <translation>Dimensional engineering</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspecciones con técnicas NDT</masterLabel>
+            <translation>Inspections with NDT techniques</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LPDS</masterLabel>
+            <translation><!-- LPDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Tracking Liners</masterLabel>
+            <translation><!-- ME Tracking Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Tracking Reparables</masterLabel>
+            <translation><!-- ME Tracking Reparables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME UpTime+</masterLabel>
+            <translation><!-- ME UpTime+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoreo Zapatas (Mina)</masterLabel>
+            <translation>Shoe Monitoring (Mine)</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QSC</masterLabel>
+            <translation><!-- QSC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QSG</masterLabel>
+            <translation><!-- QSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickScan Chancado</masterLabel>
+            <translation>QuickScan Crushing</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickScan Molienda</masterLabel>
+            <translation>QuickScan Grinding</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rock and Ball Tracking</masterLabel>
+            <translation><!-- Rock and Ball Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMTP</masterLabel>
+            <translation><!-- SMTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensor de Monitoreo de pernos</masterLabel>
+            <translation>Smart washers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensores de Monitoreo en coronas</masterLabel>
+            <translation>Monitoring Sensors in crowns</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sensores de Ultrasonido Inalámbrico</masterLabel>
+            <translation>Wireless Ultrasound Sensors</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Servicio UpTime+</masterLabel>
+            <translation>UpTime+ Service</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soporte y asistencia en terreno</masterLabel>
+            <translation>On-Site Support and Assistance</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracking de Reparables – GPS</masterLabel>
+            <translation>Repairable Tracking - GPS</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracking de revestimientos -Stickers</masterLabel>
+            <translation>Tracking of coatings -Stickers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transpasos Internos</masterLabel>
+            <translation>Internal Transfers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UTW (Asset Wear Tracking?)</masterLabel>
+            <translation><!-- UTW (Asset Wear Tracking?) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

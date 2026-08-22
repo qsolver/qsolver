@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Sector alloy</label>
+        <name>Aleacion__c</name>
+        <picklistValues>
+            <masterLabel>120  (CrMo)</masterLabel>
+            <translation><!-- 120  (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>140  (CrMo)</masterLabel>
+            <translation><!-- 140  (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14EPX</masterLabel>
+            <translation><!-- 14EPX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>170 (CrMo)</masterLabel>
+            <translation><!-- 170 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>170 FP (CrMo)</masterLabel>
+            <translation><!-- 170 FP (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>222  (CrMo)</masterLabel>
+            <translation><!-- 222  (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>302 (WI)</masterLabel>
+            <translation><!-- 302 (WI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>306 (WI)</masterLabel>
+            <translation><!-- 306 (WI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acero-Caucho</masterLabel>
+            <translation><!-- Acero-Caucho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM1 (CrMo)</masterLabel>
+            <translation><!-- CM1 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM2 (CrMo)</masterLabel>
+            <translation><!-- CM2 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM2 **(CrMo)</masterLabel>
+            <translation><!-- CM2 **(CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM2* (CrMo)</masterLabel>
+            <translation><!-- CM2* (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM3 (CrMo)</masterLabel>
+            <translation><!-- CM3 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM4 (CrMo)</masterLabel>
+            <translation><!-- CM4 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMHC (CrMo)</masterLabel>
+            <translation><!-- CMHC (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caucho</masterLabel>
+            <translation><!-- Caucho --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MSP1 (CrMo)</masterLabel>
+            <translation><!-- MSP1 (CrMo) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SP1  (WI)</masterLabel>
+            <translation><!-- SP1  (WI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPX (WI)</masterLabel>
+            <translation><!-- SPX (WI) --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

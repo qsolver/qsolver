@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Equipment brand</label>
+        <name>ELM_Marca_Equipo__c</name>
+        <picklistValues>
+            <masterLabel>Allis-Chalmers</masterLabel>
+            <translation><!-- Allis-Chalmers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT 24M</masterLabel>
+            <translation><!-- CAT 24M --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT 7495 HR</masterLabel>
+            <translation><!-- CAT 7495 HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAT 994</masterLabel>
+            <translation><!-- CAT 994 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CATD11T</masterLabel>
+            <translation><!-- CATD11T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cedarapid</masterLabel>
+            <translation><!-- Cedarapid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citic</masterLabel>
+            <translation><!-- Citic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS</masterLabel>
+            <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLSmidth</masterLabel>
+            <translation><!-- FLSmidth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso</masterLabel>
+            <translation><!-- Metso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordberg</masterLabel>
+            <translation><!-- Nordberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P&amp;H 4100 XPC</masterLabel>
+            <translation><!-- P&amp;H 4100 XPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik</masterLabel>
+            <translation><!-- Sandvik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Siemens</masterLabel>
+            <translation><!-- Siemens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Symons</masterLabel>
+            <translation><!-- Symons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ThyssenKrupp</masterLabel>
+            <translation><!-- ThyssenKrupp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknow</masterLabel>
+            <translation><!-- Unknow --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

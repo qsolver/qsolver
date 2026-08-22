@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Centro de Beneficio del Equipo del Cliente</help>
+        <label>Centro de beneficios</label>
+        <name>ELM_Profit_Center__c</name>
+        <picklistValues>
+            <masterLabel>Alerta Temprana</masterLabel>
+            <translation><!-- Alerta Temprana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Barter</masterLabel>
+            <translation><!-- Barter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bolas de Molienda</masterLabel>
+            <translation><!-- Bolas de Molienda --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM CCH</masterLabel>
+            <translation><!-- CM CCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM CEM</masterLabel>
+            <translation><!-- CM CEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM CMF</masterLabel>
+            <translation><!-- CM CMF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM FTL</masterLabel>
+            <translation><!-- CM FTL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM Mega</masterLabel>
+            <translation><!-- CM Mega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM Otras</masterLabel>
+            <translation><!-- CM Otras --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CM Viñas</masterLabel>
+            <translation><!-- CM Viñas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chatarra</masterLabel>
+            <translation><!-- Chatarra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Manufacturi</masterLabel>
+            <translation><!-- Contract Manufacturi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Administración</masterLabel>
+            <translation><!-- Dist. Administración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Bodegaje</masterLabel>
+            <translation><!-- Dist. Bodegaje --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Comercial</masterLabel>
+            <translation><!-- Dist. Comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Embotellación</masterLabel>
+            <translation><!-- Dist. Embotellación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Prensa</masterLabel>
+            <translation><!-- Dist. Prensa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dist. Producción</masterLabel>
+            <translation><!-- Dist. Producción --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ENERGIA Y POTENCIA</masterLabel>
+            <translation><!-- ENERGIA Y POTENCIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hotel</masterLabel>
+            <translation><!-- Hotel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intercompañias</masterLabel>
+            <translation><!-- Intercompañias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internet</masterLabel>
+            <translation><!-- Internet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inversiones</masterLabel>
+            <translation><!-- Inversiones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEG SG&amp;A</masterLabel>
+            <translation><!-- MEG SG&amp;A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maest. Antofagasta</masterLabel>
+            <translation><!-- Maest. Antofagasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestranza Calama</masterLabel>
+            <translation><!-- Maestranza Calama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestranza Rancagua</masterLabel>
+            <translation><!-- Maestranza Rancagua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NUEVOS NEGOCIOS</masterLabel>
+            <translation><!-- NUEVOS NEGOCIOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Otros Negocios</masterLabel>
+            <translation><!-- Otros Negocios --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piezas GET</masterLabel>
+            <translation><!-- Piezas GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piezas ME China</masterLabel>
+            <translation><!-- Piezas ME China --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Piezas ME Global</masterLabel>
+            <translation><!-- Piezas ME Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Plásticos</masterLabel>
+            <translation><!-- Plásticos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Deportivo</masterLabel>
+            <translation><!-- Prensa Deportivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Informativo</masterLabel>
+            <translation><!-- Prensa Informativo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Programas</masterLabel>
+            <translation><!-- Prensa Programas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prensa Regiones</masterLabel>
+            <translation><!-- Prensa Regiones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produccion Externos</masterLabel>
+            <translation><!-- Produccion Externos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Produccion Interna</masterLabel>
+            <translation><!-- Produccion Interna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Producción Terceros</masterLabel>
+            <translation><!-- Producción Terceros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program. Envasados</masterLabel>
+            <translation><!-- Program. Envasados --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Representaciones</masterLabel>
+            <translation><!-- Representaciones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Restaurant</masterLabel>
+            <translation><!-- Restaurant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Soluciones Integrale</masterLabel>
+            <translation><!-- Soluciones Integrale --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steel Castings</masterLabel>
+            <translation><!-- Steel Castings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terceros Local</masterLabel>
+            <translation><!-- Terceros Local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VTAS INTERNACIONALES</masterLabel>
+            <translation><!-- VTAS INTERNACIONALES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vidrios LL</masterLabel>
+            <translation><!-- Vidrios LL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vidrios PH</masterLabel>
+            <translation><!-- Vidrios PH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vinos Exportación</masterLabel>
+            <translation><!-- Vinos Exportación --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vinos Nacional</masterLabel>
+            <translation><!-- Vinos Nacional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wine Shop</masterLabel>
+            <translation><!-- Wine Shop --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

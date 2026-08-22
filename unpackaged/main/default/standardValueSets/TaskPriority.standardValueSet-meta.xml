@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+        <highPriority>true</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>Normal</fullName>
+        <default>true</default>
+        <label>Normal</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>MCI</fullName>
+        <default>false</default>
+        <label>MCI</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>Márgenes</fullName>
+        <default>false</default>
+        <label>Márgenes</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>PDG</fullName>
+        <default>false</default>
+        <label>PDG</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>Gerencia Técnica</fullName>
+        <default>false</default>
+        <label>Gerencia Técnica</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+    <standardValue>
+        <fullName>Gerencia_Comercial</fullName>
+        <default>false</default>
+        <label>Gerencia Comercial</label>
+        <highPriority>false</highPriority>
+    </standardValue>
+</StandardValueSet>

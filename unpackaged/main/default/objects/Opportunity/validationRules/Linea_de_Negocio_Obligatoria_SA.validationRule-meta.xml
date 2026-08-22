@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linea_de_Negocio_Obligatoria_SA</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISNEW(),
+ISPICKVAL(ELM_Line_of_Business__c, &quot;&quot;),
+OR(
+TEXT(Account.ELM_Equipo_de_Ventas__c) = &quot;SouthAmerica&quot;,
+TEXT(Account.ELM_Equipo_de_Ventas__c) = &quot;SURAMERICA&quot;
+)
+)</errorConditionFormula>
+    <errorDisplayField>ELM_Line_of_Business__c</errorDisplayField>
+    <errorMessage>Por favor completar campo Línea de Negocio /// Please complete the Line of Business field</errorMessage>
+</ValidationRule>

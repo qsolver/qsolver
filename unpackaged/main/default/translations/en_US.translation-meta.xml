@@ -1,0 +1,1624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- Additional Emails For Checklist Approval Request En Tramite Services --></label>
+        <name>Additional_Emails_For_Checklist_Approval_Request_En_Tramite_Services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Emails For Checklist Approval Request To Follow Services --></label>
+        <name>Additional_Emails_For_Checklist_Approval_Request_To_Follow_Services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Emails For Checklist Approved En Tramite Services --></label>
+        <name>Additional_Emails_For_Checklist_Approved_En_Tramite_Services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Emails For Checklist Approved To Follow Services --></label>
+        <name>Additional_Emails_For_Checklist_Approved_To_Follow_Services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Additional Emails For Checklist Approved Con OC Services --></label>
+        <name>Additional_Emails_For_checklist_Approved_Con_OC_Services</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Annual Consumption GM --></label>
+        <name>Annual_Conmsuption_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Annual Consumption CH --></label>
+        <name>Annual_Consumption_CH</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Annual_Consuption --></label>
+        <name>Annual_Consuption</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ECO Detalle ECO --></label>
+        <name>ECO_Detalle_ECO</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ECO Informacion de Entrada --></label>
+        <name>ECO_Informacion_de_Entrada</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Recurring Sale RecordTypeId --></label>
+        <name>ELM_OpportunityRecurringSaleRecordTypeId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Opportunity Trial Sale RecordTypeId --></label>
+        <name>ELM_OpportunityTrialSaleRecordTypeId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- InactiveAccountID --></label>
+        <name>InactivContacts__InactiveAccountID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SystemAdminID --></label>
+        <name>InactivContacts__SystemAdminID</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Maintenance Report Calendar Id --></label>
+        <name>Maintenance_Report_Calendar_Id</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mantencion Mayor imagen --></label>
+        <name>Mantencion_Mayor_imagen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Mantencion de Servicios Imagen --></label>
+        <name>Mantencion_de_Servicios_Imagen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Permission Profile Send Email Notification --></label>
+        <name>Permission_Profile_Send_Email_Notification</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Subject Email Notification Opp --></label>
+        <name>Subject_Email_Notification_Opp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Emails Users without Permission To Send Notification Email --></label>
+        <name>Users_without_Permission_To_Send_Notification_Email</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- MobileLanding --></label>
+        <name>MobileLanding</name>
+    </customTabs>
+    <customTabs>
+        <label><!-- Report Subscription --></label>
+        <name>Report_Subscription</name>
+    </customTabs>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>BodyMail</name>
+            </textTemplates>
+        </flows>
+        <fullName>ALERTA_QUOTES_SIN_FEEDBACK</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>AccountEditPermission</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>AccountOrderAddress</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Activate_Inactivate_Asset_According_To_Status</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Actualiza_Contacto_Inactivo_Activo</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Actualiza_Descripcion_Pieza_MarketShare</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Actualiza_Productos_ME_Elecmetal</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>AfterSaleCreate</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Archivos_Adjuntos_OportunidadesAL</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Asigna_Lista_de_precios</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AssignVendedorBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>AssignAlertVendors</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Automatically_assign_Dummy_Asset</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>CREAR_VAES_DESDE_LA_OPP</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Check_Opportuninity_Name_Error</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Check_Duplicate_Name_Opportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Checklist_Version_Anterior_Aprobada</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Opportunity_Assets</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Contacts</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Products</name>
+                </fields>
+                <fields>
+                    <name>TextHelper</name>
+                </fields>
+                <name>Clone_with_Related</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_ErrorMessage</name>
+                </fields>
+                <name>Copy_1_of_ErrorMessageCreateOpportunity</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>ErrorMessageCreateOpportunity</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_ErrorMessage</name>
+                </fields>
+                <name>ErrorMessageCreateOpportunityAssets</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_Copy_1_of_ErrorMessage</name>
+                </fields>
+                <name>ErrorMessageCreateOpportunityContacts</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_ErrorMessage</name>
+                </fields>
+                <name>ErrorMessageCreateOpportunityProducts</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Close_Date</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Name</name>
+                    <validationRule />
+                </fields>
+                <fields>
+                    <name>Ship_Date</name>
+                </fields>
+                <name>Get_Opportunity_Name</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Comentario_Linea_SubLinea</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>dependencyWrapperApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>middlePicklistApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>topPicklistApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>topRequired</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>topValue</name>
+                        <value />
+                    </inputParameters>
+                    <name>Sub_Linea_Dependiente</name>
+                </fields>
+                <name>Select_Subline</name>
+            </screens>
+        </flows>
+        <fullName>Clone_Opportunity_W_Related_Records</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Deletion_Prevent</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Contact_Deletion_Prevent</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>Recurring_Sale</name>
+            </choices>
+            <choices>
+                <name>Trial_Sale</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>DuplicatedInformation</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>PossibleDuplicatedContacts</name>
+                </fields>
+                <name>Duplicate_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>Opportunity_Error_Message</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>pantalla_conversion</name>
+                </fields>
+                <name>Pantalla_Final</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AccountNotFound</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxValues</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>Account_Name</name>
+                </fields>
+                <fields>
+                    <name>Close_Date</name>
+                </fields>
+                <fields>
+                    <name>Opportunity</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Opportunity_Column1</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Name</name>
+                </fields>
+                <fields>
+                    <name>Opportunity_Ship_Date</name>
+                </fields>
+                <fields>
+                    <name>Seleccionar_tipo_de_Record</name>
+                </fields>
+                <fields>
+                    <name>Tipo_OPP_Section2</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Tipo_OPP_Section2_Column1</name>
+                </fields>
+                <name>Tipo_OPP</name>
+            </screens>
+        </flows>
+        <fullName>Convertir_Leads_en_OPP_y_Contacts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>C1</name>
+            </choices>
+            <choices>
+                <name>C2</name>
+            </choices>
+            <choices>
+                <name>C3</name>
+            </choices>
+            <choices>
+                <name>C4</name>
+            </choices>
+            <choices>
+                <name>C5</name>
+            </choices>
+            <choices>
+                <name>M1</name>
+            </choices>
+            <choices>
+                <name>M2</name>
+            </choices>
+            <choices>
+                <name>M3</name>
+            </choices>
+            <choices>
+                <name>M4</name>
+            </choices>
+            <choices>
+                <name>M5</name>
+            </choices>
+            <choices>
+                <name>M6</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Aleacion_del_Sector</name>
+                </fields>
+                <fields>
+                    <name>Cantidad_de_Assets_iguales</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>DescripcionPieza</name>
+                </fields>
+                <fields>
+                    <name>Descripcion_Pieza_Competidor</name>
+                </fields>
+                <fields>
+                    <name>DucacionSetMeses2</name>
+                </fields>
+                <fields>
+                    <name>GrindingMedia</name>
+                </fields>
+                <fields>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_adicional_de_Market_share</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_adicional_de_Market_share_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_adicional_de_Market_share_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_del_Sector_del_Asset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Sector_del_Asset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Sector_del_Asset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_del_Set_y_Consumo_anual</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Set_y_Consumo_anual_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Set_y_Consumo_anual_Column2</name>
+                </fields>
+                <fields>
+                    <name>Material_del_Sector</name>
+                </fields>
+                <fields>
+                    <name>NCantidad_de_Piezas_Set</name>
+                </fields>
+                <fields>
+                    <name>NPeso_unitario_Pieza_Competidor</name>
+                </fields>
+                <fields>
+                    <name>Plano</name>
+                </fields>
+                <fields>
+                    <name>Proveedor_del_Sector</name>
+                </fields>
+                <fields>
+                    <name>Sector_Asset</name>
+                </fields>
+                <fields>
+                    <name>Sector_Asset_Chancado</name>
+                </fields>
+                <fields>
+                    <name>TextoChancado</name>
+                </fields>
+                <fields>
+                    <name>TipoAsset</name>
+                </fields>
+                <fields>
+                    <name>Unidad_Pieza_Competidor</name>
+                </fields>
+                <name>Crear_Market_Share</name>
+            </screens>
+        </flows>
+        <fullName>Crear_Market_Share</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Create_Default_Account_Plant</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Create_Order_Order_Items</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Create_and_Activate_Contracts</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Descontar_Documentos_Contador</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ECO_Status_Change_Date_Tracking</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>BodyMail</name>
+            </textTemplates>
+        </flows>
+        <fullName>ECO_creada_en_VAULT</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_Activate_Inactivate_Product_According_To_Status</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_AssignAssetToProduct</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ELM_DocumentType</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <name>ELM_UploadDocument</name>
+                </fields>
+                <name>ELM_Screen1</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_ELM_DocumentType</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <name>Copy_1_of_ELM_UploadDocument</name>
+                </fields>
+                <name>Screen1_Maintenance</name>
+            </screens>
+        </flows>
+        <fullName>ELM_AssignDocumentType</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_AssignParentAccountToChild</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_AssignPricebookToAccount</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_Assign_ME_FIT_Program_Number</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_DeleteOrderItem</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_SendEmailChecklistOpportunity</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ELM_UpdateOrderStatus</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ChecklistAlreadySentMessage</name>
+                </fields>
+                <name>ChecklistAlreadySentScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ChecklistSentMessage</name>
+                </fields>
+                <name>ChecklistSentScreen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ChecklistDifferentOrderTypeMessage</name>
+                </fields>
+                <name>Checklist_Different_Order_Type</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_ChecklistDifferentOrderTypeMessage</name>
+                </fields>
+                <name>Checklist_Different_Order_Type_Services</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ConfirmationChecklistSending</name>
+                </fields>
+                <fields>
+                    <name>Confirmation_Screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Confirmation_Screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Confirmation_Screen_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>Explicacion</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>multiple</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value />
+                    </inputParameters>
+                    <name>FileUpload</name>
+                </fields>
+                <name>Confirmation_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>Error_Handling</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ProductFieldsMissingErrorMessage</name>
+                </fields>
+                <name>Error_Missing_Product_Fields</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>ErrorMessageIncoterm</name>
+                </fields>
+                <name>Incoterm_Validation_Rule</name>
+            </screens>
+            <textTemplates>
+                <name>ChecklistBodyComponentServices</name>
+            </textTemplates>
+            <textTemplates>
+                <name>ChecklistBodyComponentServicesAutomaticallyApproved</name>
+            </textTemplates>
+            <textTemplates>
+                <name>ChecklistBodyNotification</name>
+            </textTemplates>
+        </flows>
+        <fullName>Enviar_Checklist</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Error_enviando_correo_En_Tramite</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Error_enviando_correo</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Error_enviando_correo_En_Tramite_Yutronic</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Enviar_correo_reenvio_checklist</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Essentials_Email_Processing</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Essentials_Social_Processing</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FECHA_CAMBIO_STAGE_OPP</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>FECHA_CAMBIO_STATUS_VAES</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fecha_Opp_Close_Won</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fecha_VAES_Finalizado</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Fecha_tramite_Aprobado</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Flow_Proposal_submission_date</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>Error</name>
+                </fields>
+                <name>Error_Handle</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Details</name>
+                </fields>
+                <fields>
+                    <name>Maintenance_Preview_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Maintenance_Preview_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Maintenance_Preview_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>el_0</name>
+                </fields>
+                <fields>
+                    <name>el_1</name>
+                </fields>
+                <fields>
+                    <name>el_2</name>
+                </fields>
+                <fields>
+                    <name>el_3</name>
+                </fields>
+                <fields>
+                    <name>el_4</name>
+                </fields>
+                <fields>
+                    <name>el_5</name>
+                </fields>
+                <name>Maintenance_Preview</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>UpdateMessage</name>
+                </fields>
+                <name>Update_Message</name>
+            </screens>
+        </flows>
+        <fullName>Maintenance_Preview</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Manage_Trip_Report</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AccountEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>AccountNotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>NotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityNotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESNotificationTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>NewTaskNoteCreation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>CuerpoAvisoVAESaprobado</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailSubject</name>
+            </textTemplates>
+        </flows>
+        <fullName>Notificaciones_al_creador_del_VAES</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <choices>
+                <name>C1</name>
+            </choices>
+            <choices>
+                <name>C2</name>
+            </choices>
+            <choices>
+                <name>C3</name>
+            </choices>
+            <choices>
+                <name>C4</name>
+            </choices>
+            <choices>
+                <name>C5</name>
+            </choices>
+            <choices>
+                <name>CM1</name>
+            </choices>
+            <choices>
+                <name>CM2</name>
+            </choices>
+            <choices>
+                <name>CM3</name>
+            </choices>
+            <choices>
+                <name>CM4</name>
+            </choices>
+            <choices>
+                <name>CMHC</name>
+            </choices>
+            <choices>
+                <name>CrMo170</name>
+            </choices>
+            <choices>
+                <name>CrMo222</name>
+            </choices>
+            <choices>
+                <name>Crmo120</name>
+            </choices>
+            <choices>
+                <name>M1</name>
+            </choices>
+            <choices>
+                <name>M1Mn</name>
+            </choices>
+            <choices>
+                <name>M2</name>
+            </choices>
+            <choices>
+                <name>M2Mn</name>
+            </choices>
+            <choices>
+                <name>M3</name>
+            </choices>
+            <choices>
+                <name>M3Mn</name>
+            </choices>
+            <choices>
+                <name>M4</name>
+            </choices>
+            <choices>
+                <name>M4Mn</name>
+            </choices>
+            <choices>
+                <name>M5</name>
+            </choices>
+            <choices>
+                <name>M6</name>
+            </choices>
+            <choices>
+                <name>MSP1</name>
+            </choices>
+            <choices>
+                <name>SP1</name>
+            </choices>
+            <choices>
+                <name>SPX</name>
+            </choices>
+            <choices>
+                <name>WI306</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>AleacionSectorChancado</name>
+                </fields>
+                <fields>
+                    <name>Aleacion_del_SectorMolineda</name>
+                </fields>
+                <fields>
+                    <name>Cantidad_de_Assets_iguales</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>required</name>
+                        <value />
+                    </inputParameters>
+                    <name>DescripcionPieza</name>
+                </fields>
+                <fields>
+                    <name>Descripcion_Pieza_Competidor</name>
+                </fields>
+                <fields>
+                    <name>DucacionSetMeses2</name>
+                </fields>
+                <fields>
+                    <name>GrindingMedia</name>
+                </fields>
+                <fields>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>InformacionPiezaMEElecmetalenSectordelAsset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_Pieza_Competidor_en_Sector_del_Asset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_adicional_de_Market_share</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_adicional_de_Market_share_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_adicional_de_Market_share_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_del_Sector_del_Asset</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Sector_del_Asset_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Sector_del_Asset_Column2</name>
+                </fields>
+                <fields>
+                    <name>Informacion_del_Set_y_Consumo_anual</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Set_y_Consumo_anual_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Informacion_del_Set_y_Consumo_anual_Column2</name>
+                </fields>
+                <fields>
+                    <name>Material_del_Sector</name>
+                </fields>
+                <fields>
+                    <name>NCantidad_de_Piezas_Set</name>
+                </fields>
+                <fields>
+                    <name>NPeso_unitario_Pieza_Competidor</name>
+                </fields>
+                <fields>
+                    <name>Plano</name>
+                </fields>
+                <fields>
+                    <name>Proveedor_del_Sector</name>
+                </fields>
+                <fields>
+                    <name>Sector_Asset</name>
+                </fields>
+                <fields>
+                    <name>Sector_Asset_Chancado</name>
+                </fields>
+                <fields>
+                    <name>TextoChancado</name>
+                </fields>
+                <fields>
+                    <name>TipoAsset</name>
+                </fields>
+                <fields>
+                    <name>Unidad_Pieza_Competidor</name>
+                </fields>
+                <name>Crear_Market_Share</name>
+            </screens>
+        </flows>
+        <fullName>Nuevo_Market_Share</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>AlreadyApprovedMessage</name>
+                </fields>
+                <name>Already_Approved_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_AlreadyApprovedMessage</name>
+                </fields>
+                <name>Already_Approved_Screen_Services</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Approve_Reason</name>
+                </fields>
+                <fields>
+                    <name>Confirmation_Reason_Screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Confirmation_Reason_Screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Confirmation_Reason_Screen_Section1_Column2</name>
+                </fields>
+                <name>Confirmation_Reason_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Confirmation</name>
+                </fields>
+                <name>Confirmation_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>DisplayMessage</name>
+                </fields>
+                <name>Display_Approved_Message</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_DisplayMessage</name>
+                </fields>
+                <name>Display_Approved_Message_Services</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FaultMessage</name>
+                </fields>
+                <name>Fault_Message_Screen</name>
+            </screens>
+            <textTemplates>
+                <name>ChecklistBodyComponentServicesApproved</name>
+            </textTemplates>
+        </flows>
+        <fullName>Opportunity_Confirmation_Test</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Master</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_Master_1</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>AlreadyRejectedMessage</name>
+                </fields>
+                <name>Already_Rejected_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Copy_2_of_AlreadyRejectedMessage</name>
+                </fields>
+                <name>Already_Rejected_Screen_Services</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>Confirmation</name>
+                </fields>
+                <name>Confirmation_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>DisplayMessage</name>
+                </fields>
+                <name>Display_Approved_Message</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>FaultMessage</name>
+                </fields>
+                <name>Fault_Message_Screen</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>rejected_reason_screen_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>rejected_reason_screen_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>rejected_reason_screen_Section1_Column2</name>
+                </fields>
+                <fields>
+                    <name>write_rejected_reason</name>
+                </fields>
+                <name>rejected_reason_screen</name>
+            </screens>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTempleteServices</name>
+            </textTemplates>
+            <textTemplates>
+                <name>RechazadoNotificationBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Opportunity_Rechazar</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_to_Contract</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_to_Order</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opportunity_to_Order_with_Contract</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>ProductToStandardPriceBook</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Product_Material_type_update</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>QUOTES_FECHA_FEEDBACK</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>RelateOppandOrder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ErrorMessage</name>
+                </fields>
+                <name>Manage_Error</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>AccountAssetsErrorMessage</name>
+                </fields>
+                <name>Manage_Errror_Account_Assets</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isShowSearchBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>AssetsFromAccount</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>fieldApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxValues</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>objectApiName</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>recordId</name>
+                        <value />
+                    </inputParameters>
+                    <name>Plant</name>
+                </fields>
+                <fields>
+                    <name>Related_Assets_with_Plant_Section1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Related_Assets_with_Plant_Section1_Column1</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>width</name>
+                        <value />
+                    </inputParameters>
+                    <name>Related_Assets_with_Plant_Section1_Column2</name>
+                </fields>
+                <name>Related_Assets_with_Plant</name>
+            </screens>
+            <screens>
+                <fields>
+                    <name>SucessMessage</name>
+                </fields>
+                <name>Sucess_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Relate_Plant_with_Assets</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Reset_Identified_Contacts_Checkboxes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Reset_Market_Control_Fields</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Copy_1_of_Error_Message</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Error_Message</developerName>
+            </customErrorMessages>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTemplateIngles</name>
+            </textTemplates>
+            <textTemplates>
+                <name>RecordLink</name>
+            </textTemplates>
+        </flows>
+        <fullName>Send</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Copy_1_of_Error_Message</developerName>
+            </customErrorMessages>
+            <customErrorMessages>
+                <developerName>Error_Message</developerName>
+            </customErrorMessages>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTemplateNA</name>
+            </textTemplates>
+            <textTemplates>
+                <name>RecordLink</name>
+            </textTemplates>
+        </flows>
+        <fullName>Send_Email_for_VAES_Finished</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Ship_Date_to_Ship_Year_Automation</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AccountEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>AccountNotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>NotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityNotificationTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityemailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESNotificationTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>Task_Status_Change</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>AccountEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>AccountNotificationBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>NotificationBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>OpportunityNotificationBody</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESEmailTemplate</name>
+            </textTemplates>
+            <textTemplates>
+                <name>VAESNotificationBody</name>
+            </textTemplates>
+        </flows>
+        <fullName>Task_due_Date_Reminder</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Apro_Subgerente_Ventas_si</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Contacts_Identified</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Customer_Part_Information</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Task_Update_Error</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Update_Due_Date_Changes</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_GM_Currency</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Market_Share_AccountId</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Opportunity_Likely_to_Win</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Opportunity_Product_Item_Weight</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Opportunity_Tons</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Opportunity_Update_Error</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Update_Prod_Opp_Number_Field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Update_Product_Schedule_field</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>VAESApprovalProcess</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>VAES_Actualizar_Owner</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <customErrorMessages>
+                <developerName>Error_Asset_Required</developerName>
+            </customErrorMessages>
+        </flows>
+        <fullName>Validate_Opportunity_Asset_by_Stage</fullName>
+    </flowDefinitions>
+    <quickActions>
+        <label><!-- LogACall --></label>
+        <name>LogACall</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewAccount --></label>
+        <name>NewAccount</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewCase --></label>
+        <name>NewCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewContact --></label>
+        <name>NewContact</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewEvent --></label>
+        <name>NewEvent</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewGroup --></label>
+        <name>NewGroup</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewLead --></label>
+        <name>NewLead</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewNote --></label>
+        <name>NewNote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewOpportunity --></label>
+        <name>NewOpportunity</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- NewTask --></label>
+        <name>NewTask</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+</Translations>

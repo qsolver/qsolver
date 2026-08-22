@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Producto Medio de Molienda (en caso de no ser ME
+Elecmetal --></help>
+        <label><!-- Producto Medio de Molienda --></label>
+        <name>Producto_Med_Molienda__c</name>
+    </CustomFieldTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Detalle_Ch_Asset</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Ch Detalles</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>true</requireRowSelection>
+    <url>https://me-elecmetal.lightning.force.com/lightning/r/Report/00OPn000003guYjMAI/view?queryScope=userFolders&amp;fv0={!Asset.AccountId}&amp;fv1={!Asset.Id}</url>
+</WebLink>

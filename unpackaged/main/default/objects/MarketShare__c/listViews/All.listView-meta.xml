@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Proveedor__c</columns>
+    <columns>Sector_Asset__c</columns>
+    <columns>Material_1__c</columns>
+    <columns>Aleacion__c</columns>
+    <columns>Descripcion_Pieza__c</columns>
+    <columns>N_Pieza_SKU__c</columns>
+    <columns>Peso_unitario_Pieza__c</columns>
+    <columns>Unidad_Peso_Unitario__c</columns>
+    <columns>Cantidad_de_Piezas__c</columns>
+    <columns>Duracion_Set_Meses__c</columns>
+    <columns>Peso_Set__c</columns>
+    <columns>Consumo_Anual__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>MarketShare__c.Molienda</value>
+    </filters>
+    <label>Market Share: Molienda</label>
+</ListView>

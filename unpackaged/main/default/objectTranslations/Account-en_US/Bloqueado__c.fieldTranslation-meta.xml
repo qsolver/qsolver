@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help><!-- Block indicator in SAP --></help>
+        <label>Blocked?</label>
+        <name>Bloqueado__c</name>
+    </CustomFieldTranslation>

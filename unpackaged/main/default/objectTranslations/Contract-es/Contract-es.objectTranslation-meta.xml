@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Guarantee Ticket --></label>
+            <section>Guarantee Ticket</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Event --></label>
+        <name>New_EventContract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_TaskContract</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please select fill in Ticket Amount --></errorMessage>
+        <name>Guarantee_Ticket_Amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select fill in Start Date --></errorMessage>
+        <name>Guarantee_Ticket_EndDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select fill in Letter --></errorMessage>
+        <name>Guarantee_Ticket_Letter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select fill in Pnealty Fee --></errorMessage>
+        <name>Guarantee_Ticket_Pnealty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select fill in Start Date --></errorMessage>
+        <name>Guarantee_Ticket_StartDate</name>
+    </validationRules>
+</CustomObjectTranslation>

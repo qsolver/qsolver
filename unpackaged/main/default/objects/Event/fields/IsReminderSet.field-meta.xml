@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsReminderSet</fullName>
+    <inlineHelpText>Receive a reminder email at your preferred date and time by enabling a workflow. To get started, head to Setup and click Workflow.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

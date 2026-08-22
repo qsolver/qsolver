@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <help>Pendiente, Completado (El Status cambia si se ingresa una fecha de propuesta Plan y fecha de propuesta Real)</help>
+        <label>Estado de la propuesta</label>
+        <name>ELM_Presentation_Alert_30__c</name>
+    </CustomFieldTranslation>
