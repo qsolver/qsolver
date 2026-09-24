@@ -98,9 +98,9 @@
         <schedule>
             <frequency>Daily</frequency>
             <startDate>2026-01-01</startDate>
-            <startTime>02:00:00.000Z</startTime>
+            <startTime>01:00:00.000Z</startTime>
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
 </Flow>

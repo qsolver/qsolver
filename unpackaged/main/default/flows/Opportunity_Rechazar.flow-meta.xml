@@ -4,7 +4,7 @@
         <name>Send_Custom_Notification</name>
         <label>Send Custom Notification</label>
         <locationX>182</locationX>
-        <locationY>4118</locationY>
+        <locationY>3710</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -48,7 +48,7 @@
         <name>Send_Email_Alert</name>
         <label>Send Email Alert</label>
         <locationX>182</locationX>
-        <locationY>4226</locationY>
+        <locationY>3818</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -86,7 +86,7 @@
         <name>Send_En_Tramite_Custom_Notification</name>
         <label>Send En Tramite Custom Notification</label>
         <locationX>1194</locationX>
-        <locationY>3302</locationY>
+        <locationY>3002</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -130,7 +130,7 @@
         <name>Send_En_Tramite_Email</name>
         <label>Send En Tramite Email</label>
         <locationX>1194</locationX>
-        <locationY>3410</locationY>
+        <locationY>3110</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -168,7 +168,7 @@
         <name>Send_To_Follow_Custom_Notification</name>
         <label>Send To Follow Custom Notification</label>
         <locationX>842</locationX>
-        <locationY>3302</locationY>
+        <locationY>3002</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -212,7 +212,7 @@
         <name>Send_To_Follow_Email_Alert</name>
         <label>Send To Follow Email Alert</label>
         <locationX>842</locationX>
-        <locationY>3410</locationY>
+        <locationY>3110</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
         <connector>
@@ -252,7 +252,7 @@
         <name>Add_En_Tramite_Users_Ids</name>
         <label>Add En Tramite Users Ids</label>
         <locationX>1282</locationX>
-        <locationY>2702</locationY>
+        <locationY>2402</locationY>
         <assignmentItems>
             <assignToReference>GroupUserCollection</assignToReference>
             <operator>Add</operator>
@@ -268,7 +268,7 @@
         <name>Add_To_Follow_Users_Ids</name>
         <label>Add To Follow Users Ids</label>
         <locationX>930</locationX>
-        <locationY>2702</locationY>
+        <locationY>2402</locationY>
         <assignmentItems>
             <assignToReference>GroupUserCollection</assignToReference>
             <operator>Add</operator>
@@ -300,7 +300,7 @@
         <name>Assign_En_Tramite_Group_Member_Emails</name>
         <label>Assign En Tramite Group Member Emails</label>
         <locationX>1282</locationX>
-        <locationY>3110</locationY>
+        <locationY>2810</locationY>
         <assignmentItems>
             <assignToReference>EnTramiteEmails</assignToReference>
             <operator>Add</operator>
@@ -310,64 +310,6 @@
         </assignmentItems>
         <connector>
             <targetReference>Loop_En_Tramite_Users</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Assign_General_Emails</name>
-        <label>Assign General Emails</label>
-        <locationX>314</locationX>
-        <locationY>3902</locationY>
-        <assignmentItems>
-            <assignToReference>ListUserMemberEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>usc@elecmetal.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListUserMemberEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>planificacioncomercial@elecmetal.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListUserMemberEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>myriam.crisostomo@talleres.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListUserMemberEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>claudia.marin@talleres.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListCCEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>psimbana@elecmetal.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListCCEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>mariangeles.canitrot@talleres.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>ListCCEmails</assignToReference>
-            <operator>Add</operator>
-            <value>
-                <stringValue>iflores@elecmetal.cl</stringValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Are_There_Emails_in_List_User_Member_Emails</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -435,26 +377,10 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Assign_razon_de_rechazo</name>
-        <label>Assign razon de rechazo</label>
-        <locationX>600</locationX>
-        <locationY>1970</locationY>
-        <assignmentItems>
-            <assignToReference>Get_Opportunity.Razon_de_rechazo__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>write_rejected_reason</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Opportunity_To_Approved</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Assign_Recipient_Ids_and_Emails_Notification</name>
         <label>Assign Recipient Ids and Emails Notification</label>
         <locationX>314</locationX>
-        <locationY>2786</locationY>
+        <locationY>2486</locationY>
         <assignmentItems>
             <assignToReference>RecipientIdsNotification</assignToReference>
             <operator>Add</operator>
@@ -500,7 +426,7 @@
         <name>Assign_To_Follow_Group_Member_Email</name>
         <label>Assign To Follow Group Member Email</label>
         <locationX>930</locationX>
-        <locationY>3110</locationY>
+        <locationY>2810</locationY>
         <assignmentItems>
             <assignToReference>ToFollowEmails</assignToReference>
             <operator>Add</operator>
@@ -516,7 +442,7 @@
         <name>Assign_User_Member</name>
         <label>Assign User Member</label>
         <locationX>402</locationX>
-        <locationY>3218</locationY>
+        <locationY>2918</locationY>
         <assignmentItems>
             <assignToReference>ListUserMemberIds</assignToReference>
             <operator>Add</operator>
@@ -532,7 +458,7 @@
         <name>Assign_User_Member_Email</name>
         <label>Assign User Member Email</label>
         <locationX>402</locationX>
-        <locationY>3710</locationY>
+        <locationY>3410</locationY>
         <assignmentItems>
             <assignToReference>ListUserMemberEmails</assignToReference>
             <operator>Add</operator>
@@ -548,7 +474,7 @@
         <name>Update_Opportunity_To_Approved</name>
         <label>Update Opportunity To Approved</label>
         <locationX>732</locationX>
-        <locationY>2162</locationY>
+        <locationY>1862</locationY>
         <assignmentItems>
             <assignToReference>Get_Opportunity.ELM_VB_Ivan__c</assignToReference>
             <operator>Assign</operator>
@@ -561,6 +487,13 @@
             <operator>Assign</operator>
             <value>
                 <elementReference>Today</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Razon_de_rechazo__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>write_rejected_reason</elementReference>
             </value>
         </assignmentItems>
         <connector>
@@ -596,7 +529,7 @@
         <name>Are_There_Emails_in_List_User_Member_Emails</name>
         <label>Are There Emails in List User Member Emails?</label>
         <locationX>314</locationX>
-        <locationY>4010</locationY>
+        <locationY>3602</locationY>
         <defaultConnector>
             <targetReference>Display_Approved_Message</targetReference>
         </defaultConnector>
@@ -615,31 +548,6 @@
                 <targetReference>Send_Custom_Notification</targetReference>
             </connector>
             <label>Yes</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>If_not_component_services</name>
-        <label>If not component services</label>
-        <locationX>732</locationX>
-        <locationY>1754</locationY>
-        <defaultConnector>
-            <targetReference>Update_Opportunity_To_Approved</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>The_opp_is_not_compoennt_services</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Opportunity.RecordType.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Component_Services</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>rejected_reason_screen</targetReference>
-            </connector>
-            <label>The opp is not compoennt services</label>
         </rules>
     </decisions>
     <decisions>
@@ -671,7 +579,7 @@
         <name>Member_Type</name>
         <label>Member Type</label>
         <locationX>534</locationX>
-        <locationY>3110</locationY>
+        <locationY>2810</locationY>
         <defaultConnector>
             <targetReference>Loop_Group_Members</targetReference>
         </defaultConnector>
@@ -696,7 +604,7 @@
         <name>Opportunity_Order_Type</name>
         <label>Opportunity Order Type</label>
         <locationX>1150</locationX>
-        <locationY>2486</locationY>
+        <locationY>2186</locationY>
         <defaultConnector>
             <targetReference>Display_Approved_Message</targetReference>
         </defaultConnector>
@@ -736,7 +644,7 @@
         <name>Order_Type</name>
         <label>Order Type</label>
         <locationX>314</locationX>
-        <locationY>2486</locationY>
+        <locationY>2186</locationY>
         <defaultConnector>
             <targetReference>Assign_Recipient_Ids_and_Emails_Notification</targetReference>
         </defaultConnector>
@@ -776,7 +684,7 @@
         <name>Record_Type</name>
         <label>Record Type</label>
         <locationX>732</locationX>
-        <locationY>2378</locationY>
+        <locationY>2078</locationY>
         <defaultConnector>
             <targetReference>Opportunity_Order_Type</targetReference>
         </defaultConnector>
@@ -819,7 +727,7 @@
         <name>Loop_En_Tramite_Group_Members</name>
         <label>Loop En Tramite Group Members</label>
         <locationX>1194</locationX>
-        <locationY>2594</locationY>
+        <locationY>2294</locationY>
         <collectionReference>Get_En_Tramite_Group_Members</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -833,7 +741,7 @@
         <name>Loop_En_Tramite_Users</name>
         <label>Loop En Tramite Users</label>
         <locationX>1194</locationX>
-        <locationY>3002</locationY>
+        <locationY>2702</locationY>
         <collectionReference>Get_Users_En_Tramite</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -847,7 +755,7 @@
         <name>Loop_Group_Members</name>
         <label>Loop Group Members</label>
         <locationX>314</locationX>
-        <locationY>3002</locationY>
+        <locationY>2702</locationY>
         <collectionReference>Get_Group_Members</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -861,7 +769,7 @@
         <name>Loop_To_Follow_Group_Members</name>
         <label>Loop To Follow Group Members</label>
         <locationX>842</locationX>
-        <locationY>2594</locationY>
+        <locationY>2294</locationY>
         <collectionReference>Get_To_Follow_Group_Memebers</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -875,7 +783,7 @@
         <name>Loop_To_Follow_Users</name>
         <label>Loop To Follow Users</label>
         <locationX>842</locationX>
-        <locationY>3002</locationY>
+        <locationY>2702</locationY>
         <collectionReference>Get_Users_To_Follow</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -889,14 +797,14 @@
         <name>Loop_User_Members</name>
         <label>Loop User Members</label>
         <locationX>314</locationX>
-        <locationY>3602</locationY>
+        <locationY>3302</locationY>
         <collectionReference>Get_User_Members</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
             <targetReference>Assign_User_Member_Email</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
-            <targetReference>Assign_General_Emails</targetReference>
+            <targetReference>Are_There_Emails_in_List_User_Member_Emails</targetReference>
         </noMoreValuesConnector>
     </loops>
     <processMetadataValues>
@@ -985,7 +893,7 @@
         <name>Get_Group_Members</name>
         <label>Get Group Members</label>
         <locationX>314</locationX>
-        <locationY>2894</locationY>
+        <locationY>2594</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_Group_Members</targetReference>
@@ -1048,7 +956,7 @@
         <name>Get_Public_Group_En_Tramite</name>
         <label>Get Public Group En Tramite</label>
         <locationX>314</locationX>
-        <locationY>2594</locationY>
+        <locationY>2294</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Recipient_Ids_and_Emails_Notification</targetReference>
@@ -1069,7 +977,7 @@
         <name>Get_Public_Group_To_Follow</name>
         <label>Get Public Group To Follow</label>
         <locationX>50</locationX>
-        <locationY>2594</locationY>
+        <locationY>2294</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Recipient_Ids_and_Emails_Notification</targetReference>
@@ -1132,7 +1040,7 @@
         <name>Get_User_Members</name>
         <label>Get User Members</label>
         <locationX>314</locationX>
-        <locationY>3494</locationY>
+        <locationY>3194</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_User_Members</targetReference>
@@ -1153,7 +1061,7 @@
         <name>Get_Users_En_Tramite</name>
         <label>Get Users En Tramite</label>
         <locationX>1194</locationX>
-        <locationY>2894</locationY>
+        <locationY>2594</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_En_Tramite_Users</targetReference>
@@ -1174,7 +1082,7 @@
         <name>Get_Users_To_Follow</name>
         <label>Get Users To Follow</label>
         <locationX>842</locationX>
-        <locationY>2894</locationY>
+        <locationY>2594</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_To_Follow_Users</targetReference>
@@ -1195,7 +1103,7 @@
         <name>Update_Opportunity</name>
         <label>Update Opportunity</label>
         <locationX>732</locationX>
-        <locationY>2270</locationY>
+        <locationY>1970</locationY>
         <connector>
             <targetReference>Record_Type</targetReference>
         </connector>
@@ -1262,7 +1170,7 @@
         <allowPause>true</allowPause>
         <backButtonLabel>Cancelar</backButtonLabel>
         <connector>
-            <targetReference>If_not_component_services</targetReference>
+            <targetReference>rejected_reason_screen</targetReference>
         </connector>
         <fields>
             <name>Confirmation</name>
@@ -1286,7 +1194,7 @@
         <name>Display_Approved_Message</name>
         <label>Display Approved Message</label>
         <locationX>732</locationX>
-        <locationY>4502</locationY>
+        <locationY>4094</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -1310,7 +1218,7 @@
         <name>Fault_Message_Screen</name>
         <label>Fault Message Screen</label>
         <locationX>1634</locationX>
-        <locationY>2378</locationY>
+        <locationY>2078</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -1333,13 +1241,13 @@
     <screens>
         <name>rejected_reason_screen</name>
         <label>rejected reason screen</label>
-        <locationX>600</locationX>
-        <locationY>1862</locationY>
+        <locationX>732</locationX>
+        <locationY>1754</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <connector>
-            <targetReference>Assign_razon_de_rechazo</targetReference>
+            <targetReference>Update_Opportunity_To_Approved</targetReference>
         </connector>
         <fields>
             <name>rejected_reason_screen_Section1</name>
@@ -1438,13 +1346,6 @@ Con fecha esperada de cierre: {!DateFormated}</text>
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>true</isOutput>
-    </variables>
-    <variables>
-        <name>ListCCEmails</name>
-        <dataType>String</dataType>
-        <isCollection>true</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
     </variables>
     <variables>
         <name>ListUserMemberEmails</name>

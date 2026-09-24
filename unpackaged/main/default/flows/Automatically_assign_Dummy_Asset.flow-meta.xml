@@ -144,7 +144,7 @@
             <field>RecordTypeId</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>012Pn00000Pq7YT</stringValue>
+                <stringValue>012dy000001Eo9FAAS</stringValue>
             </value>
         </filters>
         <object>MarketShare__c</object>

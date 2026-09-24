@@ -256,13 +256,6 @@
                 <elementReference>Sub_Linea_Dependiente.topValue</elementReference>
             </value>
         </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Get_Old_Opportunity.Sub_Linea_de_Negocio_OPP__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Sub_Linea_Dependiente.middleValue</elementReference>
-            </value>
-        </assignmentItems>
         <connector>
             <targetReference>Assign_New_Opportunity_1</targetReference>
         </connector>
@@ -321,10 +314,6 @@
         </assignmentItems>
         <assignmentItems>
             <assignToReference>Get_Old_Opportunity.IncotermChecklist__c</assignToReference>
-            <operator>Assign</operator>
-        </assignmentItems>
-        <assignmentItems>
-            <assignToReference>Get_Old_Opportunity.Sub_Linea_de_Negocio_OPP__c</assignToReference>
             <operator>Assign</operator>
         </assignmentItems>
         <connector>
@@ -456,7 +445,6 @@
             <label>Yes</label>
         </rules>
     </decisions>
-    <description>En screen Sublinea se agrega comentario , de que solo se puede seleccionar 1 valor para sublinea, tradiccción Ingles</description>
     <environments>Default</environments>
     <formulas>
         <name>CharacterLimit</name>
@@ -468,8 +456,8 @@
         <dataType>Boolean</dataType>
         <expression>CONTAINS({!$Flow.FaultMessage}, &#39;You cannot create an Opportunity for this client || Account Share&#39;)</expression>
     </formulas>
-    <interviewLabel>Clone Opportunity W/ Related Records {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Clone Opportunity W/ Related Records</label>
+    <interviewLabel>no {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>no</label>
     <loops>
         <name>Loop_Assets</name>
         <label>Loop Assets</label>
@@ -1025,19 +1013,6 @@
                 </width>
             </styleProperties>
         </fields>
-        <fields>
-            <name>Limitacion_sublinea</name>
-            <fieldText>&lt;p&gt;Debido a limitaciones de Salesforce, solo se permite seleccionar un valor para el campo &quot;Sublínea&quot;. Sin embargo, una vez clonada la oportunidad, es posible seleccionar otros valores&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;Due to Salesforce limitations, only one value can be selected for the &quot;Subline&quot; field. However, once the opportunity is cloned, it is possible to select additional values.&lt;/p&gt;</fieldText>
-            <fieldType>DisplayText</fieldType>
-            <styleProperties>
-                <verticalAlignment>
-                    <stringValue>top</stringValue>
-                </verticalAlignment>
-                <width>
-                    <stringValue>12</stringValue>
-                </width>
-            </styleProperties>
-        </fields>
         <nextOrFinishButtonLabel>Next</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
@@ -1049,7 +1024,7 @@
             <targetReference>Get_Old_Opportunity</targetReference>
         </connector>
     </start>
-    <status>Active</status>
+    <status>Draft</status>
     <variables>
         <name>NewOpp</name>
         <dataType>SObject</dataType>

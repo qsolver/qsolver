@@ -418,7 +418,7 @@
             </value>
         </inputAssignments>
         <inputAssignments>
-            <field>Sub_Line_of_Business__c</field>
+            <field>Sub_Linea_de_Negocio__c</field>
             <value>
                 <elementReference>$Record.Sub_Linea_de_Negocio_OPP__c</elementReference>
             </value>

@@ -1,6 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <actionCalls>
+        <name>Case_Success_Alert</name>
+        <label>Case Success Alert</label>
+        <locationX>8058</locationX>
+        <locationY>1274</locationY>
+        <actionName>c:ShowToastFlow</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>The document was uploaded successfully!</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>message</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>And a File Link record was created! {url}</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>urlLink</name>
+            <value>
+                <elementReference>Get_File_Link_Associated_To_Case.Id</elementReference>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>urlLabel</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>Link to the record.</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>c:ShowToastFlow</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
         <name>ELM_AccountSuccessAlert</name>
         <label>Account Success Alert</label>
         <locationX>666</locationX>
@@ -183,7 +223,7 @@
     <actionCalls>
         <name>ELM_GetSObjectTypeName</name>
         <label>Get SObject Type Name</label>
-        <locationX>4076</locationX>
+        <locationX>4384</locationX>
         <locationY>134</locationY>
         <actionName>InvocableActions</actionName>
         <actionType>apex</actionType>
@@ -319,9 +359,6 @@
         <locationY>1274</locationY>
         <actionName>c:ShowToastFlow</actionName>
         <actionType>component</actionType>
-        <connector>
-            <targetReference>Add_Tiene_Archivos</targetReference>
-        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>message</name>
@@ -856,6 +893,39 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </actionCalls>
     <actionCalls>
+        <name>Show_Message_Error_Case</name>
+        <label>Show Message Error Case</label>
+        <locationX>8322</locationX>
+        <locationY>758</locationY>
+        <actionName>c:ShowToastFlow</actionName>
+        <actionType>component</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>type</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>error</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>Error! No document was selected.</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>message</name>
+            <value>
+                <inputConfiguratorMode>Resource</inputConfiguratorMode>
+                <stringValue>Please, select a document to upload next time.</stringValue>
+            </value>
+        </inputParameters>
+        <nameSegment>c:ShowToastFlow</nameSegment>
+        <offset>0</offset>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
         <name>Show_Message_Error_Maintenance</name>
         <label>Show Message Error Maintenance</label>
         <locationX>7706</locationX>
@@ -866,18 +936,21 @@
         <inputParameters>
             <name>type</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>error</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>title</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>Error! No document was selected.</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
             <name>message</name>
             <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
                 <stringValue>Please, select a document to upload next time.</stringValue>
             </value>
         </inputParameters>
@@ -887,26 +960,67 @@
     </actionCalls>
     <apiVersion>55.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
-    <assignments>
-        <name>Add_Tiene_Archivos</name>
-        <label>Add Tiene Archivos</label>
-        <locationX>3746</locationX>
-        <locationY>1382</locationY>
-        <assignmentItems>
-            <assignToReference>ELM_GetQuote.Tiene__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Quote_Tiene_Archivos</targetReference>
-        </connector>
-    </assignments>
+    <choices>
+        <name>ch_CommercialReport</name>
+        <choiceText>Commercial report</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Commercial report</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_InformeCausaRaiz</name>
+        <choiceText>Informe causa raíz</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Informe causa raíz</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_InformeComercial</name>
+        <choiceText>Informe comercial</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Informe comercial</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>ch_RootCauseReport</name>
+        <choiceText>Root cause report</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Root cause report</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Case_File_Uploaded</name>
+        <label>Case File Uploaded?</label>
+        <locationX>8190</locationX>
+        <locationY>650</locationY>
+        <defaultConnector>
+            <targetReference>Show_Message_Error_Case</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Case_Yes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ContentDocumentIdLength</leftValueReference>
+                <operator>GreaterThan</operator>
+                <rightValue>
+                    <numberValue>2.0</numberValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Get_Case</targetReference>
+            </connector>
+            <label>Case Yes</label>
+        </rules>
+    </decisions>
     <decisions>
         <name>Check_if_it_is_maintenance</name>
         <label>Check if it is maintenance</label>
-        <locationX>4076</locationX>
+        <locationX>4384</locationX>
         <locationY>242</locationY>
         <defaultConnector>
             <targetReference>ELM_Screen1</targetReference>
@@ -926,6 +1040,21 @@
                 <targetReference>Screen1_Maintenance</targetReference>
             </connector>
             <label>Maintenance?</label>
+        </rules>
+        <rules>
+            <name>Case_Outcome</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ELM_GetSObjectTypeName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Case</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case</targetReference>
+            </connector>
+            <label>Case?</label>
         </rules>
     </decisions>
     <decisions>
@@ -1231,7 +1360,7 @@
     <decisions>
         <name>ELM_WhatObjectIs</name>
         <label>What Object Is</label>
-        <locationX>4076</locationX>
+        <locationX>4384</locationX>
         <locationY>542</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -1429,6 +1558,21 @@
             </connector>
             <label>Maintenance Object</label>
         </rules>
+        <rules>
+            <name>Case_Object</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ELM_GetSObjectTypeName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Case</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Case_File_Uploaded</targetReference>
+            </connector>
+            <label>Case Object</label>
+        </rules>
     </decisions>
     <decisions>
         <name>Maintenance_File_Uploaded</name>
@@ -1455,6 +1599,14 @@
             <label>Maintenance  Yes</label>
         </rules>
     </decisions>
+    <dynamicChoiceSets>
+        <name>CaseChoiceSet</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>Doc_Type_Case__c</picklistField>
+        <picklistObject>ELM_File_Link__c</picklistObject>
+    </dynamicChoiceSets>
     <dynamicChoiceSets>
         <name>ELM_DocType</name>
         <dataType>Picklist</dataType>
@@ -1545,6 +1697,20 @@
     </formulas>
     <interviewLabel>ELM_AssignDocumentType {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Assign Document Type</label>
+    <loops>
+        <name>Case_Loop_Document</name>
+        <label>Case Loop Document</label>
+        <locationX>8058</locationX>
+        <locationY>866</locationY>
+        <collectionReference>ContentDocumentId</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Update_File_Link_Case</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Case_Success_Alert</targetReference>
+        </noMoreValuesConnector>
+    </loops>
     <loops>
         <name>ELM_LoopDocumentId</name>
         <label>Loop DocumentId</label>
@@ -2335,6 +2501,48 @@
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
     <recordLookups>
+        <name>Get_Case</name>
+        <label>Get Case</label>
+        <locationX>8058</locationX>
+        <locationY>758</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Case_Loop_Document</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>MasterRecordId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Get_File_Link_Associated_To_Case</name>
+        <label>Get File Link Associated To Case</label>
+        <locationX>8146</locationX>
+        <locationY>1082</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Case_Loop_Document</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ELM_Content_Version_Id__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Case_Loop_Document</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>ELM_File_Link__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <name>Get_File_Link_Associated_To_Maintenance</name>
         <label>Get File Link Associated To Maintenance</label>
         <locationX>7530</locationX>
@@ -2740,12 +2948,6 @@
             </value>
         </filters>
         <inputAssignments>
-            <field>ELM_Doc_Type__c</field>
-            <value>
-                <elementReference>ELM_DocType</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
             <field>ELM_Quote__c</field>
             <value>
                 <elementReference>ELM_GetQuote.Id</elementReference>
@@ -2822,6 +3024,43 @@
         <object>ELM_File_Link__c</object>
     </recordUpdates>
     <recordUpdates>
+        <name>Update_File_Link_Case</name>
+        <label>Update File Link Case</label>
+        <locationX>8146</locationX>
+        <locationY>974</locationY>
+        <connector>
+            <targetReference>Get_File_Link_Associated_To_Case</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ELM_Registry_Name__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get_Case.CaseNumber</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>ELM_Content_Version_Id__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Case_Loop_Document</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Case__c</field>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Doc_Type_Case__c</field>
+            <value>
+                <elementReference>Copy_1_of_Copy_1_of_ELM_DocumentType</elementReference>
+            </value>
+        </inputAssignments>
+        <object>ELM_File_Link__c</object>
+    </recordUpdates>
+    <recordUpdates>
         <name>Update_File_Link_Maintenance</name>
         <label>Update File Link Maintenance</label>
         <locationX>7530</locationX>
@@ -2858,17 +3097,83 @@
         </inputAssignments>
         <object>ELM_File_Link__c</object>
     </recordUpdates>
-    <recordUpdates>
-        <name>Update_Quote_Tiene_Archivos</name>
-        <label>Update Quote Tiene Archivos</label>
-        <locationX>3746</locationX>
-        <locationY>1490</locationY>
-        <inputReference>ELM_GetQuote</inputReference>
-    </recordUpdates>
+    <screens>
+        <name>Case</name>
+        <label>Screen1 Case</label>
+        <locationX>4384</locationX>
+        <locationY>350</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>ELM_WhatObjectIs</targetReference>
+        </connector>
+        <fields>
+            <name>Copy_1_of_Copy_1_of_ELM_DocumentType</name>
+            <choiceReferences>CaseChoiceSet</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Document Type</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>Copy_1_of_Copy_1_of_ELM_UploadDocument</name>
+            <extensionName>forceContent:fileUpload</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Select the document to upload</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>recordId</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>ContentDocumentId</assignToReference>
+                <name>contentDocIds</name>
+            </outputParameters>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Copy_1_of_Copy_1_of_ELM_DocumentType</leftValueReference>
+                    <operator>IsNull</operator>
+                    <rightValue>
+                        <booleanValue>false</booleanValue>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
     <screens>
         <name>ELM_Screen1</name>
         <label>Screen1</label>
-        <locationX>4208</locationX>
+        <locationX>4648</locationX>
         <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -2941,7 +3246,7 @@
     <screens>
         <name>Screen1_Maintenance</name>
         <label>Screen1 Maintenance</label>
-        <locationX>3944</locationX>
+        <locationX>4120</locationX>
         <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -3012,7 +3317,7 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>3950</locationX>
+        <locationX>4258</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>ELM_GetSObjectTypeName</targetReference>

@@ -1308,7 +1308,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Active</status>
     <textTemplates>
         <name>AccountEmailTemplate</name>
         <isViewedAsPlainText>true</isViewedAsPlainText>

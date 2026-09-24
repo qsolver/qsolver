@@ -21,6 +21,20 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>salesforce.support@email-me-elecmetal.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>emailSubject</name>
             <value>
                 <stringValue>Un VAES se encuentra pendiente de aprobación </stringValue>
@@ -59,6 +73,20 @@
             <name>emailAddressesArray</name>
             <value>
                 <elementReference>SingleEmailNA</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>salesforce.support@email-me-elecmetal.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -357,6 +385,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>Se incorpora nueva función de envio de correo al correo de soporte elecmetal configurado en salesforce</description>
     <environments>Default</environments>
     <formulas>
         <name>RecordLinkFormula</name>

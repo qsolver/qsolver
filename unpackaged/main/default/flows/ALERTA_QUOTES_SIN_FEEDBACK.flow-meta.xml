@@ -238,7 +238,7 @@
     <formulas>
         <name>Calculo_14_Dias</name>
         <dataType>Boolean</dataType>
-        <expression>TODAY() - DATEVALUE($Record.CreatedDate) = 14</expression>
+        <expression>TODAY() - DATEVALUE($Record.CreatedDate) = 27</expression>
     </formulas>
     <formulas>
         <name>Calculo_21_Dias</name>
@@ -248,7 +248,7 @@
     <formulas>
         <name>Calculo_30_Dias</name>
         <dataType>Boolean</dataType>
-        <expression>TODAY() - DATEVALUE($Record.CreatedDate) = 30</expression>
+        <expression>TODAY() - DATEVALUE($Record.CreatedDate) = 26</expression>
     </formulas>
     <formulas>
         <name>Calculo_7_Dias</name>
@@ -312,7 +312,7 @@
             <field>RecordTypeId</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>012Pn00000abuZZIAY</stringValue>
+                <stringValue>012dy000001dxxJAAQ</stringValue>
             </value>
         </filters>
         <object>Quote</object>
@@ -325,7 +325,7 @@
         </schedule>
         <triggerType>Scheduled</triggerType>
     </start>
-    <status>Obsolete</status>
+    <status>Draft</status>
     <textTemplates>
         <name>BodyMail</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>

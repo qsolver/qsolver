@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Translations xmlns="http://soap.sforce.com/2006/04/metadata">
     <customLabels>
         <label><!-- Additional Emails For Checklist Approval Request En Tramite Services --></label>
@@ -1301,10 +1301,6 @@
     <flowDefinitions>
         <flows />
         <fullName>Product_Material_type_update</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows />
-        <fullName>QUOTES_FECHA_FEEDBACK</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />

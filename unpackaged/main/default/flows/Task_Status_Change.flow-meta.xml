@@ -389,13 +389,6 @@
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
-            <conditions>
-                <leftValueReference>$Record.Owner:User.Division</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Chancado SA</stringValue>
-                </rightValue>
-            </conditions>
             <connector>
                 <targetReference>Assign_Assign_To_User</targetReference>
             </connector>
@@ -419,13 +412,6 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.CreatedBy.Division</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Chancado SA</stringValue>
                 </rightValue>
             </conditions>
             <connector>
@@ -497,7 +483,7 @@
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>Some_are_Active</name>
-            <conditionLogic>(1 OR 2) AND 3 AND (4 AND 5)</conditionLogic>
+            <conditionLogic>(1 OR 2) AND 3</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.CreatedBy.IsActive</leftValueReference>
                 <operator>EqualTo</operator>
@@ -517,20 +503,6 @@
                 <operator>EqualTo</operator>
                 <rightValue>
                     <stringValue>SURAMERICA</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.CreatedBy.Division</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Chancado SA</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Owner:User.Division</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Chancado SA</stringValue>
                 </rightValue>
             </conditions>
             <connector>

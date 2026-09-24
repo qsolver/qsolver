@@ -13,16 +13,22 @@
             <name>recipientAddresses</name>
             <value>
                 <collectionElements>
+                    <stringValue>aespinoza@neox.cl</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>registrospam7@gmail.com</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>alfredo.espinoza@gmail.com</stringValue>
+                </collectionElements>
+                <collectionElements>
                     <stringValue>george.gonas@ticel.cl</stringValue>
                 </collectionElements>
                 <collectionElements>
-                    <stringValue>arachet@me-elecmetal.com</stringValue>
+                    <stringValue>kcalderon@neox.cl</stringValue>
                 </collectionElements>
                 <collectionElements>
-                    <stringValue>plarrain@me-elecmetal.com</stringValue>
-                </collectionElements>
-                <collectionElements>
-                    <stringValue>leonardo.buschiazzo@ticel.cl</stringValue>
+                    <stringValue>wflores@neox.cl</stringValue>
                 </collectionElements>
             </value>
         </inputParameters>
@@ -81,7 +87,7 @@
             <label>Vacio</label>
         </rules>
     </decisions>
-    <description>18/06/2026 16:41 se agrega mail leonardo.buschiazzo@ticel.cl, se deja 5 minutos</description>
+    <description>alerta para el objeto ECO que nos avise si el campo Number no recibe un valor a la hora de creación del registro, en un campo quede almacenado que la ECO no se ha sincronizado y nos mande una alerta por correo de que no se ha creado la ECO</description>
     <environments>Default</environments>
     <formulas>
         <name>f_RecordURL</name>

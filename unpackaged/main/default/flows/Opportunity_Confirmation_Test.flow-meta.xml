@@ -1,10 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Enviar_Email_Checklist_Servicios</name>
+        <label>Enviar Email Checklist Servicios</label>
+        <locationX>294</locationX>
+        <locationY>2630</locationY>
+        <actionName>OpportunityLineItem.Checklist_Component_Services</actionName>
+        <actionType>emailAlert</actionType>
+        <connector>
+            <targetReference>Loop_Opportunity_Products_for_Email</targetReference>
+        </connector>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>SObjectRowId</name>
+            <value>
+                <elementReference>Loop_Opportunity_Products_for_Email.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>OpportunityLineItem.Checklist_Component_Services</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
+    <actionCalls>
         <name>Send_Alert_Checklist_Opportunity2</name>
         <label>Send Alert Checklist Opportunity2</label>
         <locationX>842</locationX>
-        <locationY>1598</locationY>
+        <locationY>890</locationY>
         <actionName>Opportunity.ELM_Email_Alert_Checklist_Opportunity2</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -20,69 +40,13 @@
         <nameSegment>Opportunity.ELM_Email_Alert_Checklist_Opportunity2</nameSegment>
         <offset>0</offset>
     </actionCalls>
-    <actionCalls>
-        <name>Send_Alert_Email_Alert_Checklist_Opportunity_En_Tramite</name>
-        <label>Send Alert Email Alert Checklist Opportunity En Tramite</label>
-        <locationX>1106</locationX>
-        <locationY>1598</locationY>
-        <actionName>Opportunity.Email_Alert_Checklist_OpportunityEn_Tramite</actionName>
-        <actionType>emailAlert</actionType>
-        <connector>
-            <targetReference>Display_Approved_Message</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>Get_Opportunity.Id</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>Opportunity.Email_Alert_Checklist_OpportunityEn_Tramite</nameSegment>
-        <offset>0</offset>
-    </actionCalls>
-    <actionCalls>
-        <name>Send_Email_Approved_Component_Services</name>
-        <label>Send Email Approved Component Services</label>
-        <locationX>294</locationX>
-        <locationY>3230</locationY>
-        <actionName>OpportunityLineItem.Checklist_Component_Services_En_Tramite_To_Follow</actionName>
-        <actionType>emailAlert</actionType>
-        <connector>
-            <targetReference>Loop_Opportunity_Products_for_Email</targetReference>
-        </connector>
-        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
-        <inputParameters>
-            <name>SObjectRowId</name>
-            <value>
-                <elementReference>Loop_Opportunity_Products_for_Email.Id</elementReference>
-            </value>
-        </inputParameters>
-        <nameSegment>OpportunityLineItem.Checklist_Component_Services_En_Tramite_To_Follow</nameSegment>
-        <offset>0</offset>
-    </actionCalls>
     <apiVersion>60.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
-    <assignments>
-        <name>Assign_Approve_Date</name>
-        <label>Assign Approve Date</label>
-        <locationX>710</locationX>
-        <locationY>1166</locationY>
-        <assignmentItems>
-            <assignToReference>Get_Opportunity.Fecha_de_aprobacion__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Today</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Update_Opportunity</targetReference>
-        </connector>
-    </assignments>
     <assignments>
         <name>Assign_Opportunity_Owner_To_User_Member</name>
         <label>Assign Opportunity Owner To User Member</label>
         <locationX>314</locationX>
-        <locationY>1790</locationY>
+        <locationY>1190</locationY>
         <assignmentItems>
             <assignToReference>ListUserMemberEmails</assignToReference>
             <operator>Add</operator>
@@ -95,26 +59,10 @@
         </connector>
     </assignments>
     <assignments>
-        <name>Assign_razon_de_aprobacion</name>
-        <label>Assign razon de aprobacion</label>
-        <locationX>578</locationX>
-        <locationY>674</locationY>
-        <assignmentItems>
-            <assignToReference>Get_Opportunity.Razon_de_aprobacion__c</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>Approve_Reason</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>Approved_as_To_Follow</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>Assign_User_Member</name>
         <label>Assign User Member</label>
         <locationX>402</locationX>
-        <locationY>2222</locationY>
+        <locationY>1622</locationY>
         <assignmentItems>
             <assignToReference>ListUserMemberIds</assignToReference>
             <operator>Add</operator>
@@ -130,7 +78,7 @@
         <name>Assign_User_Member_Email</name>
         <label>Assign User Member Email</label>
         <locationX>402</locationX>
-        <locationY>2714</locationY>
+        <locationY>2114</locationY>
         <assignmentItems>
             <assignToReference>ListUserMemberEmails</assignToReference>
             <operator>Add</operator>
@@ -145,8 +93,8 @@
     <assignments>
         <name>Update_Opportunity_To_Approved</name>
         <label>Update Opportunity To Approved</label>
-        <locationX>842</locationX>
-        <locationY>974</locationY>
+        <locationX>578</locationX>
+        <locationY>566</locationY>
         <assignmentItems>
             <assignToReference>Get_Opportunity.ELM_VB_Ivan__c</assignToReference>
             <operator>Assign</operator>
@@ -154,30 +102,28 @@
                 <stringValue>Aprobado</stringValue>
             </value>
         </assignmentItems>
-        <connector>
-            <targetReference>Assign_Approve_Date</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
-        <name>Update_Opportunity_To_Approved_as_To_Follow</name>
-        <label>Update Opportunity To Approved as To Follow</label>
-        <locationX>578</locationX>
-        <locationY>974</locationY>
         <assignmentItems>
-            <assignToReference>Get_Opportunity.ELM_VB_Ivan__c</assignToReference>
+            <assignToReference>Get_Opportunity.Fecha_de_aprobacion__c</assignToReference>
             <operator>Assign</operator>
             <value>
-                <stringValue>Aprobado como To Follow</stringValue>
+                <elementReference>Today</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Opportunity.Razon_de_aprobacion__c</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>Approve_Reason</elementReference>
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>Assign_Approve_Date</targetReference>
+            <targetReference>Update_Opportunity</targetReference>
         </connector>
     </assignments>
     <decisions>
         <name>Already_Approved_By_RecordType</name>
         <label>Already Approved By RecordType</label>
-        <locationX>1942</locationX>
+        <locationX>1502</locationX>
         <locationY>350</locationY>
         <defaultConnector>
             <targetReference>Already_Approved_Screen</targetReference>
@@ -200,35 +146,10 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Approved_as_To_Follow</name>
-        <label>Approved as To Follow</label>
-        <locationX>710</locationX>
-        <locationY>866</locationY>
-        <defaultConnector>
-            <targetReference>Update_Opportunity_To_Approved</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>To_Follow</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Opportunity.ELM_Order_Type__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>To Follow</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Update_Opportunity_To_Approved_as_To_Follow</targetReference>
-            </connector>
-            <label>To Follow</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>Are_There_Emails_in_List_User_Member_Emails</name>
         <label>Are There Emails in List User Member Emails?</label>
         <locationX>314</locationX>
-        <locationY>3014</locationY>
+        <locationY>2414</locationY>
         <defaultConnector>
             <targetReference>Display_Approved_Message_Services</targetReference>
         </defaultConnector>
@@ -250,74 +171,9 @@
         </rules>
     </decisions>
     <decisions>
-        <name>Check_Order_Type</name>
-        <label>Check Order Type</label>
-        <locationX>1106</locationX>
-        <locationY>1490</locationY>
-        <defaultConnector>
-            <targetReference>Display_Approved_Message</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>To_Follow_Order_Type</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Opportunity.ELM_Order_Type__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>To Follow</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Send_Alert_Checklist_Opportunity2</targetReference>
-            </connector>
-            <label>To Follow Order Type</label>
-        </rules>
-        <rules>
-            <name>En_Tramite_Order_Type</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Opportunity.ELM_Order_Type__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>En Tramite</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Send_Alert_Email_Alert_Checklist_Opportunity_En_Tramite</targetReference>
-            </connector>
-            <label>En Tramite Order Type</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>If_Not_componenet_services</name>
-        <label>If Not componenet services</label>
-        <locationX>710</locationX>
-        <locationY>458</locationY>
-        <defaultConnector>
-            <targetReference>Approved_as_To_Follow</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>The_opp_is_not_component_services</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>Get_Opportunity.RecordType.Name</leftValueReference>
-                <operator>NotEqualTo</operator>
-                <rightValue>
-                    <stringValue>Component_Services</stringValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Confirmation_Reason_Screen</targetReference>
-            </connector>
-            <label>The opp is not component services</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>Is_already_approved</name>
         <label>Is already approved?</label>
-        <locationX>1326</locationX>
+        <locationX>1040</locationX>
         <locationY>242</locationY>
         <defaultConnector>
             <targetReference>Already_Approved_By_RecordType</targetReference>
@@ -343,7 +199,7 @@
         <name>Member_Type</name>
         <label>Member Type</label>
         <locationX>534</locationX>
-        <locationY>2114</locationY>
+        <locationY>1514</locationY>
         <defaultConnector>
             <targetReference>Loop_Group_Members</targetReference>
         </defaultConnector>
@@ -368,7 +224,7 @@
         <name>Order_Type</name>
         <label>Order Type</label>
         <locationX>314</locationX>
-        <locationY>1490</locationY>
+        <locationY>890</locationY>
         <defaultConnector>
             <isGoTo>true</isGoTo>
             <targetReference>Display_Approved_Message_Services</targetReference>
@@ -408,10 +264,10 @@
     <decisions>
         <name>Record_Type</name>
         <label>Record Type</label>
-        <locationX>710</locationX>
-        <locationY>1382</locationY>
+        <locationX>578</locationX>
+        <locationY>782</locationY>
         <defaultConnector>
-            <targetReference>Check_Order_Type</targetReference>
+            <targetReference>Send_Alert_Checklist_Opportunity2</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Others</defaultConnectorLabel>
         <rules>
@@ -492,7 +348,7 @@
         <name>Loop_Group_Members</name>
         <label>Loop Group Members</label>
         <locationX>314</locationX>
-        <locationY>2006</locationY>
+        <locationY>1406</locationY>
         <collectionReference>Get_Group_Members</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -506,11 +362,11 @@
         <name>Loop_Opportunity_Products_for_Email</name>
         <label>Loop Opportunity Products for Email</label>
         <locationX>206</locationX>
-        <locationY>3122</locationY>
+        <locationY>2522</locationY>
         <collectionReference>Get_Opportunity_Products</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
-            <targetReference>Send_Email_Approved_Component_Services</targetReference>
+            <targetReference>Enviar_Email_Checklist_Servicios</targetReference>
         </nextValueConnector>
         <noMoreValuesConnector>
             <targetReference>Display_Approved_Message_Services</targetReference>
@@ -520,7 +376,7 @@
         <name>Loop_User_Members</name>
         <label>Loop User Members</label>
         <locationX>314</locationX>
-        <locationY>2606</locationY>
+        <locationY>2006</locationY>
         <collectionReference>Get_User_Members</collectionReference>
         <iterationOrder>Asc</iterationOrder>
         <nextValueConnector>
@@ -553,7 +409,7 @@
         <name>Get_Group_Members</name>
         <label>Get Group Members</label>
         <locationX>314</locationX>
-        <locationY>1898</locationY>
+        <locationY>1298</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_Group_Members</targetReference>
@@ -573,7 +429,7 @@
     <recordLookups>
         <name>Get_Opportunity</name>
         <label>Get Opportunity</label>
-        <locationX>1326</locationX>
+        <locationX>1040</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -595,7 +451,7 @@
         <name>Get_Opportunity_Products</name>
         <label>Get Opportunity Products</label>
         <locationX>314</locationX>
-        <locationY>2906</locationY>
+        <locationY>2306</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Are_There_Emails_in_List_User_Member_Emails</targetReference>
@@ -616,7 +472,7 @@
         <name>Get_Public_Group_En_Tramite</name>
         <label>Get Public Group En Tramite</label>
         <locationX>314</locationX>
-        <locationY>1598</locationY>
+        <locationY>998</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Opportunity_Owner_To_User_Member</targetReference>
@@ -637,7 +493,7 @@
         <name>Get_Public_Group_To_Follow</name>
         <label>Get Public Group To Follow</label>
         <locationX>50</locationX>
-        <locationY>1598</locationY>
+        <locationY>998</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Assign_Opportunity_Owner_To_User_Member</targetReference>
@@ -658,7 +514,7 @@
         <name>Get_User_Members</name>
         <label>Get User Members</label>
         <locationX>314</locationX>
-        <locationY>2498</locationY>
+        <locationY>1898</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>Loop_User_Members</targetReference>
@@ -678,8 +534,8 @@
     <recordUpdates>
         <name>Update_Opportunity</name>
         <label>Update Opportunity</label>
-        <locationX>710</locationX>
-        <locationY>1274</locationY>
+        <locationX>578</locationX>
+        <locationY>674</locationY>
         <connector>
             <targetReference>Record_Type</targetReference>
         </connector>
@@ -691,7 +547,7 @@
     <screens>
         <name>Already_Approved_Screen</name>
         <label>Already Approved Screen</label>
-        <locationX>2074</locationX>
+        <locationX>1634</locationX>
         <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -715,7 +571,7 @@
     <screens>
         <name>Already_Approved_Screen_Services</name>
         <label>Already Approved Screen Services</label>
-        <locationX>1810</locationX>
+        <locationX>1370</locationX>
         <locationY>458</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -740,12 +596,12 @@
         <name>Confirmation_Reason_Screen</name>
         <label>Confirmation Reason Screen</label>
         <locationX>578</locationX>
-        <locationY>566</locationY>
+        <locationY>458</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <connector>
-            <targetReference>Assign_razon_de_aprobacion</targetReference>
+            <targetReference>Update_Opportunity_To_Approved</targetReference>
         </connector>
         <fields>
             <name>Confirmation_Reason_Screen_Section1</name>
@@ -798,20 +654,21 @@
                 </width>
             </styleProperties>
         </fields>
+        <nextOrFinishButtonLabel>Aprobar</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>
-        <showHeader>true</showHeader>
+        <showHeader>false</showHeader>
     </screens>
     <screens>
         <name>Confirmation_Screen</name>
         <label>Confirmation Screen</label>
-        <locationX>710</locationX>
+        <locationX>578</locationX>
         <locationY>350</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
         <backButtonLabel>Cancelar</backButtonLabel>
         <connector>
-            <targetReference>If_Not_componenet_services</targetReference>
+            <targetReference>Confirmation_Reason_Screen</targetReference>
         </connector>
         <fields>
             <name>Confirmation</name>
@@ -826,16 +683,16 @@
                 </width>
             </styleProperties>
         </fields>
-        <nextOrFinishButtonLabel>Aprobar</nextOrFinishButtonLabel>
+        <nextOrFinishButtonLabel>Continuar</nextOrFinishButtonLabel>
         <pauseButtonLabel>Cancelar</pauseButtonLabel>
         <showFooter>true</showFooter>
-        <showHeader>true</showHeader>
+        <showHeader>false</showHeader>
     </screens>
     <screens>
         <name>Display_Approved_Message</name>
         <label>Display Approved Message</label>
-        <locationX>1106</locationX>
-        <locationY>1790</locationY>
+        <locationX>842</locationX>
+        <locationY>998</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -859,7 +716,7 @@
         <name>Display_Approved_Message_Services</name>
         <label>Display Approved Message Services</label>
         <locationX>314</locationX>
-        <locationY>3506</locationY>
+        <locationY>2906</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -882,8 +739,8 @@
     <screens>
         <name>Fault_Message_Screen</name>
         <label>Fault Message Screen</label>
-        <locationX>1546</locationX>
-        <locationY>1382</locationY>
+        <locationX>1106</locationX>
+        <locationY>782</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
         <allowPause>true</allowPause>
@@ -904,7 +761,7 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>1200</locationX>
+        <locationX>914</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Opportunity</targetReference>

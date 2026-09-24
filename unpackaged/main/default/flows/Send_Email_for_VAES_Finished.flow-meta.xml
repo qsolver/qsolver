@@ -21,6 +21,20 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>salesforce.support@email-me-elecmetal.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>emailSubject</name>
             <value>
                 <stringValue>El siguiente VAES se ha cerrado</stringValue>
@@ -59,6 +73,20 @@
             <name>emailAddressesArray</name>
             <value>
                 <elementReference>SingleEmailNA</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>salesforce.support@email-me-elecmetal.com</stringValue>
             </value>
         </inputParameters>
         <inputParameters>
@@ -305,6 +333,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>se incorpora la nueva función de envió de email a la casilla de soporte elecmetal configurada en salesforce</description>
     <environments>Default</environments>
     <formulas>
         <name>AssignedSellerFirstName</name>

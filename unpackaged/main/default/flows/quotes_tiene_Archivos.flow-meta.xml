@@ -2,10 +2,10 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>67.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
-    <description>Flujo para registrar cuando se recibio y actualizo el campo recibio Feedback</description>
+    <description>Indicar campo checkbox Tiene__c si la quote tiene archivos adjuntos</description>
     <environments>Default</environments>
-    <interviewLabel>QUOTES FECHA FEEDBACK {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>QUOTES FECHA FEEDBACK</label>
+    <interviewLabel>quotes tiene Archivos {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>quotes tiene Archivos</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -26,37 +26,43 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordUpdates>
-        <description>Actualizar fecha cuando recibio Feedback</description>
-        <name>Fecha_FeedBack</name>
-        <label>Fecha_FeedBack</label>
+        <name>Actualizar_Existe_archivo</name>
+        <label>Actualizar Existe archivo</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <inputAssignments>
-            <field>Fecha_FeedBack__c</field>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
             <value>
-                <elementReference>$Flow.CurrentDate</elementReference>
+                <elementReference>$Record.ELM_Quote__c</elementReference>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Tiene__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
             </value>
         </inputAssignments>
-        <inputReference>$Record</inputReference>
+        <inputReference>$Record.ELM_Quote__r</inputReference>
     </recordUpdates>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Fecha_FeedBack</targetReference>
+            <targetReference>Actualizar_Existe_archivo</targetReference>
         </connector>
-        <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>Recibio_Feedback__c</field>
-            <operator>EqualTo</operator>
+            <field>ELM_Quote__c</field>
+            <operator>IsNull</operator>
             <value>
-                <booleanValue>true</booleanValue>
+                <booleanValue>false</booleanValue>
             </value>
         </filters>
-        <object>Quote</object>
+        <object>ELM_File_Link__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>
-        <triggerType>RecordBeforeSave</triggerType>
+        <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Active</status>
 </Flow>
