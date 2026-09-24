@@ -47,14 +47,14 @@
       <name>emailSubject</name>
       <value>
         <inputConfiguratorMode>Resource</inputConfiguratorMode>
-        <stringValue>Te han mencionado en una publicación de Chatter</stringValue>
+        <stringValue>You were mentioned in a Chatter post</stringValue>
       </value>
     </inputParameters>
     <inputParameters>
       <name>emailBody</name>
       <value>
-        <inputConfiguratorMode>Custom</inputConfiguratorMode>
-        <stringValue>&lt;p&gt;{!Cuerpo_Correo_EN}&lt;/p&gt;</stringValue>
+        <inputConfiguratorMode>Resource</inputConfiguratorMode>
+        <stringValue>Cuerpo_Correo_EN</stringValue>
       </value>
     </inputParameters>
     <inputParameters>
@@ -118,8 +118,8 @@
     <inputParameters>
       <name>emailBody</name>
       <value>
-        <inputConfiguratorMode>Custom</inputConfiguratorMode>
-        <stringValue>&lt;p&gt;{!Cuerpo_Correo_ES}&lt;/p&gt;</stringValue>
+        <inputConfiguratorMode>Resource</inputConfiguratorMode>
+        <stringValue>Cuerpo_Correo_ES</stringValue>
       </value>
     </inputParameters>
     <inputParameters>
@@ -169,11 +169,11 @@
         <leftValueReference>$Record.Body</leftValueReference>
         <operator>Contains</operator>
         <rightValue>
-          <stringValue>@[</stringValue>
+          <stringValue>@</stringValue>
         </rightValue>
       </conditions>
       <connector>
-        <targetReference>Get_Mentioned_User</targetReference>
+        <targetReference>Get_Feed_Mention</targetReference>
       </connector>
       <label>Contiene mención?</label>
     </rules>
@@ -213,11 +213,6 @@
     <dataType>String</dataType>
     <expression>LEFT({!$Api.Partner_Server_URL_100}, FIND('/services', {!$Api.Partner_Server_URL_100})) &amp; {!$Record.Id}</expression>
   </formulas>
-  <formulas>
-    <name>Mentioned_User_Id</name>
-    <dataType>String</dataType>
-    <expression>MID({!$Record.Body}, FIND("@[", {!$Record.Body}) + 2, 18)</expression>
-  </formulas>
   <interviewLabel>Chatter Menciones {!$Flow.CurrentDateTime}</interviewLabel>
   <label>Chatter Menciones</label>
   <processMetadataValues>
@@ -240,6 +235,27 @@
   </processMetadataValues>
   <processType>AutoLaunchedFlow</processType>
   <recordLookups>
+    <name>Get_Feed_Mention</name>
+    <label>Get Feed Mention</label>
+    <locationX>0</locationX>
+    <locationY>0</locationY>
+    <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+    <connector>
+      <targetReference>Get_Mentioned_User</targetReference>
+    </connector>
+    <filterLogic>and</filterLogic>
+    <filters>
+      <field>FeedItemId</field>
+      <operator>EqualTo</operator>
+      <value>
+        <elementReference>$Record.Id</elementReference>
+      </value>
+    </filters>
+    <getFirstRecordOnly>true</getFirstRecordOnly>
+    <object>FeedMention</object>
+    <storeOutputAutomatically>true</storeOutputAutomatically>
+  </recordLookups>
+  <recordLookups>
     <name>Get_Mentioned_User</name>
     <label>Get Mentioned User</label>
     <locationX>0</locationX>
@@ -253,7 +269,7 @@
       <field>Id</field>
       <operator>EqualTo</operator>
       <value>
-        <elementReference>Mentioned_User_Id</elementReference>
+        <elementReference>Get_Feed_Mention.TargetId</elementReference>
       </value>
     </filters>
     <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -288,7 +304,7 @@
       <targetReference>Contiene_mencion</targetReference>
     </connector>
     <object>FeedItem</object>
-    <recordTriggerType>CreateAndUpdate</recordTriggerType>
+    <recordTriggerType>Create</recordTriggerType>
     <triggerType>RecordAfterSave</triggerType>
   </start>
   <status>Active</status>
