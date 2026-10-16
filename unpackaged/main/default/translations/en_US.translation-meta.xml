@@ -121,6 +121,43 @@
         <fullName>Actualiza_Productos_ME_Elecmetal</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ProcessComplet</name>
+                </fields>
+                <name>Process_Completed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>isShowSearchBar</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>selectedcontacts</name>
+                </fields>
+                <name>Select_Contacts</name>
+            </screens>
+        </flows>
+        <fullName>Add_Active_Contacts_to_Campaign</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>AfterSaleCreate</fullName>
     </flowDefinitions>
@@ -139,10 +176,6 @@
             </textTemplates>
         </flows>
         <fullName>AssignAlertVendors</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows />
-        <fullName>Automatically_assign_Dummy_Asset</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
@@ -586,6 +619,14 @@
     <flowDefinitions>
         <flows>
             <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>ECO_Status_Change_Email_Send</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
                 <name>BodyMail</name>
             </textTemplates>
         </flows>
@@ -601,6 +642,31 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows>
+            <choices>
+                <name>ch_CommercialReport</name>
+            </choices>
+            <choices>
+                <name>ch_InformeCausaRaiz</name>
+            </choices>
+            <choices>
+                <name>ch_InformeComercial</name>
+            </choices>
+            <choices>
+                <name>ch_RootCauseReport</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_ELM_DocumentType</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <name>Copy_1_of_Copy_1_of_ELM_UploadDocument</name>
+                </fields>
+                <name>Case</name>
+            </screens>
             <screens>
                 <fields>
                     <name>ELM_DocumentType</name>
@@ -791,10 +857,6 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
-        <fullName>Fecha_tramite_Aprobado</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows />
         <fullName>Flow_Proposal_submission_date</fullName>
     </flowDefinitions>
     <flowDefinitions>
@@ -858,6 +920,14 @@
     <flowDefinitions>
         <flows />
         <fullName>Manage_Trip_Report</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Mantenciones_Act_Fecha_revisi_n</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Mantenciones_tiene_Archivos</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -1139,6 +1209,14 @@
             </screens>
         </flows>
         <fullName>Nuevo_Market_Share</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>OPP_Limpiar_Fecha_Rechazo</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Opp_Actualizar_Fecha_Tr_mite_Gesti_n</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -1430,10 +1508,10 @@
     <flowDefinitions>
         <flows>
             <customErrorMessages>
-                <developerName>Copy_1_of_Error_Message</developerName>
+                <developerName>Error_Message</developerName>
             </customErrorMessages>
             <customErrorMessages>
-                <developerName>Error_Message</developerName>
+                <developerName>Copy_1_of_Error_Message</developerName>
             </customErrorMessages>
             <textTemplates>
                 <name>EmailTemplate</name>

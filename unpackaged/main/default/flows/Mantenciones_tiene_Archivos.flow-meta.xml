@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>66.0</apiVersion>
+    <apiVersion>68.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
-    <description>Flujo para registrar la fecha cuando el campo ELM_VB_Ivan__c =&#39;Aprobado&#39;</description>
     <environments>Default</environments>
-    <interviewLabel>Fecha tramite {!$Flow.CurrentDateTime}</interviewLabel>
-    <label>Fecha tramite Aprobado</label>
+    <interviewLabel>Mantenciones tiene Archivos? {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Mantenciones tiene Archivos?</label>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -26,41 +25,48 @@
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordUpdates>
-        <name>Regsitrar_fecha_Tramite_Aprobado</name>
-        <label>Regsitrar fecha Tramite Aprobado</label>
+        <name>Actualizar_Existe_archivo</name>
+        <label>Actualizar Existe archivo</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
-        <inputAssignments>
-            <field>Fecha_Tramite_Aprobado__c</field>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
             <value>
-                <elementReference>$Flow.CurrentDate</elementReference>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <inputAssignments>
+            <field>Name</field>
+            <value>
+                <elementReference>$Record.Maintenance__c</elementReference>
             </value>
         </inputAssignments>
-        <inputReference>$Record</inputReference>
+        <inputAssignments>
+            <field>Tiene_Archivos__c</field>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record.Maintenance__r</inputReference>
     </recordUpdates>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Regsitrar_fecha_Tramite_Aprobado</targetReference>
+            <targetReference>Actualizar_Existe_archivo</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
-            <field>ELM_VB_Ivan__c</field>
+            <field>Maintenance__c</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Aprobado</stringValue>
+                <booleanValue>false</booleanValue>
             </value>
         </filters>
-        <filters>
-            <field>Fecha_Tramite_Aprobado__c</field>
-            <operator>IsNull</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
-        <object>Opportunity</object>
-        <recordTriggerType>Update</recordTriggerType>
+        <object>ELM_File_Link__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
     <status>Draft</status>

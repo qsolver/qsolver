@@ -21,6 +21,20 @@
             </value>
         </inputParameters>
         <inputParameters>
+            <name>senderType</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>OrgWideEmailAddress</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
+            <value>
+                <inputConfiguratorMode>Custom</inputConfiguratorMode>
+                <stringValue>salesforce.support@email-me-elecmetal.com</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
             <name>emailSubject</name>
             <value>
                 <stringValue>El siguiente VAES se ha cerrado</stringValue>
@@ -60,6 +74,12 @@
             <value>
                 <elementReference>SingleEmailNA</elementReference>
             </value>
+        </inputParameters>
+        <inputParameters>
+            <name>senderType</name>
+        </inputParameters>
+        <inputParameters>
+            <name>senderAddress</name>
         </inputParameters>
         <inputParameters>
             <name>emailSubject</name>
@@ -305,6 +325,7 @@
             <label>Yes</label>
         </rules>
     </decisions>
+    <description>Email de soporte incorporado</description>
     <environments>Default</environments>
     <formulas>
         <name>AssignedSellerFirstName</name>
