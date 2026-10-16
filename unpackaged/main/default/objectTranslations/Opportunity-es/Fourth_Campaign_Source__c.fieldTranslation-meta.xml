@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label>Fuente de la Cuarta Campaña</label>
+        <name>Fourth_Campaign_Source__c</name>
+        <relationshipLabel><!-- Opportunities (Fourth Campaign Source) --></relationshipLabel>
+    </CustomFieldTranslation>

@@ -237,11 +237,6 @@
                 <default>false</default>
                 <label>Palas Hidráulicas</label>
             </value>
-            <value>
-                <fullName>Harneros</fullName>
-                <default>false</default>
-                <label>Harneros</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Soluciones Integrales</controllingFieldValue>

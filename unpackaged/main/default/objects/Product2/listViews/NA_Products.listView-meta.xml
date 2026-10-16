@@ -11,9 +11,9 @@
     <columns>PRODUCT2.CREATED_DATE</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>ELM_ExternalId__c</field>
+        <field>ELM_Industry_Sector__c</field>
         <operation>equals</operation>
-        <value>7CM30703505</value>
+        <value>MEG</value>
     </filters>
     <label>NA_Products All</label>
 </ListView>

@@ -443,6 +443,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Equipos Mina</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Estructura</fullName>
             <default>false</default>
         </values>

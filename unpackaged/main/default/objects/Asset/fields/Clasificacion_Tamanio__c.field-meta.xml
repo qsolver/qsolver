@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Clasificacion_Tamanio__c</fullName>
     <externalId>false</externalId>
-    <formula>IF( NOT(ISPICKVAL( Line_of_Business__c, &quot;Molienda&quot;)) , &quot;Not a Mill&quot;, 
+    <formula>IF( AND(NOT(ISPICKVAL( Line_of_Business__c, &quot;Molienda&quot;)),  Not(RecordType.DeveloperName = &#39;Mill&#39;) ) , &quot;Not a Mill&quot;, 
 IF(INCLUDES(ELM_Subcategory__c, &quot;TOWER MILLS&quot;), &quot;TowerMill&quot;,
 IF(INCLUDES(ELM_Subcategory__c, &quot;Barras&quot;), &quot;Mid Size&quot;,
 IF(INCLUDES(ELM_Subcategory__c, &quot;Bolas&quot;), 

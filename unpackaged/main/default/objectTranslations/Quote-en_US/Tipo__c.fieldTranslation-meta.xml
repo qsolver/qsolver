@@ -4,10 +4,10 @@
         <name>Tipo__c</name>
         <picklistValues>
             <masterLabel>Cotización</masterLabel>
-            <translation>Quotes</translation>
+            <translation>Quotation</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Licitación</masterLabel>
-            <translation>Bidding</translation>
+            <translation>Public Tender</translation>
         </picklistValues>
     </CustomFieldTranslation>

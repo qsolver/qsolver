@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condiciones_Comerciales__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;PLAZO DE ENTREGA: 60 días, a contar de la fecha recepción OC&quot; &amp; BR() &amp;
+&quot;CONDICIONES DE PAGO: &quot; &amp; TEXT(Metodo_de_pago__c) &amp; &quot; a contar fecha de facturación&quot; &amp; BR() &amp;
+&quot;MONEDA: &quot; &amp; TEXT(CurrencyIsoCode) &amp; BR() &amp;
+&quot;LUGAR DE ENTREGA: &quot; &amp; Lugar_de_entrega__c &amp; BR() &amp;
+&quot;VALIDEZ DE LA OFERTA: &quot; &amp; TEXT(Validez_de_oferta__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Condiciones_Comerciales</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

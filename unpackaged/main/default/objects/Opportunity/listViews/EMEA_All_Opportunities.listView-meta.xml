@@ -16,14 +16,14 @@
     <columns>Product__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>Ship_Date__c</field>
-        <operation>greaterOrEqual</operation>
-        <value>1/1/2025</value>
-    </filters>
-    <filters>
         <field>ELM_Equipo_de_Ventas__c</field>
         <operation>equals</operation>
         <value>EMEA</value>
+    </filters>
+    <filters>
+        <field>Ship_Date__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2025</value>
     </filters>
     <label>EMEA_All Opportunities</label>
 </ListView>

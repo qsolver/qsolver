@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Motivo de la pérdida --></label>
+        <name>Motivo_de_la_p_rdida__c</name>
+        <picklistValues>
+            <masterLabel>Calidad no comprobada</masterLabel>
+            <translation><!-- Calidad no comprobada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contrato vigente exclusivo</masterLabel>
+            <translation><!-- Contrato vigente exclusivo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decisión fuera de alcance o Depende de Otro</masterLabel>
+            <translation><!-- Decisión fuera de alcance o Depende de Otro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Falta de referencias de uso</masterLabel>
+            <translation><!-- Falta de referencias de uso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garantías insuficientes</masterLabel>
+            <translation><!-- Garantías insuficientes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Precio Alto</masterLabel>
+            <translation><!-- Precio Alto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiempo Alto</masterLabel>
+            <translation><!-- Tiempo Alto --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

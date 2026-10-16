@@ -159,5 +159,5 @@
     <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
     <recordTypeTrackHistory>false</recordTypeTrackHistory>
     <searchLayouts />
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

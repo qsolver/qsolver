@@ -60,6 +60,10 @@
                 <behavior>Edit</behavior>
                 <field>ELM_Customer_Material_Identifier__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Prod_Opp_Number__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

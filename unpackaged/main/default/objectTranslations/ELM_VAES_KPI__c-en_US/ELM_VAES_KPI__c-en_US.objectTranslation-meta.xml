@@ -8,19 +8,6 @@
         <plural>true</plural>
         <value>VAES KPIs</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>VAES KPI Layout</layout>
         <sections>
@@ -28,5 +15,18 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

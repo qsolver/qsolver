@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Doc Type Case --></label>
+        <name>Doc_Type_Case__c</name>
+        <picklistValues>
+            <masterLabel>Commercial report</masterLabel>
+            <translation><!-- Commercial report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informe causa raíz</masterLabel>
+            <translation><!-- Informe causa raíz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informe comercial</masterLabel>
+            <translation><!-- Informe comercial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Root cause report</masterLabel>
+            <translation><!-- Root cause report --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -12,11 +12,6 @@
     <columns>UPDATEDBY_USER.ALIAS</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>CREATEDBY_USER.ALIAS</field>
-        <operation>equals</operation>
-        <value>malva,fbarr,mbugu,fcort,sgamb,agarc,pjimé,vla v,eleiv,dlope,emari,smeht,imill,gmuso,rpala,jpare,ipiza,nsaib,fvera</value>
-    </filters>
-    <filters>
         <field>CREATED_DATE</field>
         <operation>greaterThan</operation>
         <value>1/1/2026 12:00 AM</value>
@@ -26,5 +21,13 @@
         <operation>lessThan</operation>
         <value>12/31/2026 12:00 AM</value>
     </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>equals</operation>
+        <value>malva,fbarr,mbugu,fcort,sgamb,agarc,pjimé,vla v,eleiv,dlope,emari,smeht,imill,gmuso,rpala,jpare,ipiza,nsaib,fvera</value>
+    </filters>
     <label>GM SA</label>
+    <sharedTo>
+        <role>Grinding_Media_Manager_SA</role>
+    </sharedTo>
 </ListView>

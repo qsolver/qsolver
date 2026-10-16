@@ -17,5 +17,10 @@
         <operation>equals</operation>
         <value>APAC</value>
     </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>firetail</value>
+    </filters>
     <label>APAC Accounts</label>
 </ListView>

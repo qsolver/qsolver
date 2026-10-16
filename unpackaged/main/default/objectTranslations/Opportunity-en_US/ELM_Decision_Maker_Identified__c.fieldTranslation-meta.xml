@@ -8,6 +8,6 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Yes</masterLabel>
-            <translation>Yes</translation>
+            <translation><!-- Yes --></translation>
         </picklistValues>
     </CustomFieldTranslation>

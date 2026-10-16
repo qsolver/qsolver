@@ -3,9 +3,9 @@
     <fullName>Dias_sin_Feedback__c</fullName>
     <externalId>false</externalId>
     <formula>IF(
-    Recibio_Feedback__c = TRUE,
-    0,
-    TODAY() - DATEVALUE(CreatedDate)
+Recibio_Feedback__c = TRUE,
+0,
+TODAY() - DATEVALUE(CreatedDate)
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Dias sin Feedback</label>

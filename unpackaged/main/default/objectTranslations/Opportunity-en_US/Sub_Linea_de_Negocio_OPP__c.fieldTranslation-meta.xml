@@ -56,7 +56,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Fragmentadoras</masterLabel>
-            <translation><!-- Fragmentadoras --></translation>
+            <translation>Fragmenter</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
@@ -95,6 +95,10 @@
             <translation><!-- Med Min Perú --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Medios de molienda</masterLabel>
+            <translation>Grinding media</translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Molienda</masterLabel>
             <translation>Mill Lining</translation>
         </picklistValues>
@@ -124,7 +128,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Otros</masterLabel>
-            <translation>Others</translation>
+            <translation><!-- Otros --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Palas</masterLabel>
@@ -140,15 +144,15 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Pernos</masterLabel>
-            <translation>Bolts / Fasteners</translation>
+            <translation><!-- Pernos --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Piezas de Desgaste / Fundido</masterLabel>
-            <translation>Wear Parts / Casting</translation>
+            <translation><!-- Piezas de Desgaste / Fundido --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Pirometalurgia</masterLabel>
-            <translation>Pyrometallurgy</translation>
+            <translation><!-- Pirometalurgia --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Planchas Fundidas</masterLabel>
@@ -156,11 +160,11 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Polyfit</masterLabel>
-            <translation>PolyFIT</translation>
+            <translation><!-- Polyfit --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Polylight</masterLabel>
-            <translation>Polylight</translation>
+            <translation><!-- Polylight --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Pre concentración de minerales</masterLabel>
@@ -192,7 +196,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Repuestos</masterLabel>
-            <translation>Spare parts</translation>
+            <translation><!-- Repuestos --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>S3</masterLabel>
@@ -208,11 +212,11 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Servicios</masterLabel>
-            <translation>Services</translation>
+            <translation><!-- Servicios --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Servicios reparación</masterLabel>
-            <translation>Repair services</translation>
+            <translation><!-- Servicios reparación --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Servicios/Productos Tecnológicos</masterLabel>
@@ -220,7 +224,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Soporte y Asistencia en terreno</masterLabel>
-            <translation>Support and Field Assistance</translation>
+            <translation><!-- Soporte y Asistencia en terreno --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>TowerMill</masterLabel>
@@ -232,7 +236,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Tren de rodado</masterLabel>
-            <translation>Undercarriage</translation>
+            <translation><!-- Tren de rodado --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>UpTime+</masterLabel>

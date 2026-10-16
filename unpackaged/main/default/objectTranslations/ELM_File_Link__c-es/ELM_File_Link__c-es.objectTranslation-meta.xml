@@ -8,29 +8,6 @@
         <plural>true</plural>
         <value><!-- File Link --></value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <gender><!-- Feminine --></gender>
     <layouts>
         <layout>File Link Custom Layout</layout>
@@ -58,5 +35,35 @@
             <section>Objeccts</section>
         </sections>
     </layouts>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <nameFieldLabel><!-- File Link Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- File Link Quotes --></label>
+        <name>File_Link_Quotes</name>
+    </recordTypes>
 </CustomObjectTranslation>

@@ -20,10 +20,6 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>hideSlackAction</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>numVisibleActions</name>
                     <value>3</value>
                 </componentInstanceProperties>
@@ -72,6 +68,16 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
+                <fieldItem>Record.Plant__c</fieldItem>
+                <identifier>RecordPlant_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
                 <fieldItem>Record.Clasificacion_Tamanio__c</fieldItem>
                 <identifier>RecordClasificacion_Tamanio_cField</identifier>
             </fieldInstance>
@@ -108,6 +114,26 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Status</fieldItem>
                 <identifier>RecordStatusField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Line_of_Business__c</fieldItem>
+                <identifier>RecordLine_of_Business_cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.ELM_Subcategory__c</fieldItem>
+                <identifier>RecordELM_Subcategory_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-c481ebf7-4157-4b3c-9f81-2e403095ce8f</name>
@@ -474,6 +500,42 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Consumo_Anual_ME__c</fieldItem>
                 <identifier>RecordConsumo_Anual_ME_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Annual_Consumption_Elecmetal_EMEA_APAC__c</fieldItem>
+                <identifier>RecordAnnual_Consumption_Elecmetal_EMEA_APAC_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -484,6 +546,42 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Consumo_Anual_Otros__c</fieldItem>
                 <identifier>RecordConsumo_Anual_Otros_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Annual_Consumption_Other_EMEA_APAC__c</fieldItem>
+                <identifier>RecordAnnual_Consumption_Other_EMEA_APAC_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -576,6 +674,42 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Consumo_Anual_GM_ME__c</fieldItem>
                 <identifier>RecordConsumo_Anual_GM_ME_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Annual_Consumption_Elecmetal_GM_EMEA_APA__c</fieldItem>
+                <identifier>RecordAnnual_Consumption_Elecmetal_GM_EMEA_APA_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -586,6 +720,42 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Consumo_Anual_GM_Otros__c</fieldItem>
                 <identifier>RecordConsumo_Anual_GM_Otros_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 AND 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>NE</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Annual_Consumption_Other_GM_EMEA_APAC__c</fieldItem>
+                <identifier>RecordAnnual_Consumption_Other_GM_EMEA_APAC_cField</identifier>
+                <visibilityRule>
+                    <booleanFilter>1 OR 2</booleanFilter>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>EMEA</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>APAC</rightValue>
+                    </criteria>
+                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -774,13 +944,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection3</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>APAC</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -799,13 +962,6 @@
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
                 <identifier>flexipage_fieldSection4</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>APAC</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>

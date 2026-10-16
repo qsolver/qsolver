@@ -9,15 +9,15 @@
     <enableActivitySyncEngine>true</enableActivitySyncEngine>
     <enableEACForEveryonePref>true</enableEACForEveryonePref>
     <enableEnforceEacSharingPref>false</enableEnforceEacSharingPref>
-    <enableInboxActivitySharing>true</enableInboxActivitySharing>
-    <enableInsightsInTimeline>true</enableInsightsInTimeline>
+    <enableInboxActivitySharing>false</enableInboxActivitySharing>
+    <enableInsightsInTimeline>false</enableInsightsInTimeline>
     <enableInsightsInTimelineEacStd>false</enableInsightsInTimelineEacStd>
-    <provisionProductivityFeatures>true</provisionProductivityFeatures>
+    <provisionProductivityFeatures>false</provisionProductivityFeatures>
     <relationshipGraphPref>true</relationshipGraphPref>
-    <s2XSvcAccEmail>false</s2XSvcAccEmail>
+    <s2XSvcAccEmail>true</s2XSvcAccEmail>
     <salesforceEventsOnlyPref>true</salesforceEventsOnlyPref>
     <sensitiveEmailFilter>true</sensitiveEmailFilter>
-    <showEACCalendarPref>true</showEACCalendarPref>
+    <showEACCalendarPref>false</showEACCalendarPref>
     <syncEmailToCoreActivity>true</syncEmailToCoreActivity>
     <syncInternalEvents>false</syncInternalEvents>
 </EACSettings>

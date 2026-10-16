@@ -4,19 +4,18 @@
     <identityMapping>FederationId</identityMapping>
     <issuer>https://sts.windows.net/9cf7286d-09ba-4374-992b-eda30168c623/</issuer>
     <loginUrl>https://login.microsoftonline.com/9cf7286d-09ba-4374-992b-eda30168c623/saml2</loginUrl>
-    <logoutUrl>https://login.microsoftonline.com/9cf7286d-09ba-4374-992b-eda30168c623/saml2</logoutUrl>
-    <name>ME Elecmetal SSO (Global Tenant)</name>
-    <oauthTokenEndpoint>https://me-elecmetal.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <name>ME Elecmetal SSO (FTL, CEM)</name>
+    <oauthTokenEndpoint>https://me-elecmetal--uatglobal.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
     <redirectBinding>true</redirectBinding>
     <requestSignatureMethod>1</requestSignatureMethod>
-    <requestSigningCertId>0P1Pn0000000ASP</requestSigningCertId>
-    <salesforceLoginUrl>https://me-elecmetal.my.salesforce.com</salesforceLoginUrl>
-    <samlEntityId>https://me-elecmetal.my.salesforce.com</samlEntityId>
+    <requestSigningCertId>0P1dy0000000naD</requestSigningCertId>
+    <salesforceLoginUrl>https://me-elecmetal--uatglobal.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://me-elecmetal--uatglobal.sandbox.my.salesforce.com</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <singleLogoutBinding>RedirectBinding</singleLogoutBinding>
     <singleLogoutUrl>https://login.microsoftonline.com/9cf7286d-09ba-4374-992b-eda30168c623/saml2</singleLogoutUrl>
     <useConfigRequestMethod>false</useConfigRequestMethod>
     <useSameDigestAlgoForSigning>true</useSameDigestAlgoForSigning>
     <userProvisioning>true</userProvisioning>
-    <validationCert>MIIC8DCCAdigAwIBAgIQPIqGe7Xph5NKXO7mQgPvoDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjA3MTkxOTI0MTRaFw0yNTA3MTkxOTI0MTNaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApiCvr4PYOgYVfVBLxGEmbe6vysfCwwuETw1sDuv9sPkmswzVbW5o6N4eLnN+mzofnFjpF6u12X4G0y9mQgM/Qz4DFxm0NvLI3tseCsjSE55vhVhhs7WUpO4aPmlrFnTc5UU5TLTUxADz9JeeYOnvynewtQFAhsXEPf/KOTIRchJTn5FsfJsXpbCMl+O1ieGy/Z0B03e42UpQcAWZuScRPRJD/VS19EWHXZ3qozaFqBYRxaEQjOsK2aOQGypNAdIraWMWZCKyNPdtZPCcliKBpwqP0Hrsx8INjdE8H7MKq6uB8OrMt09EtzMb0qltrGnv7ZroXc/j9qwV/p8McBPCTQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCICemfUD5RaeHExWB7iOZExxq4/dsw8g+Nqe7gaa7pN8XcELaIMTx9N0shyoRZzW+CYYCO7zBEUlCrTNE5n0BKzN14eDZXVmemVwMLfQi0jiJX2yXiKTJiNSIafLD1tGobva3KZFG7RoRiPcCSO6lKEGNBTrQwv9tzI0hgeQQ3FqD+KOKX3oG8geVI3FLUZmu4gcm2W7f2Yk0xngfZKTcRIwAYlkbyMRZXmL5x7NnPbOCY7s0zFI24DGmuprHDFPqsdrZGzpyGNwAdw55ib7PJwnl9BiRba/WJz10kmF4DlGbb+R0cFS9lmtSJ2rm+ApmDSwCgxlsRUdwNgI7jrjey</validationCert>
+    <validationCert>MIIC8DCCAdigAwIBAgIQF8K3WEIWR7xK3cYPv/CgZDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yNjA1MjAxNDEwNTFaFw0yOTA1MjAxNDEwNTBaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvX6CHzRHjzM9LwdX3o2gXmIOCDAWttE0fn/qAJ8PWTenuc+QJfx0gtFTUikDnY5NiLZA+HjBnEERKaeYbzUORxuq4RFXIdye5vrEVOrUbwM995kNad4q+o9vvuNPE+MG/jRGgy5yiItD/5wS2UCBnb/EaLLHKYAVacE5oAYkA6hJBfkdLndWpSyctuK1VTyZKJ/90oeQ0nywkAz6QR3CHlnUh6aHrJA7lrKjmo3tVJppGwNFkWPbXcVuNDVERQ5i6RikqhQV9ykAVRUsZVteqtpJZhrCSIkpJN8Nwl1Uwv8hdt0DWukjhygixKvoCEB8oZ1ve3t1N3hW+ow7mMPsZQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQAGapi6f/Ysc6JKcEBrBv/FpTbslO2tUgmUTKwVAKqvvmDlhZ/1pdLYRGRZbZL0The6S2J6FcwAa60vIU4ypa2oGPgSn9nr8mR18CnqP5Ly7j9ydHrOJLhJOw3xFypamxQOpDioBY3yih9SN4PWisue0KAf1J5/yHrpC7Z/XdZdg4FwsYlLbUG9GCPb53Xf1gf2kMSyzxCRXh2jvSe7Kd5LWd7WqBzapk2iAWv5rjRWrx4X8kGS4d2ZUA0dRv27Ql5kMhpfyeTwRGw43N+Rn7ZzI1MxSIa2Ngt6EFiSEEJKlgW28aB1OGWLW1XVHNX3MHCuoGyKX38EBXV6zNJyYMor</validationCert>
 </SamlSsoConfig>

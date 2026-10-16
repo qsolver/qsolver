@@ -1,259 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <layouts>
-        <layout>Circular Economy</layout>
-        <sections>
-            <label><!-- Campaign Information --></label>
-            <section>Campaign Information</section>
-        </sections>
-        <sections>
-            <label><!-- Current Forecast --></label>
-            <section>Current Forecast</section>
-        </sections>
-        <sections>
-            <label><!-- ME FIT Program --></label>
-            <section>ME FIT Program</section>
-        </sections>
-        <sections>
-            <label><!-- Purchase Order Information --></label>
-            <section>Purchase Order Information</section>
-        </sections>
-        <sections>
-            <label><!-- Useful Links --></label>
-            <section>Useful Links</section>
-        </sections>
-    </layouts>
     <layouts>
         <layout>Component Services</layout>
         <sections>
@@ -370,6 +116,29 @@
         <sections>
             <label><!-- ECO Information --></label>
             <section>ECO Information</section>
+        </sections>
+        <sections>
+            <label><!-- ME FIT Program --></label>
+            <section>ME FIT Program</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Order Information --></label>
+            <section>Purchase Order Information</section>
+        </sections>
+        <sections>
+            <label><!-- Useful Links --></label>
+            <section>Useful Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Recurring Sale Circular Economy</layout>
+        <sections>
+            <label><!-- Campaign Information --></label>
+            <section>Campaign Information</section>
+        </sections>
+        <sections>
+            <label><!-- Current Forecast --></label>
+            <section>Current Forecast</section>
         </sections>
         <sections>
             <label><!-- ME FIT Program --></label>
@@ -706,6 +475,10 @@ Please review the fields Quote signed by Client, or OC Reception Number --></err
         <name>In_Process_Stage</name>
     </validationRules>
     <validationRules>
+        <errorMessage><!-- Campo Incoterm Obligatorio para enviar Check list --></errorMessage>
+        <name>Incoterm_Obligatorio</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Initial Stage must be Capture --></errorMessage>
         <name>Initial_Captura_Services_Stage</name>
     </validationRules>
@@ -739,7 +512,7 @@ Please review the fields Quote signed by Client, or OC Reception Number --></err
     </validationRules>
     <validationRules>
         <errorMessage><!-- Por favor completar campo Línea de Negocio /// Please complete the Line of Business field --></errorMessage>
-        <name>Linea_de_Negocio_Obligatoria_SA</name>
+        <name>Linea_de_Negocio_Obligatoria</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Error, debe llenar el campo Asignó Assets? en la Etapa 2.- Clasificación
@@ -923,6 +696,10 @@ Error, you must fill out the &quot;Upload Commercial Proposal&quot; field in Sta
         <errorMessage><!-- Please complete de following field VB Sales VP / Director --></errorMessage>
         <name>VBIvan_checklist</name>
     </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only APAC users can change this field. --></errorMessage>
+        <name>ValidateLineOfBusinessChangeForApac</name>
+    </validationRules>
     <webLinks>
         <label><!-- Generate_Contract --></label>
         <name>Generate_Contract</name>
@@ -936,7 +713,251 @@ Error, you must fill out the &quot;Upload Commercial Proposal&quot; field in Sta
         <name>Generate_Order_Contract</name>
     </webLinks>
     <webLinks>
+        <label><!-- OPP --></label>
+        <name>OPP</name>
+    </webLinks>
+    <webLinks>
         <label><!-- Open_Opportunity_Amount_Detail --></label>
         <name>Open_Opportunity_Amount_Detail</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

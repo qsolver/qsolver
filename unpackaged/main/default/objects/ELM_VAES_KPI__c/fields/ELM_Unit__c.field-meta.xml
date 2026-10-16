@@ -325,11 +325,11 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Ton moved by adapter game</controllingFieldValue>
-            <valueName>Ton/Adapter Set</valueName>
+            <valueName>Tonelada/Juego de Adaptadores</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Ton move by game tips</controllingFieldValue>
-            <valueName>Ton/Set of tips</valueName>
+            <valueName>Tonelada/Juego de Puntas</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Ton moved by game between teeth</controllingFieldValue>

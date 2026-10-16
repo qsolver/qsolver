@@ -12,11 +12,11 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>OPPORTUNITY.CREATED_DATE</columns>
     <columns>ELM_Equipo_de_Ventas__c</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
-        <field>ELM_Line_of_Business__c</field>
-        <operation>equals</operation>
-        <value>Economía Circular</value>
+        <field>Ship_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>12/31/2024</value>
     </filters>
     <label>All Open Opportunities</label>
 </ListView>

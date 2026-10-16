@@ -18,12 +18,4 @@
             <masterLabel>Hibrido</masterLabel>
             <translation>Hybrid</translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>Manganese</masterLabel>
-            <translation><!-- Manganese --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Metal Casting</masterLabel>
-            <translation><!-- Metal Casting --></translation>
-        </picklistValues>
     </CustomFieldTranslation>

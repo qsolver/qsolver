@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <sharingCriteriaRules>
-        <fullName>APAC_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>APAC Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>USC_APAC</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>APAC</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>AT_Manager_SA</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
@@ -63,14 +44,14 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>Accounts_APAC_Access</fullName>
+        <fullName>Accounts_SalesTeam_APAC</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
             <caseAccessLevel>Edit</caseAccessLevel>
             <contactAccessLevel>Edit</contactAccessLevel>
             <opportunityAccessLevel>Edit</opportunityAccessLevel>
         </accountSettings>
-        <label>Accounts_APAC_Access</label>
+        <label>Accounts_SalesTeam_APAC</label>
         <sharedTo>
             <group>APAC_Sales_Team</group>
         </sharedTo>
@@ -164,25 +145,6 @@
             <field>RecordTypeId</field>
             <operation>equals</operation>
             <value>Competitor</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>EMEA_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>EMEA Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>USC_EMEA</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>APAC,EMEA</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
@@ -356,30 +318,6 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>GM_and_GET_Manager_NA</fullName>
-        <accessLevel>Read</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>Edit</caseAccessLevel>
-            <contactAccessLevel>Read</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>GM and GET Manager NA</label>
-        <sharedTo>
-            <role>Grinding_Media_Manager_NA</role>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>NorthAmerica</value>
-        </criteriaItems>
-        <criteriaItems>
-            <field>RecordTypeId</field>
-            <operation>equals</operation>
-            <value>Customer</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>GM_and_GET_Sales_Rep_NA</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
@@ -396,6 +334,73 @@
             <operation>equals</operation>
             <value>NorthAmerica</value>
         </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Competitor</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Grinding_Media_Manager_NA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Grinding Media Manager NA</label>
+        <sharedTo>
+            <role>Alerta_Temprana_Manager_SA</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>SouthAmerica</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Grinding_Media_Manager_NA_Permission</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Grinding Media Manager NA Permission</label>
+        <sharedTo>
+            <role>Grinding_Media_Manager_NA</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>SouthAmerica</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Customer</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Grinding_Media_Sales_Rep_NA</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Grinding Media Sales Rep NA</label>
+        <sharedTo>
+            <role>Grinding_Media_Sales_Rep_NA</role>
+        </sharedTo>
         <criteriaItems>
             <field>RecordTypeId</field>
             <operation>equals</operation>
@@ -424,25 +429,6 @@
             <field>ELM_Equipo_de_Ventas__c</field>
             <operation>equals</operation>
             <value>SouthAmerica</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>MECN_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>MECN Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>USC_MECN</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>MECN</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
@@ -587,25 +573,6 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>NA_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>NA Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>NA</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>NorthAmerica</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>OL_Mavnager_SA</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
@@ -736,25 +703,6 @@
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
     <sharingCriteriaRules>
-        <fullName>SA_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>SA Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>USC_SA</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>SouthAmerica</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
         <fullName>Sales_Rep_Funvesa</fullName>
         <accessLevel>Edit</accessLevel>
         <accountSettings>
@@ -794,6 +742,101 @@
             <field>ELM_Equipo_de_Ventas__c</field>
             <operation>equals</operation>
             <value>APAC</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Test_APAC_Account_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Test APAC Account Access</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>USC_EMEA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>EMEA</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Test_MECN_Account_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Test MECN Account Access</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>USC_MECN</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>MECN</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Test_NA_Account_Access</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Test NA Account Access</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>NA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>NorthAmerica</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Test_Permission_SA_Accounts</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <label>Test Permission SA Accounts</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>USC_SA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>SouthAmerica</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Test_USC_NA_Account_Permissions</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Test USC NA Account Permissions</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>USC_NA</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>ELM_Equipo_de_Ventas__c</field>
+            <operation>equals</operation>
+            <value>NorthAmerica</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>
@@ -844,25 +887,6 @@
             <field>RecordTypeId</field>
             <operation>equals</operation>
             <value>Competitor</value>
-        </criteriaItems>
-        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
-    </sharingCriteriaRules>
-    <sharingCriteriaRules>
-        <fullName>USC_NA_Account_Access</fullName>
-        <accessLevel>Edit</accessLevel>
-        <accountSettings>
-            <caseAccessLevel>None</caseAccessLevel>
-            <contactAccessLevel>Edit</contactAccessLevel>
-            <opportunityAccessLevel>Edit</opportunityAccessLevel>
-        </accountSettings>
-        <label>USC NA Account Access</label>
-        <sharedTo>
-            <roleAndSubordinatesInternal>USC_NA</roleAndSubordinatesInternal>
-        </sharedTo>
-        <criteriaItems>
-            <field>ELM_Equipo_de_Ventas__c</field>
-            <operation>equals</operation>
-            <value>NorthAmerica</value>
         </criteriaItems>
         <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
     </sharingCriteriaRules>

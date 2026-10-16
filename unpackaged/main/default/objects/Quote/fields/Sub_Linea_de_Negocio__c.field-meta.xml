@@ -7,7 +7,7 @@
     <trackHistory>false</trackHistory>
     <type>MultiselectPicklist</type>
     <valueSet>
-        <controllingField>Line_of_Business__c</controllingField>
+        <controllingField>Line_Of_Business__c</controllingField>
         <restricted>true</restricted>
         <valueSetDefinition>
             <sorted>true</sorted>
@@ -120,6 +120,11 @@
                 <fullName>Martillos</fullName>
                 <default>false</default>
                 <label>Martillos</label>
+            </value>
+            <value>
+                <fullName>Medios de molienda</fullName>
+                <default>false</default>
+                <label>Medios de molienda</label>
             </value>
             <value>
                 <fullName>Med Min Perú</fullName>
@@ -347,7 +352,11 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Mill Liners</controllingFieldValue>
-            <valueName>Molino vertical</valueName>
+            <valueName>TowerMill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Grinding Media</controllingFieldValue>
+            <valueName>Grinding Media</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Grinding Media</controllingFieldValue>
@@ -420,31 +429,31 @@
             <valueName>Otros</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Remanufactura de Componentes</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Clasificación de scrap de bolas</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Reciclaje de revestimientos Híbridos</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Pre concentración de minerales</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Recuperación de Chatarra</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Tratamiento de relaves o escorias</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
             <valueName>Recuperación de materiales valiosos</valueName>
         </valueSettings>
     </valueSet>

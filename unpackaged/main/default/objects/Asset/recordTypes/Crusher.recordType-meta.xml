@@ -304,14 +304,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>HPGR</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Impact</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Laser 3D</fullName>
             <default>false</default>
         </values>
@@ -400,10 +392,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Roller</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>S3</fullName>
             <default>false</default>
         </values>
@@ -452,6 +440,10 @@
         </values>
         <values>
             <fullName>Chutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipos Mina</fullName>
             <default>false</default>
         </values>
         <values>

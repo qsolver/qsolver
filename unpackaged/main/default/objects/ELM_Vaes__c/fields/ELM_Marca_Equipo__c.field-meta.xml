@@ -92,11 +92,6 @@
                 <default>false</default>
                 <label>CAT 24M</label>
             </value>
-            <value>
-                <fullName>Citic</fullName>
-                <default>false</default>
-                <label>Citic</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Crushing</controllingFieldValue>
@@ -127,18 +122,12 @@
             <valueName>Unknow</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Crushing</controllingFieldValue>
-            <controllingFieldValue>Grinding Media</controllingFieldValue>
-            <controllingFieldValue>Early Alert</controllingFieldValue>
-            <valueName>FLSmidth</valueName>
-        </valueSettings>
-        <valueSettings>
             <controllingFieldValue>Mill Liners</controllingFieldValue>
             <valueName>Siemens</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Grinding Media</controllingFieldValue>
-            <valueName>Citic</valueName>
+            <controllingFieldValue>Early Alert</controllingFieldValue>
+            <valueName>FLSmidth</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Early Alert</controllingFieldValue>

@@ -6,7 +6,7 @@
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <trackTrending>false</trackTrending>
-    <type>Picklist</type>
+    <type>MultiselectPicklist</type>
     <valueSet>
         <controllingField>ELM_Line_of_Business__c</controllingField>
         <restricted>true</restricted>
@@ -121,6 +121,11 @@
                 <fullName>Martillos</fullName>
                 <default>false</default>
                 <label>Martillos</label>
+            </value>
+            <value>
+                <fullName>Medios de molienda</fullName>
+                <default>false</default>
+                <label>Medios de molienda</label>
             </value>
             <value>
                 <fullName>Med Min Perú</fullName>
@@ -238,7 +243,7 @@
                 <label>Recuperación de Chatarra</label>
             </value>
             <value>
-                <fullName>Recuperación de materiales valiosos</fullName>
+                <fullName>Recuperacion de materiales valiosos</fullName>
                 <default>false</default>
                 <label>Recuperación de materiales valiosos</label>
             </value>
@@ -314,6 +319,30 @@
             </value>
         </valueSetDefinition>
         <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Administración de Contratos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Dispositivos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de Sistemas Mecánicos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de Procesos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Soporte y Asistencia en terreno</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
+            <valueName>Monitoreo de desgaste</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Negocios de Alto Potencial</controllingFieldValue>
             <valueName>Chutes</valueName>
         </valueSettings>
@@ -344,66 +373,45 @@
             <valueName>Harneros</valueName>
         </valueSettings>
         <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Administración de Contratos</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Dispositivos</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Monitoreo de Sistemas Mecánicos</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Monitoreo de Procesos</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Soporte y Asistencia en terreno</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Alerta Temprana</controllingFieldValue>
-            <valueName>Monitoreo de desgaste</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Remanufactura de Componentes</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Clasificación de scrap de bolas</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Reciclaje de revestimientos Híbridos</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Pre concentración de minerales</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Recuperación de Chatarra</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Tratamiento de relaves o escorias</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Economía Circular</controllingFieldValue>
-            <valueName>Recuperación de materiales valiosos</valueName>
+            <controllingFieldValue>Bolas (Grinding Media)</controllingFieldValue>
+            <valueName>Medios de molienda</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Bolas (Grinding Media)</controllingFieldValue>
             <valueName>Servicios</valueName>
         </valueSettings>
         <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Remanufactura de Componentes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Clasificación de scrap de bolas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Reciclaje de revestimientos Híbridos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Pre concentración de minerales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Recuperación de Chatarra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Tratamiento de relaves o escorias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Economia_Circular</controllingFieldValue>
+            <valueName>Recuperacion de materiales valiosos</valueName>
+        </valueSettings>
+        <valueSettings>
             <controllingFieldValue>Chancado</controllingFieldValue>
-            <controllingFieldValue>GET</controllingFieldValue>
             <controllingFieldValue>Molienda</controllingFieldValue>
-            <valueName>Servicios reparación</valueName>
+            <valueName>Piezas de Desgaste / Fundido</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Chancado</controllingFieldValue>
@@ -413,8 +421,9 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Chancado</controllingFieldValue>
+            <controllingFieldValue>GET</controllingFieldValue>
             <controllingFieldValue>Molienda</controllingFieldValue>
-            <valueName>Piezas de Desgaste / Fundido</valueName>
+            <valueName>Servicios reparación</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>GET</controllingFieldValue>
@@ -430,11 +439,11 @@
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Molienda</controllingFieldValue>
-            <valueName>Pernos</valueName>
+            <valueName>FerryCapitain</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Molienda</controllingFieldValue>
-            <valueName>FerryCapitain</valueName>
+            <valueName>Pernos</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Molienda</controllingFieldValue>
@@ -449,4 +458,5 @@
             <valueName>Molino vertical</valueName>
         </valueSettings>
     </valueSet>
+    <visibleLines>6</visibleLines>
 </CustomField>

@@ -8,9 +8,6 @@
         <plural>true</plural>
         <value><!-- Plant --></value>
     </caseValues>
-    
-    
-    
     <gender><!-- Feminine --></gender>
     <layouts>
         <layout>Plant Layout</layout>
@@ -19,5 +16,8 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
+    
+    
     <nameFieldLabel><!-- Plant Name --></nameFieldLabel>
 </CustomObjectTranslation>

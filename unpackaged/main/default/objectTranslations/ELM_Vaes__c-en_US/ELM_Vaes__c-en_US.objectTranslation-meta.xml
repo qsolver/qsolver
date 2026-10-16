@@ -8,65 +8,6 @@
         <plural>true</plural>
         <value>VAES</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>VAES Layout</layout>
         <sections>
@@ -104,7 +45,7 @@
     </quickActions>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage>All the fields in the Report Structure section are required for moving to &quot;Testing Protocol&quot; or &quot;Sent For Approval&quot;.</errorMessage>
+        <errorMessage><!-- Todos los campos de la sección Estructura de reporte deben estar completos antes de pasar a Testing Protocol o Sent For Approval&quot; /// The fields in the Report Structure section are required for moving to Approval. --></errorMessage>
         <name>Campos_requeridos_Report_Structure</name>
     </validationRules>
     <validationRules>
@@ -148,7 +89,7 @@
         <name>Requerir_Firmado</name>
     </validationRules>
     <validationRules>
-        <errorMessage>You cannot advance to &#39;Sent For Approval&#39; without at least one related KPI. Please create at least one record in ELM VAES KPI before requesting approval.</errorMessage>
+        <errorMessage><!-- No se puede avanzar a &apos;Sent For Approval&apos; sin al menos un KPI relacionado. Por favor, cree al menos un registro en ELM VAES KPI antes de solicitar aprobación. --></errorMessage>
         <name>Requerir_KPI_para_Aprobacion</name>
     </validationRules>
     <validationRules>
@@ -172,15 +113,19 @@ The fields Approved by PM?, Approved by SM?, Signed by the client? can only be f
         <name>Sent_For_Aproval_new</name>
     </validationRules>
     <validationRules>
-        <errorMessage>Cannot advance to &#39;Sent For Approval&#39;. Requirements: 1. Base Date is required 2. Installation Date is required 3. Must be met: Base Date &lt; Installation Date</errorMessage>
+        <errorMessage><!-- No se puede avanzar a &apos;Sent For Approval&apos;. Requisitos:
+1. Fecha de L Base es obligatoria
+2. Fecha de Instalación es obligatoria  
+3. Debe cumplirse: Fecha de L Base &lt; Fecha de Instalación --></errorMessage>
         <name>Validar_Fechas_para_Approval</name>
     </validationRules>
     <validationRules>
-        <errorMessage>Date sequence error: The Base L Date must be PRIOR to the Installation Date.</errorMessage>
+        <errorMessage><!-- Error en secuencia de fechas: La Fecha de L Base debe ser ANTERIOR a la Fecha de Instalación. --></errorMessage>
         <name>Validar_Secuencia_Fechas_LBase_Instalaci</name>
     </validationRules>
     <validationRules>
-        <errorMessage>The date sequence is invalid. Please verify that it is true: VAES Start Date &lt; Base Line Date &lt; Projected Closing Date.</errorMessage>
+        <errorMessage><!-- La secuencia de fechas no es válida. Por favor, verifique que se cumpla: 
+Fecha Inicio VAES &lt; Fecha L Base &lt; Fecha Cierre Proyectada. --></errorMessage>
         <name>Validar_Secuencia_Fechas_VAES</name>
     </validationRules>
     <webLinks>
@@ -191,4 +136,64 @@ The fields Approved by PM?, Approved by SM?, Signed by the client? can only be f
         <label>Export VAES</label>
         <name>Exportar</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

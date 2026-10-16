@@ -8,19 +8,6 @@
         <plural>true</plural>
         <value><!-- VAES KPI --></value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <gender><!-- Feminine --></gender>
     <layouts>
         <layout>VAES KPI Layout</layout>
@@ -29,5 +16,18 @@
             <section>Custom Links</section>
         </sections>
     </layouts>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     <nameFieldLabel><!-- VAES KPI Name --></nameFieldLabel>
 </CustomObjectTranslation>

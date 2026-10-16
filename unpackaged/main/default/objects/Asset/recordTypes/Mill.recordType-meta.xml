@@ -419,63 +419,11 @@
     <picklistValues>
         <picklist>Line_of_Business__c</picklist>
         <values>
-            <fullName>Alerta Temprana</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>BOLAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Bombas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chancado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chutes</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Estructura</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GET</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Maestranza</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Mecanizados y Reparaciones</fullName>
+            <fullName>Equipos Mina</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Molienda</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Ollas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Otros Servicios</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Partes y Respuestos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Representaciones</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Soluciones Integrales</fullName>
             <default>false</default>
         </values>
     </picklistValues>

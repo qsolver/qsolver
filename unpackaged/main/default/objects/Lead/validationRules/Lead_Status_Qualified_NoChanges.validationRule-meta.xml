@@ -3,13 +3,13 @@
     <fullName>Lead_Status_Qualified_NoChanges</fullName>
     <active>true</active>
     <errorConditionFormula>AND(
-ISCHANGED(Status),
-ISPICKVAL(PRIORVALUE(Status), &quot;Qualified&quot;),
-NOT(ISPICKVAL(Status, &quot;Qualified&quot;)),
-OR(
-$Profile.Name = &quot;USC MECN&quot;,
-$Profile.Name = &quot;Manager MECN&quot;
-)
+  ISCHANGED(Status),
+  ISPICKVAL(PRIORVALUE(Status), &quot;Qualified&quot;),
+  NOT(ISPICKVAL(Status, &quot;Qualified&quot;)),
+  OR(
+    $Profile.Name = &quot;USC MECN&quot;,
+    $Profile.Name = &quot;Manager MECN&quot;
+  )
 )</errorConditionFormula>
     <errorDisplayField>Status</errorDisplayField>
     <errorMessage>The Lead Status field once converted (QUALIFED) cannot be changed</errorMessage>

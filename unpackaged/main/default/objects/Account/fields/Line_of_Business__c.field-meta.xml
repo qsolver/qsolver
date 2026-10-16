@@ -10,21 +10,21 @@
     <valueSet>
         <restricted>true</restricted>
         <valueSetDefinition>
-            <sorted>true</sorted>
+            <sorted>false</sorted>
             <value>
-                <fullName>High Value</fullName>
+                <fullName>Molienda</fullName>
                 <default>false</default>
-                <label>Business Development</label>
-            </value>
-            <value>
-                <fullName>Chutes</fullName>
-                <default>false</default>
-                <label>Chutes</label>
+                <label>Mill Lining Products</label>
             </value>
             <value>
                 <fullName>Chancado</fullName>
                 <default>false</default>
                 <label>Crushing Products</label>
+            </value>
+            <value>
+                <fullName>Bolas (Grinding Media)</fullName>
+                <default>false</default>
+                <label>Grinding Media</label>
             </value>
             <value>
                 <fullName>GET</fullName>
@@ -34,22 +34,7 @@
             <value>
                 <fullName>Alerta Temprana</fullName>
                 <default>false</default>
-                <label>Economía Circular</label>
-            </value>
-            <value>
-                <fullName>Bolas (Grinding Media)</fullName>
-                <default>false</default>
-                <label>Grinding Media</label>
-            </value>
-            <value>
-                <fullName>Molienda</fullName>
-                <default>false</default>
-                <label>Mill Lining Products</label>
-            </value>
-            <value>
-                <fullName>Ollas</fullName>
-                <default>false</default>
-                <label>Ollas</label>
+                <label>Digital S and Field S</label>
             </value>
             <value>
                 <fullName>Other</fullName>
@@ -57,9 +42,29 @@
                 <label>Other</label>
             </value>
             <value>
+                <fullName>Chutes</fullName>
+                <default>false</default>
+                <label>Chutes</label>
+            </value>
+            <value>
+                <fullName>Ollas</fullName>
+                <default>false</default>
+                <label>Ollas</label>
+            </value>
+            <value>
                 <fullName>Partes y Respuestos</fullName>
                 <default>false</default>
                 <label>Partes y Respuestos</label>
+            </value>
+            <value>
+                <fullName>High Value</fullName>
+                <default>false</default>
+                <label>High Value</label>
+            </value>
+            <value>
+                <fullName>Economía Circular</fullName>
+                <default>false</default>
+                <label>Economía Circular</label>
             </value>
             <value>
                 <fullName>Maestranza</fullName>

@@ -4,32 +4,36 @@
         <label>Linea de negocio</label>
         <name>Line_of_Business__c</name>
         <picklistValues>
-            <masterLabel>Business Development</masterLabel>
-            <translation>Desarrollo de Negocios</translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Chutes</masterLabel>
             <translation><!-- Chutes --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Crushing Products</masterLabel>
-            <translation><!-- Crushing Products --></translation>
+            <translation>Chancado</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital S and Field S</masterLabel>
+            <translation>Soluciones digitales y Soporte en Terreno</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Earth Moving</masterLabel>
-            <translation><!-- Earth Moving --></translation>
+            <translation>Movimiento de Tierra</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Economía Circular</masterLabel>
-            <translation>Economía Circular</translation>
+            <translation><!-- Economía Circular --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
-            <translation><!-- Grinding Media --></translation>
+            <translation>Medios de Molienda</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Value</masterLabel>
+            <translation>Negocios de Alto Potencial</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mill Lining Products</masterLabel>
-            <translation><!-- Mill Lining Products --></translation>
+            <translation>Molienda</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Ollas</masterLabel>

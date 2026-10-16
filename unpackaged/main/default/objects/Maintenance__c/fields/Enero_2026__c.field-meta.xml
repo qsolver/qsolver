@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Enero_2026__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    MONTH(Fecha_Inicio__c) = 1,
+    IF(
+        OR(
+            
+            YEAR(Fecha_Inicio__c) = 2026
+            
+        ),
+        IF(
+            ISPICKVAL(Tipo_de_Mantencion__c, &quot;Mantencion Mayor&quot;),
+            HYPERLINK(
+                &quot;/flow/Maintenance_Preview?recordId=&quot; &amp; Id &amp; &quot;&amp;retURL=/&quot; &amp; $Label.Maintenance_Report_Calendar_Id,
+                IMAGE($Label.Mantencion_Mayor_imagen, &quot;Ver&quot;, 15, 100),
+                &quot;_parent&quot;
+            ),
+            HYPERLINK(
+                &quot;/flow/Maintenance_Preview?recordId=&quot; &amp; Id &amp; &quot;&amp;retURL=/&quot; &amp; $Label.Maintenance_Report_Calendar_Id,
+                IMAGE($Label.Mantencion_de_Servicios_Imagen, &quot;Ver&quot;, 15, 100),
+                &quot;_parent&quot;
+            )
+        ),
+        &quot;&quot;
+    ),
+    &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Enero 2026</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

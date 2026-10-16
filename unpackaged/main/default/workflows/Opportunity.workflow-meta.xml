@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
+        <fullName>Checklist_Servicios</fullName>
+        <ccEmails>wflores@neox.cl</ccEmails>
+        <ccEmails>aespinoza@neox.cl</ccEmails>
+        <description>Checklist Servicios</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Send_CL_App_Con_OC_Services</recipient>
+            <type>group</type>
+        </recipients>
+        <recipients>
+            <recipient>aespinoza@neox.cl_uat</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Checklist_Componente_Approved</template>
+    </alerts>
+    <alerts>
         <fullName>ELM_Email_Alert_Checklist_Opportunity</fullName>
         <ccEmails>planificacioncomercial@elecmetal.cl</ccEmails>
         <description>Email Alert Checklist Opportunity</description>
@@ -14,30 +31,18 @@
     </alerts>
     <alerts>
         <fullName>ELM_Email_Alert_Checklist_Opportunity2</fullName>
-        <ccEmails>usc@talleres.cl, planificacioncomercial@elecmetal.cl</ccEmails>
+        <ccEmails>wflores@neox.cl</ccEmails>
         <description>Email Alert Checklist Opportunity2</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
             <recipient>george.gonas@ticel.cl</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>pbunster@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>psimbana@me-elecmetal.com</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -45,15 +50,9 @@
     </alerts>
     <alerts>
         <fullName>Email_Alert_Checklist</fullName>
+        <ccEmails>wflores@neox.cl</ccEmails>
         <description>Email Alert Pending To Follow</description>
         <protected>false</protected>
-        <recipients>
-            <recipient>Send_Checklist_To_Follow</recipient>
-            <type>group</type>
-        </recipients>
-        <recipients>
-            <type>owner</type>
-        </recipients>
         <recipients>
             <recipient>george.gonas@ticel.cl</recipient>
             <type>user</type>
@@ -70,41 +69,16 @@
             <type>group</type>
         </recipients>
         <recipients>
-            <type>owner</type>
+            <recipient>arachet@elecmetal.cl</recipient>
+            <type>user</type>
         </recipients>
         <recipients>
             <recipient>george.gonas@ticel.cl</recipient>
             <type>user</type>
         </recipients>
-        <senderType>CurrentUser</senderType>
+        <senderAddress>salesforce.support@email-me-elecmetal.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Checklist_Pending_HTML_En_Tramite</template>
-    </alerts>
-    <alerts>
-        <fullName>Email_Alert_Checklist_OpportunityEn_Tramite</fullName>
-        <ccEmails>usc@talleres.cl, planificacioncomercial@elecmetal.cl</ccEmails>
-        <description>Email Alert Checklist Opportunity En Tramite</description>
-        <protected>false</protected>
-        <recipients>
-            <type>owner</type>
-        </recipients>
-        <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>george.gonas@ticel.cl</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>psimbana@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>unfiled$public/ELM_Email_Template_Check_Opportunity_V2</template>
     </alerts>
     <alerts>
         <fullName>Email_Alert_Pending_En_Tramite_Yutronic</fullName>
@@ -114,11 +88,11 @@
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>cyutronic@me-elecmetal.com</recipient>
+            <recipient>cyutronic@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -126,18 +100,23 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>iflores@me-elecmetal.com</recipient>
+            <recipient>iflores@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
+            <recipient>jriffo@neox.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>psimbana@me-elecmetal.com</recipient>
+            <recipient>juan.vargas@talleres.cl</recipient>
             <type>user</type>
         </recipients>
-        <senderType>CurrentUser</senderType>
+        <recipients>
+            <recipient>wflores_globaluat@neox.cl</recipient>
+            <type>user</type>
+        </recipients>
+        <senderAddress>salesforce.support@email-me-elecmetal.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
         <template>unfiled$public/Checklist_Pending_HTML_En_Tramite</template>
     </alerts>
     <alerts>
@@ -167,7 +146,7 @@
         <description>Email Alert Ship Date Changed SA</description>
         <protected>false</protected>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -175,13 +154,14 @@
     </alerts>
     <alerts>
         <fullName>Solicitud_de_reenvio_checklist</fullName>
+        <ccEmails>wflores@neox.cl</ccEmails>
         <description>Solicitud de reenvio checklist To Follow</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -189,11 +169,11 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
+            <recipient>juan.vargas@talleres.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>pbunster@me-elecmetal.com</recipient>
+            <recipient>pbunster@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -201,13 +181,14 @@
     </alerts>
     <alerts>
         <fullName>Solicitud_de_reenvio_checklist_En_Tramite</fullName>
+        <ccEmails>wflores@neox.cl</ccEmails>
         <description>Solicitud de reenvio checklist En Tramite</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -215,11 +196,11 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>iflores@me-elecmetal.com</recipient>
+            <recipient>iflores@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
+            <recipient>juan.vargas@talleres.cl</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>
@@ -227,17 +208,18 @@
     </alerts>
     <alerts>
         <fullName>Solicitud_de_reenvio_checklist_En_Tramite_Yutronic</fullName>
+        <ccEmails>wflores@neox.cl</ccEmails>
         <description>Solicitud de reenvio checklist En Tramite Yutronic</description>
         <protected>false</protected>
         <recipients>
             <type>owner</type>
         </recipients>
         <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
+            <recipient>arachet@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>cyutronic@me-elecmetal.com</recipient>
+            <recipient>cyutronic@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
@@ -245,11 +227,11 @@
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>iflores@me-elecmetal.com</recipient>
+            <recipient>iflores@elecmetal.cl</recipient>
             <type>user</type>
         </recipients>
         <recipients>
-            <recipient>jvargasr@me-elecmetal.com</recipient>
+            <recipient>juan.vargas@talleres.cl</recipient>
             <type>user</type>
         </recipients>
         <senderType>CurrentUser</senderType>

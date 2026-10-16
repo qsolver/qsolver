@@ -14,7 +14,19 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Nacional</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Nuevo peso unit %3C 8tons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reparacion Parcial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeticion</fullName>
             <default>false</default>
         </values>
         <values>
@@ -22,7 +34,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Repeticion Parrillas</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Repeticion peso unit %3C 8 tons</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repeticion peso unit %3E%3D 8 tons</fullName>
             <default>false</default>
         </values>
         <values>

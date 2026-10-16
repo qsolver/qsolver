@@ -62,13 +62,13 @@
         <label>Billing</label>
     </standardValue>
     <standardValue>
-        <fullName>Seguimiento de Producto Test</fullName>
-        <default>false</default>
-        <label>Seguimiento de Producto Test</label>
-    </standardValue>
-    <standardValue>
         <fullName>Seguimiento de Producto Recurrente</fullName>
         <default>false</default>
-        <label>Seguimiento de Producto Recurrente</label>
+        <label>Recurring Product Tracking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seguimiento de Producto Test</fullName>
+        <default>false</default>
+        <label>Product Test Tracking</label>
     </standardValue>
 </StandardValueSet>

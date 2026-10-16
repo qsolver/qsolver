@@ -9,9 +9,8 @@
     <columns>CORE.USERS.ALIAS</columns>
     <columns>PRIORITY</columns>
     <columns>STATUS</columns>
-    <columns>Visita_GM__c</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
-    <filterScope>Everything</filterScope>
+    <filterScope>Mine</filterScope>
     <filters>
         <field>CREATED_DATE</field>
         <operation>greaterThan</operation>

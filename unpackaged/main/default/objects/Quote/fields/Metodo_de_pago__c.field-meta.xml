@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metodo_de_pago__c</fullName>
+    <label>Método de pago</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>30 días</fullName>
+                <default>false</default>
+                <label>30 días</label>
+            </value>
+            <value>
+                <fullName>60 días</fullName>
+                <default>false</default>
+                <label>60 días</label>
+            </value>
+            <value>
+                <fullName>90 días</fullName>
+                <default>false</default>
+                <label>90 días</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

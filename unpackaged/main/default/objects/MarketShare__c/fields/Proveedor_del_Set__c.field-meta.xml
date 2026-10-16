@@ -110,42 +110,6 @@
                 <default>false</default>
                 <label>Yoon Steel</label>
             </value>
-            <value>
-                <fullName>Comesa</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Comesa</label>
-            </value>
-            <value>
-                <fullName>Fucsa</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Fucsa</label>
-            </value>
-            <value>
-                <fullName>Lippmann</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Lippmann</label>
-            </value>
-            <value>
-                <fullName>Mepsa</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Mepsa</label>
-            </value>
-            <value>
-                <fullName>Vulco</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Vulco</label>
-            </value>
-            <value>
-                <fullName>Weir</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Weir</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

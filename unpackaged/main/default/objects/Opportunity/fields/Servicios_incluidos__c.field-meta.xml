@@ -27,9 +27,9 @@
                 <label>Ball Tracking</label>
             </value>
             <value>
-                <fullName>Digital Twin</fullName>
+                <fullName>Gemelo Digital</fullName>
                 <default>false</default>
-                <label>Digital Twin</label>
+                <label>Gemelo Digital</label>
             </value>
             <value>
                 <fullName>Impact Finder</fullName>

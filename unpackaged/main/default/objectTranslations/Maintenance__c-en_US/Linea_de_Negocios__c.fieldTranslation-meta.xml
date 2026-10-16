@@ -30,4 +30,8 @@
             <masterLabel>Other</masterLabel>
             <translation><!-- Other --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Workshop</masterLabel>
+            <translation><!-- Workshop --></translation>
+        </picklistValues>
     </CustomFieldTranslation>

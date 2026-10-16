@@ -71,12 +71,6 @@
                 <default>false</default>
                 <label>M7 -Pernos</label>
             </value>
-            <value>
-                <fullName>M7 - Pernos</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>M7 - Pernos</label>
-            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

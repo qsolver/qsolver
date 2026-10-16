@@ -390,10 +390,6 @@
             <fullName>Hibrido</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Metal Casting</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Material__c</picklist>
@@ -671,18 +667,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>GL -Ahn%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GL -Amsu%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GL -Naipu%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ME Elecmetal</fullName>
             <default>false</default>
         </values>
@@ -862,6 +846,10 @@
         </values>
         <values>
             <fullName>M6 - Intermedias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M7 -Pernos</fullName>
             <default>false</default>
         </values>
     </picklistValues>

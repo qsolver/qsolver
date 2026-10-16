@@ -15,5 +15,6 @@
     LEN(TRIM(ELM_Resultado_mas_importante__c)) = 0
   )
 )</errorConditionFormula>
-    <errorMessage>Todos los campos de la sección Estructura de reporte deben estar completos antes de pasar a Testing Protocol o Sent For Approval</errorMessage>
+    <errorDisplayField>ELM_Resumen__c</errorDisplayField>
+    <errorMessage>Todos los campos de la sección Estructura de reporte deben estar completos antes de pasar a Testing Protocol o Sent For Approval&quot; /// The fields in the Report Structure section are required for moving to Approval.</errorMessage>
 </ValidationRule>

@@ -273,24 +273,19 @@
                 <label>Regrind</label>
             </value>
             <value>
-                <fullName>Impact</fullName>
+                <fullName>Undercarriage</fullName>
                 <default>false</default>
-                <label>Impact</label>
+                <label>Undercarriage</label>
             </value>
             <value>
-                <fullName>HPGR</fullName>
+                <fullName>Tolvas</fullName>
                 <default>false</default>
-                <label>HPGR</label>
+                <label>Tolvas</label>
             </value>
             <value>
-                <fullName>Roller</fullName>
+                <fullName>Blindajes</fullName>
                 <default>false</default>
-                <label>Roller</label>
-            </value>
-            <value>
-                <fullName>Harneros</fullName>
-                <default>false</default>
-                <label>Harneros</label>
+                <label>Blindajes</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -304,6 +299,18 @@
         <valueSettings>
             <controllingFieldValue>Undercarriage</controllingFieldValue>
             <valueName>Palas Hidráulicas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Undercarriage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Tolvas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Blindajes</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Alerta Temprana</controllingFieldValue>
@@ -372,18 +379,6 @@
             <controllingFieldValue>Chancado</controllingFieldValue>
             <controllingFieldValue>Molienda</controllingFieldValue>
             <valueName>Tertiary</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Chancado</controllingFieldValue>
-            <valueName>Impact</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Chancado</controllingFieldValue>
-            <valueName>HPGR</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Chancado</controllingFieldValue>
-            <valueName>Roller</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Chutes</controllingFieldValue>
@@ -466,10 +461,6 @@
         <valueSettings>
             <controllingFieldValue>Maestranza</controllingFieldValue>
             <valueName>Chancadores</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Maestranza</controllingFieldValue>
-            <valueName>Harneros</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Molienda</controllingFieldValue>

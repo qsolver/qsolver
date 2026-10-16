@@ -18,8 +18,8 @@
     </filters>
     <filters>
         <field>PRODUCT2.LAST_UPDATE</field>
-        <operation>greaterThan</operation>
-        <value>10/1/2025 12:00 AM</value>
+        <operation>greaterOrEqual</operation>
+        <value>10/1/2023 12:00 AM</value>
     </filters>
     <label>Integrated from SAP</label>
 </ListView>

@@ -17,6 +17,7 @@ trigger ContentVersionTrigger on ContentVersion (after insert, before delete) {
             Map<Id, ContentVersion> contentVersionByFirstPublishedIdVAES = new Map<Id, ContentVersion>();
             Map<Id, ContentVersion> contentVersionByFirstPublishedIdAssetRequest = new Map<Id, ContentVersion>();
             Map<Id, ContentVersion> contentVersionByFirstPublishedIdMaintenance = new Map<Id, ContentVersion>();
+            Map<Id, ContentVersion> contentVersionByFirstPublishedIdCase = new Map<Id, ContentVersion>();
 
             List<ELM_File_Link__c> fileLinksToInsert = new List<ELM_File_Link__c>();
             List<ELM_File_Link__c> fileLinksAcc;
@@ -32,6 +33,7 @@ trigger ContentVersionTrigger on ContentVersion (after insert, before delete) {
             List<ELM_File_Link__c> fileLinksVAES;
             List<ELM_File_Link__c> fileLinksAssetRequest;
             List<ELM_File_Link__c> fileLinksMaintenance;
+            List<ELM_File_Link__c> fileLinksCase;
 
             for (ContentVersion contentVersion : Trigger.new) {
                 
@@ -76,6 +78,9 @@ trigger ContentVersionTrigger on ContentVersion (after insert, before delete) {
                 	}else if(contentVersion.FirstPublishLocationId.getSobjectType() == Schema.Maintenance__c.sObjectType){
                     
                     	contentVersionByFirstPublishedIdMaintenance.put(contentVersion.FirstPublishLocationId, contentVersion);
+                    }else if(contentVersion.FirstPublishLocationId.getSobjectType() == Schema.Case.sObjectType){
+                    
+                    	contentVersionByFirstPublishedIdCase.put(contentVersion.FirstPublishLocationId, contentVersion);
                     }
                 }
 
@@ -157,6 +162,12 @@ trigger ContentVersionTrigger on ContentVersion (after insert, before delete) {
 
                 fileLinksMaintenance = ContentVersionHelper.createFileLink(contentVersionByFirstPublishedIdMaintenance, 'Maintenance__c');
                 fileLinksToInsert.addAll(fileLinksMaintenance);
+            }
+
+            if (contentVersionByFirstPublishedIdCase.size() > 0) {
+
+                fileLinksCase = ContentVersionHelper.createFileLink(contentVersionByFirstPublishedIdCase, 'Case');
+                fileLinksToInsert.addAll(fileLinksCase);
             }
 
             insert fileLinksToInsert;

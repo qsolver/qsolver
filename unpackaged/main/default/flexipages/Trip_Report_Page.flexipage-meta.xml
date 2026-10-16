@@ -142,10 +142,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>label</name>
-                    <value>Tabs</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>tabs</name>
                     <value>Facet-d4a5e437-7af2-4046-86f0-54d6b56ed369</value>
                 </componentInstanceProperties>
@@ -187,12 +183,6 @@
             <componentInstance>
                 <componentName>forceChatter:recordFeedContainer</componentName>
                 <identifier>forceChatter_recordFeedContainer</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentName>runtime_sales_activities:activityRecordFieldHistory</componentName>
-                <identifier>runtime_sales_activities_activityRecordFieldHistory</identifier>
             </componentInstance>
         </itemInstances>
         <name>sidebar</name>

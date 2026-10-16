@@ -4,6 +4,6 @@
     <protected>false</protected>
     <values>
         <field>Emails_to_send_trip_report__c</field>
-        <value xsi:type="xsd:string">henry.ardiles@talleres.cl, arie.araya@talleres.cl, giovanni.cecchi@talleres.cl, rdelpozo@talleres.cl, carlos.gaete@talleres.cl, ignacio.jeria@talleres.cl, ruben.meza@talleres.cl, rodrigo.perez@talleres.cl, valentina.ramirez@talleres.cl, sebastian.sepulveda@talleres.cl, jorge.viveros@talleres.cl</value>
+        <value xsi:type="xsd:string">wflores@neox.cl, george.gonas@ticel.cl</value>
     </values>
 </CustomMetadata>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Linea_de_negocio_Mill</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $RecordType.Name = &quot;Mill&quot;,
+    NOT(ISPICKVAL(Line_of_Business__c, &quot;Molienda&quot;))
+)</errorConditionFormula>
+    <errorDisplayField>Line_of_Business__c</errorDisplayField>
+    <errorMessage>Para activos tipo Mill, la Línea de Negocio debe ser &quot;Mill&quot;.</errorMessage>
+</ValidationRule>

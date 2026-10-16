@@ -10,19 +10,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>CL-MAD</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>CL-NPI</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>CL-SPI</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GLOBAL CAR</fullName>
             <default>false</default>
         </values>
     </picklistValues>

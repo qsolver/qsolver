@@ -1,0 +1,528 @@
+<apex:page standardController="Quote" 
+           extensions="QuotePDFController" 
+           renderAs="pdf" 
+           applyHtmlTag="false" 
+           applyBodyTag="false" 
+           showHeader="false" 
+           sidebar="false" 
+           standardStylesheets="false">
+
+<html>
+<head>
+    <style type="text/css">
+
+        @page {
+            size: letter portrait;
+            margin: 12mm 15mm 18mm 15mm;
+
+            @bottom-right {
+                content: "Página " counter(page) " de " counter(pages);
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 8pt;
+                color: #666;
+            }
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 8.5pt;
+            color: #222;
+            line-height: 1.25;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .header-table {
+            margin-bottom: 12px;
+        }
+
+        .doc-title {
+            font-size: 13pt;
+            font-weight: bold;
+            color: #111;
+            text-transform: uppercase;
+        }
+
+        .doc-code {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #164481;
+        }
+
+        .meta-table {
+            margin-bottom: 14px;
+            background-color: #f7f7f7;
+            border: 1px solid #e0e0e0;
+        }
+
+        .meta-table td {
+            padding: 5px 8px;
+            vertical-align: top;
+        }
+
+        /* Tabla de Partidas / Líneas */
+        .items-table {
+            width: 100%;
+            border: 1px solid #b0b0b0;
+            margin-bottom: 15px;
+        }
+
+        .items-table th {
+            background-color: #e5e5e5;
+            color: #111;
+            font-size: 7.5pt;
+            font-weight: bold;
+            padding: 5px 4px;
+            border: 1px solid #b0b0b0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .items-table td {
+            border: 1px solid #dcdcdc;
+            padding: 3.5px 5px;
+            font-size: 8pt;
+        }
+
+        .items-table tr:nth-child(even) td {
+            background-color: #fafafa;
+        }
+
+        .text-left { text-align: left; }
+        .text-center { text-align: center; }
+        .text-right { text-align: right; }
+        .font-bold { font-weight: bold; }
+
+        .total-box {
+            border: 1.5px solid #222;
+            background-color: #f2f2f2;
+            padding: 6px 10px;
+            font-size: 10pt;
+            font-weight: bold;
+            margin-bottom: 15px;
+            page-break-inside: avoid;
+        }
+
+        .conditions-block {
+            margin-top: 10px;
+            page-break-inside: avoid;
+        }
+
+        .signature-container {
+            margin-top: 120px; 
+            width: 100%;
+            page-break-inside: avoid;
+        }
+
+        .signature-box {
+            border-top: 1px solid #666;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 8pt;
+            width: 240px;
+            margin: 0 auto;
+        }
+
+        .page-break {
+            page-break-before: always;
+        }
+
+        .terms-header {
+            border-bottom: 2px solid #164481;
+            padding-bottom: 4px;
+            margin-bottom: 12px;
+        }
+
+        .terms-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #164481;
+            text-transform: uppercase;
+        }
+
+        .terms-subtitle {
+            font-size: 9.5pt;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .terms-block {
+            margin-bottom: 10px;
+            text-align: justify;
+            font-size: 7.8pt;
+            line-height: 1.3;
+        }
+
+        .terms-block h4 {
+            font-size: 8.5pt;
+            font-weight: bold;
+            color: #111;
+            margin: 0 0 3px 0;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- ================= PÁGINA 1: COTIZACIÓN ================= -->
+
+    <table class="header-table">
+        <tr>
+
+            <!-- LOGO -->
+            <td style="width: 50%; vertical-align: top;">
+                <apex:image value="{!$Resource.Logo_Elecmetal}" 
+                    width="160"
+                    style="display:block;"
+                />
+
+                <div style="font-size: 5pt; color: #555; margin-top: 2px;">
+                    EXPERTOS EN EL DESARROLLO DE SOLUCIONES INTEGRALES | ME FIT Crushing
+                </div>
+            </td>
+
+            <!-- CÓDIGO Y FECHA -->
+            <td style="width: 50%; text-align: right; vertical-align: top;">
+
+                <div class="doc-code">
+                    {!quoteRecord.QuoteNumber}
+                </div>
+
+                <!-- FECHA EN ESPAÑOL: Lunes 10 de Septiembre 2026 -->
+                <div style="font-size: 8pt; color: #555;">
+                    <apex:outputText value="{!fechaEspanol}" />
+                </div>
+
+            </td>
+
+        </tr>
+    </table>
+
+
+    <!-- ================= INFORMACIÓN DE LA COTIZACIÓN ================= -->
+
+    <table class="meta-table">
+        <tr>
+
+            <td style="width: 55%;">
+
+                <strong>Sr(es):</strong> {!quoteRecord.Account.Name}<br/>
+
+                <strong>Atención:</strong> {!quoteRecord.Contact.Name}<br/>
+
+                <span style="font-size: 8pt; color: #444;">
+                    Estimados: De acuerdo a lo solicitado cotizamos lo siguiente:
+                </span>
+
+            </td>
+
+            <td style="width: 45%;">
+
+                <div class="doc-title">
+                    COTIZACIÓN
+                </div>
+
+                <strong>Componente / Asunto:</strong> {!quoteRecord.Name}<br/>
+
+            </td>
+
+        </tr>
+    </table>
+
+
+    <!-- ================= TABLA DE PARTIDAS ================= -->
+
+    <table class="items-table">
+
+        <thead>
+            <tr>
+
+                <!-- NUEVA COLUMNA: CÓDIGO DE PRODUCTO -->
+                <th style="width: 10%;">
+                    SKU
+                </th>
+
+                <th style="width: 8%;">
+                    LÍNEA
+                </th>
+
+                <th style="width: 42%;">
+                    PRODUCTO / DESCRIPCIÓN
+                </th>
+
+                <th style="width: 9%;">
+                    CANT
+                </th>
+
+                <th style="width: 8%;">
+                    UN
+                </th>
+
+                <th style="width: 13%;">
+                    PRECIO UN. $
+                </th>
+
+                <th style="width: 13%;">
+                    PRECIO TOTAL $
+                </th>
+
+            </tr>
+        </thead>
+
+        <tbody>
+
+            <apex:repeat value="{!lineItems}" var="li">
+
+                <tr>
+
+                    <!-- NUEVO: Código de producto -->
+                    <td class="text-center">
+                        {!li.PricebookEntry.Product2.ProductCode}
+                    </td>
+
+                    <td class="text-center">
+                        {!li.LineNumber}
+                    </td>
+
+                    <td class="text-left">
+                        {!li.PricebookEntry.Product2.Name}
+                        {!IF(ISBLANK(li.Description), '', ' - ' & li.Description)}
+                    </td>
+
+                    <td class="text-right">
+
+                        <apex:outputText value="{0, number, ###,##0.00}">
+                            <apex:param value="{!li.Quantity}" />
+                        </apex:outputText>
+
+                    </td>
+
+                    <!-- ACTUALIZADO: Weight_Unit__c -->
+                    <td class="text-center">
+                        {!li.Weight_Unit__c}
+                    </td>
+
+                    <td class="text-right">
+
+                        <apex:outputText value="{0, number, ###,###,000}">
+                            <apex:param value="{!li.UnitPrice}" />
+                        </apex:outputText>
+
+                    </td>
+
+                    <td class="text-right">
+
+                        <apex:outputText value="{0, number, '$'###,###,000}">
+                            <apex:param value="{!li.TotalPrice}" />
+                        </apex:outputText>
+
+                    </td>
+
+                </tr>
+
+            </apex:repeat>
+
+        </tbody>
+
+    </table>
+
+
+    <!-- ================= TOTAL ================= -->
+
+    <table style="width: 100%;">
+        <tr>
+
+            <td style="width: 55%;">
+            </td>
+
+            <td style="width: 45%;">
+
+                <div class="total-box text-right">
+
+                    TOTAL: &nbsp;
+
+                    <apex:outputText value="{0, number, '$'###,###,000}">
+                        <apex:param value="{!quoteRecord.TotalPrice}" />
+                    </apex:outputText>
+
+                </div>
+
+            </td>
+
+        </tr>
+    </table>
+
+
+    <!-- ================= CONDICIONES Y NOTAS ================= -->
+
+    <div class="conditions-block">
+
+        <table style="width: 100%; border-collapse: collapse;">
+            <tr>
+
+                <td style="width: 50%; vertical-align: top; padding-right: 15px;">
+
+                    <div class="font-bold" style="border-bottom: 1px solid #333; margin-bottom: 6px; display: inline-block;">
+                        CONDICIONES COMERCIALES
+                    </div>
+
+                    <table style="width: 100%; border-collapse: collapse; font-size: 8pt;">
+                        <tr>
+                            <td style="font-weight: bold; color: #164481; padding: 2px 0; width: 120px; vertical-align: top;">
+                                Plazo de entrega:
+                            </td>
+                            <td style="padding: 2px 0; vertical-align: top;">
+                                60 días, a contar de la fecha recepción OC
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: #164481; padding: 2px 0; vertical-align: top;">
+                                Condiciones de Pago:
+                            </td>
+                            <td style="padding: 2px 0; vertical-align: top;">
+                                {!quoteRecord.Metodo_de_pago__c} a contar fecha de facturación
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: #164481; padding: 2px 0; vertical-align: top;">
+                                Moneda:
+                            </td>
+                            <td style="padding: 2px 0; vertical-align: top;">
+                                {!quoteRecord.CurrencyIsoCode}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: #164481; padding: 2px 0; vertical-align: top;">
+                                Lugar de Entrega:
+                            </td>
+                            <td style="padding: 2px 0; vertical-align: top;">
+                                {!quoteRecord.Lugar_de_entrega__c}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold; color: #164481; padding: 2px 0; vertical-align: top;">
+                                Validez de la Oferta:
+                            </td>
+                            <td style="padding: 2px 0; vertical-align: top;">
+                                15 días
+                            </td>
+                        </tr>
+                    </table>
+
+                </td>
+
+                <td style="width: 50%; vertical-align: top; padding-left: 15px;">
+
+                    <apex:outputPanel layout="block" rendered="{!NOT(ISBLANK(quoteRecord.Notas__c))}">
+                        <div class="font-bold" style="color: #164481; margin-bottom: 6px; font-size: 8pt;">
+                            Notas:
+                        </div>
+                        <div style="font-size: 8pt; text-align: justify; line-height: 1.3; color: #222;">
+                            <apex:outputText value="{!quoteRecord.Notas__c}" escape="false" />
+                        </div>
+                    </apex:outputPanel>
+
+                </td>
+
+            </tr>
+        </table>
+
+        <div class="signature-container">
+            <div class="signature-box">
+                <strong>
+                    {!quoteRecord.Owner.Name}
+                </strong>
+                <br/>
+                {!quoteRecord.Owner.Title}
+                <br/>
+                {!quoteRecord.Owner.Email}
+                <br/>
+                <span style="color: #172693;">
+                    https://www.me-elecmetal.com/
+                </span>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- ================= PÁGINA 2: CONDICIONES GENERALES ================= -->
+
+    <div class="page-break"></div>
+
+    <table class="header-table">
+        <tr>
+
+            <td style="width: 50%; vertical-align: top;">
+                <apex:image value="{!$Resource.Logo_Elecmetal}" 
+                    width="160"
+                    style="display:block;"
+                />
+            </td>
+
+            <td style="width: 50%; text-align: right; font-size: 8pt; color: #555;">
+                Anexo Cotización {!quoteRecord.QuoteNumber}
+            </td>
+
+        </tr>
+    </table>
+
+    <div class="terms-header">
+        <div class="terms-title">
+            Condiciones Comerciales Generales
+        </div>
+        <div class="terms-subtitle">
+            Servicios de Reparación y Armados de Componentes
+        </div>
+    </div>
+
+    <div class="terms-block">
+        <h4>Ofertas Referenciales</h4>
+        <p>
+            Las ofertas económicas por servicios son de carácter referencial, en monto y plazo. La fecha de entrega del servicio está sujeta a la disponibilidad de los Centros de Servicios al momento de la recepción de la Orden de Compra. El alcance del servicio podría variar una vez iniciado el proceso de reparación o armado debido a condiciones no detectables durante el proceso de evaluación. En este caso Elecmetal informará oportunamente al cliente y emitirá una nueva oferta por cambio de alcance.
+        </p>
+    </div>
+
+    <div class="terms-block">
+        <h4>Aportes de Cliente</h4>
+        <p>
+            Elecmetal pone a disposición del cliente el suministro de repuestos, insumos y revestimientos necesarios para ejecutar el servicio. En caso que el servicio considere aportes del cliente, Elecmetal no se responsabilizará por el estado de dichos aportes y/o condición dimensional de estos. Elecmetal solo verificará números de parte de acuerdo con lo solicitado en el informe de evaluación. Cualquier defecto, falla o retraso que se genere a causa del suministro aportado por el cliente no será cubierto por la garantía de Elecmetal. Adicionalmente, todo reproceso generado a causa de aportes de cliente será cobrado en el proceso de facturación correspondiente.
+        </p>
+    </div>
+
+    <div class="terms-block">
+        <h4>Facturación Servicios</h4>
+        <p>
+            Elecmetal facturará los servicios al momento de la entrega de cada servicio de evaluación, reparación o armado, por separado. En caso que cualquiera de estos servicios no pueda ser ejecutado, o entregado, o facturado por causas ajenas a Elecmetal, ya sea por la no recepción de la Orden de Compra en los plazos establecidos en la Oferta, o por falta de repuestos o aportes del Cliente, o por la no disponibilidad de transporte de parte del Cliente, o por cualquier otra causa que no sea de responsabilidad de Elecmetal, se procederá a facturar los servicios realizados, ya sean parciales o totales, y se declarará un tiempo máximo de espera de 15 días corridos. En caso de extenderse el plazo de espera por más de 15 días corridos se aplicarán costos de almacenaje semanal más los costos de traslado desde y hacia un espacio no operativo, equivalente a 10 UF por semana.
+        </p>
+    </div>
+
+    <div class="terms-block">
+        <h4>Almacenaje</h4>
+        <p>
+            En caso que un componente quede almacenado por las causas descritas anteriormente, Elecmetal no se responsabiliza por daños o pérdidas que puedan generarse durante el almacenaje, y podrá disponer del activo para su propio uso si el almacenaje se posterga por un plazo mayor a 12 meses. Si durante el período de almacenaje el cliente requiere retomar los servicios que hubiesen quedado pendientes, Elecmetal generará una nueva evaluación del componente y emitirá una nueva oferta económica.
+        </p>
+    </div>
+
+    <div class="terms-block">
+        <h4>Alcance de servicios</h4>
+        <p>
+            Aplica para todos los servicios a ejecutar por los Centros de Servicio de Elecmetal, y para las líneas de Movimiento de Tierra, Pirometalurgia, Molienda, Chancado u Otro.
+        </p>
+        <p>
+            <em>
+                Este documento es parte integral de la Oferta Económica de Elecmetal que se adjunta, y de la respectiva Orden de Compra del cliente. Cualquier cambio a estas condiciones debe ser previamente negociado y acordado con Elecmetal.
+            </em>
+        </p>
+    </div>
+
+</body>
+</html>
+
+</apex:page>

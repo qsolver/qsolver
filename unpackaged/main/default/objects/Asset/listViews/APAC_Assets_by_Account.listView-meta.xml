@@ -10,9 +10,9 @@
     <columns>ELM_Sales_Team__c</columns>
     <filterScope>Everything</filterScope>
     <filters>
-        <field>ACCOUNT.NAME</field>
-        <operation>equals</operation>
-        <value>Brockman</value>
+        <field>ELM_Account_Country_Code__c</field>
+        <operation>contains</operation>
+        <value>copper</value>
     </filters>
     <label>APAC Assets by Account</label>
 </ListView>

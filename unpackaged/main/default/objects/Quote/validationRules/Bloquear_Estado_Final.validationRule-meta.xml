@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Bloquear_Estado_Final</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    $Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+    NOT(ISNEW()),
+    ISCHANGED(Status),
+    ISPICKVAL(Owner_de_la_Cotizacion__r.ELM_Equipo_de_Ventas__c, &#39;SURAMERICA&#39;),
+    OR(
+        ISPICKVAL(PRIORVALUE(Status), &#39;Approved&#39;),
+        ISPICKVAL(PRIORVALUE(Status), &#39;Rejected&#39;),
+        ISPICKVAL(PRIORVALUE(Status), &#39;Perdida sin feedback&#39;)
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>No puedes cambiar el Estado de esta Cotización porque ya se encuentra en un estado final (Aprobado, Rechazado o Perdida sin Feedback). Solo un administrador puede realizar este cambio. ///  You cannot change the Status of this Quote because it is already</errorMessage>
+</ValidationRule>

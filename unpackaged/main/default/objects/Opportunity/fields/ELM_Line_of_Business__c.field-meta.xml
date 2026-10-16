@@ -20,7 +20,7 @@
             <value>
                 <fullName>Alerta Temprana</fullName>
                 <default>false</default>
-                <label>Digital Solutions</label>
+                <label>Circular Economy</label>
             </value>
             <value>
                 <fullName>GET</fullName>
@@ -48,7 +48,7 @@
                 <label>Business Development</label>
             </value>
             <value>
-                <fullName>Economía Circular</fullName>
+                <fullName>Economia_Circular</fullName>
                 <default>false</default>
                 <label>Economía Circular</label>
             </value>

@@ -6,6 +6,7 @@
     <columns>External_Vendor__c</columns>
     <columns>As_of_Date__c</columns>
     <columns>Plant__c</columns>
+    <columns>RECORDTYPE</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

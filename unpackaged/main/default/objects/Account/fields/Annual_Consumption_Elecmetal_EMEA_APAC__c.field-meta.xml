@@ -3,7 +3,7 @@
     <fullName>Annual_Consumption_Elecmetal_EMEA_APAC__c</fullName>
     <inlineHelpText>Annual Consumption Elecmetal. (Tons) EMEA/APAC</inlineHelpText>
     <label>A. Consump Elecmetal.(Tons) EMEA/APAC</label>
-    <summarizedField>MarketShare__c.Total_Tonnes_Per_Annum__c</summarizedField>
+    <summarizedField>MarketShare__c.Annual_Consumption_Elecmetal_EMEA_APA__c</summarizedField>
     <summaryFilterItems>
         <field>MarketShare__c.Proveedor__c</field>
         <operation>equals</operation>

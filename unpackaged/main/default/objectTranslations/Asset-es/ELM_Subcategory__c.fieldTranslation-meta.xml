@@ -16,6 +16,10 @@
             <translation><!-- Barras --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Blindajes</masterLabel>
+            <translation><!-- Blindajes --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Bolas</masterLabel>
             <translation><!-- Bolas --></translation>
         </picklistValues>
@@ -58,18 +62,6 @@
         <picklistValues>
             <masterLabel>Gyratory</masterLabel>
             <translation><!-- Gyratory --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>HPGR</masterLabel>
-            <translation><!-- HPGR --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Harneros</masterLabel>
-            <translation><!-- Harneros --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Impact</masterLabel>
-            <translation><!-- Impact --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Laser 3D</masterLabel>
@@ -180,10 +172,6 @@
             <translation><!-- Representacion Comerciales --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Roller</masterLabel>
-            <translation><!-- Roller --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>S3</masterLabel>
             <translation><!-- S3 --></translation>
         </picklistValues>
@@ -222,6 +210,14 @@
         <picklistValues>
             <masterLabel>Tertiary</masterLabel>
             <translation><!-- Tertiary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tolvas</masterLabel>
+            <translation><!-- Tolvas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undercarriage</masterLabel>
+            <translation><!-- Undercarriage --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Wear Runner</masterLabel>

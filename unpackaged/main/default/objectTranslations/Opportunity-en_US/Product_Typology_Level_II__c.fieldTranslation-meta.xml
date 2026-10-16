@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Typology Level II --></label>
+        <name>Product_Typology_Level_II__c</name>
+        <picklistValues>
+            <masterLabel>Cone</masterLabel>
+            <translation><!-- Cone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gyratory</masterLabel>
+            <translation><!-- Gyratory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impactor</masterLabel>
+            <translation><!-- Impactor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaw</masterLabel>
+            <translation><!-- Jaw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

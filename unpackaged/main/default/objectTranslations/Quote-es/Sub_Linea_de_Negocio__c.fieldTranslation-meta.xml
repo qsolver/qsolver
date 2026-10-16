@@ -95,6 +95,10 @@
             <translation><!-- Med Min Perú --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Medios de molienda</masterLabel>
+            <translation><!-- Medios de molienda --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Molienda</masterLabel>
             <translation><!-- Molienda --></translation>
         </picklistValues>

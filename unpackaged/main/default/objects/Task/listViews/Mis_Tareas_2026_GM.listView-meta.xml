@@ -10,7 +10,6 @@
     <columns>PRIORITY</columns>
     <columns>STATUS</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
-    <columns>Visita_GM__c</columns>
     <filterScope>Mine</filterScope>
     <filters>
         <field>CREATED_DATE</field>
@@ -28,7 +27,4 @@
         <value>malva,fbarr,mbugu,fcort,sgamb,agarc,pjimé,vla v,eleiv,dlope,emari,smeht,imill,gmuso,rpala,jpare,ipiza,nsaib,fvera</value>
     </filters>
     <label>Mis Tareas 2026 GM (Sales Rep)</label>
-    <sharedTo>
-        <role>Grinding_Media_Manager_SA</role>
-    </sharedTo>
 </ListView>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
         <help>Lista desplegable donde se marca Yes/no para el documento tecnico en GM</help>
-        <label>Documento Tecnico</label>
+        <label>Documento técnico</label>
         <name>ELM_GM_Technical_Document__c</name>
         <picklistValues>
             <masterLabel>No</masterLabel>

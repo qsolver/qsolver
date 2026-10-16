@@ -304,10 +304,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Harneros</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>Laser 3D</fullName>
             <default>false</default>
         </values>
@@ -444,6 +440,10 @@
         </values>
         <values>
             <fullName>Chutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipos Mina</fullName>
             <default>false</default>
         </values>
         <values>

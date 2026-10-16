@@ -1,34 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>Quote Layout</layout>
         <sections>
@@ -68,6 +39,10 @@
         <name>Quotes_SA</name>
     </recordTypes>
     <validationRules>
+        <errorMessage><!-- No puedes cambiar el Estado de esta Cotización porque ya se encuentra en un estado final (Aprobado, Rechazado o Perdida sin Feedback). Solo un administrador puede realizar este cambio. ///  You cannot change the Status of this Quote because it is already --></errorMessage>
+        <name>Bloquear_Estado_Final</name>
+    </validationRules>
+    <validationRules>
         <errorMessage><!-- Para cambiar el estado a Rejected, debe seleccionar un Motivo de Rechazo. --></errorMessage>
         <name>Motivo_de_rechazo_obligatorio</name>
     </validationRules>
@@ -75,4 +50,48 @@
         <errorMessage><!-- Solo se pueden crear Cotizaciones si la Oportunidad está en la etapa &quot;Negotiation/Review --></errorMessage>
         <name>Prevent_Quote_Creation_Before_Negotiatio</name>
     </validationRules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <webLinks>
+        <label><!-- Generate_PDF --></label>
+        <name>Generate_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- QUOTES --></label>
+        <name>QUOTES</name>
+    </webLinks>
 </CustomObjectTranslation>

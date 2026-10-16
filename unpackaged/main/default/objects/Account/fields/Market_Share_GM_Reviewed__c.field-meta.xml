@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Market_Share_GM_Reviewed__c</fullName>
     <defaultValue>false</defaultValue>
-    <label>Market Share GM Validated</label>
+    <label>Market Share GM Reviewed</label>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>
     <type>Checkbox</type>

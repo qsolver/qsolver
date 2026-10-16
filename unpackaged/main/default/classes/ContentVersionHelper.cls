@@ -8,7 +8,7 @@ public with sharing class ContentVersionHelper {
 
         String query = 'SELECT Id';
 
-        if (sObj == 'Task') {
+        if (sObj == 'Task' || sObj == 'Case') {
             
             query += ', Subject';
         }else {
@@ -20,7 +20,7 @@ public with sharing class ContentVersionHelper {
 
             query += ', StageName';
         }else if(sObj == 'Contract' || sObj == 'Quote' || 
-            sObj == 'Order' || sObj == 'Task' || sObj == 'Lead' ){
+            sObj == 'Order' || sObj == 'Task' || sObj == 'Lead' || sObj == 'Case'){
 
             query += ', Status';
         }else if(sObj == 'ELM_Vaes__c' || sObj == 'Asset_Request__c'){
@@ -59,7 +59,7 @@ public with sharing class ContentVersionHelper {
 
                     fileLink.ELM_Stage__c = (String) obj.get('StageName');
                 }else if(sObj == 'Contract' || sObj == 'Quote' || 
-                    sObj == 'Order' || sObj == 'Task' || sObj == 'Lead' ){
+                    sObj == 'Order' || sObj == 'Task' || sObj == 'Lead' || sObj == 'Case'){
 
                     fileLink.ELM_Stage__c = (String) obj.get('Status');
                 }else if(sObj == 'ELM_Vaes__c' || sObj == 'Asset_Request__c'){
@@ -78,7 +78,7 @@ public with sharing class ContentVersionHelper {
                     fileLink.ELM_Registry_Name__c = (String)obj.get('OrderNumber');
                 }else {
                     
-                    if (sObj == 'Task') {
+                    if (sObj == 'Task' || sObj == 'Case') {
 
                         fileLink.ELM_Registry_Name__c = (String)obj.get('Subject');
                     }else {

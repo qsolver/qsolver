@@ -2,62 +2,12 @@
 <Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
     <alerts>
         <fullName>Checklist_Component_Services</fullName>
-        <ccEmails>usc@elecmetal.cl, planificacioncomercial@elecmetal.cl, myriam.crisostomo@talleres.cl, claudia.marin@talleres.cl</ccEmails>
-        <description>Checklist Component Services OC-Con Contrato</description>
+        <ccEmails>wflores@neox.cl</ccEmails>
+        <description>Checklist Component Services</description>
         <protected>false</protected>
         <recipients>
-            <type>owner</type>
-        </recipients>
-        <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>george.gonas@ticel.cl</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>iflores@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>mcanitrot@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>psimbana@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Checklist_Componente_Approved</template>
-    </alerts>
-    <alerts>
-        <fullName>Checklist_Component_Services_En_Tramite_To_Follow</fullName>
-        <ccEmails>usc@elecmetal.cl, planificacioncomercial@elecmetal.cl, myriam.crisostomo@talleres.cl, claudia.marin@talleres.cl</ccEmails>
-        <description>Checklist Component Services En Tramite-To Follow</description>
-        <protected>false</protected>
-        <recipients>
-            <type>owner</type>
-        </recipients>
-        <recipients>
-            <recipient>arachet@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>george.gonas@ticel.cl</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>iflores@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>mcanitrot@me-elecmetal.com</recipient>
-            <type>user</type>
-        </recipients>
-        <recipients>
-            <recipient>psimbana@me-elecmetal.com</recipient>
-            <type>user</type>
+            <recipient>Send_CL_App_Con_OC_Services</recipient>
+            <type>group</type>
         </recipients>
         <senderType>CurrentUser</senderType>
         <template>unfiled$public/Checklist_Componente_Approved</template>

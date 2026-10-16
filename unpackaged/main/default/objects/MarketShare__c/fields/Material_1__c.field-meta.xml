@@ -31,16 +31,6 @@
                 <label>Compuesto</label>
             </value>
             <value>
-                <fullName>Manganese</fullName>
-                <default>false</default>
-                <label>Manganese</label>
-            </value>
-            <value>
-                <fullName>Metal Casting</fullName>
-                <default>false</default>
-                <label>Metal Casting</label>
-            </value>
-            <value>
                 <fullName>Material 1</fullName>
                 <default>false</default>
                 <isActive>false</isActive>

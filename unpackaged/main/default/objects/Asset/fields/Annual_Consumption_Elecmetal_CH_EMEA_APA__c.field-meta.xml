@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Annual_Consumption_Elecmetal_CH_EMEA_APA__c</fullName>
     <label>A. Consump Elecmetal.(Tons) CH EMEA/APAC</label>
-    <summarizedField>MarketShare__c.Total_Tonnes_Per_Annum__c</summarizedField>
+    <summarizedField>MarketShare__c.Annual_Consumption_Elecmetal_CH_EMEA_APA__c</summarizedField>
     <summaryFilterItems>
         <field>MarketShare__c.Proveedor__c</field>
         <operation>equals</operation>

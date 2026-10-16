@@ -19,14 +19,14 @@
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Additional Emails For Checklist Approved En Tramite Services</shortDescription>
-        <value>psimbana@elecmetal.cl, mariangeles.canitrot@talleres.cl, iflores@elecmetal.cl</value>
+        <value>,</value>
     </labels>
     <labels>
         <fullName>Additional_Emails_For_Checklist_Approved_To_Follow_Services</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Additional Emails For Checklist Approved To Follow Services</shortDescription>
-        <value>psimbana@elecmetal.cl, mariangeles.canitrot@talleres.cl, iflores@elecmetal.cl</value>
+        <value>,</value>
     </labels>
     <labels>
         <fullName>Additional_Emails_For_checklist_Approved_Con_OC_Services</fullName>
@@ -58,20 +58,6 @@
 Consumption - Mill Liners</value>
     </labels>
     <labels>
-        <fullName>ECO_Detalle_ECO</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>ECO Detalle ECO</shortDescription>
-        <value>ECO Detail</value>
-    </labels>
-    <labels>
-        <fullName>ECO_Informacion_de_Entrada</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>ECO Informacion de Entrada</shortDescription>
-        <value>Main Information</value>
-    </labels>
-    <labels>
         <fullName>ELM_OpportunityRecurringSaleRecordTypeId</fullName>
         <language>en_US</language>
         <protected>false</protected>
@@ -97,14 +83,14 @@ Consumption - Mill Liners</value>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Mantencion Mayor imagen</shortDescription>
-        <value>https://me-elecmetal.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Pn00000nUDTR&amp;operationContext=CHATTER&amp;contentId=05TPn00000zA93p</value>
+        <value>https://me-elecmetal--uatglobal.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068dy000006gNET&amp;operationContext=CHATTER&amp;contentId=05Tdy00000D2woP</value>
     </labels>
     <labels>
         <fullName>Mantencion_de_Servicios_Imagen</fullName>
         <language>en_US</language>
         <protected>false</protected>
         <shortDescription>Mantencion de Servicios Imagen</shortDescription>
-        <value>https://me-elecmetal.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Pn00000nUDYH&amp;operationContext=CHATTER&amp;contentId=05TPn00000zAMc6</value>
+        <value>https://me-elecmetal--uatglobal.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068dy000006gNG5&amp;operationContext=CHATTER&amp;contentId=05Tdy00000D2qZO</value>
     </labels>
     <labels>
         <fullName>Permission_Profile_Send_Email_Notification</fullName>

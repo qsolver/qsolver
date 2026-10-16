@@ -16,6 +16,6 @@
     <protected>false</protected>
     <showsLocation>false</showsLocation>
     <showsStatus>false</showsStatus>
-    <url>/apex/hic_docmerge__Composer?id={!ELM_Vaes__c.Id}&amp;queryId=[AllVaesInfo]a0I3h000005ztB0EAI</url>
+    <url>/apex/hic_docmerge__Composer?id={!ELM_Vaes__c.Id}&amp;queryId=[AllVaesInfo]a0I3h000005ztB0EAI&amp;documentTemplateId=a0NPn000005qLOuMAM</url>
     <width>900</width>
 </WebLink>

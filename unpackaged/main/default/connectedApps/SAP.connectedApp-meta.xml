@@ -4,7 +4,7 @@
     <label>SAP</label>
     <oauthConfig>
         <callbackUrl>https://www.salesforce.com</callbackUrl>
-        <consumerKey>3MVG9Kip4IKAZQEX8RM6gRlP7bXp5_H_r2jucqgBQCBqdD.TL6Yb6BXacXQ5U8nYsaxVnBgi7taYl17gS8xOj</consumerKey>
+        
         <isAdminApproved>false</isAdminApproved>
         <isClientCredentialEnabled>false</isClientCredentialEnabled>
         <isCodeCredentialEnabled>false</isCodeCredentialEnabled>
@@ -14,7 +14,7 @@
         <isNamedUserJwtEnabled>false</isNamedUserJwtEnabled>
         <isPkceRequired>false</isPkceRequired>
         <isRefreshTokenRotationEnabled>false</isRefreshTokenRotationEnabled>
-        <isSecretRequiredForRefreshToken>true</isSecretRequiredForRefreshToken>
+        <isSecretRequiredForRefreshToken>false</isSecretRequiredForRefreshToken>
         <isSecretRequiredForTokenExchange>false</isSecretRequiredForTokenExchange>
         <isTokenExchangeEnabled>false</isTokenExchangeEnabled>
         <scopes>Api</scopes>

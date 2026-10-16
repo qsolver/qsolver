@@ -4,18 +4,18 @@
         <name>Linea__c</name>
         <picklistValues>
             <masterLabel>Otros</masterLabel>
-            <translation>Others</translation>
+            <translation><!-- Otros --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Repuesto</masterLabel>
-            <translation>Spare parts</translation>
+            <translation><!-- Repuesto --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Revestimientos</masterLabel>
-            <translation>Wall coverings</translation>
+            <translation><!-- Revestimientos --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Servicio</masterLabel>
-            <translation>Services</translation>
+            <translation><!-- Servicio --></translation>
         </picklistValues>
     </CustomFieldTranslation>

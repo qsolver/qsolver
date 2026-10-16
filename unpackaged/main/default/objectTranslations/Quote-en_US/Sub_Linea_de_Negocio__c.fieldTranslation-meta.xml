@@ -80,7 +80,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Laser 3D</masterLabel>
-            <translation>3D Laser</translation>
+            <translation><!-- Laser 3D --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mandibulas</masterLabel>
@@ -95,12 +95,16 @@
             <translation><!-- Med Min Perú --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Molienda</masterLabel>
+            <masterLabel>Medios de molienda</masterLabel>
             <translation>Mill Lining</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Molienda</masterLabel>
+            <translation><!-- Molienda --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Molino vertical</masterLabel>
-            <translation>Towermill</translation>
+            <translation><!-- Molino vertical --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Monitoreo de Procesos</masterLabel>

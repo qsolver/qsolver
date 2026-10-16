@@ -2,13 +2,7 @@ public with sharing class createProductsByAsset {
 
     @AuraEnabled
     public static List<Product2> getProductResults(List<String> selectedProductsIds, String filter) {
-
-        //if (String.isBlank(filter) || filter.length() < 2) {
-        //    return new List<Product2>();
-       // }
-
         String searchFilter = '%'+filter+'%';
-
 
         // Asset asset = [
         //     SELECT Id, AccountId
@@ -32,41 +26,32 @@ public with sharing class createProductsByAsset {
             LIMIT 1
         ];
 
-        
-
-        //return [
-        //    SELECT Id, Name 
-        //    FROM Product2 
-        //    WHERE (Name LIKE :searchFilter AND Id NOT IN :selectedProductsIds AND Id IN : productIds)
-        //    OR (ProductCode LIKE :searchFilter AND Id NOT IN :selectedProductsIds AND Id IN : productIds)
-        //    WITH SECURITY_ENFORCED LIMIT 1000
-        //];
-
-        // Optimized query: Get Product2s that have entries in the standard pricebook
-        return [
-            SELECT Id, Name
-            FROM Product2
-            WHERE Id IN (
-                SELECT Product2Id
-                FROM PricebookEntry
-                WHERE Pricebook2Id = :pricebook.Id
-            )
-            AND Id NOT IN :selectedProductsIds
-            AND (Name LIKE :searchFilter OR ProductCode LIKE :searchFilter)
+        List<PricebookEntry> priceBookEntries = [
+            SELECT Product2Id
+            FROM PricebookEntry
+            WHERE Pricebook2Id = : pricebook.Id
             WITH SECURITY_ENFORCED
-            LIMIT 20
         ];
 
-        
+        Set<Id> productIds = new Set<Id>();
+
+        for (PricebookEntry pricebookEntry : priceBookEntries) {
+
+            productIds.add(pricebookEntry.Product2Id);
+
+        }
+
+        return [
+            SELECT Id, Name 
+            FROM Product2 
+            WHERE (Name LIKE :searchFilter AND Id NOT IN :selectedProductsIds AND Id IN : productIds)
+            OR (ProductCode LIKE :searchFilter AND Id NOT IN :selectedProductsIds AND Id IN : productIds)
+            WITH SECURITY_ENFORCED
+        ];
     }
 
     @AuraEnabled
     public static void createJunctionRegisters(String name, String isoCode, String asset, List<String> selectedProductsIds){
-
-        System.debug('Name : '+name);
-        System.debug('IsoCode : '+isoCode);
-        System.debug('Asset : '+asset);
-        System.debug('Product : '+selectedProductsIds);
 
         List<ELM_Products_by_Asset__c> resultList = new List<ELM_Products_by_Asset__c>();
     

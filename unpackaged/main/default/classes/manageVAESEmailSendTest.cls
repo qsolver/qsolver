@@ -16,7 +16,7 @@ public class manageVAESEmailSendTest {
         insert testContact;
 
         // Insert a VAES Record
-        ELM_Vaes__c vaesRecord = new ELM_Vaes__c(ELM_Project_Name__c = 'Test VAES', ELM_Account__c = a.Id);
+        ELM_Vaes__c vaesRecord = new ELM_Vaes__c(ELM_Project_Name__c = 'Test VAES', ELM_Account__c = a.Id, ELM_Fecha_inicio__c = Date.newInstance(2026, 9, 1),ELM_Line_Of_Business__c = 'Other');
         insert vaesRecord;
 
         // Create Setup Objects inside System.runAs()

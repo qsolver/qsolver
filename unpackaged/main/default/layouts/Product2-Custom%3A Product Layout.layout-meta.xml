@@ -47,6 +47,10 @@
                 <behavior>Edit</behavior>
                 <field>ELM_TEXT_Level4__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Prod_Opp_Number__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>

@@ -4,7 +4,6 @@
     <columns>NAME</columns>
     <columns>Title__c</columns>
     <columns>Number__c</columns>
-    <columns>Estado__c</columns>
     <columns>Account__c</columns>
     <columns>Opportunity__c</columns>
     <columns>Prioridad__c</columns>

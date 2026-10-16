@@ -11,7 +11,7 @@
     <summaryFilterItems>
         <field>MarketShare__c.RecordTypeId</field>
         <operation>equals</operation>
-        <value>Molienda</value>
+        <value>Mill Liners, Mill Liners EMEA/APAC</value>
     </summaryFilterItems>
     <summaryForeignKey>MarketShare__c.Account__c</summaryForeignKey>
     <summaryOperation>count</summaryOperation>

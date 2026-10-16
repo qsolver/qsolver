@@ -31,4 +31,8 @@
             <masterLabel>Other</masterLabel>
             <translation><!-- Other --></translation>
         </picklistValues>
+        <picklistValues>
+            <masterLabel>Worshop</masterLabel>
+            <translation><!-- Worshop --></translation>
+        </picklistValues>
     </CustomFieldTranslation>

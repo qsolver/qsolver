@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Se colocará una orden de compra en</label>
+        <label>Orden de compra se colocará en</label>
         <name>PO_To_Be_Placed_On__c</name>
         <picklistValues>
             <masterLabel>ME Mongolia</masterLabel>
@@ -20,7 +20,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>MEE North America</masterLabel>
-            <translation>MEE América del Norte</translation>
+            <translation><!-- MEE North America --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>MEE Prima</masterLabel>

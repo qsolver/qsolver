@@ -63,18 +63,6 @@
             <translation><!-- GL - WEIR/Vulco --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>GL -Ahn​</masterLabel>
-            <translation><!-- GL -Ahn​ --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>GL -Amsu​</masterLabel>
-            <translation><!-- GL -Amsu​ --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>GL -Naipu​</masterLabel>
-            <translation><!-- GL -Naipu​ --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Other</masterLabel>
             <translation><!-- Other --></translation>
         </picklistValues>

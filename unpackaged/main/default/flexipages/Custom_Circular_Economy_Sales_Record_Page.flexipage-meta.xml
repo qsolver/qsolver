@@ -235,7 +235,7 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Sub_Linea_de_Negocio_OPP__c</fieldItem>
-                <identifier>RecordSub_Linea_de_Negocio_OPP_cField</identifier>
+                <identifier>RecordSub_Linea_de_Negocio_OPP__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>

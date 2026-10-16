@@ -6,7 +6,7 @@
     OR(
         $User.Alias == &quot;psimb&quot;, $User.Alias == &quot;iflor&quot;, $User.Alias == &quot;arach&quot;, 
         $User.Alias == &quot;sneox&quot;, $User.Alias == &quot;fpave&quot;, $User.Alias == &quot;sdura&quot;, 
-        $User.Alias == &quot;stice&quot;, $User.Alias == &quot;cyutr&quot;, $User.Alias == &quot;pbuns&quot;
+        $User.Alias == &quot;stice&quot;, $User.Alias == &quot;cyutr&quot;
     ),
     IF(
         $User.UIThemeDisplayed = &quot;Theme4t&quot;,
@@ -21,7 +21,7 @@
         HYPERLINK(
             LEFT($Api.Partner_Server_URL_530, FIND( &#39;/services&#39;, $Api.Partner_Server_URL_530)) &amp; 
             &quot;flow/Opportunity_Confirmation_Test?recordId=&quot; &amp; Id, 
-            IMAGE(&quot;https://me-elecmetal.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068Pn00000vacp7&amp;operationContext=CHATTER&amp;contentId=05TPn00001974Z4&quot;, &quot;Aprobar&quot;, 150, 150), 
+            IMAGE(&quot;https://me-elecmetal--uatglobal.sandbox.file.force.com/sfc/servlet.shepherd/version/renditionDownload?rendition=ORIGINAL_Png&amp;versionId=068dy000007rx4L&amp;operationContext=CHATTER&amp;contentId=05Tdy00000FQfDO&quot;, &quot;Aprobar&quot;, 150, 150), 
             &quot;_self&quot;
         )
     ),

@@ -192,9 +192,26 @@ public with sharing class manageVAESEmailSend {
                 email.setSaveAsActivity(false);
                 email.setUseSignature(false);
                 email.setTreatTargetObjectAsRecipient(false);
+                // Query the official organization-wide email address
+                OrgWideEmailAddress owea = [SELECT Id FROM OrgWideEmailAddress WHERE Address = 'salesforce.support@email-me-elecmetal.com' LIMIT 1];
+
+                if(userContext.ELM_Equipo_de_Ventas__c  == 'SURAMERICA'){
+
+                    // Set the official sender
+                    email.setOrgWideEmailAddressId(owea.Id);
+
+                }
+                
             }else{
                 email.setSubject(emailSubject);
                 email.setPlainTextBody(emailBody);
+                // Query the official organization-wide email address
+                OrgWideEmailAddress owea = [SELECT Id FROM OrgWideEmailAddress WHERE Address = 'salesforce.support@email-me-elecmetal.com' LIMIT 1];
+
+                if(userContext.ELM_Equipo_de_Ventas__c  == 'SURAMERICA'){
+                    // Set the official sender
+                    email.setOrgWideEmailAddressId(owea.Id);
+                }
             }
 
 

@@ -83,64 +83,101 @@ public class ReportSubscriptionBatch implements Database.Batchable<SObject>, Dat
     // Primary path: PageReference CSV export + HTML stripping (fast, all report types).
     // Fallback path: Analytics REST API-based CSV (used when PageReference returns a
     // non-UTF-8 blob, e.g. report data contains Latin-1 encoded special characters).
-    private Messaging.EmailFileAttachment buildAttachment(String reportName, String reportId, String format) {
+    // ─── HELPER: Build Email Attachment ──────────────────────────────────
+// ─── HELPER: Build Email Attachment ──────────────────────────────────
+// ─── HELPER: Build Email Attachment ──────────────────────────────────
+private Messaging.EmailFileAttachment buildAttachment(String reportName, String reportId, String format) {
     Messaging.EmailFileAttachment attachment = new Messaging.EmailFileAttachment();
     String safeName = reportName;
     if (!Test.isRunningTest()) {
         Blob csvBody = buildApiBasedCsv(reportId);
-        // Last resort: placeholder message if the API path also fails
         if (csvBody == null) {
-            csvBody = Blob.valueOf(
-                'Could not generate CSV. Please open the report directly in Salesforce.');
+            csvBody = Blob.valueOf('Could not generate CSV. Please open the report directly in Salesforce.');
         }
         attachment.setBody(csvBody);
     } else {
         attachment.setBody(Blob.valueOf('Test CSV Content'));
     }
-    // AISLAMOS LA LÓGICA POR FORMATO
-    if (format.toUpperCase() == 'CSV') {
-        // La ruta original de CSV que ya te funciona perfecto
+
+    if (format != null && format.toUpperCase() == 'CSV') {
         attachment.setFileName(safeName + '.csv');
         attachment.setContentType('text/csv');
     } else {
-        // LÓGICA EXCLUSIVA PARA ARREGLAR EL FORMATO EXCEL
-        // Tomamos el cuerpo de texto plano que generó el reporte o el fallback API
+        // LÓGICA HTML TABLE COMPATIBLE CON MICROSOFT EXCEL
         String plainTextBody = attachment.getBody().toString();
 
-        // Strip UTF-8 BOM if present — otherwise the first cell keeps a leading "
-        // because the ^" strip sees the BOM before the quote.
         if (plainTextBody.startsWith('\uFEFF')) {
             plainTextBody = plainTextBody.substring(1);
         }
 
-        // Lo envolvemos en una estructura XML/HTML nativa que Microsoft Excel sí acepta
-        String xmlExcel = '<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">';
-        xmlExcel += '<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head>';
-        xmlExcel += '<body><table border="1">';
-
-        // Separamos el texto por saltos de línea para armar las filas.
-        // Negative limit (-1) preserves trailing empty cells so the last column
-        // stays the last column instead of being displaced.
         List<String> lines = plainTextBody.split('\r\n', -1);
         if (lines.size() == 1) {
             lines = plainTextBody.split('\n', -1);
         }
 
-        for (String line : lines) {
-            if (String.isEmpty(line)) continue;  // skip trailing blank line from CSV's final \r\n
-            xmlExcel += '<tr>';
-            // Separamos por comas considerando que los campos pueden venir entre comillas
-            List<String> columns = line.split('",(?=")', -1);
-            for (String col : columns) {
-                // Fixed: '"$' not '$"' — the end-anchor goes AFTER the literal quote.
-                String cleanCol = col.replaceAll('^"', '').replaceAll('"$', '');
-                xmlExcel += '<td style="vnd.ms-excel.numberformat:@">' + cleanCol.escapeHtml4() + '</td>';
-            }
-            xmlExcel += '</tr>';
-        }
-        xmlExcel += '</table></body></html>';
+        // 1. Parsear filas y calcular la longitud máxima de caracteres por columna
+        List<List<String>> parsedRows = new List<List<String>>();
+        Map<Integer, Integer> colMaxLengths = new Map<Integer, Integer>();
 
-        // Seteamos el cuerpo transformado, la extensión .xls y su Content-Type oficial
+        for (String line : lines) {
+            if (String.isBlank(line)) continue;
+
+            List<String> rawCols = line.split('",(?=")', -1);
+            List<String> cleanRow = new List<String>();
+
+            for (Integer c = 0; c < rawCols.size(); c++) {
+                String cleanVal = rawCols[c].replaceAll('^"', '').replaceAll('"$', '');
+                cleanRow.add(cleanVal);
+
+                Integer cellLen = cleanVal != null ? cleanVal.length() : 0;
+                Integer currentMax = colMaxLengths.containsKey(c) ? colMaxLengths.get(c) : 0;
+                if (cellLen > currentMax) {
+                    colMaxLengths.put(c, cellLen);
+                }
+            }
+            parsedRows.add(cleanRow);
+        }
+
+        // 2. Construir HTML con atributos nativos e inline styles
+        String xmlExcel = '<html xmlns:o="urn:schemas-microsoft-com:office:office" '
+            + 'xmlns:x="urn:schemas-microsoft-com:office:excel" '
+            + 'xmlns="http://www.w3.org/TR/REC-html40">\n'
+            + '<head>\n'
+            + '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">\n'
+            + '</head>\n'
+            + '<body>\n'
+            + '<table border="1" style="border-collapse: collapse; font-family: Calibri, Arial, sans-serif;">\n';
+
+        // 3. Renderizar Filas aplicando inline style y bgcolor directamente en cada celda
+        for (Integer r = 0; r < parsedRows.size(); r++) {
+            List<String> rowCells = parsedRows[r];
+            xmlExcel += '<tr>\n';
+
+            for (Integer c = 0; c < rowCells.size(); c++) {
+                String cellVal = rowCells[c].escapeHtml4();
+
+                if (r == 0) {
+                    // Header: cálculo de ancho + estilos inline + atributo bgcolor directo
+                    Integer maxLen = colMaxLengths.containsKey(c) ? colMaxLengths.get(c) : cellVal.length();
+                    Integer calculatedPtWidth = Math.max(80, Math.min(400, (Integer)(maxLen * 7.5) + 25));
+
+                    xmlExcel += '  <th bgcolor="#0176D3" width="' + calculatedPtWidth + '" '
+                             + 'style="background-color: #0176D3; color: #FFFFFF; font-weight: bold; '
+                             + 'text-align: center; vertical-align: middle; height: 26px; '
+                             + 'width: ' + calculatedPtWidth + 'pt; white-space: nowrap; border: 0.5pt solid #B0ADAB;">'
+                             + cellVal + '</th>\n';
+                } else {
+                    // Data cell: formato texto + bordes + alineación
+                    xmlExcel += '  <td style="vnd.ms-excel.numberformat: @; vertical-align: middle; '
+                             + 'white-space: nowrap; border: 0.5pt solid #E5E5E5; padding: 4px 8px;">' 
+                             + cellVal + '</td>\n';
+                }
+            }
+            xmlExcel += '</tr>\n';
+        }
+
+        xmlExcel += '</table>\n</body>\n</html>';
+
         attachment.setBody(Blob.valueOf(xmlExcel));
         attachment.setFileName(safeName + '.xls');
         attachment.setContentType('application/vnd.ms-excel');
@@ -481,6 +518,12 @@ public class ReportSubscriptionBatch implements Database.Batchable<SObject>, Dat
         String htmlBody = replacePlaceholders(template.body, tokenValues);
 
         Messaging.SingleEmailMessage email = new Messaging.SingleEmailMessage();
+
+        // Query the official organization-wide email address
+        OrgWideEmailAddress owea = [SELECT Id FROM OrgWideEmailAddress WHERE Address = 'salesforce.support@email-me-elecmetal.com' LIMIT 1];
+
+        // Set the official sender
+        email.setOrgWideEmailAddressId(owea.Id);
         email.setToAddresses(recipients);
         email.setSubject(subject);
         email.setHtmlBody(htmlBody);

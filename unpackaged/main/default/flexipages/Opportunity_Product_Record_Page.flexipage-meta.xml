@@ -53,47 +53,47 @@
                     <criteria>
                         <leftValue>{!$User.Email}</leftValue>
                         <operator>EQUAL</operator>
+                        <rightValue>jorge.viveros@talleres.cl.invalid</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Email}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>cweisser@elecmetal.cl.invalid</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Email}</leftValue>
+                        <operator>EQUAL</operator>
                         <rightValue>arachet@elecmetal.cl</rightValue>
                     </criteria>
                     <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Sales Reps GM</rightValue>
-                    </criteria>
-                    <criteria>
                         <leftValue>{!$User.Email}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>cweisser@elecmetal.cl</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Email}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>apacheco@elecmetal.cl</rightValue>
+                        <rightValue>apacheco@elecmetal.cl.invalid</rightValue>
                     </criteria>
                     <criteria>
                         <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Manager</rightValue>
+                        <operator>CONTAINS</operator>
+                        <rightValue>System Administrator</rightValue>
                     </criteria>
                     <criteria>
                         <leftValue>{!$User.Email}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>fveram@elecmetal.cl</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Sales Reps</rightValue>
+                        <rightValue>agarciaz@elecmetal.cl.invalid</rightValue>
                     </criteria>
                     <criteria>
                         <leftValue>{!$User.Email}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>eleiva@elecmetal.cl</rightValue>
+                        <rightValue>fveram@elecmetal.cl.invalid</rightValue>
                     </criteria>
                     <criteria>
                         <leftValue>{!$User.Email}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>agarciaz@elecmetal.cl</rightValue>
+                        <rightValue>cmunozk@elecmetal.cl.invalid</rightValue>
+                    </criteria>
+                    <criteria>
+                        <leftValue>{!$User.Email}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>eleiva@elecmetal.cl.invalid</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

@@ -9,5 +9,10 @@
     <columns>PRODUCT2.NAME</columns>
     <columns>Model__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>ELM_Account_Country_Code__c</field>
+        <operation>equals</operation>
+        <value>china</value>
+    </filters>
     <label>All Assets by Account</label>
 </ListView>

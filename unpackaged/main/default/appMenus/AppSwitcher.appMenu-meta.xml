@@ -37,10 +37,6 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__LightningInstrumentation</name>
-        <type>CustomApplication</type>
-    </appMenuItems>
-    <appMenuItems>
         <name>CPQIntegrationUserApp</name>
         <type>ConnectedApp</type>
     </appMenuItems>
@@ -201,11 +197,19 @@
         <type>CustomApplication</type>
     </appMenuItems>
     <appMenuItems>
-        <name>standard__DigitalWallet</name>
-        <type>CustomApplication</type>
+        <name>Gearset</name>
+        <type>ConnectedApp</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Gearset_Deploy</name>
+        <type>ConnectedApp</type>
     </appMenuItems>
     <appMenuItems>
         <name>ECO</name>
+        <type>ExternalClientApplication</type>
+    </appMenuItems>
+    <appMenuItems>
+        <name>Claude_Conector</name>
         <type>ExternalClientApplication</type>
     </appMenuItems>
 </AppMenu>

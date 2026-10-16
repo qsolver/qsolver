@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Doc Type Quotes --></label>
+        <name>Doc_Type_Quotes__c</name>
+        <picklistValues>
+            <masterLabel>Cotización formal</masterLabel>
+            <translation>Formal Quote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cotización referencial</masterLabel>
+            <translation>Indicative Quote</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Formato económico de licitación</masterLabel>
+            <translation>Commercial Proposal Template</translation>
+        </picklistValues>
+    </CustomFieldTranslation>

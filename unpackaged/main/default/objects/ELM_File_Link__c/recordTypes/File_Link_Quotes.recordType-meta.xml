@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>File_Link_Quotes</fullName>
+    <active>true</active>
+    <label>File Link Quotes</label>
+    <picklistValues>
+        <picklist>Doc_Type_Case__c</picklist>
+        <values>
+            <fullName>Commercial report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informe causa raíz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informe comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Root cause report</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Doc_Type_Maintenance__c</picklist>
+        <values>
+            <fullName>Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Maintenance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pre-Maintenance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Doc_Type_Quotes__c</picklist>
+        <values>
+            <fullName>Cotización formal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización referencial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formato económico de licitación</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Doc_Type__c</picklist>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Análisis%2FAsesoría Operacionales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Capacitaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Estados de pago y HES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Informes de reclamo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Laboratory reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A One page reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Quality reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Reajustes%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Post-Venta%3A Seguimiento de Producto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repuestos%3A Cotización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revestimientos%3A Cotización</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios%3A Cotizaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios%3A Informe de Evaluación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios%3A Informe final</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios%3A SOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Pictures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Videos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VAES Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Certificados de garantía%C2%A0</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Documentos comerciales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Documentos técnicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Información técnica de Manuales %2F Instructivos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Orden de compra de Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Venta%3A Propuesta económica y%2Fo técnica</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

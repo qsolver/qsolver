@@ -70,14 +70,6 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>NextStep</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Next_Step_Due_Date_c__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
                 <field>Ready_to_Sample__c</field>
             </layoutItems>
             <layoutItems>
@@ -102,11 +94,47 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
+                <field>Sub_Area__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Secondary_Campaign_Source__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Third_Campaign_Source__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Fourth_Campaign_Source__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
                 <field>Crear_VAES__c</field>
             </layoutItems>
             <layoutItems>
+                <behavior>Edit</behavior>
+                <field>NextStep</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Next_Step_Due_Date_c__c</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Readonly</behavior>
-                <field>Razon_de_rechazo__c</field>
+                <field>ELM_Opportunity_Products_Qty__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Responsible__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DS_Next_Step__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DS_Next_Step_Due_Date__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Readonly</behavior>
@@ -157,10 +185,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Reason_Lost_Text__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Razon_de_aprobacion__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -276,7 +300,7 @@
                 <field>PO_Documents_have_been_uploaded__c</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -306,16 +330,8 @@
                 <field>Solicitar_reenvio__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Ultima_fecha_de_envio__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Fecha_de_aprobacion__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Fecha_de_rechazo__c</field>
+                <behavior>Readonly</behavior>
+                <field>Razon_de_rechazo__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -342,6 +358,10 @@
             <layoutItems>
                 <behavior>Readonly</behavior>
                 <field>ELM_VB_Ivan__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>Razon_de_aprobacion__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsLeftToRight</style>
@@ -427,7 +447,7 @@
                 <field>CampaignId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -466,9 +486,9 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Useful Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
@@ -702,17 +722,6 @@
         <fields>ELM_Title__c</fields>
         <fields>ELM_Document_Path__c</fields>
         <relatedList>ELM_File_Link__c.ELM_Opportunity__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <relatedList>Opportunity_by_Maintenance__c.Opportunity__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Title__c</fields>
-        <fields>RECORDTYPE</fields>
-        <fields>Prioridad__c</fields>
-        <fields>Due_Date__c</fields>
-        <relatedList>ECO__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

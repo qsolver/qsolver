@@ -4,30 +4,34 @@
         <name>Linea_de_Negocios__c</name>
         <picklistValues>
             <masterLabel>Crushing</masterLabel>
-            <translation>Chancado</translation>
+            <translation><!-- Crushing --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Digital S and Field S</masterLabel>
-            <translation>Soluciones Digitalales y de Servicio en terreno</translation>
+            <translation><!-- Digital S and Field S --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Earth Moving</masterLabel>
-            <translation>Movimiento de Tierra</translation>
+            <translation><!-- Earth Moving --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
-            <translation>Medios de Molienda</translation>
+            <translation><!-- Grinding Media --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>High Value</masterLabel>
-            <translation>Alto Potencial</translation>
+            <translation><!-- High Value --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mill Liners</masterLabel>
-            <translation>Molienda</translation>
+            <translation><!-- Mill Liners --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Other</masterLabel>
-            <translation>Otros</translation>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Workshop</masterLabel>
+            <translation><!-- Workshop --></translation>
         </picklistValues>
     </CustomFieldTranslation>

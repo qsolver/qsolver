@@ -1,34 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>High Value</fullName>
-        <default>false</default>
-        <label>Business Development</label>
-    </customValue>
-    <customValue>
         <fullName>Crushing</fullName>
         <default>false</default>
         <label>Crushing</label>
-    </customValue>
-    <customValue>
-        <fullName>Early Alert</fullName>
-        <default>false</default>
-        <label>Digital S and Field S</label>
-    </customValue>
-    <customValue>
-        <fullName>GET</fullName>
-        <default>false</default>
-        <label>Earth Moving</label>
-    </customValue>
-    <customValue>
-        <fullName>Economía Circular</fullName>
-        <default>false</default>
-        <label>Economía Circular</label>
-    </customValue>
-    <customValue>
-        <fullName>Grinding Media</fullName>
-        <default>false</default>
-        <label>Grinding Media</label>
     </customValue>
     <customValue>
         <fullName>Mill Liners</fullName>
@@ -36,15 +11,39 @@
         <label>Mill Liners</label>
     </customValue>
     <customValue>
+        <fullName>Grinding Media</fullName>
+        <default>false</default>
+        <label>Grinding Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Early Alert</fullName>
+        <default>false</default>
+        <label>Digital S and Field S</label>
+    </customValue>
+    <customValue>
         <fullName>Other</fullName>
         <default>false</default>
         <label>Other</label>
     </customValue>
     <customValue>
+        <fullName>GET</fullName>
+        <default>false</default>
+        <label>Earth Moving</label>
+    </customValue>
+    <customValue>
+        <fullName>High Value</fullName>
+        <default>false</default>
+        <label>Business Development</label>
+    </customValue>
+    <customValue>
         <fullName>Workshop</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Workshop</label>
+    </customValue>
+    <customValue>
+        <fullName>Economia_Circular</fullName>
+        <default>false</default>
+        <label>Economía Circular</label>
     </customValue>
     <customValue>
         <fullName>Ground Engaging Tools</fullName>
@@ -53,5 +52,5 @@
         <label>Ground Engaging Tools</label>
     </customValue>
     <masterLabel>Lines Of Business</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

@@ -4,14 +4,14 @@
         <name>DB_Competitor__c</name>
         <picklistValues>
             <masterLabel>Competitor A</masterLabel>
-            <translation>Competidor A</translation>
+            <translation><!-- Competitor A --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Competitor B</masterLabel>
-            <translation>Competidor B</translation>
+            <translation><!-- Competitor B --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Competitor C</masterLabel>
-            <translation>Competidor C</translation>
+            <translation><!-- Competitor C --></translation>
         </picklistValues>
     </CustomFieldTranslation>

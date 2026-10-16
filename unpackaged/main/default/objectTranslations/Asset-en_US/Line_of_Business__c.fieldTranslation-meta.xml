@@ -20,6 +20,10 @@
             <translation>Conveyors</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Equipos Mina</masterLabel>
+            <translation>Mining Equipment</translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Estructura</masterLabel>
             <translation>Structure</translation>
         </picklistValues>

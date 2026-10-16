@@ -32,4 +32,8 @@
         <masterLabel>Other</masterLabel>
         <translation><!-- Other --></translation>
     </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Workshop</masterLabel>
+        <translation><!-- Workshop --></translation>
+    </valueTranslation>
 </GlobalValueSetTranslation>

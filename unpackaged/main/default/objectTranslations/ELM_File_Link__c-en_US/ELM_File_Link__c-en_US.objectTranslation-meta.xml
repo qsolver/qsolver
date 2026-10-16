@@ -8,29 +8,6 @@
         <plural>true</plural>
         <value>Files Link</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>File Link Custom Layout</layout>
         <sections>
@@ -57,5 +34,35 @@
             <section>Objeccts</section>
         </sections>
     </layouts>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <recordTypes>
+        <label><!-- File Link Quotes --></label>
+        <name>File_Link_Quotes</name>
+    </recordTypes>
     <startsWith>Consonant</startsWith>
 </CustomObjectTranslation>

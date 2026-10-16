@@ -34,6 +34,11 @@
                 <label>Digital S and Field S</label>
             </value>
             <value>
+                <fullName>Worshop</fullName>
+                <default>false</default>
+                <label>Worshop</label>
+            </value>
+            <value>
                 <fullName>Other</fullName>
                 <default>false</default>
                 <label>Other</label>
@@ -53,12 +58,6 @@
                 <default>false</default>
                 <isActive>false</isActive>
                 <label>Crusher</label>
-            </value>
-            <value>
-                <fullName>Worshop</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Worshop</label>
             </value>
         </valueSetDefinition>
     </valueSet>

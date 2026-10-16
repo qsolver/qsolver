@@ -45,6 +45,11 @@
                 <default>false</default>
                 <label>High Value</label>
             </value>
+            <value>
+                <fullName>Workshop</fullName>
+                <default>false</default>
+                <label>Workshop</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <visibleLines>4</visibleLines>

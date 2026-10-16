@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Servicios incluidos 4</label>
+        <label>Servicios incluidos 2</label>
         <name>Services_included_4__c</name>
         <picklistValues>
             <masterLabel>Ball Tracking</masterLabel>

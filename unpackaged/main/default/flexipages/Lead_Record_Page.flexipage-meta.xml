@@ -10,6 +10,16 @@
                             <value>Edit</value>
                         </valueListItems>
                         <valueListItems>
+                            <value>Lead.Lead_Conversion</value>
+                            <visibilityRule>
+                                <criteria>
+                                    <leftValue>{!Record.Lead_Converted__c}</leftValue>
+                                    <operator>EQUAL</operator>
+                                    <rightValue>false</rightValue>
+                                </criteria>
+                            </visibilityRule>
+                        </valueListItems>
+                        <valueListItems>
                             <value>ChangeOwnerOne</value>
                         </valueListItems>
                         <valueListItems>

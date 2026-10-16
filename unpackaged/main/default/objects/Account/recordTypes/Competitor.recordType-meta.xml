@@ -365,6 +365,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Chutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Economía Circular</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>GET</fullName>
             <default>false</default>
         </values>
@@ -374,6 +382,10 @@
         </values>
         <values>
             <fullName>Molienda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ollas</fullName>
             <default>false</default>
         </values>
         <values>

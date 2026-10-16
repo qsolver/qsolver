@@ -2574,6 +2574,9 @@
         <recordType>After_Sales__c.Trial_Sale</recordType>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Annual_Sales_Plan__c-Annual Sales Plan Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Asset-Asset Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2712,6 +2715,9 @@
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CspTrustedSite-Trusted URL Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2731,7 +2737,7 @@
         <recordType>ECO__c.ECO_Plano</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ECO__c-ECO Propuesta</layout>
+        <layout>ECO__c-ECO Plano</layout>
         <recordType>ECO__c.ECO_Propuesta</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -2739,6 +2745,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ELM_File_Link__c-File Link Custom Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ELM_File_Link__c-File Link Layout</layout>
+        <recordType>ELM_File_Link__c.File_Link_Quotes</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ELM_Inventory_Control__c-Inventory Control Layout</layout>
@@ -2800,6 +2810,12 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Global-Global Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Goal__c-Goal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>IframeWhiteListUrl-Trusted Domain for Inline Frames Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Image-Image Layout</layout>
@@ -2882,9 +2898,6 @@
         <recordType>MarketShare__c.Molienda</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OperatingHours-Operating Hours Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2946,6 +2959,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Opportunity_by_Maintenance__c-Opportunity by Maintenance Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity_by_Sales_Plan__c-Opportunity by Sales Plan Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Order-Order Layout</layout>
@@ -3018,9 +3034,6 @@
         <layout>Seller-Seller Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>ServiceResource-Formato Recurso de servicio</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>SignupRequest-Signup Request Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -3037,7 +3050,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
-        <recordType>Task.Task</recordType>
+        <recordType>Task.Task_MECN</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -3296,6 +3309,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Annual_Sales_Plan__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Asset_Request__c</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3332,6 +3349,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Goal__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>Knowledge__kav</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
@@ -3353,10 +3374,6 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Plant__c</tab>
-        <visibility>Hidden</visibility>
-    </tabVisibilities>
-    <tabVisibilities>
-        <tab>Report_Subscription</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3496,6 +3513,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DevopsDeployComponent</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Document</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3564,6 +3585,18 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-LiveAgentSession</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatTranscript</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatVisitor</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Location</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3590,6 +3623,14 @@
     <tabVisibilities>
         <tab>standard-OtherUserProfile</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OutboundEngagementTemplate</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OutboundEngmtContentRsrc</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartyConsent</tab>
@@ -3666,6 +3707,10 @@
     <tabVisibilities>
         <tab>standard-TenantConsumptionAlert</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-UserDevopsPreference</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProfile</tab>

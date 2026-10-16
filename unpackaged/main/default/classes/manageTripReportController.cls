@@ -290,6 +290,17 @@ public with sharing class manageTripReportController {
             
             oMail.setSaveAsActivity(false);
 
+            // Query the official organization-wide email address
+            OrgWideEmailAddress owea = [SELECT Id FROM OrgWideEmailAddress WHERE Address = 'salesforce.support@email-me-elecmetal.com' LIMIT 1];
+            Id currentUserId = UserInfo.getUserId();
+            User currentUser = [SELECT Id, ELM_Equipo_de_Ventas__c FROM User where Id=:currentUserId LIMIT 1];
+
+            if(currentUser.ELM_Equipo_de_Ventas__c == 'SURAMERICA'){
+                // Set the official sender
+                oMail.setOrgWideEmailAddressId(owea.Id);
+            }
+            
+
             List<Messaging.Emailfileattachment> oAttachments = new List<Messaging.Emailfileattachment>();
 
             // for (Attachment a : [select Id, Name, Body, BodyLength from Attachment where ParentId = :oRecordId])

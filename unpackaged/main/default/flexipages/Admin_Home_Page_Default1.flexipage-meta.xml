@@ -15,6 +15,12 @@
                 <identifier>desktopDashboards_embeddedDashboard</identifier>
             </componentInstance>
         </itemInstances>
+        <itemInstances>
+            <componentInstance>
+                <componentName>reportSubscriptionManager</componentName>
+                <identifier>c_reportSubscriptionManager</identifier>
+            </componentInstance>
+        </itemInstances>
         <mode>Replace</mode>
         <name>top</name>
         <type>Region</type>
@@ -233,7 +239,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;&amp;nbsp;&lt;strong style=&quot;font-size: 18px;&quot;&gt;Link de utilidades&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hub.me-elecmetal.com/login?callbackUrl=%2F&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(54, 86, 186); font-size: 14px;&quot;&gt;&lt;strong&gt;ME Elecmetal HUB&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://me-elecmetal.lightning.force.com/lightning/r/Report/00OPn00000BgqLdMAJ/view?queryScope=userFolders&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(54, 86, 186); font-size: 14px;&quot;&gt;&lt;strong&gt;Mantenciones Año Actual (Maintenance this year)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://me-elecmetal.lightning.force.com/lightning/r/Report/00OPn00000BgqOrMAJ/view?queryScope=userFolders&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; color: rgb(54, 86, 186);&quot;&gt;&lt;strong&gt;Mantenciones Próximo Año ( Maintenance next year)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</value>
+                    <value>&lt;p&gt;&amp;nbsp;&lt;strong style=&quot;font-size: 18px;&quot;&gt;Link de utilidades&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://hub.me-elecmetal.com/login?callbackUrl=%2F&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;color: rgb(54, 86, 186); font-size: 14px;&quot;&gt;&lt;strong&gt;ME Elecmetal HUB&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://me-elecmetal--uatglobal.sandbox.lightning.force.com/lightning/r/Report/00Ody000000xxLpEAI/view&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; color: rgb(54, 86, 186);&quot;&gt;&lt;strong&gt;Mantenciones Año Actual (Maintenance this year)&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://me-elecmetal--uatglobal.sandbox.lightning.force.com/lightning/r/Report/00Ody000000xxKDEAY/view?queryScope=userFolders&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot; style=&quot;font-size: 14px; color: rgb(54, 86, 186);&quot;&gt;&lt;strong&gt;Mantenciones Próximo Año ( Maintenance next year)&lt;/strong&gt;&lt;/a&gt;&lt;strong style=&quot;color: rgb(54, 86, 186); font-size: 14px;&quot;&gt;﻿&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText2</identifier>

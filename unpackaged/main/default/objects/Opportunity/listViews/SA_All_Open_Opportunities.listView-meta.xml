@@ -19,13 +19,9 @@
         <value>S</value>
     </filters>
     <filters>
-        <field>ELM_Line_of_Business__c</field>
+        <field>OPPORTUNITY.RECORDTYPE</field>
         <operation>equals</operation>
-        <value>Chancado,Other,Negocios de Alto Potencial</value>
-    </filters>
-    <filters>
-        <field>Opportunity_Number_fx__c</field>
-        <operation>notEqual</operation>
+        <value>Opportunity.Component_Services</value>
     </filters>
     <label>SA_Open Opportunities_South America</label>
 </ListView>

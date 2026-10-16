@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidateLineOfBusinessChangeForApac</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(OR(RecordType.Name = &#39;Conduct a Trial&#39;,RecordType.Name = &#39;Expand_At Existing Site&#39; ,RecordType.Name = &#39;Repeat Sale&#39;, RecordType.Name = &#39;Secure A Trial&#39;),  ELM_Equipo_de_Ventas__c = &#39;APAC&#39;,   NOT(ISPICKVAL($User.ELM_Equipo_de_Ventas__c, &#39;APAC&#39;)),   ISCHANGED(ELM_Line_of_Business__c ),  NOT(ISNEW())  )</errorConditionFormula>
+    <errorDisplayField>ELM_Line_of_Business__c</errorDisplayField>
+    <errorMessage>Only APAC users can change this field.</errorMessage>
+</ValidationRule>

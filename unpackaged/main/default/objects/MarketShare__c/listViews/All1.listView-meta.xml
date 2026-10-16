@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All1</fullName>
+    <columns>NAME</columns>
     <columns>Account__c</columns>
     <columns>Activo__c</columns>
     <columns>Annual_Consumption_Elecmetal__c</columns>
@@ -11,5 +12,10 @@
     <columns>Precio_promedio_del_Kg__c</columns>
     <columns>Proveedor__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>MarketShare__c.Chancado</value>
+    </filters>
     <label>All</label>
 </ListView>

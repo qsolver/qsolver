@@ -8,7 +8,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>HARNEROS</masterLabel>
-            <translation>HARNEROS</translation>
+            <translation>SIEVES</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>MOLIENDA</masterLabel>
@@ -16,7 +16,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>MOV_TIERRA</masterLabel>
-            <translation>EARTHMOVING</translation>
+            <translation>Earth Mov</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>PIROMETALURGIA</masterLabel>
@@ -24,6 +24,6 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>TOWERMILLS</masterLabel>
-            <translation>TOWERMILLS</translation>
+            <translation><!-- TOWERMILLS --></translation>
         </picklistValues>
     </CustomFieldTranslation>

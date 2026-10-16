@@ -15,5 +15,10 @@
     <columns>ELM_Sales_Team__c</columns>
     <columns>Total_Product_Tons_Annually__c</columns>
     <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>contains</operation>
+        <value>ANGLO AMERICAN</value>
+    </filters>
     <label>Todos los activos</label>
 </ListView>

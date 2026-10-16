@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Typology_Level_IV__c</fullName>
+    <label>Product Typology Level IV</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Typology_Level_III__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>MN Alloy Lists</fullName>
+                <default>false</default>
+                <label>MN Alloy Lists</label>
+            </value>
+            <value>
+                <fullName>Steel Alloy Lists</fullName>
+                <default>false</default>
+                <label>Steel Alloy Lists</label>
+            </value>
+            <value>
+                <fullName>Tic</fullName>
+                <default>false</default>
+                <label>Tic</label>
+            </value>
+            <value>
+                <fullName>MMC</fullName>
+                <default>false</default>
+                <label>MMC</label>
+            </value>
+            <value>
+                <fullName>Liner accesory</fullName>
+                <default>false</default>
+                <label>Liner accesory</label>
+            </value>
+            <value>
+                <fullName>Bushing</fullName>
+                <default>false</default>
+                <label>Bushing</label>
+            </value>
+            <value>
+                <fullName>Forging</fullName>
+                <default>false</default>
+                <label>Forging</label>
+            </value>
+            <value>
+                <fullName>Casting</fullName>
+                <default>false</default>
+                <label>Casting</label>
+            </value>
+            <value>
+                <fullName>Assembly</fullName>
+                <default>false</default>
+                <label>Assembly</label>
+            </value>
+            <value>
+                <fullName>Repair</fullName>
+                <default>false</default>
+                <label>Repair</label>
+            </value>
+            <value>
+                <fullName>Supervision</fullName>
+                <default>false</default>
+                <label>Supervision</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <valueName>MN Alloy Lists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <valueName>Steel Alloy Lists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <valueName>Tic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <valueName>MMC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <valueName>Liner accesory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wear Parts: Primary</controllingFieldValue>
+            <controllingFieldValue>Wear Parts: Secondary</controllingFieldValue>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Bushing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Forging</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Casting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spare Part</controllingFieldValue>
+            <valueName>Assembly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Repair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Supervision</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

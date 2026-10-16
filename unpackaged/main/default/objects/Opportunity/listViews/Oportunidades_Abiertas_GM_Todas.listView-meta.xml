@@ -16,7 +16,7 @@
     <filters>
         <field>CREATEDBY_USER.ALIAS</field>
         <operation>equals</operation>
-        <value>cweis,crios,apacheco,agarc,dcuad,eleiv,fvera,jinjante,jpast,somed</value>
+        <value>cweis,crios,apacheco,agarc,eleiv,fvera,jinjante,jpast,somed</value>
     </filters>
     <label>Oportunidades Abiertas GM - Todas</label>
     <sharedTo>

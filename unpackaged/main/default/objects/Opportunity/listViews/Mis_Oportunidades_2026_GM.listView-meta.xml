@@ -16,7 +16,7 @@
     <filters>
         <field>CREATEDBY_USER.ALIAS</field>
         <operation>equals</operation>
-        <value>malva,fbarr,mbugu,fcort,sgamb,agarc,pjimé,vla v,eleiv,dlope,emari,smeht,imill,gmuso,rpala,jpare,ipiza,nsaib,fvera</value>
+        <value>,malva,mbugu,fcort,sgamb,agarc,pjimé,vla v,eleiv,dlope,emari,imill,cmuño,rpala,jpare,ipiza,fvera</value>
     </filters>
     <label>Mis Oportunidades 2026 GM Sales Rep</label>
 </ListView>

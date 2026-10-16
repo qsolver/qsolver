@@ -24,7 +24,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Gear Monitor</masterLabel>
-            <translation>Monitor de engranaje</translation>
+            <translation>Monitor de engranajes</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Impact Finder</masterLabel>
@@ -44,15 +44,15 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>ME Tracking Liners</masterLabel>
-            <translation>ME Revestimientos de seguimiento</translation>
+            <translation>Líneas de seguimiento ME</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>ME Tracking Reparables</masterLabel>
-            <translation>ME Seguimiento de reparaciones</translation>
+            <translation>Seguimiento de reparaciones</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>ME UpTime+</masterLabel>
-            <translation><!-- ME UpTime+ --></translation>
+            <translation>Tiempo de actividad de ME+</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Monitoreo Zapatas (Mina)</masterLabel>
@@ -76,7 +76,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Rock and Ball Tracking</masterLabel>
-            <translation>Seguimiento de rocas y pelotas</translation>
+            <translation>Seguimiento de rocas y bolas</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>SMTP</masterLabel>

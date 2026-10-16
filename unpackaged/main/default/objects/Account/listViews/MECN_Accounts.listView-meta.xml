@@ -13,5 +13,5 @@
         <operation>equals</operation>
         <value>MECN</value>
     </filters>
-    <label>China Accounts</label>
+    <label>MECN Accounts</label>
 </ListView>

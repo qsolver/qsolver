@@ -20,6 +20,10 @@
             <translation><!-- Chutes --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Equipos Mina</masterLabel>
+            <translation><!-- Equipos Mina --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Estructura</masterLabel>
             <translation><!-- Estructura --></translation>
         </picklistValues>

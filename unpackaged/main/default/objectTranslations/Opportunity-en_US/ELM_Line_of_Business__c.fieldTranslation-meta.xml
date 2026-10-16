@@ -8,20 +8,20 @@
             <translation>Business Development</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Circular Economy</masterLabel>
+            <translation>Digital S and Field S</translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Crushing</masterLabel>
             <translation>Crushing Products</translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Digital Solutions</masterLabel>
-            <translation>Digital Solutions</translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Earth Moving</masterLabel>
-            <translation>Earth Moving</translation>
+            <translation><!-- Earth Moving --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Economía Circular</masterLabel>
-            <translation>Circular Economy</translation>
+            <translation><!-- Economía Circular --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>

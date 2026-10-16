@@ -3,20 +3,15 @@
     <fullName>Enero__c</fullName>
     <externalId>false</externalId>
     <formula>IF(MONTH(Fecha_Inicio__c) == 1,
-
-IF(ISPICKVAL(Tipo_de_Mantencion__c, &quot;Mantencion Mayor&quot;),
-
-HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id, IMAGE($Label.Mantencion_Mayor_imagen, &#39;MM&#39;, 15, 100), &#39;_parent&#39; )
-,
-
-HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id, IMAGE( $Label.Mantencion_de_Servicios_Imagen , &#39;MS&#39;, 15, 100), &#39;_parent&#39; )
-
-
-)
-
-,
-
-&quot;&quot;
+    IF(ISPICKVAL(Tipo_de_Mantencion__c, &quot;Mantencion Mayor&quot;),
+        /* Si se exporta, Excel prioriza el texto plano. Si está en SF, muestra el link con la imagen */
+        HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39; &amp; Id &amp; &#39;&amp;retURL=/&#39; &amp; $Label.Maintenance_Report_Calendar_Id, &quot;MM&quot;) &amp; 
+        IF(false, IMAGE($Label.Mantencion_Mayor_imagen, &quot;MM&quot;, 15, 100), &quot;&quot;),
+        
+        HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39; &amp; Id &amp; &#39;&amp;retURL=/&#39; &amp; $Label.Maintenance_Report_Calendar_Id, &quot;MS&quot;) &amp; 
+        IF(false, IMAGE($Label.Mantencion_de_Servicios_Imagen, &quot;MS&quot;, 15, 100), &quot;&quot;)
+    ),
+    NULL
 )</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Enero</label>

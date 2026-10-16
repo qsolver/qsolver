@@ -8,11 +8,11 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Crusher Liners</masterLabel>
-            <translation>Revestimientos de trituradora</translation>
+            <translation>Revestimientos de trituradoras</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Media</masterLabel>
-            <translation>Medios de comunicación</translation>
+            <translation><!-- Media --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mill Liners</masterLabel>
@@ -20,7 +20,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>PolyFIT Liners</masterLabel>
-            <translation>Revestimientos PolyFIT</translation>
+            <translation>Forros PolyFIT</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Services</masterLabel>

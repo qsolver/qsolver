@@ -8,48 +8,6 @@
         <plural>true</plural>
         <value>ECOS</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
         <layout>ECO Plano</layout>
         <sections>
@@ -74,19 +32,61 @@
     </recordTypes>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage><!-- El Estado inicial de la ECO siempre debe ser OPEN. --></errorMessage>
+        <errorMessage>The initial status always have to be OPEN.</errorMessage>
         <name>Check_First_Stage</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Debe seguir el orden lógico de los estados OPEN - WORK - CHECK - REVIEW - REJECTED/APPROVED - CLOSED --></errorMessage>
+        <errorMessage>You should follow the logic order of the stages OPEN - WORK - CHECK - REVIEW - REJECTED/APPROVED - CLOSED</errorMessage>
         <name>Check_Status_Order</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- Para pasar a REJECTED tiene que llenar el campo comentarios --></errorMessage>
+        <errorMessage>To change the status to REJECTED you have to fill the comments field</errorMessage>
         <name>Make_Comments_Requiered</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- El cambio a ese estado solo se permite hacer desde Vault. --></errorMessage>
+        <errorMessage>The change to this status is only allowed from Vault</errorMessage>
         <name>Manage_Stages_Changes</name>
     </validationRules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

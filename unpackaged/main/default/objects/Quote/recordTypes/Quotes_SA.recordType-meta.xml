@@ -177,7 +177,26 @@
         </values>
     </picklistValues>
     <picklistValues>
-        <picklist>Line_of_Business__c</picklist>
+        <picklist>Incoterm__c</picklist>
+        <values>
+            <fullName>CIP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXW</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Line_Of_Business__c</picklist>
         <values>
             <fullName>Crushing</fullName>
             <default>false</default>
@@ -187,7 +206,7 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Economía Circular</fullName>
+            <fullName>Economia_Circular</fullName>
             <default>false</default>
         </values>
         <values>
@@ -210,6 +229,10 @@
             <fullName>Other</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Workshop</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Linea__c</picklist>
@@ -227,6 +250,52 @@
         </values>
         <values>
             <fullName>Servicio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metodo_de_pago__c</picklist>
+        <values>
+            <fullName>30 días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>60 días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90 días</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_de_la_p_rdida__c</picklist>
+        <values>
+            <fullName>Calidad no comprobada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contrato vigente exclusivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decisión fuera de alcance o Depende de Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de referencias de uso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Garantías insuficientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precio Alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiempo Alto</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -356,6 +425,10 @@
         </values>
         <values>
             <fullName>Med Min Perú</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medios de molienda</fullName>
             <default>false</default>
         </values>
         <values>
@@ -512,6 +585,10 @@
         <values>
             <fullName>Cotización</fullName>
             <default>true</default>
+        </values>
+        <values>
+            <fullName>Licitación</fullName>
+            <default>false</default>
         </values>
     </picklistValues>
 </RecordType>

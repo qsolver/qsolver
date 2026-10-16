@@ -3,7 +3,7 @@
     <fullName>Proveedor_Med_Molienda__c</fullName>
     <label>Proveedor de Medio de Molienda</label>
     <required>false</required>
-    <trackHistory>false</trackHistory>
+    <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Picklist</type>
     <valueSet>

@@ -12,6 +12,7 @@
     <columns>ACCOUNT.INDUSTRY</columns>
     <columns>ACCOUNT.LAST_UPDATE</columns>
     <columns>UPDATEDBY_USER.ALIAS</columns>
+    <columns>ELM_Equipo_de_Ventas__c</columns>
     <filterScope>Everything</filterScope>
     <label>Todas las Cuentas</label>
 </ListView>

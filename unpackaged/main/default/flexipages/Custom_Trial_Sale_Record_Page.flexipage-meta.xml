@@ -244,6 +244,26 @@
                 </visibilityRule>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Third_Campaign_Source__c</fieldItem>
+                <identifier>RecordTrird_Campaign_Source__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Fourth_Campaign_Source__c</fieldItem>
+                <identifier>RecordFourth_Campaign_Source__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-a5cf24da-8596-4cb5-a219-182a3787bd5a</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -396,16 +416,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.Fecha_cambio_Stage__c</fieldItem>
                 <identifier>RecordFecha_cambio_Stage_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Crear_VAES__c</fieldItem>
-                <identifier>RecordCrear_VAES_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-78293aa8-0d0d-4500-bda1-b757e805cea2</name>
@@ -778,36 +788,6 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Solicitar_reenvio__c</fieldItem>
-                <identifier>RecordSolicitar_reenvio_cField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Ultima_fecha_de_envio__c</fieldItem>
-                <identifier>RecordUltima_fecha_de_envio_cField2</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>readonly</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Fecha_de_rechazo__c</fieldItem>
-                <identifier>RecordFecha_de_rechazo_cField2</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Razon_de_rechazo__c</fieldItem>
@@ -852,10 +832,10 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>readonly</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.ELM_VB_Ivan__c</fieldItem>
-                <identifier>RecordELM_VB_Ivan_cField</identifier>
+                <fieldItem>Record.Solicitar_reenvio__c</fieldItem>
+                <identifier>RecordSolicitar_reenvio_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -864,8 +844,8 @@
                     <name>uiBehavior</name>
                     <value>readonly</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Fecha_de_aprobacion__c</fieldItem>
-                <identifier>RecordFecha_de_aprobacion_cField2</identifier>
+                <fieldItem>Record.ELM_VB_Ivan__c</fieldItem>
+                <identifier>RecordELM_VB_Ivan_cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -1414,7 +1394,7 @@
                     <criteria>
                         <leftValue>{!$User.UserRole.DeveloperName}</leftValue>
                         <operator>EQUAL</operator>
-                        <rightValue>Grinding_Media_Int_Sales_Rep</rightValue>
+                        <rightValue>System_Administrator</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
@@ -1764,13 +1744,6 @@
             <componentInstance>
                 <componentName>manageOpportunityProductPricing</componentName>
                 <identifier>manageOpportunityProductPricing</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>Minimum Access - Salesforce</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -1846,75 +1819,6 @@
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
                 <identifier>force_relatedListSingleContainer4</identifier>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>parentFieldApiName</name>
-                    <value>Opportunity.Id</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListApiName</name>
-                    <value>ECOS__r</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>relatedListComponentOverride</name>
-                    <value>NONE</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>rowsToDisplay</name>
-                    <value>10</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showActionBar</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentName>force:relatedListSingleContainer</componentName>
-                <identifier>force_relatedListSingleContainer6</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6 OR 7 OR 8</booleanFilter>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>rherr</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>cpenroz</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>jliza</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>mpeña</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>lpast</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>ppalm</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Alias}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>pvela</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>USC</rightValue>
-                    </criteria>
-                </visibilityRule>
             </componentInstance>
         </itemInstances>
         <itemInstances>

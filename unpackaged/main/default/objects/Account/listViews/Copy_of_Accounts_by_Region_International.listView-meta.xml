@@ -2,8 +2,6 @@
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Copy_of_Accounts_by_Region_International</fullName>
     <columns>ACCOUNT.NAME</columns>
-    <columns>Region__c</columns>
-    <columns>ELM_Equipo_de_Ventas__c</columns>
     <columns>Sales_office__c</columns>
     <columns>PARENT_NAME</columns>
     <columns>ACCOUNT.TYPE</columns>

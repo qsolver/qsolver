@@ -8,12 +8,12 @@
             <translation>Desarrollo de Negocios</translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Crushing</masterLabel>
-            <translation>Chancado</translation>
+            <masterLabel>Circular Economy</masterLabel>
+            <translation>Soluciones digitales y Soporte en terreno</translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Digital Solutions</masterLabel>
-            <translation>Soluciones digitales y Soporte en terreno</translation>
+            <masterLabel>Crushing</masterLabel>
+            <translation>Aplastante</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Earth Moving</masterLabel>
@@ -25,7 +25,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
-            <translation>Medios de Molienda</translation>
+            <translation>Medios de molienda</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mill Liners</masterLabel>
@@ -33,6 +33,6 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Other</masterLabel>
-            <translation>Otros</translation>
+            <translation>Otro</translation>
         </picklistValues>
     </CustomFieldTranslation>

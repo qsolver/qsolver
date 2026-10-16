@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Opportunity_Amount_Crushing__c</fullName>
+    <label>Total Opportunity Amount Crushing</label>
+    <summarizedField>Opportunity.MCLP_Total_Amount__c</summarizedField>
+    <summaryFilterItems>
+        <field>Opportunity.ELM_Line_of_Business__c</field>
+        <operation>equals</operation>
+        <value>Crushing Products</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

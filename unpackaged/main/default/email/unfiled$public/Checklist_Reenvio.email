@@ -10,7 +10,7 @@
 <p>Para revisar la oportunidad, haz clic en el siguiente enlace:</p>
 
 <p>
-    <a href="https://me-elecmetal.lightning.force.com/lightning/r/Opportunity/{!Opportunity.Id}/view">
+    <a href="https://me-elecmetal--uatglobal.sandbox.lightning.force.com/lightning/r/Opportunity/{!Opportunity.Id}/view">
         <b style="color:#0056ff;">Abrir oportunidad</b>
     </a>
 </p>

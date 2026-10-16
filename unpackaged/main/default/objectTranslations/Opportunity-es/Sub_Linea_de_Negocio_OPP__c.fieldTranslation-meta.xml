@@ -24,7 +24,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Cast Inserts Polyfit</masterLabel>
-            <translation>Insertos de fundición Polyfit</translation>
+            <translation><!-- Cast Inserts Polyfit --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Chancadores</masterLabel>
@@ -52,7 +52,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>FerryCapitain</masterLabel>
-            <translation><!-- FerryCapitain --></translation>
+            <translation>Capitán del ferry</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Fragmentadoras</masterLabel>
@@ -60,7 +60,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
-            <translation>Medios de molienda</translation>
+            <translation><!-- Grinding Media --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>HPGR</masterLabel>
@@ -76,7 +76,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>ImpactFinder</masterLabel>
-            <translation>Buscador de impacto</translation>
+            <translation><!-- ImpactFinder --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Laser 3D</masterLabel>
@@ -95,12 +95,16 @@
             <translation><!-- Med Min Perú --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Medios de molienda</masterLabel>
+            <translation><!-- Medios de molienda --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Molienda</masterLabel>
             <translation><!-- Molienda --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Molino vertical</masterLabel>
-            <translation>Towermill</translation>
+            <translation><!-- Molino vertical --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Monitoreo de Procesos</masterLabel>

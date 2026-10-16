@@ -4,8 +4,5 @@
     <fields>Name</fields>
     <fields>Activo__c</fields>
     <fields>Cliente__c</fields>
-    <fields>RecordTypeId</fields>
-    <fields>Account__c</fields>
-    <fields>Proveedor_del_Set__c</fields>
     <label>Market Share Formato Compacto</label>
 </CompactLayout>

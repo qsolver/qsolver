@@ -44,7 +44,7 @@
         <enableCoopHeader>false</enableCoopHeader>
         <enableLightningLogin>true</enableLightningLogin>
         <enableLightningLoginOnlyWithUserPerm>false</enableLightningLoginOnlyWithUserPerm>
-        <enableMFADirectUILoginOptIn>false</enableMFADirectUILoginOptIn>
+        <enableMFADirectUILoginOptIn>true</enableMFADirectUILoginOptIn>
         <enableOauthCorsPolicy>false</enableOauthCorsPolicy>
         <enablePermissionsPolicy>false</enablePermissionsPolicy>
         <enablePostForSessions>false</enablePostForSessions>
@@ -58,7 +58,7 @@
         <grantMicrophoneAccess>TrustedUrls</grantMicrophoneAccess>
         <hasRetainedLoginHints>false</hasRetainedLoginHints>
         <hasUserSwitching>true</hasUserSwitching>
-        <identityConfirmationOnEmailChange>true</identityConfirmationOnEmailChange>
+        <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
         <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
         <lockSessionsToDomain>true</lockSessionsToDomain>
         <lockSessionsToIp>false</lockSessionsToIp>
@@ -72,7 +72,7 @@
         <referrerPolicyDirective>strict-origin-when-cross-origin</referrerPolicyDirective>
         <requireHttpOnly>false</requireHttpOnly>
         <sendCspForUncommonClients>false</sendCspForUncommonClients>
-        <sessionTimeout>FourHours</sessionTimeout>
+        <sessionTimeout>TwoHours</sessionTimeout>
         <sidToken3rdPartyAuraApp>false</sidToken3rdPartyAuraApp>
         <skipSFAWhenMFADirectUILogin>false</skipSFAWhenMFADirectUILogin>
         <terminateUserSessionsWhenAdminResetsPassword>false</terminateUserSessionsWhenAdminResetsPassword>
@@ -81,13 +81,13 @@
         <useEAPIRateLimitForConnectAPI>false</useEAPIRateLimitForConnectAPI>
         <useLocalStorageForLogoutUrl>false</useLocalStorageForLogoutUrl>
         <vfInlineScriptInjection>Allow</vfInlineScriptInjection>
-        <welcomeEmailTemplateId>000000000000000</welcomeEmailTemplateId>
     </sessionSettings>
     <singleSignOnSettings>
         <enableCaseInsensitiveFederationID>true</enableCaseInsensitiveFederationID>
+        <enableForceDelegatedCallout>false</enableForceDelegatedCallout>
         <enableMultipleSamlConfigs>true</enableMultipleSamlConfigs>
         <enableSamlJitProvisioning>false</enableSamlJitProvisioning>
         <enableSamlLogin>true</enableSamlLogin>
-        <isLoginWithSalesforceCredentialsDisabled>false</isLoginWithSalesforceCredentialsDisabled>
+        <isLoginWithSalesforceCredentialsDisabled>true</isLoginWithSalesforceCredentialsDisabled>
     </singleSignOnSettings>
 </SecuritySettings>

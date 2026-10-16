@@ -96,36 +96,6 @@
                 <default>false</default>
                 <label>Reparacion Integral</label>
             </value>
-            <value>
-                <fullName>Nacional y Feitian</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Nacional y Feitian</label>
-            </value>
-            <value>
-                <fullName>Reparacion Parcial y Reparacion Integral</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Reparacion Parcial y Reparacion Integral</label>
-            </value>
-            <value>
-                <fullName>Repeticion Parrillas y Nuevo / Modificacion</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Repeticion Parrillas y Nuevo / Modificacion</label>
-            </value>
-            <value>
-                <fullName>Repeticion peso unit &gt;= 8 tons y Nuevo peso unit &gt;= 8tons</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Repeticion peso unit &gt;= 8 tons y Nuevo peso unit &gt;= 8tons</label>
-            </value>
-            <value>
-                <fullName>Repeticion y Nuevo</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Repeticion y Nuevo</label>
-            </value>
         </valueSetDefinition>
         <valueSettings>
             <controllingFieldValue>Talleres</controllingFieldValue>

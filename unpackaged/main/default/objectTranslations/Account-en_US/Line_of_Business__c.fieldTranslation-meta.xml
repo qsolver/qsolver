@@ -4,16 +4,16 @@
         <label><!-- Line of Business --></label>
         <name>Line_of_Business__c</name>
         <picklistValues>
-            <masterLabel>Business Development</masterLabel>
-            <translation><!-- Business Development --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Chutes</masterLabel>
-            <translation>Chutes</translation>
+            <translation><!-- Chutes --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Crushing Products</masterLabel>
             <translation>Crushing Products</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital S and Field S</masterLabel>
+            <translation><!-- Digital S and Field S --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Earth Moving</masterLabel>
@@ -21,11 +21,15 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>Economía Circular</masterLabel>
-            <translation>Circular Economy</translation>
+            <translation><!-- Economía Circular --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Grinding Media</masterLabel>
             <translation>Grinding Media</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Value</masterLabel>
+            <translation><!-- High Value --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Mill Lining Products</masterLabel>

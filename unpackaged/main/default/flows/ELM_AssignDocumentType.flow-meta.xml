@@ -1056,6 +1056,21 @@
             </connector>
             <label>Case?</label>
         </rules>
+        <rules>
+            <name>Quotes</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>ELM_GetSObjectTypeName</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Quote</stringValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Screen1_Quotes</targetReference>
+            </connector>
+            <label>Quotes?</label>
+        </rules>
     </decisions>
     <decisions>
         <name>ELM_FileUploaded</name>
@@ -1621,6 +1636,14 @@
         <displayField xsi:nil="true" />
         <object xsi:nil="true" />
         <picklistField>Doc_Type_Maintenance__c</picklistField>
+        <picklistObject>ELM_File_Link__c</picklistObject>
+    </dynamicChoiceSets>
+    <dynamicChoiceSets>
+        <name>pcs_DocTypeQuote</name>
+        <dataType>Picklist</dataType>
+        <displayField xsi:nil="true" />
+        <object xsi:nil="true" />
+        <picklistField>Doc_Type_Quotes__c</picklistField>
         <picklistObject>ELM_File_Link__c</picklistObject>
     </dynamicChoiceSets>
     <environments>Default</environments>
@@ -2304,7 +2327,7 @@
             <field>ELM_Registry_Name__c</field>
             <operator>EqualTo</operator>
             <value>
-                <elementReference>ELM_GetQuote.Name</elementReference>
+                <elementReference>Get_Maintenance.Name</elementReference>
             </value>
         </filters>
         <filters>
@@ -2913,7 +2936,7 @@
         <inputAssignments>
             <field>ELM_Doc_Type__c</field>
             <value>
-                <elementReference>ELM_DocType</elementReference>
+                <elementReference>ELM_Quote</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -2947,6 +2970,12 @@
                 <elementReference>ELM_LoopDocumentId_0_0_0_0_0</elementReference>
             </value>
         </filters>
+        <inputAssignments>
+            <field>Doc_Type_Quotes__c</field>
+            <value>
+                <elementReference>Document_Type</elementReference>
+            </value>
+        </inputAssignments>
         <inputAssignments>
             <field>ELM_Quote__c</field>
             <value>
@@ -3100,7 +3129,7 @@
     <screens>
         <name>Case</name>
         <label>Screen1 Case</label>
-        <locationX>4384</locationX>
+        <locationX>4252</locationX>
         <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -3173,7 +3202,7 @@
     <screens>
         <name>ELM_Screen1</name>
         <label>Screen1</label>
-        <locationX>4648</locationX>
+        <locationX>4780</locationX>
         <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -3246,7 +3275,7 @@
     <screens>
         <name>Screen1_Maintenance</name>
         <label>Screen1 Maintenance</label>
-        <locationX>4120</locationX>
+        <locationX>3988</locationX>
         <locationY>350</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -3311,6 +3340,69 @@
                     </rightValue>
                 </conditions>
             </visibilityRule>
+        </fields>
+        <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Screen1_Quotes</name>
+        <label>Screen1 Quotes</label>
+        <locationX>4516</locationX>
+        <locationY>350</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>ELM_WhatObjectIs</targetReference>
+        </connector>
+        <fields>
+            <name>Document_Type</name>
+            <choiceReferences>pcs_DocTypeQuote</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Document Type_Quotes</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <fields>
+            <name>ELM_UploadDocument_quotes</name>
+            <extensionName>forceContent:fileUpload</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>Select the document to upload</stringValue>
+                </value>
+            </inputParameters>
+            <inputParameters>
+                <name>recordId</name>
+                <value>
+                    <elementReference>recordId</elementReference>
+                </value>
+            </inputParameters>
+            <inputsOnNextNavToAssocScrn>UseStoredValues</inputsOnNextNavToAssocScrn>
+            <isRequired>true</isRequired>
+            <outputParameters>
+                <assignToReference>ContentDocumentId</assignToReference>
+                <name>contentDocIds</name>
+            </outputParameters>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
         </fields>
         <nextOrFinishButtonLabel>Save</nextOrFinishButtonLabel>
         <showFooter>true</showFooter>

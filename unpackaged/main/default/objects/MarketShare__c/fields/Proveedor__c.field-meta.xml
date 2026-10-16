@@ -181,21 +181,6 @@
                 <label>Other</label>
             </value>
             <value>
-                <fullName>GL -Ahn​</fullName>
-                <default>false</default>
-                <label>GL -Ahn​</label>
-            </value>
-            <value>
-                <fullName>GL -Amsu​</fullName>
-                <default>false</default>
-                <label>GL -Amsu​</label>
-            </value>
-            <value>
-                <fullName>GL -Naipu​</fullName>
-                <default>false</default>
-                <label>GL -Naipu​</label>
-            </value>
-            <value>
                 <fullName>GL - Weir</fullName>
                 <default>false</default>
                 <isActive>false</isActive>

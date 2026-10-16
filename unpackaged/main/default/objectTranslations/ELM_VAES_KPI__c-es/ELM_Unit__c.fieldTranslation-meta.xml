@@ -9,7 +9,7 @@
         </picklistValues>
         <picklistValues>
             <masterLabel>$USD/ton</masterLabel>
-            <translation><!-- $USD/ton --></translation>
+            <translation>$USD/Toneladas</translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>$USD/tons processed</masterLabel>

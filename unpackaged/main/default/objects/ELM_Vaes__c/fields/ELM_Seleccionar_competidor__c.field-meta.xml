@@ -303,6 +303,7 @@
             <controllingFieldValue>Grinding Media</controllingFieldValue>
             <controllingFieldValue>Early Alert</controllingFieldValue>
             <controllingFieldValue>GET</controllingFieldValue>
+            <controllingFieldValue>Workshop</controllingFieldValue>
             <controllingFieldValue>Other</controllingFieldValue>
             <valueName>ME Elecmetal</valueName>
         </valueSettings>

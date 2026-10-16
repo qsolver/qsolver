@@ -387,10 +387,6 @@
             <fullName>Hibrido</fullName>
             <default>false</default>
         </values>
-        <values>
-            <fullName>Metal Casting</fullName>
-            <default>false</default>
-        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Material__c</picklist>
@@ -434,6 +430,10 @@
         </values>
         <values>
             <fullName>Caucho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compuesto</fullName>
             <default>false</default>
         </values>
         <values>
@@ -644,18 +644,6 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>GL -Ahn%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GL -Amsu%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>GL -Naipu%E2%80%8B</fullName>
-            <default>false</default>
-        </values>
-        <values>
             <fullName>ME Elecmetal</fullName>
             <default>false</default>
         </values>
@@ -747,6 +735,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>CMS Cepcor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWP</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Chilcas</fullName>
             <default>false</default>
         </values>
@@ -755,7 +751,15 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Edcast</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Esco</fullName>
             <default>false</default>
         </values>
         <values>
@@ -783,11 +787,19 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>TBA</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Thyssen Krupp</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yoon Steel</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -811,6 +823,10 @@
         </values>
         <values>
             <fullName>C5 - Mandibula movil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>M7 -Pernos</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -863,6 +879,10 @@
         </values>
         <values>
             <fullName>Revestimientos de Protección</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services and Spare Parts</fullName>
             <default>false</default>
         </values>
     </picklistValues>

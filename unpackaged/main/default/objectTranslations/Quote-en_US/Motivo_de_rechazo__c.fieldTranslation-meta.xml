@@ -4,10 +4,10 @@
         <name>Motivo_de_rechazo__c</name>
         <picklistValues>
             <masterLabel>Mala relación con el cliente</masterLabel>
-            <translation>Poor customer relationship</translation>
+            <translation><!-- Mala relación con el cliente --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Rechazado por precio</masterLabel>
-            <translation>Rejected due to price</translation>
+            <translation><!-- Rechazado por precio --></translation>
         </picklistValues>
     </CustomFieldTranslation>

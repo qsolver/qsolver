@@ -4,10 +4,10 @@
         <name>Tipo_Equipo__c</name>
         <picklistValues>
             <masterLabel>Cable</masterLabel>
-            <translation>Wire</translation>
+            <translation><!-- Cable --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Hidraulica</masterLabel>
-            <translation>Hydraulic</translation>
+            <translation><!-- Hidraulica --></translation>
         </picklistValues>
     </CustomFieldTranslation>

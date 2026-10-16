@@ -4,7 +4,7 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <label>Vendedor Economía Circular</label>
     <referenceTo>User</referenceTo>
-    <relationshipName>AccountsQdF9</relationshipName>
+    <relationshipName>AccountsDxWj</relationshipName>
     <required>false</required>
     <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>false</trackHistory>

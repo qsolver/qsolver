@@ -286,16 +286,10 @@
                 <componentName>manageVAESEmails</componentName>
                 <identifier>c_manageVAESEmails</identifier>
                 <visibilityRule>
-                    <booleanFilter>1 AND 2</booleanFilter>
                     <criteria>
                         <leftValue>{!Record.ELM_Status__c}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Eliminado</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>NE</operator>
-                        <rightValue>Minimum Access - Salesforce</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>
