@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Typology Level IV --></label>
+        <name>Product_Typology_Level_IV__c</name>
+        <picklistValues>
+            <masterLabel>Assembly</masterLabel>
+            <translation><!-- Assembly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bushing</masterLabel>
+            <translation><!-- Bushing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Casting</masterLabel>
+            <translation><!-- Casting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forging</masterLabel>
+            <translation><!-- Forging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liner accesory</masterLabel>
+            <translation><!-- Liner accesory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MMC</masterLabel>
+            <translation><!-- MMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN Alloy Lists</masterLabel>
+            <translation><!-- MN Alloy Lists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repair</masterLabel>
+            <translation><!-- Repair --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steel Alloy Lists</masterLabel>
+            <translation><!-- Steel Alloy Lists --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supervision</masterLabel>
+            <translation><!-- Supervision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tic</masterLabel>
+            <translation><!-- Tic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

@@ -28,6 +28,41 @@
                 <default>false</default>
                 <label>Grinding Media / GET</label>
             </value>
+            <value>
+                <fullName>Revestimientos de carcasa de molino AG</fullName>
+                <default>false</default>
+                <label>Revestimientos de carcasa de molino AG</label>
+            </value>
+            <value>
+                <fullName>Revestimientos de cabezales de laminadoras SAG</fullName>
+                <default>false</default>
+                <label>Revestimientos de cabezales de laminadoras SAG</label>
+            </value>
+            <value>
+                <fullName>Rejilla de molino SAG</fullName>
+                <default>false</default>
+                <label>Rejilla de molino SAG</label>
+            </value>
+            <value>
+                <fullName>Revestimientos para molinos de bolas</fullName>
+                <default>false</default>
+                <label>Revestimientos para molinos de bolas</label>
+            </value>
+            <value>
+                <fullName>Polyfit</fullName>
+                <default>false</default>
+                <label>Polyfit</label>
+            </value>
+            <value>
+                <fullName>Revestimientos de trituración</fullName>
+                <default>false</default>
+                <label>Revestimientos de trituración</label>
+            </value>
+            <value>
+                <fullName>Accesorios/Sujeciones</fullName>
+                <default>false</default>
+                <label>Accesorios/Sujeciones</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

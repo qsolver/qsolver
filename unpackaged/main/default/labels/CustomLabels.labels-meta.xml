@@ -58,20 +58,6 @@
 Consumption - Mill Liners</value>
     </labels>
     <labels>
-        <fullName>ECO_Detalle_ECO</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>ECO Detalle ECO</shortDescription>
-        <value>ECO Detail</value>
-    </labels>
-    <labels>
-        <fullName>ECO_Informacion_de_Entrada</fullName>
-        <language>en_US</language>
-        <protected>false</protected>
-        <shortDescription>ECO Informacion de Entrada</shortDescription>
-        <value>Main Information</value>
-    </labels>
-    <labels>
         <fullName>ELM_OpportunityRecurringSaleRecordTypeId</fullName>
         <language>en_US</language>
         <protected>false</protected>

@@ -101,6 +101,11 @@
                 <default>false</default>
                 <label>Other</label>
             </value>
+            <value>
+                <fullName>Equipos Mina</fullName>
+                <default>false</default>
+                <label>Equipos Mina</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

@@ -92,14 +92,19 @@
                 <label>ITL</label>
             </value>
             <value>
+                <fullName>AUE</fullName>
+                <default>false</default>
+                <label>Eastern Australia/NZ</label>
+            </value>
+            <value>
                 <fullName>AUW</fullName>
                 <default>false</default>
-                <label>WA / SA / NT</label>
+                <label>Western Australia</label>
             </value>
             <value>
                 <fullName>SAP</fullName>
                 <default>false</default>
-                <label>South Asia / PNG / East</label>
+                <label>South Asia/PNG</label>
             </value>
             <value>
                 <fullName>Unallocated</fullName>

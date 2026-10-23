@@ -40,6 +40,10 @@
             <translation><!-- ECU --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Eastern Australia/NZ</masterLabel>
+            <translation><!-- Eastern Australia/NZ --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Eurasia</masterLabel>
             <translation><!-- Eurasia --></translation>
         </picklistValues>
@@ -92,8 +96,8 @@
             <translation><!-- South Africa --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>South Asia / PNG / East</masterLabel>
-            <translation><!-- South Asia / PNG / East --></translation>
+            <masterLabel>South Asia/PNG</masterLabel>
+            <translation><!-- South Asia/PNG --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>URU</masterLabel>
@@ -120,7 +124,7 @@
             <translation><!-- VEN --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>WA / SA / NT</masterLabel>
-            <translation><!-- WA / SA / NT --></translation>
+            <masterLabel>Western Australia</masterLabel>
+            <translation><!-- Western Australia --></translation>
         </picklistValues>
     </CustomFieldTranslation>

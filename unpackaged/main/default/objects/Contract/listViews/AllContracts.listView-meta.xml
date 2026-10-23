@@ -8,10 +8,5 @@
     <columns>CONTRACT.STATUS</columns>
     <columns>CORE.USERS.ALIAS</columns>
     <filterScope>Everything</filterScope>
-    <filters>
-        <field>CONTRACT.STATUS</field>
-        <operation>equals</operation>
-        <value>Activated</value>
-    </filters>
     <label>Todos los contratos</label>
 </ListView>

@@ -15,6 +15,6 @@
     <columns>OPPORTUNITY.PROBABILITY</columns>
     <columns>CONTRACT.CONTRACT_NUMBER</columns>
     <columns>OPPORTUNITY.CREATED_DATE</columns>
-    <filterScope>Team</filterScope>
+    <filterScope>Everything</filterScope>
     <label>All Opportunities</label>
 </ListView>

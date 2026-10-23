@@ -8,7 +8,7 @@ public with sharing class AssetHelper {
         Profile adminProfile = [
             SELECT Id
             FROM Profile
-            WHERE Name = 'System Administrator' OR Name = 'Administrador del sistema' OR Name = '系统管理员'
+            WHERE Name = 'System Administrator' OR Name = 'Administrador del sistema' OR Name = '系统管理员' OR Name = 'Administrador do sistema'
             LIMIT 1
         ];
         
@@ -57,7 +57,7 @@ public with sharing class AssetHelper {
         Profile adminProfile = [
             SELECT Id
             FROM Profile
-            WHERE Name = 'System Administrator' OR Name = 'Administrador del sistema' OR Name = '系统管理员'
+            WHERE Name = 'System Administrator' OR Name = 'Administrador del sistema' OR Name = '系统管理员' OR Name = 'Administrador do sistema'
             LIMIT 1
         ];
         

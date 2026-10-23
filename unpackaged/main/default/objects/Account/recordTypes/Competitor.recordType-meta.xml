@@ -125,6 +125,10 @@
             <fullName>CP19</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>Recycling</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Company_Code__c</picklist>
@@ -461,6 +465,10 @@
         </values>
         <values>
             <fullName>ARG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AUE</fullName>
             <default>false</default>
         </values>
         <values>

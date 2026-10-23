@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Layout xmlns="http://soap.sforce.com/2006/04/metadata">
     <excludeButtons>DeepClone</excludeButtons>
-    <excludeButtons>OpenSlackRecordChannel</excludeButtons>
     <excludeButtons>Submit</excludeButtons>
     <layoutSections>
         <customLabel>false</customLabel>
@@ -68,10 +67,6 @@
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Crear_VAES__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>Month_Year__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -214,7 +209,7 @@
                 <field>PO_Documents_have_been_uploaded__c</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -349,7 +344,7 @@
                 <field>CampaignId</field>
             </layoutItems>
         </layoutColumns>
-        <layoutColumns/>
+        <layoutColumns />
         <style>TwoColumnsLeftToRight</style>
     </layoutSections>
     <layoutSections>
@@ -388,9 +383,9 @@
         <detailHeading>false</detailHeading>
         <editHeading>false</editHeading>
         <label>Useful Links</label>
-        <layoutColumns/>
-        <layoutColumns/>
-        <layoutColumns/>
+        <layoutColumns />
+        <layoutColumns />
+        <layoutColumns />
         <style>CustomLinks</style>
     </layoutSections>
     <platformActionList>
@@ -628,13 +623,6 @@
     <relatedLists>
         <fields>NAME</fields>
         <relatedList>Opportunity_by_Maintenance__c.Opportunity__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>Title__c</fields>
-        <fields>RECORDTYPE</fields>
-        <fields>Prioridad__c</fields>
-        <fields>Due_Date__c</fields>
-        <relatedList>ECO__c.Opportunity__c</relatedList>
     </relatedLists>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>

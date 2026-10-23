@@ -276,6 +276,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Blindajes</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Bolas</fullName>
             <default>false</default>
         </values>
@@ -321,10 +325,6 @@
         </values>
         <values>
             <fullName>HPGR</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Harneros</fullName>
             <default>false</default>
         </values>
         <values>
@@ -484,6 +484,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Tolvas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undercarriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Wear Runner</fullName>
             <default>false</default>
         </values>
@@ -499,11 +507,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>GET</fullName>
+            <fullName>Equipos Mina</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Maestranza</fullName>
+            <fullName>GET</fullName>
             <default>false</default>
         </values>
         <values>

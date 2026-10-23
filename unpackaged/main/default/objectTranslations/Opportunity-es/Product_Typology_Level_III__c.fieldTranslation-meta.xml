@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Typology Level III --></label>
+        <name>Product_Typology_Level_III__c</name>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spare Part</masterLabel>
+            <translation><!-- Spare Part --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear Parts: Primary</masterLabel>
+            <translation><!-- Wear Parts: Primary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wear Parts: Secondary</masterLabel>
+            <translation><!-- Wear Parts: Secondary --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

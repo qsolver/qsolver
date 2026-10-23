@@ -81,70 +81,34 @@
                 <label>Unknown</label>
             </value>
             <value>
-                <fullName>CMS Cepcor</fullName>
+                <fullName>Weir</fullName>
                 <default>false</default>
-                <label>CMS Cepcor</label>
+                <label>Weir</label>
             </value>
             <value>
-                <fullName>CWP</fullName>
+                <fullName>Mepsa</fullName>
                 <default>false</default>
-                <label>CWP</label>
+                <label>Mepsa</label>
             </value>
             <value>
-                <fullName>Edcast</fullName>
+                <fullName>Lippmann</fullName>
                 <default>false</default>
-                <label>Edcast</label>
-            </value>
-            <value>
-                <fullName>Esco</fullName>
-                <default>false</default>
-                <label>Esco</label>
-            </value>
-            <value>
-                <fullName>TBA</fullName>
-                <default>false</default>
-                <label>TBA</label>
-            </value>
-            <value>
-                <fullName>Yoon Steel</fullName>
-                <default>false</default>
-                <label>Yoon Steel</label>
+                <label>Lippmann</label>
             </value>
             <value>
                 <fullName>Comesa</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Comesa</label>
             </value>
             <value>
                 <fullName>Fucsa</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Fucsa</label>
-            </value>
-            <value>
-                <fullName>Lippmann</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Lippmann</label>
-            </value>
-            <value>
-                <fullName>Mepsa</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Mepsa</label>
             </value>
             <value>
                 <fullName>Vulco</fullName>
                 <default>false</default>
-                <isActive>false</isActive>
                 <label>Vulco</label>
-            </value>
-            <value>
-                <fullName>Weir</fullName>
-                <default>false</default>
-                <isActive>false</isActive>
-                <label>Weir</label>
             </value>
         </valueSetDefinition>
     </valueSet>

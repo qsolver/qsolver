@@ -135,6 +135,12 @@
                 <identifier>RecordCurrent_User_cField</identifier>
             </fieldInstance>
         </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldItem>Record.Conglomerado__c</fieldItem>
+                <identifier>RecordConglomerado__cField</identifier>
+            </fieldInstance>
+        </itemInstances>
         <name>Facet-9a2b1df2-5e8e-4f7e-9a18-3575b786d93f</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -1809,7 +1815,7 @@
                 <componentName>changeSalesRepLWC</componentName>
                 <identifier>c_changeSalesRepLWC</identifier>
                 <visibilityRule>
-                    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5 OR 6</booleanFilter>
+                    <booleanFilter>1 OR 2 OR 3 OR 4 OR 5</booleanFilter>
                     <criteria>
                         <leftValue>{!$User.Profile.Name}</leftValue>
                         <operator>CONTAINS</operator>
@@ -1834,11 +1840,6 @@
                         <leftValue>{!$User.Profile.Name}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Manager EMEA</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!$User.Profile.Name}</leftValue>
-                        <operator>CONTAINS</operator>
-                        <rightValue>APAC</rightValue>
                     </criteria>
                 </visibilityRule>
             </componentInstance>

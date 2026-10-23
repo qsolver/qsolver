@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Validez de propuesta --></label>
+        <name>Validez_de_propuesta__c</name>
+        <picklistValues>
+            <masterLabel>Noventa dias</masterLabel>
+            <translation><!-- Noventa dias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quince dias</masterLabel>
+            <translation><!-- Quince dias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sesenta dias</masterLabel>
+            <translation><!-- Sesenta dias --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Treinta dias</masterLabel>
+            <translation><!-- Treinta dias --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

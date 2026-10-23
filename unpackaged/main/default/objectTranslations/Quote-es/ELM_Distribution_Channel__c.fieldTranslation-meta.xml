@@ -3,11 +3,207 @@
         <label>Canal de distribución</label>
         <name>ELM_Distribution_Channel__c</name>
         <picklistValues>
+            <masterLabel>Antofagasta - DyC Sitio 1-2704</masterLabel>
+            <translation><!-- Antofagasta - DyC Sitio 1-2704 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antofagasta - DyC Sitio 2-2705</masterLabel>
+            <translation><!-- Antofagasta - DyC Sitio 2-2705 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antofagasta - DyC Sitio 3-2706</masterLabel>
+            <translation><!-- Antofagasta - DyC Sitio 3-2706 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antofagasta - La Negra-2701</masterLabel>
+            <translation><!-- Antofagasta - La Negra-2701 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Antofagasta-2700</masterLabel>
+            <translation><!-- Antofagasta-2700 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arequipa - AGZ-YP80</masterLabel>
+            <translation><!-- Arequipa - AGZ-YP80 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arequipa - Matarani 1-YP70</masterLabel>
+            <translation><!-- Arequipa - Matarani 1-YP70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arequipa - Matarani 2-YP7B</masterLabel>
+            <translation><!-- Arequipa - Matarani 2-YP7B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calama-2710</masterLabel>
+            <translation><!-- Calama-2710 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calama-2711</masterLabel>
+            <translation><!-- Calama-2711 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chandler - Armsby</masterLabel>
+            <translation><!-- Chandler - Armsby --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó - Mintral Toledo-2723</masterLabel>
+            <translation><!-- Copiapó - Mintral Toledo-2723 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó - Paipote-2721</masterLabel>
+            <translation><!-- Copiapó - Paipote-2721 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó-2720</masterLabel>
+            <translation><!-- Copiapó-2720 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó-2722</masterLabel>
+            <translation><!-- Copiapó-2722 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coseducam-2742</masterLabel>
+            <translation><!-- Coseducam-2742 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EPA-2925</masterLabel>
+            <translation><!-- EPA-2925 --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>EX</masterLabel>
             <translation><!-- EX --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Ghana - FMSL-2922</masterLabel>
+            <translation><!-- Ghana - FMSL-2922 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iquique - Marval-2732</masterLabel>
+            <translation><!-- Iquique - Marval-2732 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iquique-2730</masterLabel>
+            <translation><!-- Iquique-2730 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kamloops - Bandstra</masterLabel>
+            <translation><!-- Kamloops - Bandstra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>La Laguna-YP11</masterLabel>
+            <translation><!-- La Laguna-YP11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa - Consmat-2754</masterLabel>
+            <translation><!-- Lampa - Consmat-2754 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa 1 - Juan Andrés #1253-2752</masterLabel>
+            <translation><!-- Lampa 1 - Juan Andrés #1253-2752 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa 2 - Costanera Ferrocarril #3331-2753</masterLabel>
+            <translation><!-- Lampa 2 - Costanera Ferrocarril #3331-2753 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa-2750</masterLabel>
+            <translation><!-- Lampa-2750 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lima - Cajamarquilla APM-YP20</masterLabel>
+            <translation><!-- Lima - Cajamarquilla APM-YP20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lima - Callao 1-YP30</masterLabel>
+            <translation><!-- Lima - Callao 1-YP30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lima - Callao 2-YP3B</masterLabel>
+            <translation><!-- Lima - Callao 2-YP3B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Longlac - Olympia Barino-7453</masterLabel>
+            <translation><!-- Longlac - Olympia Barino-7453 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Malvilla-2743</masterLabel>
+            <translation><!-- Malvilla-2743 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matarani - Asur-YP71</masterLabel>
+            <translation><!-- Matarani - Asur-YP71 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>México - Alianza</masterLabel>
+            <translation><!-- México - Alianza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>México - Multimodal Aceros Sonora</masterLabel>
+            <translation><!-- México - Multimodal Aceros Sonora --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>NA</masterLabel>
             <translation><!-- NA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prince George - Bandstra</masterLabel>
+            <translation><!-- Prince George - Bandstra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prince Rupert - Bandstra-7442</masterLabel>
+            <translation><!-- Prince Rupert - Bandstra-7442 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salt Lake City - Metro Group-7411</masterLabel>
+            <translation><!-- Salt Lake City - Metro Group-7411 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smithers - Bandstra-7441</masterLabel>
+            <translation><!-- Smithers - Bandstra-7441 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sudbury - Mansour Group-7455</masterLabel>
+            <translation><!-- Sudbury - Mansour Group-7455 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacna - Aeromater 1-YP40</masterLabel>
+            <translation><!-- Tacna - Aeromater 1-YP40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacna - Aeromater 2-YP1B</masterLabel>
+            <translation><!-- Tacna - Aeromater 2-YP1B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tacoma - AFF-7401</masterLabel>
+            <translation><!-- Tacoma - AFF-7401 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tercop 1-2740</masterLabel>
+            <translation><!-- Tercop 1-2740 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tercop 2-2744</masterLabel>
+            <translation><!-- Tercop 2-2744 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terrace - Bandstra-7448</masterLabel>
+            <translation><!-- Terrace - Bandstra-7448 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thunder Bay - Olympia Mid Continent-7454</masterLabel>
+            <translation><!-- Thunder Bay - Olympia Mid Continent-7454 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vancouver - Arrow Transportation-7447</masterLabel>
+            <translation><!-- Vancouver - Arrow Transportation-7447 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vancouver - Bandstra-7443</masterLabel>
+            <translation><!-- Vancouver - Bandstra-7443 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vancouver - Olympia-7444</masterLabel>
+            <translation><!-- Vancouver - Olympia-7444 --></translation>
         </picklistValues>
     </CustomFieldTranslation>

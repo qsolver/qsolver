@@ -4,7 +4,7 @@
     <active>true</active>
     <errorConditionFormula>AND(
     ELM_Equipo_de_Ventas__c = &#39;SouthAmerica&#39;,
-    ISBLANK(TEXT( Sub_Linea_de_Negocio_OPP__c )),
+    ISBLANK(TEXT( ELM_Line_of_Business__c )),
     ISNEW(),
     NOT(
            RecordType.DeveloperName = &#39;Grinding_Media&#39;

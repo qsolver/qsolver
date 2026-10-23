@@ -404,8 +404,66 @@ private class ReportSubscriptionBatchTest {
         System.assertEquals(4, keyToLabels.size(), 'Null input should not add entries');
     }
 
+    @IsTest
+    static void testBuildSummaryHtml() {
+        ReportSubscriptionBatch batch = new ReportSubscriptionBatch(new List<Id>());
 
-    
+        // Build a realistic reportInfo structure
+        Map<String, Object> reportInfo = new Map<String, Object>{
+            'reportMetadata' => new Map<String, Object>{
+                'aggregates' => new List<Object>{ 'a!AMOUNT', 'RowCount' }
+            },
+            'reportExtendedMetadata' => new Map<String, Object>{
+                'aggregateColumnInfo' => new Map<String, Object>{
+                    'a!AMOUNT' => new Map<String, Object>{ 'label' => 'Sum of Amount' },
+                    'RowCount' => new Map<String, Object>{ 'label' => 'Record Count' }
+                }
+            },
+            'factMap' => new Map<String, Object>{
+                'T!T' => new Map<String, Object>{
+                    'aggregates' => new List<Object>{
+                        new Map<String, Object>{ 'label' => 'USD 3,500.00', 'value' => 3500 },
+                        new Map<String, Object>{ 'label' => '2', 'value' => 2 }
+                    }
+                }
+            }
+        };
+
+        String html = batch.buildSummaryHtml(reportInfo);
+        System.assert(String.isNotBlank(html), 'Should return non-empty HTML');
+        System.assert(html.contains('Summary'), 'Should contain Summary heading');
+        System.assert(html.contains('Sum of Amount'), 'Should contain aggregate label');
+        System.assert(html.contains('USD 3,500.00'), 'Should contain aggregate value');
+        System.assert(html.contains('Record Count'), 'Should contain Record Count label');
+    }
+
+    @IsTest
+    static void testBuildSummaryHtmlEmptyInput() {
+        ReportSubscriptionBatch batch = new ReportSubscriptionBatch(new List<Id>());
+
+        // Null input
+        System.assertEquals('', batch.buildSummaryHtml(null), 'Null should return empty');
+
+        // Empty map
+        System.assertEquals('', batch.buildSummaryHtml(new Map<String, Object>()), 'Empty map should return empty');
+
+        // Missing aggregateColumnInfo
+        Map<String, Object> partial = new Map<String, Object>{
+            'reportExtendedMetadata' => new Map<String, Object>()
+        };
+        System.assertEquals('', batch.buildSummaryHtml(partial), 'Missing agg info should return empty');
+
+        // Missing factMap T!T
+        Map<String, Object> noGrandTotal = new Map<String, Object>{
+            'reportExtendedMetadata' => new Map<String, Object>{
+                'aggregateColumnInfo' => new Map<String, Object>{
+                    'a!AMOUNT' => new Map<String, Object>{ 'label' => 'Sum' }
+                }
+            },
+            'factMap' => new Map<String, Object>()
+        };
+        System.assertEquals('', batch.buildSummaryHtml(noGrandTotal), 'Missing T!T should return empty');
+    }
 
     @IsTest
     static void testSendReportEmail() {
@@ -417,8 +475,6 @@ private class ReportSubscriptionBatchTest {
         att.setBody(Blob.valueOf('col1,col2\nval1,val2'));
         att.setFileName('Test_Report.csv');
         att.setContentType('text/csv');
-        List<Messaging.EmailFileAttachment> atts = new List<Messaging.EmailFileAttachment>();
-        atts.add(att);
 
         // With summary data
         Map<String, Object> reportInfo = new Map<String, Object>{
@@ -441,9 +497,9 @@ private class ReportSubscriptionBatchTest {
 
         Test.startTest();
         batch.sendReportEmail(
-            'Test Report', '00O000000000001AAA', true, 'English',
+            'Test Report', '00O000000000001AAA',
             new List<String>{ UserInfo.getUserEmail() },
-            atts
+            att, reportInfo
         );
         Test.stopTest();
 
@@ -459,15 +515,13 @@ private class ReportSubscriptionBatchTest {
         att.setBody(Blob.valueOf('data'));
         att.setFileName('Report.csv');
         att.setContentType('text/csv');
-        List<Messaging.EmailFileAttachment> atts = new List<Messaging.EmailFileAttachment>();
-        atts.add(att);
 
         // Empty reportInfo → no summary → fallback message
         Test.startTest();
         batch.sendReportEmail(
-            'Test Report', '00O000000000001AAA', true, 'English',
+            'No Summary Report', '00O000000000002AAA',
             new List<String>{ UserInfo.getUserEmail() },
-            atts
+            att, new Map<String, Object>()
         );
         Test.stopTest();
 

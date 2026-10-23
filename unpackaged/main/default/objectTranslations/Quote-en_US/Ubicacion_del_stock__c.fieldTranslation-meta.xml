@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Ubicacion del stock --></label>
+        <name>Ubicacion_del_stock__c</name>
+        <picklistValues>
+            <masterLabel>Antofagasta</masterLabel>
+            <translation><!-- Antofagasta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Calama</masterLabel>
+            <translation><!-- Calama --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copiapó</masterLabel>
+            <translation><!-- Copiapó --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iquique</masterLabel>
+            <translation><!-- Iquique --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lampa</masterLabel>
+            <translation><!-- Lampa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matarani</masterLabel>
+            <translation><!-- Matarani --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

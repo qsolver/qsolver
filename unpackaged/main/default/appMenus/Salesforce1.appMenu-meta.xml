@@ -33,6 +33,10 @@
         <type>StandardAppMenuItem</type>
     </appMenuItems>
     <appMenuItems>
+        <name>Sales_Test_App_Page</name>
+        <type>CustomTab</type>
+    </appMenuItems>
+    <appMenuItems>
         <name>People</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
@@ -50,10 +54,6 @@
     </appMenuItems>
     <appMenuItems>
         <name>PendingInterviews</name>
-        <type>StandardAppMenuItem</type>
-    </appMenuItems>
-    <appMenuItems>
-        <name>LightningInstrumentation</name>
         <type>StandardAppMenuItem</type>
     </appMenuItems>
 </AppMenu>

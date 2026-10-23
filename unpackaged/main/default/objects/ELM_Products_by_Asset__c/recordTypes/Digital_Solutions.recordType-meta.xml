@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Solutions</fullName>
+    <active>true</active>
+    <label>Digital Solutions</label>
+    <picklistValues>
+        <picklist>Competitor__c</picklist>
+        <values>
+            <fullName>ACSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Accelerómetros io</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andritz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AudioMill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ball Tracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ballsafe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boltsafe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bradken</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%2BRock %28Honey%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cadetech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETT BFA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ETT SAG scanner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elecmetal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>F80 Meter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLS SAG Dtwin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FLS Scrap Bo%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geminex Metso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Growth Steel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HAB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hexagon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hexagon Split</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ImpactFinder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intellisense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JKTech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kairos %28Honeywell%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LMF%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LPDS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llaqta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LoadIQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maestranza local</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MagoSense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MagoSense Ball</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metso BallSense%3F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Metso C%2EExperto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millslicer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molycop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PerfectBlend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protorq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QuickScan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robotia PSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RockSense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RockTracking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SGS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPC4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Cristobal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sandvik</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SmartEar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>StoneThree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Techbrand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Termografía</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TrustGAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uptime%2B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vempto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WipFrag</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Requerimiento_industria__c</picklist>
+        <values>
+            <fullName>Asesoría en terreno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Assets tracker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auditoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSS Online</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conteo de bolas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control Tensión Pernos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desconocido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detección fuga de pulpa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elementos en tiempo real</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escaneo remoto chancador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escaneo sin sacar chute SAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gemelo Digital StockPile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gemelo digital SAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Granulometría en tiempo real</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ing dimensional</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liners tracker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medición de Setting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medición de Settings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medición de tiempos mantención</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medición impactos SAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medir cota A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mezcla perfecta Stockpile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moncon Harneros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moncon Mina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monitoreo de Coronas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Usan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Liners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracker Assets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracker Liners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ultrasonido inalámbrico</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

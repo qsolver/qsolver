@@ -751,6 +751,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Comesa</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Cuyanos</fullName>
             <default>false</default>
         </values>
@@ -760,6 +764,18 @@
         </values>
         <values>
             <fullName>FLS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fucsa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lippmann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mepsa</fullName>
             <default>false</default>
         </values>
         <values>
@@ -788,6 +804,14 @@
         </values>
         <values>
             <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vulco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weir</fullName>
             <default>false</default>
         </values>
     </picklistValues>

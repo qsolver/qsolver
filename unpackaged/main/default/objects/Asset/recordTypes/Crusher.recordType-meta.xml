@@ -272,6 +272,10 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Blindajes</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Bolas</fullName>
             <default>false</default>
         </values>
@@ -428,6 +432,14 @@
             <default>false</default>
         </values>
         <values>
+            <fullName>Tolvas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Undercarriage</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Wear Runner</fullName>
             <default>false</default>
         </values>
@@ -452,6 +464,10 @@
         </values>
         <values>
             <fullName>Chutes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipos Mina</fullName>
             <default>false</default>
         </values>
         <values>

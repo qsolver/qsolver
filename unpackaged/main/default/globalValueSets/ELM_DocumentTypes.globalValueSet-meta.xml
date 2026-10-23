@@ -1,89 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>Post-Venta: Análisis/Asesoría Operacionales</fullName>
+        <fullName>Venta: Propuesta económica y/o técnica</fullName>
         <default>false</default>
-        <label>Post-Venta: Análisis/Asesoría Operacionales</label>
+        <label>Venta: Propuesta económica y/o técnica</label>
     </customValue>
     <customValue>
-        <fullName>Post-Venta: Capacitaciones</fullName>
+        <fullName>Venta: Orden de compra de Cliente</fullName>
         <default>false</default>
-        <label>Post-Venta: Capacitaciones</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Estados de pago y HES</fullName>
-        <default>false</default>
-        <label>Post-Venta: Estados de pago y HES</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Informes de reclamo</fullName>
-        <default>false</default>
-        <label>Post-Venta: Informes de reclamo</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Laboratory reports</fullName>
-        <default>false</default>
-        <label>Post-Venta: Laboratory reports</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: One page reports</fullName>
-        <default>false</default>
-        <label>Post-Venta: One page reports</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Quality reports</fullName>
-        <default>false</default>
-        <label>Post-Venta: Quality reports</label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Reajustes </fullName>
-        <default>false</default>
-        <label>Post-Venta: Reajustes </label>
-    </customValue>
-    <customValue>
-        <fullName>Post-Venta: Seguimiento de Producto</fullName>
-        <default>false</default>
-        <label>Post-Venta: Seguimiento de Producto</label>
-    </customValue>
-    <customValue>
-        <fullName>Repuestos: Cotización</fullName>
-        <default>false</default>
-        <label>Repuestos: Cotización</label>
-    </customValue>
-    <customValue>
-        <fullName>Revestimientos: Cotización</fullName>
-        <default>false</default>
-        <label>Revestimientos: Cotización</label>
-    </customValue>
-    <customValue>
-        <fullName>Servicios: Cotizaciones</fullName>
-        <default>false</default>
-        <label>Servicios: Cotizaciones</label>
-    </customValue>
-    <customValue>
-        <fullName>Servicios: Informe de Evaluación</fullName>
-        <default>false</default>
-        <label>Servicios: Informe de Evaluación</label>
-    </customValue>
-    <customValue>
-        <fullName>Servicios: Informe final</fullName>
-        <default>false</default>
-        <label>Servicios: Informe final</label>
-    </customValue>
-    <customValue>
-        <fullName>Servicios: SOT</fullName>
-        <default>false</default>
-        <label>Servicios: SOT</label>
-    </customValue>
-    <customValue>
-        <fullName>VAES Report</fullName>
-        <default>false</default>
-        <label>VAES Report</label>
-    </customValue>
-    <customValue>
-        <fullName>Venta: Certificados de garantía </fullName>
-        <default>false</default>
-        <label>Venta: Certificados de garantía </label>
+        <label>Venta: Orden de compra de Cliente</label>
     </customValue>
     <customValue>
         <fullName>Venta: Documentos comerciales</fullName>
@@ -96,19 +21,94 @@
         <label>Venta: Documentos técnicos</label>
     </customValue>
     <customValue>
+        <fullName>Venta: Certificados de garantía </fullName>
+        <default>false</default>
+        <label>Venta: Certificados de garantía </label>
+    </customValue>
+    <customValue>
         <fullName>Venta: Información técnica de Manuales / Instructivos</fullName>
         <default>false</default>
         <label>Venta: Información técnica de Manuales / Instructivos</label>
     </customValue>
     <customValue>
-        <fullName>Venta: Orden de compra de Cliente</fullName>
+        <fullName>Post-Venta: Seguimiento de Producto</fullName>
         <default>false</default>
-        <label>Venta: Orden de compra de Cliente</label>
+        <label>Post-Venta: Seguimiento de Producto</label>
     </customValue>
     <customValue>
-        <fullName>Venta: Propuesta económica y/o técnica</fullName>
+        <fullName>Post-Venta: Capacitaciones</fullName>
         <default>false</default>
-        <label>Venta: Propuesta económica y/o técnica</label>
+        <label>Post-Venta: Capacitaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Análisis/Asesoría Operacionales</fullName>
+        <default>false</default>
+        <label>Post-Venta: Análisis/Asesoría Operacionales</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Laboratory reports</fullName>
+        <default>false</default>
+        <label>Post-Venta: Laboratory reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Quality reports</fullName>
+        <default>false</default>
+        <label>Post-Venta: Quality reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Informes de reclamo</fullName>
+        <default>false</default>
+        <label>Post-Venta: Informes de reclamo</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: One page reports</fullName>
+        <default>false</default>
+        <label>Post-Venta: One page reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Estados de pago y HES</fullName>
+        <default>false</default>
+        <label>Post-Venta: Estados de pago y HES</label>
+    </customValue>
+    <customValue>
+        <fullName>Post-Venta: Reajustes </fullName>
+        <default>false</default>
+        <label>Post-Venta: Reajustes </label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios: Cotizaciones</fullName>
+        <default>false</default>
+        <label>Servicios: Cotizaciones</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios: SOT</fullName>
+        <default>false</default>
+        <label>Servicios: SOT</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios: Informe de Evaluación</fullName>
+        <default>false</default>
+        <label>Servicios: Informe de Evaluación</label>
+    </customValue>
+    <customValue>
+        <fullName>Servicios: Informe final</fullName>
+        <default>false</default>
+        <label>Servicios: Informe final</label>
+    </customValue>
+    <customValue>
+        <fullName>VAES Report</fullName>
+        <default>false</default>
+        <label>VAES Report</label>
+    </customValue>
+    <customValue>
+        <fullName>Revestimientos: Cotización</fullName>
+        <default>false</default>
+        <label>Revestimientos: Cotización</label>
+    </customValue>
+    <customValue>
+        <fullName>Repuestos: Cotización</fullName>
+        <default>false</default>
+        <label>Repuestos: Cotización</label>
     </customValue>
     <customValue>
         <fullName>1. Propuesta económica</fullName>
@@ -249,5 +249,5 @@
         <label>17. Informe de Evaluación</label>
     </customValue>
     <masterLabel>Document Types</masterLabel>
-    <sorted>true</sorted>
+    <sorted>false</sorted>
 </GlobalValueSet>

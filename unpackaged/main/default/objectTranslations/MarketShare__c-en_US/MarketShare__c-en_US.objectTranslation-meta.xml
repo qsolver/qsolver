@@ -8,102 +8,6 @@
         <plural>true</plural>
         <value>Market Share</value>
     </caseValues>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    <layouts>
-        <layout>Formato Crushing Spare Parts/Services</layout>
-        <sections>
-            <label><!-- Sección --></label>
-            <section>Sección</section>
-        </sections>
-        <sections>
-            <label><!-- Vínculos personalizados --></label>
-            <section>Vínculos personalizados</section>
-        </sections>
-    </layouts>
     <layouts>
         <layout>Formato Grindind</layout>
         <sections>
@@ -253,10 +157,6 @@
     </recordTypes>
     <startsWith>Consonant</startsWith>
     <validationRules>
-        <errorMessage><!-- Cuando Business Subline es &quot;Repair Services&quot;, el campo Type of coating debe ser &quot;Servicios y Repuestos&quot;. --></errorMessage>
-        <name>Bloquear_Servicios_y_repuestos</name>
-    </validationRules>
-    <validationRules>
         <errorMessage><!-- Cuando el proveedor es &quot;Elecmetal&quot; Debe ingresar Producto ME Elecmetal --></errorMessage>
         <name>R1_Valida_Proveedor_Elecmetal</name>
     </validationRules>
@@ -288,4 +188,89 @@
         <label>Mill L Details</label>
         <name>Molienda_Details_Mill_L</name>
     </webLinks>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

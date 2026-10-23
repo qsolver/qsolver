@@ -23,6 +23,10 @@
             <translation><!-- DAP --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>DAT</masterLabel>
+            <translation><!-- DAT --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>DDP</masterLabel>
             <translation><!-- DDP --></translation>
         </picklistValues>
@@ -53,6 +57,14 @@
         <picklistValues>
             <masterLabel>EXW</masterLabel>
             <translation><!-- EXW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXW DC</masterLabel>
+            <translation><!-- EXW DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EXW Planta</masterLabel>
+            <translation><!-- EXW Planta --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>FAS</masterLabel>

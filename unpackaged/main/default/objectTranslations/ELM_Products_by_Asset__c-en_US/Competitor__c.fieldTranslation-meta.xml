@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Competitor --></label>
+        <name>Competitor__c</name>
+        <picklistValues>
+            <masterLabel>ACSA</masterLabel>
+            <translation><!-- ACSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accelerómetros io</masterLabel>
+            <translation><!-- Accelerómetros io --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Andritz</masterLabel>
+            <translation><!-- Andritz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AudioMill</masterLabel>
+            <translation><!-- AudioMill --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ball Tracking</masterLabel>
+            <translation><!-- Ball Tracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ballsafe</masterLabel>
+            <translation><!-- Ballsafe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boltsafe</masterLabel>
+            <translation><!-- Boltsafe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradken</masterLabel>
+            <translation><!-- Bradken --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C+Rock (Honey)</masterLabel>
+            <translation><!-- C+Rock (Honey) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cadetech</masterLabel>
+            <translation><!-- Cadetech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECN</masterLabel>
+            <translation><!-- ECN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETT BFA</masterLabel>
+            <translation><!-- ETT BFA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETT SAG scanner</masterLabel>
+            <translation><!-- ETT SAG scanner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elecmetal</masterLabel>
+            <translation><!-- Elecmetal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F80 Meter</masterLabel>
+            <translation><!-- F80 Meter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS</masterLabel>
+            <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS SAG Dtwin</masterLabel>
+            <translation><!-- FLS SAG Dtwin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FLS Scrap Bo.</masterLabel>
+            <translation><!-- FLS Scrap Bo. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geminex Metso</masterLabel>
+            <translation><!-- Geminex Metso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Steel</masterLabel>
+            <translation><!-- Growth Steel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAB</masterLabel>
+            <translation><!-- HAB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hexagon</masterLabel>
+            <translation><!-- Hexagon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hexagon Split</masterLabel>
+            <translation><!-- Hexagon Split --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ImpactFinder</masterLabel>
+            <translation><!-- ImpactFinder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intellisense</masterLabel>
+            <translation><!-- Intellisense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JKTech</masterLabel>
+            <translation><!-- JKTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kairos (Honeywell)</masterLabel>
+            <translation><!-- Kairos (Honeywell) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LMF+</masterLabel>
+            <translation><!-- LMF+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LPDS</masterLabel>
+            <translation><!-- LPDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Llaqta</masterLabel>
+            <translation><!-- Llaqta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LoadIQ</masterLabel>
+            <translation><!-- LoadIQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maestranza local</masterLabel>
+            <translation><!-- Maestranza local --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MagoSense</masterLabel>
+            <translation><!-- MagoSense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MagoSense Ball</masterLabel>
+            <translation><!-- MagoSense Ball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso</masterLabel>
+            <translation><!-- Metso --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso BallSense?</masterLabel>
+            <translation><!-- Metso BallSense? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metso C.Experto</masterLabel>
+            <translation><!-- Metso C.Experto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Millslicer</masterLabel>
+            <translation><!-- Millslicer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molycop</masterLabel>
+            <translation><!-- Molycop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PerfectBlend</masterLabel>
+            <translation><!-- PerfectBlend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Protorq</masterLabel>
+            <translation><!-- Protorq --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QuickScan</masterLabel>
+            <translation><!-- QuickScan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robotia PSD</masterLabel>
+            <translation><!-- Robotia PSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RockSense</masterLabel>
+            <translation><!-- RockSense --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RockTracking</masterLabel>
+            <translation><!-- RockTracking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SGS</masterLabel>
+            <translation><!-- SGS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMTP</masterLabel>
+            <translation><!-- SMTP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPC4</masterLabel>
+            <translation><!-- SPC4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Cristobal</masterLabel>
+            <translation><!-- San Cristobal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandvik</masterLabel>
+            <translation><!-- Sandvik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartEar</masterLabel>
+            <translation><!-- SmartEar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>StoneThree</masterLabel>
+            <translation><!-- StoneThree --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Techbrand</masterLabel>
+            <translation><!-- Techbrand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tega</masterLabel>
+            <translation><!-- Tega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termografía</masterLabel>
+            <translation><!-- Termografía --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TrustGAP</masterLabel>
+            <translation><!-- TrustGAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uptime+</masterLabel>
+            <translation><!-- Uptime+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vempto</masterLabel>
+            <translation><!-- Vempto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WipFrag</masterLabel>
+            <translation><!-- WipFrag --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

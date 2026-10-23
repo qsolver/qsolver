@@ -33,14 +33,6 @@
         <name>Annual_Consuption</name>
     </customLabels>
     <customLabels>
-        <label><!-- ECO Detalle ECO --></label>
-        <name>ECO_Detalle_ECO</name>
-    </customLabels>
-    <customLabels>
-        <label><!-- ECO Informacion de Entrada --></label>
-        <name>ECO_Informacion_de_Entrada</name>
-    </customLabels>
-    <customLabels>
         <label><!-- Opportunity Recurring Sale RecordTypeId --></label>
         <name>ELM_OpportunityRecurringSaleRecordTypeId</name>
     </customLabels>
@@ -81,6 +73,10 @@
         <name>Users_without_Permission_To_Send_Notification_Email</name>
     </customLabels>
     <customTabs>
+        <label><!-- Master Plan --></label>
+        <name>Master_Plan</name>
+    </customTabs>
+    <customTabs>
         <label><!-- MobileLanding --></label>
         <name>MobileLanding</name>
     </customTabs>
@@ -88,14 +84,10 @@
         <label><!-- Report Subscription --></label>
         <name>Report_Subscription</name>
     </customTabs>
-    <flowDefinitions>
-        <flows>
-            <textTemplates>
-                <name>BodyMail</name>
-            </textTemplates>
-        </flows>
-        <fullName>ALERTA_QUOTES_SIN_FEEDBACK</fullName>
-    </flowDefinitions>
+    <customTabs>
+        <label><!-- Sales Test App Page --></label>
+        <name>Sales_Test_App_Page</name>
+    </customTabs>
     <flowDefinitions>
         <flows />
         <fullName>AccountEditPermission</fullName>
@@ -121,8 +113,45 @@
         <fullName>Actualiza_Productos_ME_Elecmetal</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <name>ProcessComplet</name>
+                </fields>
+                <name>Process_Completed</name>
+            </screens>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>selectedcontacts</name>
+                </fields>
+                <name>Select_Contacts</name>
+            </screens>
+        </flows>
+        <fullName>Add_Active_Contacts_to_Campaign</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>AfterSaleCreate</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows />
+        <fullName>Alerta_Eco</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
@@ -142,11 +171,34 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
-        <fullName>Automatically_assign_Dummy_Asset</fullName>
+        <fullName>CREAR_VAES_DESDE_LA_OPP</fullName>
     </flowDefinitions>
     <flowDefinitions>
-        <flows />
-        <fullName>CREAR_VAES_DESDE_LA_OPP</fullName>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>CUSRPIRecords</name>
+                </fields>
+                <name>CRUSPI_Selector</name>
+            </screens>
+        </flows>
+        <fullName>CRUSPI_Month_Selector</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -225,27 +277,7 @@
                     <name>Comentario_Linea_SubLinea</name>
                 </fields>
                 <fields>
-                    <inputParameters>
-                        <name>dependencyWrapperApiName</name>
-                        <value />
-                    </inputParameters>
-                    <inputParameters>
-                        <name>middlePicklistApiName</name>
-                        <value />
-                    </inputParameters>
-                    <inputParameters>
-                        <name>topPicklistApiName</name>
-                        <value />
-                    </inputParameters>
-                    <inputParameters>
-                        <name>topRequired</name>
-                        <value />
-                    </inputParameters>
-                    <inputParameters>
-                        <name>topValue</name>
-                        <value />
-                    </inputParameters>
-                    <name>Sub_Linea_Dependiente</name>
+                    <name>line_of_business</name>
                 </fields>
                 <name>Select_Subline</name>
             </screens>
@@ -576,12 +608,51 @@
         <fullName>Create_and_Activate_Contracts</fullName>
     </flowDefinitions>
     <flowDefinitions>
+        <flows>
+            <screens>
+                <fields>
+                    <inputParameters>
+                        <name>columns</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>maxRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>minRowSelection</name>
+                        <value />
+                    </inputParameters>
+                    <inputParameters>
+                        <name>selectionMode</name>
+                        <value />
+                    </inputParameters>
+                    <name>DataTable</name>
+                </fields>
+                <name>Edit_Product_Line_Item_Screen</name>
+            </screens>
+        </flows>
+        <fullName>Custom_Edit_Quote_Line_Item</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
         <flows />
         <fullName>Descontar_Documentos_Contador</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
         <fullName>ECO_Status_Change_Date_Tracking</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <textTemplates>
+                <name>EmailTemplate</name>
+            </textTemplates>
+        </flows>
+        <fullName>ECO_Status_Change_Email_Send</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows>
@@ -601,6 +672,31 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows>
+            <choices>
+                <name>ch_CommercialReport</name>
+            </choices>
+            <choices>
+                <name>ch_InformeCausaRaiz</name>
+            </choices>
+            <choices>
+                <name>ch_InformeComercial</name>
+            </choices>
+            <choices>
+                <name>ch_RootCauseReport</name>
+            </choices>
+            <screens>
+                <fields>
+                    <name>Copy_1_of_Copy_1_of_ELM_DocumentType</name>
+                </fields>
+                <fields>
+                    <inputParameters>
+                        <name>label</name>
+                        <value />
+                    </inputParameters>
+                    <name>Copy_1_of_Copy_1_of_ELM_UploadDocument</name>
+                </fields>
+                <name>Case</name>
+            </screens>
             <screens>
                 <fields>
                     <name>ELM_DocumentType</name>
@@ -783,15 +879,11 @@
     </flowDefinitions>
     <flowDefinitions>
         <flows />
-        <fullName>Fecha_Opp_Close_Won</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows />
         <fullName>Fecha_VAES_Finalizado</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
-        <fullName>Fecha_tramite_Aprobado</fullName>
+        <fullName>Fecha_de_Carga_OC</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
@@ -854,6 +946,14 @@
             </screens>
         </flows>
         <fullName>Maintenance_Preview</fullName>
+    </flowDefinitions>
+    <flowDefinitions>
+        <flows>
+            <screens>
+                <name>Edit_PRoducts</name>
+            </screens>
+        </flows>
+        <fullName>Manage_Quote_Line_Items</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />
@@ -1301,10 +1401,6 @@
     <flowDefinitions>
         <flows />
         <fullName>Product_Material_type_update</fullName>
-    </flowDefinitions>
-    <flowDefinitions>
-        <flows />
-        <fullName>QUOTES_FECHA_FEEDBACK</fullName>
     </flowDefinitions>
     <flowDefinitions>
         <flows />

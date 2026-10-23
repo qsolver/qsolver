@@ -1,54 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <layouts>
-        <layout>Quote Layout</layout>
+        <layout>Quote Grinding Media</layout>
+        <sections>
+            <label><!-- Condiciones de Venta --></label>
+            <section>Condiciones de Venta</section>
+        </sections>
+        <sections>
+            <label><!-- Costos de Producto --></label>
+            <section>Costos de Producto</section>
+        </sections>
+        <sections>
+            <label><!-- Logistica --></label>
+            <section>Logistica</section>
+        </sections>
+        <sections>
+            <label><!-- Transporte Logístico --></label>
+            <section>Transporte Logístico</section>
+        </sections>
         <sections>
             <label><!-- Valid Quote Dates --></label>
             <section>Valid Quote Dates</section>
         </sections>
     </layouts>
     <layouts>
-        <layout>Quotes SA</layout>
+        <layout>Quote Layout</layout>
         <sections>
-            <label><!-- Custom Links --></label>
-            <section>Custom Links</section>
-        </sections>
-        <sections>
-            <label><!-- Fields --></label>
-            <section>Fields</section>
-        </sections>
-        <sections>
-            <label><!-- System Information --></label>
-            <section>System Information</section>
+            <label><!-- Valid Quote Dates --></label>
+            <section>Valid Quote Dates</section>
         </sections>
     </layouts>
     <quickActions>
@@ -64,15 +43,62 @@
         <name>SendEmail</name>
     </quickActions>
     <recordTypes>
+        <label><!-- Grinding Media --></label>
+        <name>Grinding_Media</name>
+    </recordTypes>
+    <recordTypes>
         <label><!-- Quotes SA --></label>
         <name>Quotes_SA</name>
     </recordTypes>
-    <validationRules>
-        <errorMessage><!-- Para cambiar el estado a Rejected, debe seleccionar un Motivo de Rechazo. --></errorMessage>
-        <name>Motivo_de_rechazo_obligatorio</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- Solo se pueden crear Cotizaciones si la Oportunidad está en la etapa &quot;Negotiation/Review --></errorMessage>
-        <name>Prevent_Quote_Creation_Before_Negotiatio</name>
-    </validationRules>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

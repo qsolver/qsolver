@@ -3,8 +3,20 @@
         <label><!-- Grupo de Producto --></label>
         <name>Grupo_de_Producto__c</name>
         <picklistValues>
+            <masterLabel>Accesorios/Sujeciones</masterLabel>
+            <translation><!-- Accesorios/Sujeciones --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Grinding Media / GET</masterLabel>
             <translation><!-- Grinding Media / GET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Polyfit</masterLabel>
+            <translation><!-- Polyfit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejilla de molino SAG</masterLabel>
+            <translation><!-- Rejilla de molino SAG --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Repuestos</masterLabel>
@@ -13,6 +25,22 @@
         <picklistValues>
             <masterLabel>Revestimiento</masterLabel>
             <translation><!-- Revestimiento --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos de cabezales de laminadoras SAG</masterLabel>
+            <translation><!-- Revestimientos de cabezales de laminadoras SAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos de carcasa de molino AG</masterLabel>
+            <translation><!-- Revestimientos de carcasa de molino AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos de trituración</masterLabel>
+            <translation><!-- Revestimientos de trituración --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Revestimientos para molinos de bolas</masterLabel>
+            <translation><!-- Revestimientos para molinos de bolas --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Servicios</masterLabel>

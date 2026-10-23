@@ -10,5 +10,5 @@
     <openType>sidebar</openType>
     <protected>false</protected>
     <requireRowSelection>true</requireRowSelection>
-    <url>https://me-elecmetal.lightning.force.com/lightning/r/Report/00OPn00000Gx5s7MAB/view?queryScope=userFolders&amp;fv0={!Account.Id}</url>
+    <url>https://me-elecmetal.lightning.force.com/lightning/r/Report/00OPn000002Ash7MAC/view?queryScope=userFolders&amp;fv0={!Account.Id}</url>
 </WebLink>

@@ -67,6 +67,10 @@
             <translation><!-- PRECIOUS METALS --></translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Recycling</masterLabel>
+            <translation><!-- Recycling --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>SILVER</masterLabel>
             <translation><!-- SILVER --></translation>
         </picklistValues>

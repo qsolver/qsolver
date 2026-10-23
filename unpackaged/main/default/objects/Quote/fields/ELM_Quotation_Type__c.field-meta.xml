@@ -35,6 +35,11 @@
                 <default>false</default>
                 <label>ZTLV</label>
             </value>
+            <value>
+                <fullName>General</fullName>
+                <default>false</default>
+                <label>General</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

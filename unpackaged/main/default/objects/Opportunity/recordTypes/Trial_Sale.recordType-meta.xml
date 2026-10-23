@@ -845,6 +845,114 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Product_Typology_Level_III__c</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spare Part</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wear Parts%3A Primary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wear Parts%3A Secondary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Typology_Level_II__c</picklist>
+        <values>
+            <fullName>Cone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gyratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impactor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jaw</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Typology_Level_IV__c</picklist>
+        <values>
+            <fullName>Assembly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bushing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liner accesory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MN Alloy Lists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Steel Alloy Lists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Supervision</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Product_Typology_Level_I__c</picklist>
+        <values>
+            <fullName>Crushing Liners</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Product__c</picklist>
         <values>
             <fullName>Accessories</fullName>
@@ -1084,249 +1192,6 @@
         </values>
         <values>
             <fullName>UpTime%2B</fullName>
-            <default>false</default>
-        </values>
-    </picklistValues>
-    <picklistValues>
-        <picklist>Sub_Linea_de_Negocio_OPP2__c</picklist>
-        <values>
-            <fullName>Administración de Contratos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Asesoria</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>BOLAS</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Barras</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Cargadores frontales</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Cast Inserts Polyfit</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chancadores</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chatarra</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Chutes</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Clasificación de scrap de bolas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Dispositivos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Equipos Auxiliares</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>FerryCapitain</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Fragmentadoras</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Grinding Media</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>HPGR</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Harneros</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Herramientas de desgaste</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>ImpactFinder</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Laser 3D</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Mandibulas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Martillos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Med Min Perú</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Molienda</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Molino vertical</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Monitoreo de Procesos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Monitoreo de Sistemas Mecánicos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Monitoreo de desgaste</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Movimiento de Tierra</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Ollas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Otros</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Palas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Palas Hidráulicas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Palas de Cable</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Pernos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Piezas de Desgaste %2F Fundido</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Pirometalurgia</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Planchas Fundidas</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Polyfit</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Polylight</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Pre concentración de minerales</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Predictivo</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Primario</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Reciclaje de revestimientos Híbridos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Recuperación de Chatarra</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Recuperación de materiales valiosos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Remanufactura de Componentes</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Repuestos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>S3</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>SAG</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Secundario-Terciario-Pebble</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Servicios</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Servicios reparación</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Servicios%2FProductos Tecnológicos</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Soporte y Asistencia en terreno</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>TowerMill</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Tratamiento de relaves o escorias</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Tren de rodado</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>UpTime%2B</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wear Runner</fullName>
             <default>false</default>
         </values>
     </picklistValues>

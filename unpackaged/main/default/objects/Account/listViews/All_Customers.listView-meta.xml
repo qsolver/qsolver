@@ -6,6 +6,7 @@
     <columns>ACCOUNT.PHONE1</columns>
     <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
+    <columns>Company_Code__c</columns>
     <columns>SAP_Bill_To_ID__c</columns>
     <filterScope>Everything</filterScope>
     <filters>

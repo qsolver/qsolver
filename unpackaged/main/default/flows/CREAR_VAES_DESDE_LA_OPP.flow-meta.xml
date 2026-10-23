@@ -3,19 +3,6 @@
     <apiVersion>63.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <assignments>
-        <name>ASIGNAR_VALORES_A_LA_LISTA</name>
-        <label>ASIGNAR VALORES A LA LISTA</label>
-        <locationX>1194</locationX>
-        <locationY>1163</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.Sub_Linea_de_Negocio_OPP__c</assignToReference>
-            <operator>Assign</operator>
-        </assignmentItems>
-        <connector>
-            <targetReference>LOOP_PRODUCTOS</targetReference>
-        </connector>
-    </assignments>
-    <assignments>
         <name>ASIGNAR_VALORES_PRODUCT_BY_VAES</name>
         <label>ASIGNAR VALORES PRODUCT BY VAES</label>
         <locationX>1194</locationX>
@@ -35,7 +22,7 @@
             </value>
         </assignmentItems>
         <connector>
-            <targetReference>ASIGNAR_VALORES_A_LA_LISTA</targetReference>
+            <targetReference>LOOP_PRODUCTOS</targetReference>
         </connector>
     </assignments>
     <assignments>
@@ -300,7 +287,7 @@
         <name>EXISTEN_VALORES_EN_LA_LISTA</name>
         <label>EXISTEN VALORES EN LA LISTA</label>
         <locationX>1106</locationX>
-        <locationY>1355</locationY>
+        <locationY>1247</locationY>
         <defaultConnectorLabel>NO</defaultConnectorLabel>
         <rules>
             <name>EXISTENVALORESENLALISTA</name>
@@ -388,7 +375,7 @@
         <name>CREAR_PRODUCT_BY_VAES</name>
         <label>CREAR PRODUCT BY VAES</label>
         <locationX>974</locationX>
-        <locationY>1463</locationY>
+        <locationY>1355</locationY>
         <inputReference>LISTBYPRODUCTS</inputReference>
     </recordCreates>
     <recordCreates>
@@ -415,12 +402,6 @@
             <field>ELM_Line_Of_Business__c</field>
             <value>
                 <elementReference>LineOfBusinessAPIName</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Sub_Line_of_Business__c</field>
-            <value>
-                <elementReference>$Record.Sub_Linea_de_Negocio_OPP__c</elementReference>
             </value>
         </inputAssignments>
         <object>ELM_Vaes__c</object>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competitor__c</fullName>
+    <label>Competitor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accelerómetros io</fullName>
+                <default>false</default>
+                <label>Accelerómetros io</label>
+            </value>
+            <value>
+                <fullName>ACSA</fullName>
+                <default>false</default>
+                <label>ACSA</label>
+            </value>
+            <value>
+                <fullName>Andritz</fullName>
+                <default>false</default>
+                <label>Andritz</label>
+            </value>
+            <value>
+                <fullName>AudioMill</fullName>
+                <default>false</default>
+                <label>AudioMill</label>
+            </value>
+            <value>
+                <fullName>Ballsafe</fullName>
+                <default>false</default>
+                <label>Ballsafe</label>
+            </value>
+            <value>
+                <fullName>Ball Tracking</fullName>
+                <default>false</default>
+                <label>Ball Tracking</label>
+            </value>
+            <value>
+                <fullName>Boltsafe</fullName>
+                <default>false</default>
+                <label>Boltsafe</label>
+            </value>
+            <value>
+                <fullName>Bradken</fullName>
+                <default>false</default>
+                <label>Bradken</label>
+            </value>
+            <value>
+                <fullName>C+Rock (Honey)</fullName>
+                <default>false</default>
+                <label>C+Rock (Honey)</label>
+            </value>
+            <value>
+                <fullName>Cadetech</fullName>
+                <default>false</default>
+                <label>Cadetech</label>
+            </value>
+            <value>
+                <fullName>ECN</fullName>
+                <default>false</default>
+                <label>ECN</label>
+            </value>
+            <value>
+                <fullName>Elecmetal</fullName>
+                <default>false</default>
+                <label>Elecmetal</label>
+            </value>
+            <value>
+                <fullName>ETT BFA</fullName>
+                <default>false</default>
+                <label>ETT BFA</label>
+            </value>
+            <value>
+                <fullName>ETT SAG scanner</fullName>
+                <default>false</default>
+                <label>ETT SAG scanner</label>
+            </value>
+            <value>
+                <fullName>F80 Meter</fullName>
+                <default>false</default>
+                <label>F80 Meter</label>
+            </value>
+            <value>
+                <fullName>FLS</fullName>
+                <default>false</default>
+                <label>FLS</label>
+            </value>
+            <value>
+                <fullName>FLS SAG Dtwin</fullName>
+                <default>false</default>
+                <label>FLS SAG Dtwin</label>
+            </value>
+            <value>
+                <fullName>FLS Scrap Bo.</fullName>
+                <default>false</default>
+                <label>FLS Scrap Bo.</label>
+            </value>
+            <value>
+                <fullName>Geminex Metso</fullName>
+                <default>false</default>
+                <label>Geminex Metso</label>
+            </value>
+            <value>
+                <fullName>Growth Steel</fullName>
+                <default>false</default>
+                <label>Growth Steel</label>
+            </value>
+            <value>
+                <fullName>HAB</fullName>
+                <default>false</default>
+                <label>HAB</label>
+            </value>
+            <value>
+                <fullName>Hexagon</fullName>
+                <default>false</default>
+                <label>Hexagon</label>
+            </value>
+            <value>
+                <fullName>Hexagon Split</fullName>
+                <default>false</default>
+                <label>Hexagon Split</label>
+            </value>
+            <value>
+                <fullName>ImpactFinder</fullName>
+                <default>false</default>
+                <label>ImpactFinder</label>
+            </value>
+            <value>
+                <fullName>Intellisense</fullName>
+                <default>false</default>
+                <label>Intellisense</label>
+            </value>
+            <value>
+                <fullName>JKTech</fullName>
+                <default>false</default>
+                <label>JKTech</label>
+            </value>
+            <value>
+                <fullName>Kairos (Honeywell)</fullName>
+                <default>false</default>
+                <label>Kairos (Honeywell)</label>
+            </value>
+            <value>
+                <fullName>Llaqta</fullName>
+                <default>false</default>
+                <label>Llaqta</label>
+            </value>
+            <value>
+                <fullName>LMF+</fullName>
+                <default>false</default>
+                <label>LMF+</label>
+            </value>
+            <value>
+                <fullName>LoadIQ</fullName>
+                <default>false</default>
+                <label>LoadIQ</label>
+            </value>
+            <value>
+                <fullName>LPDS</fullName>
+                <default>false</default>
+                <label>LPDS</label>
+            </value>
+            <value>
+                <fullName>Maestranza local</fullName>
+                <default>false</default>
+                <label>Maestranza local</label>
+            </value>
+            <value>
+                <fullName>MagoSense</fullName>
+                <default>false</default>
+                <label>MagoSense</label>
+            </value>
+            <value>
+                <fullName>MagoSense Ball</fullName>
+                <default>false</default>
+                <label>MagoSense Ball</label>
+            </value>
+            <value>
+                <fullName>Metso</fullName>
+                <default>false</default>
+                <label>Metso</label>
+            </value>
+            <value>
+                <fullName>Metso BallSense?</fullName>
+                <default>false</default>
+                <label>Metso BallSense?</label>
+            </value>
+            <value>
+                <fullName>Metso C.Experto</fullName>
+                <default>false</default>
+                <label>Metso C.Experto</label>
+            </value>
+            <value>
+                <fullName>Millslicer</fullName>
+                <default>false</default>
+                <label>Millslicer</label>
+            </value>
+            <value>
+                <fullName>Molycop</fullName>
+                <default>false</default>
+                <label>Molycop</label>
+            </value>
+            <value>
+                <fullName>PerfectBlend</fullName>
+                <default>false</default>
+                <label>PerfectBlend</label>
+            </value>
+            <value>
+                <fullName>Protorq</fullName>
+                <default>false</default>
+                <label>Protorq</label>
+            </value>
+            <value>
+                <fullName>QuickScan</fullName>
+                <default>false</default>
+                <label>QuickScan</label>
+            </value>
+            <value>
+                <fullName>Robotia PSD</fullName>
+                <default>false</default>
+                <label>Robotia PSD</label>
+            </value>
+            <value>
+                <fullName>RockSense</fullName>
+                <default>false</default>
+                <label>RockSense</label>
+            </value>
+            <value>
+                <fullName>RockTracking</fullName>
+                <default>false</default>
+                <label>RockTracking</label>
+            </value>
+            <value>
+                <fullName>San Cristobal</fullName>
+                <default>false</default>
+                <label>San Cristobal</label>
+            </value>
+            <value>
+                <fullName>Sandvik</fullName>
+                <default>false</default>
+                <label>Sandvik</label>
+            </value>
+            <value>
+                <fullName>SGS</fullName>
+                <default>false</default>
+                <label>SGS</label>
+            </value>
+            <value>
+                <fullName>SmartEar</fullName>
+                <default>false</default>
+                <label>SmartEar</label>
+            </value>
+            <value>
+                <fullName>SMTP</fullName>
+                <default>false</default>
+                <label>SMTP</label>
+            </value>
+            <value>
+                <fullName>SPC4</fullName>
+                <default>false</default>
+                <label>SPC4</label>
+            </value>
+            <value>
+                <fullName>StoneThree</fullName>
+                <default>false</default>
+                <label>StoneThree</label>
+            </value>
+            <value>
+                <fullName>Techbrand</fullName>
+                <default>false</default>
+                <label>Techbrand</label>
+            </value>
+            <value>
+                <fullName>Tega</fullName>
+                <default>false</default>
+                <label>Tega</label>
+            </value>
+            <value>
+                <fullName>Termografía</fullName>
+                <default>false</default>
+                <label>Termografía</label>
+            </value>
+            <value>
+                <fullName>TrustGAP</fullName>
+                <default>false</default>
+                <label>TrustGAP</label>
+            </value>
+            <value>
+                <fullName>Uptime+</fullName>
+                <default>false</default>
+                <label>Uptime+</label>
+            </value>
+            <value>
+                <fullName>Vempto</fullName>
+                <default>false</default>
+                <label>Vempto</label>
+            </value>
+            <value>
+                <fullName>WipFrag</fullName>
+                <default>false</default>
+                <label>WipFrag</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

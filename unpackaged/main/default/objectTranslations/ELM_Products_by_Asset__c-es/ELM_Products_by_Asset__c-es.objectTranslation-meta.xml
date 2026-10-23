@@ -31,6 +31,23 @@
     
     
     
+    
+    
     <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Digital Solutions</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
     <nameFieldLabel><!-- Products by Asset Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Default --></label>
+        <name>Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Digital Solutions --></label>
+        <name>Digital_Solutions</name>
+    </recordTypes>
 </CustomObjectTranslation>

@@ -107,6 +107,11 @@
                 <label>ZINC</label>
             </value>
             <value>
+                <fullName>Recycling</fullName>
+                <default>false</default>
+                <label>Recycling</label>
+            </value>
+            <value>
                 <fullName>Copper</fullName>
                 <default>false</default>
                 <isActive>false</isActive>

@@ -20,6 +20,251 @@
                 <default>false</default>
                 <label>EX</label>
             </value>
+            <value>
+                <fullName>Iquique-2730</fullName>
+                <default>false</default>
+                <label>Iquique-2730</label>
+            </value>
+            <value>
+                <fullName>Iquique - Marval-2732</fullName>
+                <default>false</default>
+                <label>Iquique - Marval-2732</label>
+            </value>
+            <value>
+                <fullName>Calama-2710</fullName>
+                <default>false</default>
+                <label>Calama-2710</label>
+            </value>
+            <value>
+                <fullName>Calama-2711</fullName>
+                <default>false</default>
+                <label>Calama-2711</label>
+            </value>
+            <value>
+                <fullName>Antofagasta-2700</fullName>
+                <default>false</default>
+                <label>Antofagasta-2700</label>
+            </value>
+            <value>
+                <fullName>Antofagasta - La Negra-2701</fullName>
+                <default>false</default>
+                <label>Antofagasta - La Negra-2701</label>
+            </value>
+            <value>
+                <fullName>Antofagasta - DyC Sitio 1-2704</fullName>
+                <default>false</default>
+                <label>Antofagasta - DyC Sitio 1-2704</label>
+            </value>
+            <value>
+                <fullName>Antofagasta - DyC Sitio 2-2705</fullName>
+                <default>false</default>
+                <label>Antofagasta - DyC Sitio 2-2705</label>
+            </value>
+            <value>
+                <fullName>Antofagasta - DyC Sitio 3-2706</fullName>
+                <default>false</default>
+                <label>Antofagasta - DyC Sitio 3-2706</label>
+            </value>
+            <value>
+                <fullName>Copiapó-2720</fullName>
+                <default>false</default>
+                <label>Copiapó-2720</label>
+            </value>
+            <value>
+                <fullName>Copiapó - Paipote-2721</fullName>
+                <default>false</default>
+                <label>Copiapó - Paipote-2721</label>
+            </value>
+            <value>
+                <fullName>Copiapó-2722</fullName>
+                <default>false</default>
+                <label>Copiapó-2722</label>
+            </value>
+            <value>
+                <fullName>Copiapó - Mintral Toledo-2723</fullName>
+                <default>false</default>
+                <label>Copiapó - Mintral Toledo-2723</label>
+            </value>
+            <value>
+                <fullName>Lampa-2750</fullName>
+                <default>false</default>
+                <label>Lampa-2750</label>
+            </value>
+            <value>
+                <fullName>Lampa 1 - Juan Andrés #1253-2752</fullName>
+                <default>false</default>
+                <label>Lampa 1 - Juan Andrés #1253-2752</label>
+            </value>
+            <value>
+                <fullName>Lampa 2 - Costanera Ferrocarril #3331-2753</fullName>
+                <default>false</default>
+                <label>Lampa 2 - Costanera Ferrocarril #3331-2753</label>
+            </value>
+            <value>
+                <fullName>Lampa - Consmat-2754</fullName>
+                <default>false</default>
+                <label>Lampa - Consmat-2754</label>
+            </value>
+            <value>
+                <fullName>Tercop 1-2740</fullName>
+                <default>false</default>
+                <label>Tercop 1-2740</label>
+            </value>
+            <value>
+                <fullName>Coseducam-2742</fullName>
+                <default>false</default>
+                <label>Coseducam-2742</label>
+            </value>
+            <value>
+                <fullName>Malvilla-2743</fullName>
+                <default>false</default>
+                <label>Malvilla-2743</label>
+            </value>
+            <value>
+                <fullName>Tercop 2-2744</fullName>
+                <default>false</default>
+                <label>Tercop 2-2744</label>
+            </value>
+            <value>
+                <fullName>EPA-2925</fullName>
+                <default>false</default>
+                <label>EPA-2925</label>
+            </value>
+            <value>
+                <fullName>Ghana - FMSL-2922</fullName>
+                <default>false</default>
+                <label>Ghana - FMSL-2922</label>
+            </value>
+            <value>
+                <fullName>México - Alianza</fullName>
+                <default>false</default>
+                <label>México - Alianza</label>
+            </value>
+            <value>
+                <fullName>México - Multimodal Aceros Sonora</fullName>
+                <default>false</default>
+                <label>México - Multimodal Aceros Sonora</label>
+            </value>
+            <value>
+                <fullName>Arequipa - AGZ-YP80</fullName>
+                <default>false</default>
+                <label>Arequipa - AGZ-YP80</label>
+            </value>
+            <value>
+                <fullName>Tacna - Aeromater 1-YP40</fullName>
+                <default>false</default>
+                <label>Tacna - Aeromater 1-YP40</label>
+            </value>
+            <value>
+                <fullName>Tacna - Aeromater 2-YP1B</fullName>
+                <default>false</default>
+                <label>Tacna - Aeromater 2-YP1B</label>
+            </value>
+            <value>
+                <fullName>Lima - Cajamarquilla APM-YP20</fullName>
+                <default>false</default>
+                <label>Lima - Cajamarquilla APM-YP20</label>
+            </value>
+            <value>
+                <fullName>Lima - Callao 1-YP30</fullName>
+                <default>false</default>
+                <label>Lima - Callao 1-YP30</label>
+            </value>
+            <value>
+                <fullName>Lima - Callao 2-YP3B</fullName>
+                <default>false</default>
+                <label>Lima - Callao 2-YP3B</label>
+            </value>
+            <value>
+                <fullName>La Laguna-YP11</fullName>
+                <default>false</default>
+                <label>La Laguna-YP11</label>
+            </value>
+            <value>
+                <fullName>Arequipa - Matarani 1-YP70</fullName>
+                <default>false</default>
+                <label>Arequipa - Matarani 1-YP70</label>
+            </value>
+            <value>
+                <fullName>Arequipa - Matarani 2-YP7B</fullName>
+                <default>false</default>
+                <label>Arequipa - Matarani 2-YP7B</label>
+            </value>
+            <value>
+                <fullName>Matarani - Asur-YP71</fullName>
+                <default>false</default>
+                <label>Matarani - Asur-YP71</label>
+            </value>
+            <value>
+                <fullName>Tacoma - AFF-7401</fullName>
+                <default>false</default>
+                <label>Tacoma - AFF-7401</label>
+            </value>
+            <value>
+                <fullName>Salt Lake City - Metro Group-7411</fullName>
+                <default>false</default>
+                <label>Salt Lake City - Metro Group-7411</label>
+            </value>
+            <value>
+                <fullName>Vancouver - Arrow Transportation-7447</fullName>
+                <default>false</default>
+                <label>Vancouver - Arrow Transportation-7447</label>
+            </value>
+            <value>
+                <fullName>Vancouver - Bandstra-7443</fullName>
+                <default>false</default>
+                <label>Vancouver - Bandstra-7443</label>
+            </value>
+            <value>
+                <fullName>Prince Rupert - Bandstra-7442</fullName>
+                <default>false</default>
+                <label>Prince Rupert - Bandstra-7442</label>
+            </value>
+            <value>
+                <fullName>Smithers - Bandstra-7441</fullName>
+                <default>false</default>
+                <label>Smithers - Bandstra-7441</label>
+            </value>
+            <value>
+                <fullName>Terrace - Bandstra-7448</fullName>
+                <default>false</default>
+                <label>Terrace - Bandstra-7448</label>
+            </value>
+            <value>
+                <fullName>Vancouver - Olympia-7444</fullName>
+                <default>false</default>
+                <label>Vancouver - Olympia-7444</label>
+            </value>
+            <value>
+                <fullName>Thunder Bay - Olympia Mid Continent-7454</fullName>
+                <default>false</default>
+                <label>Thunder Bay - Olympia Mid Continent-7454</label>
+            </value>
+            <value>
+                <fullName>Longlac - Olympia Barino-7453</fullName>
+                <default>false</default>
+                <label>Longlac - Olympia Barino-7453</label>
+            </value>
+            <value>
+                <fullName>Sudbury - Mansour Group-7455</fullName>
+                <default>false</default>
+                <label>Sudbury - Mansour Group-7455</label>
+            </value>
+            <value>
+                <fullName>Chandler - Armsby</fullName>
+                <default>false</default>
+                <label>Chandler - Armsby</label>
+            </value>
+            <value>
+                <fullName>Kamloops - Bandstra</fullName>
+                <default>false</default>
+                <label>Kamloops - Bandstra</label>
+            </value>
+            <value>
+                <fullName>Prince George - Bandstra</fullName>
+                <default>false</default>
+                <label>Prince George - Bandstra</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <visibleLines>4</visibleLines>

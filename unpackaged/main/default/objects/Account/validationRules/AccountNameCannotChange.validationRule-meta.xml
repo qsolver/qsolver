@@ -7,7 +7,6 @@
  RecordType.Name = &quot;Customer&quot;,
 ISCHANGED(Name),
 NOT($Permission.Integrator),
-NOT($Permission.Edit_Account_Name),
 NOT($Profile.Id =&quot;00e3h000001bAJt&quot;)
 )</errorConditionFormula>
     <errorDisplayField>Name</errorDisplayField>

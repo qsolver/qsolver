@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Product Typology Level I --></label>
+        <name>Product_Typology_Level_I__c</name>
+        <picklistValues>
+            <masterLabel>Crushing Liners</masterLabel>
+            <translation><!-- Crushing Liners --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

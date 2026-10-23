@@ -288,9 +288,19 @@
                 <label>Roller</label>
             </value>
             <value>
-                <fullName>Harneros</fullName>
+                <fullName>Undercarriage</fullName>
                 <default>false</default>
-                <label>Harneros</label>
+                <label>Undercarriage</label>
+            </value>
+            <value>
+                <fullName>Tolvas</fullName>
+                <default>false</default>
+                <label>Tolvas</label>
+            </value>
+            <value>
+                <fullName>Blindajes</fullName>
+                <default>false</default>
+                <label>Blindajes</label>
             </value>
         </valueSetDefinition>
         <valueSettings>
@@ -304,6 +314,18 @@
         <valueSettings>
             <controllingFieldValue>Undercarriage</controllingFieldValue>
             <valueName>Palas Hidráulicas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Undercarriage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Tolvas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Equipos Mina</controllingFieldValue>
+            <valueName>Blindajes</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Alerta Temprana</controllingFieldValue>
@@ -466,10 +488,6 @@
         <valueSettings>
             <controllingFieldValue>Maestranza</controllingFieldValue>
             <valueName>Chancadores</valueName>
-        </valueSettings>
-        <valueSettings>
-            <controllingFieldValue>Maestranza</controllingFieldValue>
-            <valueName>Harneros</valueName>
         </valueSettings>
         <valueSettings>
             <controllingFieldValue>Molienda</controllingFieldValue>

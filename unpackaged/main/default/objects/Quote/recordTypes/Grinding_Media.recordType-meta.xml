@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grinding_Media</fullName>
+    <active>true</active>
+    <label>Grinding Media</label>
+    <picklistValues>
+        <picklist>Clausula_de_reajuste__c</picklist>
+        <values>
+            <fullName>Mensual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seis meses</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin reajuste</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tres meses</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Disponibilidad_de_stock__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Si</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Distribution_Channel__c</picklist>
+        <values>
+            <fullName>Antofagasta - DyC Sitio 1-2704</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antofagasta - DyC Sitio 2-2705</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antofagasta - DyC Sitio 3-2706</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antofagasta - La Negra-2701</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Antofagasta-2700</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arequipa - AGZ-YP80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arequipa - Matarani 1-YP70</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arequipa - Matarani 2-YP7B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calama-2710</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calama-2711</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chandler - Armsby</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copiapó - Mintral Toledo-2723</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copiapó - Paipote-2721</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copiapó-2720</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copiapó-2722</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Coseducam-2742</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EPA-2925</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ghana - FMSL-2922</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iquique - Marval-2732</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iquique-2730</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kamloops - Bandstra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Laguna-YP11</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa - Consmat-2754</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa 1 - Juan Andrés %231253-2752</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa 2 - Costanera Ferrocarril %233331-2753</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa-2750</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lima - Cajamarquilla APM-YP20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lima - Callao 1-YP30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lima - Callao 2-YP3B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Longlac - Olympia Barino-7453</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malvilla-2743</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matarani - Asur-YP71</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>México - Alianza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>México - Multimodal Aceros Sonora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince George - Bandstra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prince Rupert - Bandstra-7442</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salt Lake City - Metro Group-7411</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smithers - Bandstra-7441</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sudbury - Mansour Group-7455</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tacna - Aeromater 1-YP40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tacna - Aeromater 2-YP1B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tacoma - AFF-7401</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tercop 1-2740</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tercop 2-2744</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terrace - Bandstra-7448</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thunder Bay - Olympia Mid Continent-7454</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vancouver - Arrow Transportation-7447</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vancouver - Bandstra-7443</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vancouver - Olympia-7444</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Division__c</picklist>
+        <values>
+            <fullName>CI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OV</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Incoterms__c</picklist>
+        <values>
+            <fullName>CFR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXW DC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EXW Planta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FCA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Quotation_Type__c</picklist>
+        <values>
+            <fullName>General</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Quote_Category__c</picklist>
+        <values>
+            <fullName>Licitacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proactivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spot</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_SU__c</picklist>
+        <values>
+            <fullName>C%2FU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UN</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ELM_Sales_Organization__c</picklist>
+        <values>
+            <fullName>OVE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OVP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OVT</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Forma_de_pago__c</picklist>
+        <values>
+            <fullName>Bill of lading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carta de Crédito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contra factura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago a sesenta días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago a treinta días</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago anticipado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago en cuotas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago inmediato</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Condiciones de venta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Costos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Disponibilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Margen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent %2F Negociation</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ubicacion_del_stock__c</picklist>
+        <values>
+            <fullName>Antofagasta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copiapó</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iquique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lampa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matarani</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Validez_de_propuesta__c</picklist>
+        <values>
+            <fullName>Noventa dias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quince dias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sesenta dias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treinta dias</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

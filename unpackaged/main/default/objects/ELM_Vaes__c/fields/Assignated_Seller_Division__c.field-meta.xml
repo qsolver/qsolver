@@ -16,9 +16,8 @@
                         CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Peru&quot;), &quot;Molienda Peru&quot;,
                         IF(
                             CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Molienda Sudamerica&quot;), &quot;Molienda Sudamerica&quot;,
-                              IF(
-                            CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Desarrollo de Negocios&quot;), &quot;Desarrollo de Negocios&quot;,
-                    &quot;Sales&quot;))
+                            &quot;Sales&quot;
+                        )
                     )
                 )
             )
@@ -31,11 +30,7 @@
                 CONTAINS(ELM_Account__r.Vendedor_Chancado__r.Division, &quot;Molienda ZN&quot;), &quot;Molienda ZN&quot;,
                 IF(
                     CONTAINS(ELM_Account__r.Vendedor_Chancado__r.Division, &quot;Servicios&quot;), &quot;Servicios&quot;,
-                       IF(
-                            CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Molienda Sudamerica&quot;), &quot;Molienda Sudamerica&quot;,
-                               IF(
-                            CONTAINS(ELM_Account__r.Vendedor_Molienda__r.Division, &quot;Desarrollo de Negocios&quot;), &quot;Desarrollo de Negocios&quot;,
-                    &quot;Sales&quot;))
+                    &quot;Sales&quot;
                 )
             )
         ),

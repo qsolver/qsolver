@@ -50,9 +50,39 @@
         <allowEmail>true</allowEmail>
     </standardValue>
     <standardValue>
-        <fullName>Perdida sin feedback</fullName>
+        <fullName>Condiciones de venta</fullName>
         <default>false</default>
-        <label>Perdida sin feedback</label>
+        <label>Condiciones de venta</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Disponibilidad</fullName>
+        <default>false</default>
+        <label>Disponibilidad</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Costos</fullName>
+        <default>false</default>
+        <label>Costos</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Margen</fullName>
+        <default>false</default>
+        <label>Margen</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent / Negociation</fullName>
+        <default>false</default>
+        <label>Sent / Negociation</label>
+        <allowEmail>false</allowEmail>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
         <allowEmail>false</allowEmail>
     </standardValue>
 </StandardValueSet>

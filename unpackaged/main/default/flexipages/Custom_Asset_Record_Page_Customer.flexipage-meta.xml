@@ -184,23 +184,6 @@
                     <name>uiBehavior</name>
                     <value>none</value>
                 </fieldInstanceProperties>
-                <fieldItem>Record.Clasificacion_Tamanio__c</fieldItem>
-                <identifier>RecordClasificacion_Tamanio_cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.Line_of_Business__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Molienda</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
                 <fieldItem>Record.Line_of_Business__c</fieldItem>
                 <identifier>RecordLine_of_Business_cField</identifier>
             </fieldInstance>
@@ -963,7 +946,7 @@
                 <identifier>flexipage_fieldSection3</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <leftValue>{!$User.ELM_Equipo_de_Ventas__c}</leftValue>
                         <operator>NE</operator>
                         <rightValue>APAC</rightValue>
                     </criteria>

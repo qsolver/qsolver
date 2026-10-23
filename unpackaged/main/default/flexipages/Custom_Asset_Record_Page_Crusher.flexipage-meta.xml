@@ -766,7 +766,7 @@
                 <identifier>flexipage_fieldSection3</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <leftValue>{!$User.ELM_Equipo_de_Ventas__c}</leftValue>
                         <operator>NE</operator>
                         <rightValue>APAC</rightValue>
                     </criteria>
@@ -791,7 +791,7 @@
                 <identifier>flexipage_fieldSection4</identifier>
                 <visibilityRule>
                     <criteria>
-                        <leftValue>{!Record.ELM_Sales_Team__c}</leftValue>
+                        <leftValue>{!$User.ELM_Equipo_de_Ventas__c}</leftValue>
                         <operator>NE</operator>
                         <rightValue>APAC</rightValue>
                     </criteria>

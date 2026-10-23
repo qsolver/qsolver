@@ -20,6 +20,10 @@
                     <value>false</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
+                    <name>hideSlackAction</name>
+                    <value>false</value>
+                </componentInstanceProperties>
+                <componentInstanceProperties>
                     <name>numVisibleActions</name>
                     <value>3</value>
                 </componentInstanceProperties>
@@ -115,6 +119,40 @@
                         <leftValue>{!Record.ELM_Object_Name__c}</leftValue>
                         <operator>EQUAL</operator>
                         <rightValue>Maintenance__c</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Case__c</fieldItem>
+                <identifier>RecordCase__cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Object_Name__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Case</rightValue>
+                    </criteria>
+                </visibilityRule>
+            </fieldInstance>
+        </itemInstances>
+        <itemInstances>
+            <fieldInstance>
+                <fieldInstanceProperties>
+                    <name>uiBehavior</name>
+                    <value>none</value>
+                </fieldInstanceProperties>
+                <fieldItem>Record.Doc_Type_Case__c</fieldItem>
+                <identifier>RecordDoc_Type_Case__cField</identifier>
+                <visibilityRule>
+                    <criteria>
+                        <leftValue>{!Record.ELM_Object_Name__c}</leftValue>
+                        <operator>EQUAL</operator>
+                        <rightValue>Case</rightValue>
                     </criteria>
                 </visibilityRule>
             </fieldInstance>

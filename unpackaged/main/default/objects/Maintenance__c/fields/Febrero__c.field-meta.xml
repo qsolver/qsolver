@@ -6,10 +6,10 @@
 
 IF(ISPICKVAL(Tipo_de_Mantencion__c, &quot;Mantencion Mayor&quot;),
 
-HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id , IMAGE($Label.Mantencion_Mayor_imagen, &#39;MM&#39;, 15, 100), &#39;_parent&#39; )
+HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp;  $Label.Maintenance_Report_Calendar_Id , IMAGE($Label.Mantencion_Mayor_imagen, &#39;Ver&#39;, 15, 100), &#39;_parent&#39; )
 ,
 
-HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp; $Label.Maintenance_Report_Calendar_Id, IMAGE($Label.Mantencion_de_Servicios_Imagen, &#39;MS&#39;, 15, 100), &#39;_parent&#39; )
+HYPERLINK(&#39;/flow/Maintenance_Preview?recordId=&#39;&amp;Id&amp;&quot;&amp;retURL=/&quot; &amp; $Label.Maintenance_Report_Calendar_Id, IMAGE($Label.Mantencion_de_Servicios_Imagen, &#39;Ver&#39;, 15, 100), &#39;_parent&#39; )
 
 
 )

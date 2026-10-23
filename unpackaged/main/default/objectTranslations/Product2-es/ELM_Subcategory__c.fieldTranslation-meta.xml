@@ -52,10 +52,6 @@
             <translation><!-- Fundiciónes de Cobre --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Harneros</masterLabel>
-            <translation><!-- Harneros --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Laser 3D</masterLabel>
             <translation><!-- Laser 3D --></translation>
         </picklistValues>

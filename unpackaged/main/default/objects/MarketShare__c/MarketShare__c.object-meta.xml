@@ -208,7 +208,7 @@
         <fields>RECORDTYPE</fields>
         <fields>Account__c</fields>
         <fields>Proveedor_del_Set__c</fields>
-        <profileName>PM Mixto</profileName>
+        <profileName>Gestor Comercial Mixto</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>NAME</fields>
@@ -257,14 +257,14 @@
         <fields>RECORDTYPE</fields>
         <fields>Account__c</fields>
         <fields>Proveedor_del_Set__c</fields>
-        <profileName>PM GM</profileName>
+        <profileName>Gestor Comercial GM</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>NAME</fields>
         <fields>RECORDTYPE</fields>
         <fields>Account__c</fields>
         <fields>Proveedor_del_Set__c</fields>
-        <profileName>PM</profileName>
+        <profileName>Gestor Comercial</profileName>
     </profileSearchLayouts>
     <profileSearchLayouts>
         <fields>NAME</fields>

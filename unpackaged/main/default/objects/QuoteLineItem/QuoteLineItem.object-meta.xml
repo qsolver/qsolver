@@ -102,6 +102,7 @@
     <enableFeeds>false</enableFeeds>
     <externalSharingModel>ControlledByParent</externalSharingModel>
     <searchLayouts>
+        <listViewButtons>Edit_Products</listViewButtons>
         <searchResultsAdditionalFields>QUOTE_LI.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QUOTE.NAME</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>QUOTE_LI.PRODUCT2</searchResultsAdditionalFields>

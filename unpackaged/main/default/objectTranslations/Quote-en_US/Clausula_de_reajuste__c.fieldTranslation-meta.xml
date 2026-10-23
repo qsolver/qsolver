@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Clausula de reajuste --></label>
+        <name>Clausula_de_reajuste__c</name>
+        <picklistValues>
+            <masterLabel>Mensual</masterLabel>
+            <translation><!-- Mensual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seis meses</masterLabel>
+            <translation><!-- Seis meses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sin reajuste</masterLabel>
+            <translation><!-- Sin reajuste --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tres meses</masterLabel>
+            <translation><!-- Tres meses --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

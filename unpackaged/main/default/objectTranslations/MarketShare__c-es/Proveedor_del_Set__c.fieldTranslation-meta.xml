@@ -15,36 +15,36 @@
             <translation><!-- CITIC --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>CMS Cepcor</masterLabel>
-            <translation><!-- CMS Cepcor --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>CWP</masterLabel>
-            <translation><!-- CWP --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Chilcas</masterLabel>
             <translation><!-- Chilcas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comesa</masterLabel>
+            <translation><!-- Comesa --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Cuyanos</masterLabel>
             <translation><!-- Cuyanos --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Edcast</masterLabel>
-            <translation><!-- Edcast --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Elecmetal</masterLabel>
             <translation><!-- Elecmetal --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Esco</masterLabel>
-            <translation><!-- Esco --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>FLS</masterLabel>
             <translation><!-- FLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fucsa</masterLabel>
+            <translation><!-- Fucsa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lippmann</masterLabel>
+            <translation><!-- Lippmann --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mepsa</masterLabel>
+            <translation><!-- Mepsa --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Metso</masterLabel>
@@ -67,10 +67,6 @@
             <translation><!-- Scaw --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>TBA</masterLabel>
-            <translation><!-- TBA --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Thyssen Krupp</masterLabel>
             <translation><!-- Thyssen Krupp --></translation>
         </picklistValues>
@@ -79,7 +75,11 @@
             <translation><!-- Unknown --></translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Yoon Steel</masterLabel>
-            <translation><!-- Yoon Steel --></translation>
+            <masterLabel>Vulco</masterLabel>
+            <translation><!-- Vulco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weir</masterLabel>
+            <translation><!-- Weir --></translation>
         </picklistValues>
     </CustomFieldTranslation>

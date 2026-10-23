@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requerimiento_industria__c</fullName>
+    <label>Requerimiento industria</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Ing dimensional</fullName>
+                <default>false</default>
+                <label>Ing dimensional</label>
+            </value>
+            <value>
+                <fullName>Control Tensión Pernos</fullName>
+                <default>false</default>
+                <label>Control Tensión Pernos</label>
+            </value>
+            <value>
+                <fullName>Auditoria</fullName>
+                <default>false</default>
+                <label>Auditoria</label>
+            </value>
+            <value>
+                <fullName>ultrasonido inalámbrico</fullName>
+                <default>false</default>
+                <label>ultrasonido inalámbrico</label>
+            </value>
+            <value>
+                <fullName>Moncon Harneros</fullName>
+                <default>false</default>
+                <label>Moncon Harneros</label>
+            </value>
+            <value>
+                <fullName>Moncon Mina</fullName>
+                <default>false</default>
+                <label>Moncon Mina</label>
+            </value>
+            <value>
+                <fullName>Medir cota A</fullName>
+                <default>false</default>
+                <label>Medir cota A</label>
+            </value>
+            <value>
+                <fullName>Monitoreo de Coronas</fullName>
+                <default>false</default>
+                <label>Monitoreo de Coronas</label>
+            </value>
+            <value>
+                <fullName>Escaneo sin sacar chute SAG</fullName>
+                <default>false</default>
+                <label>Escaneo sin sacar chute SAG</label>
+            </value>
+            <value>
+                <fullName>Escaneo remoto chancador</fullName>
+                <default>false</default>
+                <label>Escaneo remoto chancador</label>
+            </value>
+            <value>
+                <fullName>Tracker Liners</fullName>
+                <default>false</default>
+                <label>Tracker Liners</label>
+            </value>
+            <value>
+                <fullName>Tracker Assets</fullName>
+                <default>false</default>
+                <label>Tracker Assets</label>
+            </value>
+            <value>
+                <fullName>Medición de Settings</fullName>
+                <default>false</default>
+                <label>Medición de Settings</label>
+            </value>
+            <value>
+                <fullName>Detección fuga de pulpa</fullName>
+                <default>false</default>
+                <label>Detección fuga de pulpa</label>
+            </value>
+            <value>
+                <fullName>Medición de tiempos mantención</fullName>
+                <default>false</default>
+                <label>Medición de tiempos mantención</label>
+            </value>
+            <value>
+                <fullName>Medición impactos SAG</fullName>
+                <default>false</default>
+                <label>Medición impactos SAG</label>
+            </value>
+            <value>
+                <fullName>Granulometría en tiempo real</fullName>
+                <default>false</default>
+                <label>Granulometría en tiempo real</label>
+            </value>
+            <value>
+                <fullName>Conteo de bolas</fullName>
+                <default>false</default>
+                <label>Conteo de bolas</label>
+            </value>
+            <value>
+                <fullName>Mezcla perfecta Stockpile</fullName>
+                <default>false</default>
+                <label>Mezcla perfecta Stockpile</label>
+            </value>
+            <value>
+                <fullName>Gemelo digital SAG</fullName>
+                <default>false</default>
+                <label>Gemelo digital SAG</label>
+            </value>
+            <value>
+                <fullName>Asesoría en terreno</fullName>
+                <default>false</default>
+                <label>Asesoría en terreno</label>
+            </value>
+            <value>
+                <fullName>Desconocido</fullName>
+                <default>false</default>
+                <label>Desconocido</label>
+            </value>
+            <value>
+                <fullName>No Usan</fullName>
+                <default>false</default>
+                <label>No Usan</label>
+            </value>
+            <value>
+                <fullName>Smart Liners</fullName>
+                <default>false</default>
+                <label>Smart Liners</label>
+            </value>
+            <value>
+                <fullName>CSS Online</fullName>
+                <default>false</default>
+                <label>CSS Online</label>
+            </value>
+            <value>
+                <fullName>Medición de Setting</fullName>
+                <default>false</default>
+                <label>Medición de Setting</label>
+            </value>
+            <value>
+                <fullName>Liners tracker</fullName>
+                <default>false</default>
+                <label>Liners tracker</label>
+            </value>
+            <value>
+                <fullName>Gemelo Digital StockPile</fullName>
+                <default>false</default>
+                <label>Gemelo Digital StockPile</label>
+            </value>
+            <value>
+                <fullName>Assets tracker</fullName>
+                <default>false</default>
+                <label>Assets tracker</label>
+            </value>
+            <value>
+                <fullName>Elementos en tiempo real</fullName>
+                <default>false</default>
+                <label>Elementos en tiempo real</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

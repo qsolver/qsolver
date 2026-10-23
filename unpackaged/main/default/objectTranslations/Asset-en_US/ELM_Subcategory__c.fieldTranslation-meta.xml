@@ -16,6 +16,10 @@
             <translation>Rod</translation>
         </picklistValues>
         <picklistValues>
+            <masterLabel>Blindajes</masterLabel>
+            <translation>Armor</translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>Bolas</masterLabel>
             <translation>Ball</translation>
         </picklistValues>
@@ -62,10 +66,6 @@
         <picklistValues>
             <masterLabel>HPGR</masterLabel>
             <translation><!-- HPGR --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Harneros</masterLabel>
-            <translation><!-- Harneros --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Impact</masterLabel>
@@ -222,6 +222,14 @@
         <picklistValues>
             <masterLabel>Tertiary</masterLabel>
             <translation><!-- Tertiary --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tolvas</masterLabel>
+            <translation>Hoppers</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Undercarriage</masterLabel>
+            <translation><!-- Undercarriage --></translation>
         </picklistValues>
         <picklistValues>
             <masterLabel>Wear Runner</masterLabel>

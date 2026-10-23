@@ -821,6 +821,10 @@
             <fullName>M6 - Intermedias</fullName>
             <default>false</default>
         </values>
+        <values>
+            <fullName>M7 - Pernos</fullName>
+            <default>false</default>
+        </values>
     </picklistValues>
     <picklistValues>
         <picklist>Situacion__c</picklist>

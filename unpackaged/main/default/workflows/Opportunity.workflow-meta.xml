@@ -130,6 +130,10 @@
             <type>user</type>
         </recipients>
         <recipients>
+            <recipient>jriffo@neox.cl</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
             <recipient>jvargasr@me-elecmetal.com</recipient>
             <type>user</type>
         </recipients>

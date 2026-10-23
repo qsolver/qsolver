@@ -108,20 +108,6 @@
                             </div>
                         </td>
                     </tr>
-                     <tr style="height:23pt">
-                        <td style="width:128pt;border-top-style:solid;border-top-width:1pt;border-top-color:#4F81BB;border-left-style:solid;border-left-width:1pt;border-left-color:#4F81BB;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#4F81BB">
-                            <p  style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left; color: #1F477B; font-family:Arial, sans-serif; font-style: normal; font-weight: bold; text-decoration: none; font-size: 11pt;">
-                                Link al VAES:
-                            </p>
-                        </td>
-                        <td style="width:312pt;padding-right: 25px;border-top-style:solid;border-top-width:1pt;border-top-color:#4F81BB;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#4F81BB;border-right-style:solid;border-right-width:1pt;border-right-color:#4F81BB">
-                            <div  style="padding-top: 5pt;padding-left: 5pt;text-indent: 0pt;text-align: left; color: #A6A6A6; font-family:Arial, sans-serif; font-style: normal; font-weight: normal; text-decoration: none; font-size: 11pt;">
-                                <a href="{!LEFT($Api.Partner_Server_URL_550, FIND('/services', $Api.Partner_Server_URL_550)) + relatedTo.Id}" style="color: #2D74B5; text-decoration: underline; font-weight: bold;">
-                                    Ver en Salesforce
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
                 </table>
                
             </body>

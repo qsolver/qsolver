@@ -3,6 +3,10 @@
         <label><!-- Quotation Type --></label>
         <name>ELM_Quotation_Type__c</name>
         <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
             <masterLabel>YPLV</masterLabel>
             <translation><!-- YPLV --></translation>
         </picklistValues>

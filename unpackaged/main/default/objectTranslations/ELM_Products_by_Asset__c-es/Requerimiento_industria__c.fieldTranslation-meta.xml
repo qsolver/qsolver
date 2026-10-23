@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+        <label><!-- Requerimiento industria --></label>
+        <name>Requerimiento_industria__c</name>
+        <picklistValues>
+            <masterLabel>Asesoría en terreno</masterLabel>
+            <translation><!-- Asesoría en terreno --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assets tracker</masterLabel>
+            <translation><!-- Assets tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auditoria</masterLabel>
+            <translation><!-- Auditoria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSS Online</masterLabel>
+            <translation><!-- CSS Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conteo de bolas</masterLabel>
+            <translation><!-- Conteo de bolas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control Tensión Pernos</masterLabel>
+            <translation><!-- Control Tensión Pernos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desconocido</masterLabel>
+            <translation><!-- Desconocido --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detección fuga de pulpa</masterLabel>
+            <translation><!-- Detección fuga de pulpa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elementos en tiempo real</masterLabel>
+            <translation><!-- Elementos en tiempo real --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escaneo remoto chancador</masterLabel>
+            <translation><!-- Escaneo remoto chancador --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Escaneo sin sacar chute SAG</masterLabel>
+            <translation><!-- Escaneo sin sacar chute SAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemelo Digital StockPile</masterLabel>
+            <translation><!-- Gemelo Digital StockPile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gemelo digital SAG</masterLabel>
+            <translation><!-- Gemelo digital SAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granulometría en tiempo real</masterLabel>
+            <translation><!-- Granulometría en tiempo real --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ing dimensional</masterLabel>
+            <translation><!-- Ing dimensional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liners tracker</masterLabel>
+            <translation><!-- Liners tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medición de Setting</masterLabel>
+            <translation><!-- Medición de Setting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medición de Settings</masterLabel>
+            <translation><!-- Medición de Settings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medición de tiempos mantención</masterLabel>
+            <translation><!-- Medición de tiempos mantención --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medición impactos SAG</masterLabel>
+            <translation><!-- Medición impactos SAG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medir cota A</masterLabel>
+            <translation><!-- Medir cota A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mezcla perfecta Stockpile</masterLabel>
+            <translation><!-- Mezcla perfecta Stockpile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moncon Harneros</masterLabel>
+            <translation><!-- Moncon Harneros --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moncon Mina</masterLabel>
+            <translation><!-- Moncon Mina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Monitoreo de Coronas</masterLabel>
+            <translation><!-- Monitoreo de Coronas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Usan</masterLabel>
+            <translation><!-- No Usan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Smart Liners</masterLabel>
+            <translation><!-- Smart Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracker Assets</masterLabel>
+            <translation><!-- Tracker Assets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tracker Liners</masterLabel>
+            <translation><!-- Tracker Liners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ultrasonido inalámbrico</masterLabel>
+            <translation><!-- ultrasonido inalámbrico --></translation>
+        </picklistValues>
+    </CustomFieldTranslation>

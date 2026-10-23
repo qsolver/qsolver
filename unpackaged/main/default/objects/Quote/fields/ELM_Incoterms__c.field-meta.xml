@@ -110,6 +110,21 @@
                 <default>false</default>
                 <label>Z02</label>
             </value>
+            <value>
+                <fullName>EXW Planta</fullName>
+                <default>false</default>
+                <label>EXW Planta</label>
+            </value>
+            <value>
+                <fullName>EXW DC</fullName>
+                <default>false</default>
+                <label>EXW DC</label>
+            </value>
+            <value>
+                <fullName>DAT</fullName>
+                <default>false</default>
+                <label>DAT</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

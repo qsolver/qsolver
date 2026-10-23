@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-        <label>Routing</label>
+        <label><!-- Enrutamiento --></label>
         <name>Enrutamiento__c</name>
         <picklistValues>
             <masterLabel>CL-CPS</masterLabel>
@@ -13,13 +13,5 @@
         <picklistValues>
             <masterLabel>CL-SPI</masterLabel>
             <translation><!-- CL-SPI --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>GLOBAL CAR</masterLabel>
-            <translation><!-- GLOBAL CAR --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Plano Conjunto</masterLabel>
-            <translation><!-- Plano Conjunto --></translation>
         </picklistValues>
     </CustomFieldTranslation>

@@ -6,11 +6,11 @@
     <loginUrl>https://login.microsoftonline.com/4df5ce6e-66c4-4a6f-9aae-4ab769afe05e/saml2</loginUrl>
     <logoutUrl>https://login.microsoftonline.com/4df5ce6e-66c4-4a6f-9aae-4ab769afe05e/saml2</logoutUrl>
     <name>ME Elecmetal SSO (MEG)</name>
-    <oauthTokenEndpoint>https://me-elecmetal.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <oauthTokenEndpoint>https://me-elecmetal--dev2.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
     <redirectBinding>true</redirectBinding>
     <requestSignatureMethod>1</requestSignatureMethod>
     <requestSigningCertId>0P1Pn0000000AU1</requestSigningCertId>
-    <salesforceLoginUrl>https://me-elecmetal.my.salesforce.com</salesforceLoginUrl>
+    <salesforceLoginUrl>https://me-elecmetal--dev2.sandbox.my.salesforce.com</salesforceLoginUrl>
     <samlEntityId>https://me-elecmetal.my.salesforce.com</samlEntityId>
     <samlVersion>SAML2_0</samlVersion>
     <singleLogoutBinding>RedirectBinding</singleLogoutBinding>

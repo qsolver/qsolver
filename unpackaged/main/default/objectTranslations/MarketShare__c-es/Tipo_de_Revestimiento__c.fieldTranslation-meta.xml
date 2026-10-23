@@ -14,8 +14,4 @@
             <masterLabel>Revestimientos de Protección</masterLabel>
             <translation><!-- Revestimientos de Protección --></translation>
         </picklistValues>
-        <picklistValues>
-            <masterLabel>Services and Spare Parts</masterLabel>
-            <translation>Servicios y Repuestos</translation>
-        </picklistValues>
     </CustomFieldTranslation>

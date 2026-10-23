@@ -3,7 +3,7 @@
     <actionCalls>
         <name>Enviar_Email_Checklist_Servicios</name>
         <label>Enviar Email Checklist Servicios</label>
-        <locationX>1785</locationX>
+        <locationX>1807</locationX>
         <locationY>5978</locationY>
         <actionName>OpportunityLineItem.Checklist_Component_Services</actionName>
         <actionType>emailAlert</actionType>
@@ -131,8 +131,8 @@
     <actionCalls>
         <name>Send_Checklist_Notification_En_Tramite</name>
         <label>Send Checklist Notification En Tramite</label>
-        <locationX>2624</locationX>
-        <locationY>3446</locationY>
+        <locationX>2756</locationX>
+        <locationY>3554</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -176,7 +176,7 @@
         <name>Send_Checklist_Notification_En_Tramite_Yutronic</name>
         <label>Send Checklist Notification En Tramite Yutronic</label>
         <locationX>2492</locationX>
-        <locationY>3770</locationY>
+        <locationY>3554</locationY>
         <actionName>customNotificationAction</actionName>
         <actionType>customNotificationAction</actionType>
         <connector>
@@ -269,12 +269,12 @@
     <actionCalls>
         <name>Send_Pending_Checklist_Email_Alert</name>
         <label>Send Pending Checklist Email Alert</label>
-        <locationX>2624</locationX>
-        <locationY>3554</locationY>
+        <locationX>2756</locationX>
+        <locationY>3662</locationY>
         <actionName>Opportunity.Email_Alert_Checklist_En_Tramite</actionName>
         <actionType>emailAlert</actionType>
         <connector>
-            <targetReference>Check_If_Mill_Linners</targetReference>
+            <targetReference>Is_It_Automatically_Approved</targetReference>
         </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
@@ -290,7 +290,7 @@
         <name>Send_Pending_Checklist_Email_Alert_Yutronic</name>
         <label>Send Pending Checklist Email Alert Yutronic</label>
         <locationX>2492</locationX>
-        <locationY>3878</locationY>
+        <locationY>3662</locationY>
         <actionName>Opportunity.Email_Alert_Pending_En_Tramite_Yutronic</actionName>
         <actionType>emailAlert</actionType>
         <connector>
@@ -311,7 +311,7 @@
     <assignments>
         <name>Assign_Approved_To_Con_OC</name>
         <label>Assign Approved To Con OC</label>
-        <locationX>1805</locationX>
+        <locationX>1827</locationX>
         <locationY>5654</locationY>
         <assignmentItems>
             <assignToReference>Get_Oportunity.Checklist_Enviado__c</assignToReference>
@@ -334,7 +334,7 @@
     <assignments>
         <name>Assign_Calc_Document_Ids</name>
         <label>Assign Calc Document Ids</label>
-        <locationX>2299</locationX>
+        <locationX>2321</locationX>
         <locationY>2954</locationY>
         <assignmentItems>
             <assignToReference>DocumentIds</assignToReference>
@@ -350,7 +350,7 @@
     <assignments>
         <name>Assign_Document_Id</name>
         <label>Assign Document Id</label>
-        <locationX>2035</locationX>
+        <locationX>2057</locationX>
         <locationY>2954</locationY>
         <assignmentItems>
             <assignToReference>DocumentIds</assignToReference>
@@ -366,7 +366,7 @@
     <assignments>
         <name>Assign_En_Tramite_Public_Group_Id</name>
         <label>Assign En Tramite Public Group Id</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2114</locationY>
         <assignmentItems>
             <assignToReference>OppEnTramiteRecipientId</assignToReference>
@@ -382,7 +382,7 @@
     <assignments>
         <name>Assign_explicaion_of_checklist_email</name>
         <label>Assign explicaion of checklist email</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2522</locationY>
         <assignmentItems>
             <assignToReference>Get_Oportunity.Explicacion_For_Checklist__c</assignToReference>
@@ -398,7 +398,7 @@
     <assignments>
         <name>Assign_Fecha_de_envio</name>
         <label>Assign Fecha de envio</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>6338</locationY>
         <assignmentItems>
             <assignToReference>Get_Oportunity.Ultima_fecha_de_envio__c</assignToReference>
@@ -421,7 +421,7 @@
     <assignments>
         <name>Assign_Name_Product</name>
         <label>Assign Name Product</label>
-        <locationX>1482</locationX>
+        <locationX>1493</locationX>
         <locationY>1298</locationY>
         <assignmentItems>
             <assignToReference>ListNameProducts</assignToReference>
@@ -437,7 +437,7 @@
     <assignments>
         <name>Assign_Name_Product_Empty</name>
         <label>Assign Name Product</label>
-        <locationX>1218</locationX>
+        <locationX>1229</locationX>
         <locationY>1298</locationY>
         <assignmentItems>
             <assignToReference>ListNameProducts</assignToReference>
@@ -453,7 +453,7 @@
     <assignments>
         <name>Assign_Public_Group_Id</name>
         <label>Assign Public Group Id</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2006</locationY>
         <assignmentItems>
             <assignToReference>RecipientId</assignToReference>
@@ -485,7 +485,7 @@
     <assignments>
         <name>Assign_Records_with_missing_fields</name>
         <label>Assign Records with missing fields</label>
-        <locationX>1218</locationX>
+        <locationX>1229</locationX>
         <locationY>998</locationY>
         <assignmentItems>
             <assignToReference>ProductsWithMissingFields</assignToReference>
@@ -501,7 +501,7 @@
     <assignments>
         <name>Assign_single_ProductWithMissingFields</name>
         <label>Assign single ProductWithMissingFields</label>
-        <locationX>1218</locationX>
+        <locationX>1229</locationX>
         <locationY>890</locationY>
         <assignmentItems>
             <assignToReference>SinglesProductWithMissingFields</assignToReference>
@@ -556,7 +556,7 @@
     <assignments>
         <name>Set_CheckList_Enviado_And_Stage_Fields</name>
         <label>Set CheckList Enviado And Stage Fields</label>
-        <locationX>2089</locationX>
+        <locationX>2111</locationX>
         <locationY>5546</locationY>
         <assignmentItems>
             <assignToReference>Get_Oportunity.Checklist_Enviado__c</assignToReference>
@@ -604,7 +604,7 @@
     <decisions>
         <name>Are_There_Emails_in_List_User_Member_Emails_Approved</name>
         <label>Are There Emails in List User Member Emails?</label>
-        <locationX>1805</locationX>
+        <locationX>1827</locationX>
         <locationY>5762</locationY>
         <defaultConnector>
             <targetReference>Assign_Fecha_de_envio</targetReference>
@@ -629,7 +629,7 @@
     <decisions>
         <name>Check_if_is_automatically_approved</name>
         <label>Check if is automatically approved</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2222</locationY>
         <defaultConnector>
             <targetReference>Confirmation_Screen</targetReference>
@@ -662,9 +662,9 @@
         <name>Check_If_Mill_Linners</name>
         <label>Check If Mill Linners</label>
         <locationX>2624</locationX>
-        <locationY>3662</locationY>
+        <locationY>3446</locationY>
         <defaultConnector>
-            <targetReference>Is_It_Automatically_Approved</targetReference>
+            <targetReference>Send_Checklist_Notification_En_Tramite</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
@@ -686,7 +686,7 @@
     <decisions>
         <name>Checklist_Sent</name>
         <label>Checklist Sent?</label>
-        <locationX>1975</locationX>
+        <locationX>2019</locationX>
         <locationY>566</locationY>
         <defaultConnector>
             <targetReference>ChecklistAlreadySentScreen</targetReference>
@@ -861,7 +861,7 @@
     <decisions>
         <name>DocumentIdStringIsEmpty</name>
         <label>Document Id String Is Empty?</label>
-        <locationX>2167</locationX>
+        <locationX>2189</locationX>
         <locationY>2846</locationY>
         <defaultConnector>
             <targetReference>Assign_Calc_Document_Ids</targetReference>
@@ -886,7 +886,7 @@
     <decisions>
         <name>Is_It_Automatically_Approved</name>
         <label>Is It Automatically Approved</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>5438</locationY>
         <defaultConnector>
             <targetReference>Set_CheckList_Enviado_And_Stage_Fields</targetReference>
@@ -918,7 +918,7 @@
     <decisions>
         <name>List_Name_Products_Is_Empty</name>
         <label>List Name Products Is Empty</label>
-        <locationX>1350</locationX>
+        <locationX>1361</locationX>
         <locationY>1190</locationY>
         <defaultConnector>
             <targetReference>Assign_Name_Product</targetReference>
@@ -968,7 +968,7 @@
     <decisions>
         <name>Missing_Fields</name>
         <label>Missing Fields?</label>
-        <locationX>1350</locationX>
+        <locationX>1361</locationX>
         <locationY>782</locationY>
         <defaultConnector>
             <targetReference>List_Name_Products_Is_Empty</targetReference>
@@ -1000,7 +1000,7 @@
     <decisions>
         <name>Opportunity_Order_Type</name>
         <label>Opportunity Order Type</label>
-        <locationX>2580</locationX>
+        <locationX>2624</locationX>
         <locationY>3338</locationY>
         <defaultConnector>
             <targetReference>Is_It_Automatically_Approved</targetReference>
@@ -1032,7 +1032,7 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>Send_Checklist_Notification_En_Tramite</targetReference>
+                <targetReference>Check_If_Mill_Linners</targetReference>
             </connector>
             <label>Is En Tramite?</label>
         </rules>
@@ -1142,7 +1142,7 @@
     <decisions>
         <name>Records_With_Missing_fields</name>
         <label>Records With Missing fields?</label>
-        <locationX>1130</locationX>
+        <locationX>1141</locationX>
         <locationY>1574</locationY>
         <defaultConnector>
             <targetReference>Get_Custom_Notification_Type</targetReference>
@@ -1167,7 +1167,7 @@
     <decisions>
         <name>RecordType</name>
         <label>RecordType</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>3230</locationY>
         <defaultConnector>
             <targetReference>Opportunity_Order_Type</targetReference>
@@ -1266,7 +1266,7 @@
     <loops>
         <name>Loop_Document_IDs</name>
         <label>Loop Document IDs</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2738</locationY>
         <collectionReference>FileUpload.contentVersionIds</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1294,7 +1294,7 @@
     <loops>
         <name>Loop_Opportunity_Products_for_Email</name>
         <label>Loop Opportunity Products for Email</label>
-        <locationX>1697</locationX>
+        <locationX>1719</locationX>
         <locationY>5870</locationY>
         <collectionReference>Get_Opportunity_Products</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1308,7 +1308,7 @@
     <loops>
         <name>Loop_Opportunity_Produst</name>
         <label>Loop Opportunity Produst</label>
-        <locationX>1130</locationX>
+        <locationX>1141</locationX>
         <locationY>674</locationY>
         <collectionReference>Get_Opportunity_Products</collectionReference>
         <iterationOrder>Asc</iterationOrder>
@@ -1355,7 +1355,7 @@
     <recordLookups>
         <name>Get_Custom_Notification_Type</name>
         <label>Get Custom Notification Type</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>1682</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1376,7 +1376,7 @@
     <recordLookups>
         <name>Get_Email_template</name>
         <label>Get Email template</label>
-        <locationX>1975</locationX>
+        <locationX>2019</locationX>
         <locationY>458</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1397,7 +1397,7 @@
     <recordLookups>
         <name>Get_Email_Template_Con_Contrato</name>
         <label>Get Email Template Con Contrato</label>
-        <locationX>1805</locationX>
+        <locationX>1827</locationX>
         <locationY>5546</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1439,7 +1439,7 @@
     <recordLookups>
         <name>Get_Oportunity</name>
         <label>Get Oportunity</label>
-        <locationX>1975</locationX>
+        <locationX>2019</locationX>
         <locationY>134</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1460,7 +1460,7 @@
     <recordLookups>
         <name>Get_Opportunity_Products</name>
         <label>Get Opportunity Products</label>
-        <locationX>1975</locationX>
+        <locationX>2019</locationX>
         <locationY>350</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1481,7 +1481,7 @@
     <recordLookups>
         <name>Get_Public_Group_checklist_En_tramite</name>
         <label>Get Public Group checklist En tramite</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>1898</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1502,7 +1502,7 @@
     <recordLookups>
         <name>Get_Public_Group_Checklist_To_Follow</name>
         <label>Get Public Group Checklist To Follow</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>1790</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1610,7 +1610,7 @@
     <recordLookups>
         <name>Get_Report_Ids</name>
         <label>Get Report Ids</label>
-        <locationX>1975</locationX>
+        <locationX>2019</locationX>
         <locationY>242</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
@@ -1652,7 +1652,7 @@
     <recordUpdates>
         <name>Update_Explicacion_of_the_email</name>
         <label>Update Explicacion of the email</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>2630</locationY>
         <connector>
             <targetReference>Loop_Document_IDs</targetReference>
@@ -1662,7 +1662,7 @@
     <recordUpdates>
         <name>Update_Opportunity</name>
         <label>Update Opportunity</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>6446</locationY>
         <connector>
             <targetReference>ChecklistSentScreen</targetReference>
@@ -1675,7 +1675,7 @@
     <screens>
         <name>Checklist_Different_Order_Type</name>
         <label>Checklist Different Order Type</label>
-        <locationX>3372</locationX>
+        <locationX>3460</locationX>
         <locationY>674</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1699,7 +1699,7 @@
     <screens>
         <name>Checklist_Different_Order_Type_Services</name>
         <label>Checklist Different Order Type Services</label>
-        <locationX>3636</locationX>
+        <locationX>3724</locationX>
         <locationY>674</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1723,7 +1723,7 @@
     <screens>
         <name>ChecklistAlreadySentScreen</name>
         <label>ChecklistAlreadySentScreen</label>
-        <locationX>3900</locationX>
+        <locationX>3988</locationX>
         <locationY>674</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1747,7 +1747,7 @@
     <screens>
         <name>ChecklistSentScreen</name>
         <label>ChecklistSentScreen</label>
-        <locationX>1947</locationX>
+        <locationX>1969</locationX>
         <locationY>6554</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -1771,7 +1771,7 @@
     <screens>
         <name>Confirmation_Screen</name>
         <label>Confirmation Screen</label>
-        <locationX>2035</locationX>
+        <locationX>2057</locationX>
         <locationY>2330</locationY>
         <allowBack>true</allowBack>
         <allowFinish>true</allowFinish>
@@ -1895,7 +1895,7 @@
     <screens>
         <name>Error_Handling</name>
         <label>Error Handling</label>
-        <locationX>3108</locationX>
+        <locationX>3196</locationX>
         <locationY>6554</locationY>
         <allowBack>false</allowBack>
         <allowFinish>true</allowFinish>
@@ -1965,7 +1965,7 @@
         <showHeader>true</showHeader>
     </screens>
     <start>
-        <locationX>1849</locationX>
+        <locationX>1893</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Get_Oportunity</targetReference>

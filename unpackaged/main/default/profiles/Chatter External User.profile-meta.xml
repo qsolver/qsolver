@@ -2627,6 +2627,12 @@
         <layout>BusinessBrand-Business Brand Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>CRUSPICMT__mdt-CRUSPI Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>CRUSPI__c-CRUSPI Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>CalcMatrixColumnRange-Decision Matrix Column Range Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2712,6 +2718,9 @@
         <layout>Contract-Contract Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Costos_Cotizacion__c-Costos Cotizacion Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Customer-Customer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2751,6 +2760,14 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>ELM_Products_by_Asset__c-Products by Asset Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ELM_Products_by_Asset__c-Products by Asset Layout</layout>
+        <recordType>ELM_Products_by_Asset__c.Default</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ELM_Products_by_Asset__c-Products by Asset Layout</layout>
+        <recordType>ELM_Products_by_Asset__c.Digital_Solutions</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>ELM_VAES_KPI__c-VAES KPI Layout</layout>
@@ -2882,9 +2899,6 @@
         <recordType>MarketShare__c.Molienda</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>OperatingHours-Operating Hours Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
         <layout>Opportunity-Opportunity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -2979,6 +2993,10 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Quote-Quote Layout</layout>
+        <recordType>Quote.Grinding_Media</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Quote-Quote Layout</layout>
         <recordType>Quote.Quotes_SA</recordType>
     </layoutAssignments>
     <layoutAssignments>
@@ -2989,6 +3007,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Report_Subscriber__c-Report Subscriber Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Report_Subscription_SB__mdt-Report Subscription Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Report_Subscription__c-Report Subscription Layout</layout>
@@ -3037,7 +3058,7 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
-        <recordType>Task.Task</recordType>
+        <recordType>Task.Task_MECN</recordType>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Task-Task Layout</layout>
@@ -3348,6 +3369,10 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>Master_Plan</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>MobileLanding</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3357,6 +3382,10 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>Report_Subscription</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Sales_Test_App_Page</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
@@ -3496,6 +3525,10 @@
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-DevopsDeployComponent</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Document</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3564,6 +3597,18 @@
         <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
+        <tab>standard-LiveAgentSession</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatTranscript</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-LiveChatVisitor</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
         <tab>standard-Location</tab>
         <visibility>Hidden</visibility>
     </tabVisibilities>
@@ -3590,6 +3635,14 @@
     <tabVisibilities>
         <tab>standard-OtherUserProfile</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OutboundEngagementTemplate</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-OutboundEngmtContentRsrc</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-PartyConsent</tab>
@@ -3666,6 +3719,10 @@
     <tabVisibilities>
         <tab>standard-TenantConsumptionAlert</tab>
         <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>standard-UserDevopsPreference</tab>
+        <visibility>Hidden</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-UserProfile</tab>

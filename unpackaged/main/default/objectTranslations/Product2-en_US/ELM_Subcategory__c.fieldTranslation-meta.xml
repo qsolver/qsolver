@@ -52,10 +52,6 @@
             <translation>Copper Smelters</translation>
         </picklistValues>
         <picklistValues>
-            <masterLabel>Harneros</masterLabel>
-            <translation><!-- Harneros --></translation>
-        </picklistValues>
-        <picklistValues>
             <masterLabel>Laser 3D</masterLabel>
             <translation>3D Laser</translation>
         </picklistValues>
