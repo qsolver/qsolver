@@ -22,7 +22,16 @@
                     <elementReference>$Record.CreatedBy.Email</elementReference>
                 </collectionElements>
                 <collectionElements>
-                    <stringValue>george.gonas@ticel.cl</stringValue>
+                    <stringValue>george.gonas@ticel.clx</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>arachet@me-elecmetal.comx</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>plarrain@me-elecmetal.comx</stringValue>
+                </collectionElements>
+                <collectionElements>
+                    <stringValue>leonardo.buschiazzo@ticel.clx</stringValue>
                 </collectionElements>
             </value>
         </inputParameters>
@@ -117,6 +126,35 @@
         </connector>
     </assignments>
     <decisions>
+        <name>Existen_Destinatarios</name>
+        <label>Existen Destinatarios</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Sin Destinatarios</defaultConnectorLabel>
+        <rules>
+            <name>Si_Hay_Destinatarios</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>v_RecipientIds</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>Obtener_Tipo_Notificacion.Id</leftValueReference>
+                <operator>IsNull</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Enviar_Alerta_Salesforce</targetReference>
+            </connector>
+            <label>Si Hay Destinatarios</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Revisar_Campo_Number</name>
         <label>Revisar Campo Number</label>
         <locationX>0</locationX>
@@ -136,28 +174,6 @@
                 <targetReference>ECO_sin_n_mero_VAULT</targetReference>
             </connector>
             <label>Vacio</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <name>Existen_Destinatarios</name>
-        <label>Existen Destinatarios</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <defaultConnectorLabel>Sin Destinatarios</defaultConnectorLabel>
-        <rules>
-            <name>Si_Hay_Destinatarios</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>v_RecipientIds</leftValueReference>
-                <operator>IsEmpty</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>Enviar_Alerta_Salesforce</targetReference>
-            </connector>
-            <label>Si Hay Destinatarios</label>
         </rules>
     </decisions>
     <description>alerta para el objeto ECO que nos avise si el campo Number no recibe un valor a la hora de creación del registro, en un campo quede almacenado que la ECO no se ha sincronizado y nos mande una alerta por correo de que no se ha creado la ECO</description>
@@ -216,7 +232,7 @@
             <field>DeveloperName</field>
             <operator>EqualTo</operator>
             <value>
-                <stringValue>Alerta_ECO_Vault</stringValue>
+                <stringValue>Notificacion_ECO</stringValue>
             </value>
         </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
@@ -232,7 +248,7 @@
         <connector>
             <targetReference>Recorrer_Usuarios</targetReference>
         </connector>
-        <filterLogic>(1 OR 2 OR 3) AND 4</filterLogic>
+        <filterLogic>(1 OR 2 OR 3 OR 4 OR 5 OR 6) AND 7</filterLogic>
         <filters>
             <field>Email</field>
             <operator>EqualTo</operator>
@@ -241,17 +257,38 @@
             </value>
         </filters>
         <filters>
-            <field>Email</field>
-            <operator>EqualTo</operator>
-            <value>
-                <stringValue>george.gonas@ticel.cl</stringValue>
-            </value>
-        </filters>
-        <filters>
             <field>Id</field>
             <operator>EqualTo</operator>
             <value>
                 <elementReference>$Record.CreatedById</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>george.gonas@ticel.clx</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>arachet@me-elecmetal.comx</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>plarrain@me-elecmetal.comx</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>leonardo.buschiazzo@ticel.clx</stringValue>
             </value>
         </filters>
         <filters>
