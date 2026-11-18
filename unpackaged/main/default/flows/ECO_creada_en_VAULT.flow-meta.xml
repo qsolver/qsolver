@@ -8,6 +8,9 @@
         <locationY>0</locationY>
         <actionName>emailSimple</actionName>
         <actionType>emailSimple</actionType>
+        <connector>
+            <targetReference>Obtener_Tipo_Notificacion</targetReference>
+        </connector>
         <flowTransactionModel>CurrentTransaction</flowTransactionModel>
         <inputParameters>
             <name>recipientAddresses</name>
@@ -54,8 +57,65 @@
         <offset>0</offset>
         <versionString>3.0.1</versionString>
     </actionCalls>
+    <actionCalls>
+        <name>Enviar_Alerta_Salesforce</name>
+        <label>Enviar Alerta Salesforce</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <actionName>customNotificationAction</actionName>
+        <actionType>customNotificationAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>customNotifTypeId</name>
+            <value>
+                <elementReference>Obtener_Tipo_Notificacion.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>body</name>
+            <value>
+                <elementReference>BodyAlertaSF</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>title</name>
+            <value>
+                <stringValue>Alerta: El ECO ha sido creado pero no tiene el valor de vault</stringValue>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>recipientIds</name>
+            <value>
+                <elementReference>v_RecipientIds</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>targetId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>customNotificationAction</nameSegment>
+        <offset>0</offset>
+    </actionCalls>
     <apiVersion>67.0</apiVersion>
     <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <assignments>
+        <name>Agregar_ID_Usuario</name>
+        <label>Agregar ID Usuario</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignmentItems>
+            <assignToReference>v_RecipientIds</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Recorrer_Usuarios.Id</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Recorrer_Usuarios</targetReference>
+        </connector>
+    </assignments>
     <decisions>
         <name>Revisar_Campo_Number</name>
         <label>Revisar Campo Number</label>
@@ -78,15 +138,51 @@
             <label>Vacio</label>
         </rules>
     </decisions>
+    <decisions>
+        <name>Existen_Destinatarios</name>
+        <label>Existen Destinatarios</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnectorLabel>Sin Destinatarios</defaultConnectorLabel>
+        <rules>
+            <name>Si_Hay_Destinatarios</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>v_RecipientIds</leftValueReference>
+                <operator>IsEmpty</operator>
+                <rightValue>
+                    <booleanValue>false</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Enviar_Alerta_Salesforce</targetReference>
+            </connector>
+            <label>Si Hay Destinatarios</label>
+        </rules>
+    </decisions>
     <description>alerta para el objeto ECO que nos avise si el campo Number no recibe un valor a la hora de creación del registro, en un campo quede almacenado que la ECO no se ha sincronizado y nos mande una alerta por correo de que no se ha creado la ECO</description>
     <environments>Default</environments>
     <formulas>
         <name>f_RecordURL</name>
         <dataType>String</dataType>
-        <expression>LEFT($Api.Partner_Server_URL_550, FIND( &#39;/services&#39;, $Api.Partner_Server_URL_550)) &amp; {!$Record.Id}</expression>
+        <expression>LEFT($Api.Partner_Server_URL_550, FIND( '/services', $Api.Partner_Server_URL_550)) &amp; {!$Record.Id}</expression>
     </formulas>
     <interviewLabel>ECO creada en VAULT {!$Flow.CurrentDateTime}</interviewLabel>
     <label>ECO creada en VAULT</label>
+    <loops>
+        <name>Recorrer_Usuarios</name>
+        <label>Recorrer Usuarios</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <collectionReference>Obtener_Usuarios_Notificacion</collectionReference>
+        <iterationOrder>Asc</iterationOrder>
+        <nextValueConnector>
+            <targetReference>Agregar_ID_Usuario</targetReference>
+        </nextValueConnector>
+        <noMoreValuesConnector>
+            <targetReference>Existen_Destinatarios</targetReference>
+        </noMoreValuesConnector>
+    </loops>
     <processMetadataValues>
         <name>BuilderType</name>
         <value>
@@ -106,6 +202,69 @@
         </value>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <name>Obtener_Tipo_Notificacion</name>
+        <label>Obtener Tipo Notificación</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Obtener_Usuarios_Notificacion</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>DeveloperName</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>Alerta_ECO_Vault</stringValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>CustomNotificationType</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>Obtener_Usuarios_Notificacion</name>
+        <label>Obtener Usuarios Notificación</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Recorrer_Usuarios</targetReference>
+        </connector>
+        <filterLogic>(1 OR 2 OR 3) AND 4</filterLogic>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>aespinoza@neox.cl</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Email</field>
+            <operator>EqualTo</operator>
+            <value>
+                <stringValue>george.gonas@ticel.cl</stringValue>
+            </value>
+        </filters>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.CreatedById</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>IsActive</field>
+            <operator>EqualTo</operator>
+            <value>
+                <booleanValue>true</booleanValue>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>User</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
@@ -125,8 +284,20 @@
     </start>
     <status>Active</status>
     <textTemplates>
+        <name>BodyAlertaSF</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>El ECO {!$Record.Name} se ha creado, falta completar el Número Vault</text>
+    </textTemplates>
+    <textTemplates>
         <name>BodyMail</name>
         <isViewedAsPlainText>false</isViewedAsPlainText>
         <text>&lt;p&gt;El ECO &lt;a href=&quot;{!f_RecordURL}&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;{!$Record.Name}&lt;/strong&gt;&lt;/a&gt;&lt;strong&gt; &lt;/strong&gt;se ha creado , falta completar el Número Vault&lt;/p&gt;</text>
     </textTemplates>
+    <variables>
+        <name>v_RecipientIds</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
 </Flow>
